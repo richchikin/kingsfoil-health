@@ -1,0 +1,79 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "business-case"
+    label: "Business Case Articles"
+    folder: "src/content/articles/business-case"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Type", name: "type", widget: "select", options: ["blog", "announcement", "case-study", "report"], default: "blog" }
+      - { label: "Excerpt", name: "excerpt", widget: "text", pattern: [".{100,300}", "Must be 100–300 characters"] }
+      - { label: "Publish Date", name: "publishedDate", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "Updated Date", name: "updatedDate", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, required: false }
+      - label: "Audience"
+        name: "audienceTags"
+        widget: "select"
+        multiple: true
+        options: ["Business Leaders", "CFO", "HR", "Employee", "All"]
+      - label: "Topics"
+        name: "topicTags"
+        widget: "select"
+        multiple: true
+        options: ["Plan Structures", "Cost Management", "Employee Experience", "Compliance", "Claims & Data", "Benefits Strategy", "Industry Trends", "Getting Started"]
+      - { label: "Difficulty", name: "difficulty", widget: "select", options: ["beginner", "intermediate", "advanced"] }
+      - { label: "Learning Track", name: "learningTrack", widget: "hidden", default: "business-case" }
+      - { label: "Track Order", name: "trackOrder", widget: "number", value_type: "int", required: false }
+      - { label: "Gated?", name: "isGated", widget: "boolean", default: false, required: false }
+      - { label: "Gate Asset URL", name: "gateAssetUrl", widget: "string", required: false }
+      - { label: "Featured Image", name: "featuredImage", widget: "image", required: false }
+      - { label: "Featured?", name: "isFeatured", widget: "boolean", default: false, required: false }
+      - { label: "Related Articles", name: "relatedArticles", widget: "list", required: false }
+      - { label: "CTA Text", name: "ctaText", widget: "string", required: false }
+      - { label: "CTA URL", name: "ctaUrl", widget: "string", required: false }
+      - { label: "SEO Title", name: "seoTitle", widget: "string", required: false }
+      - { label: "SEO Description", name: "seoDescription", widget: "text", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "hr-playbook"
+    label: "HR Playbook Articles"
+    folder: "src/content/articles/hr-playbook"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Type", name: "type", widget: "select", options: ["blog", "announcement", "case-study", "report"], default: "blog" }
+      - { label: "Excerpt", name: "excerpt", widget: "text", pattern: [".{100,300}", "Must be 100–300 characters"] }
+      - { label: "Publish Date", name: "publishedDate", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+      - { label: "Updated Date", name: "updatedDate", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, required: false }
+      - label: "Audience"
+        name: "audienceTags"
+        widget: "select"
+        multiple: true
+        options: ["Business Leaders", "CFO", "HR", "Employee", "All"]
+      - label: "Topics"
+        name: "topicTags"
+        widget: "select"
+        multiple: true
+        options: ["Plan Structures", "Cost Management", "Employee Experience", "Compliance", "Claims & Data", "Benefits Strategy", "Industry Trends", "Getting Started"]
+      - { label: "Difficulty", name: "difficulty", widget: "select", options: ["beginner", "intermediate", "advanced"] }
+      - { label: "Learning Track", name: "learningTrack", widget: "hidden", default: "hr-playbook" }
+      - { label: "Track Order", name: "trackOrder", widget: "number", value_type: "int", required: false }
+      - { label: "Gated?", name: "isGated", widget: "boolean", default: false, required: false }
+      - { label: "Gate Asset URL", name: "gateAssetUrl", widget: "string", required: false }
+      - { label: "Featured Image", name: "featuredImage", widget: "image", required: false }
+      - { label: "Featured?", name: "isFeatured", widget: "boolean", default: false, required: false }
+      - { label: "Related Articles", name: "relatedArticles", widget: "list", required: false }
+      - { label: "CTA Text", name: "ctaText", widget: "string", required: false }
+      - { label: "CTA URL", name: "ctaUrl", widget: "string", required: false }
+      - { label: "SEO Title", name: "seoTitle", widget: "string", required: false }
+      - { label: "SEO Description", name: "seoDescription", widget: "text", required: false }
+      - { label: "Body", name: "body", widget: "markdown" }

@@ -12,8 +12,5 @@
   status = 301
   force = true
 
-# Pretty 404
-[[redirects]]
-  from = "/*"
-  to = "/404"
-  status = 404
+# Netlify automatically serves /404.html for missing pages.
+# No catch-all redirect needed.

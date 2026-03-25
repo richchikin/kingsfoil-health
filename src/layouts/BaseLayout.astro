@@ -51,6 +51,9 @@ const canonical = `${siteUrl}${canonicalPath}`;
   </script>
   -->
 
+  <!-- Netlify Identity (required for Decap CMS login) -->
+  <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
   <!-- Page-specific head content -->
   <slot name="head" />
 </head>
@@ -112,6 +115,19 @@ const canonical = `${siteUrl}${canonicalPath}`;
         });
       });
     });
+  </script>
+
+  <!-- Netlify Identity redirect after login -->
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
   </script>
 
   <!-- Page-specific scripts -->
