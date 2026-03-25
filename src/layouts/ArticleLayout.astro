@@ -21,76 +21,562 @@ const {
 // Get track info if article belongs to a track
 let trackArticles: any[] = [];
 let trackName = '';
+let trackUrl = '';
 if (learningTrack) {
   const allArticles = await getCollection('articles');
   trackArticles = allArticles
     .filter(a => a.data.learningTrack === learningTrack)
     .sort((a, b) => (a.data.trackOrder || 0) - (b.data.trackOrder || 0));
   trackName = learningTrack === 'business-case' ? 'The Business Case' : 'The HR Playbook';
+  trackUrl = `/learn/${learningTrack}`;
 }
 
-const badgeClass = audienceTags.includes('HR') ? 'article-badge--hr' : 'article-badge--biz';
-const formattedDate = publishedDate.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+const isHR = audienceTags.includes('HR');
+const badgeClass = isHR ? 'article-badge--hr' : 'article-badge--biz';
+const trackClass = isHR ? 'track--hr' : 'track--biz';
+const formattedDate = publishedDate.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
 ---
 
 <BaseLayout title={`${title} — Kingsfoil Health`} description={description}>
 
-  <!-- Breadcrumb -->
-  <div class="breadcrumb">
-    <a href="/">Home</a><span>›</span>
-    <a href="/learn">Learn</a><span>›</span>
-    {learningTrack && (
-      <><a href={`/learn/${learningTrack}`}>{trackName}</a><span>›</span></>
-    )}
-    {trackOrder ? `Article ${trackOrder} of ${trackArticles.length}` : title}
+  <div class={`article-page ${trackClass}`}>
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a>
+      <span aria-hidden="true">›</span>
+      <a href="/learn">Learn</a>
+      {learningTrack && (
+        <>
+          <span aria-hidden="true">›</span>
+          <a href={trackUrl}>{trackName}</a>
+        </>
+      )}
+      <span aria-hidden="true">›</span>
+      <span class="breadcrumb-current">{title}</span>
+    </nav>
+
+    <article class="article-layout">
+      <!-- Article header -->
+      <header class="article-header">
+        <div class="article-header-meta">
+          <span class={`article-badge ${badgeClass}`}>{audienceTags[0]}</span>
+          <span class="article-difficulty">{difficulty.charAt(0).toUpperCase() + difficulty.slice(1)}</span>
+        </div>
+        <h1>{title}</h1>
+        <p class="article-excerpt">{description}</p>
+        <div class="article-date">
+          <time datetime={publishedDate.toISOString().split('T')[0]}>{formattedDate}</time>
+        </div>
+      </header>
+
+      <!-- Track progress bar -->
+      {learningTrack && trackOrder && (
+        <div class="track-context">
+          <div class="track-context-progress">
+            {trackArticles.map((_, i) => (
+              <div class={`track-dot ${i < trackOrder! ? 'track-dot--filled' : ''} ${i === trackOrder! - 1 ? 'track-dot--current' : ''}`} />
+            ))}
+          </div>
+          <div class="track-context-info">
+            <span>Article {trackOrder} of {trackArticles.length} in <a href={trackUrl}>{trackName}</a></span>
+          </div>
+        </div>
+      )}
+
+      <!-- Article body (markdown content) -->
+      <div class="article-body">
+        <slot />
+      </div>
+
+      <!-- Prev / Next navigation -->
+      {learningTrack && trackArticles.length > 0 && (
+        <nav class="article-nav" aria-label="Article navigation">
+          {trackOrder && trackOrder > 1 ? (
+            <a href={`/learn/${trackArticles[trackOrder - 2].slug}`} class="article-nav-item article-nav-item--prev">
+              <div class="article-nav-label">← Previous</div>
+              <div class="article-nav-title">{trackArticles[trackOrder - 2].data.title}</div>
+            </a>
+          ) : <div />}
+          {trackOrder && trackOrder < trackArticles.length ? (
+            <a href={`/learn/${trackArticles[trackOrder].slug}`} class="article-nav-item article-nav-item--next">
+              <div class="article-nav-label">Next →</div>
+              <div class="article-nav-title">{trackArticles[trackOrder].data.title}</div>
+            </a>
+          ) : <div />}
+        </nav>
+      )}
+
+      <!-- Bottom CTA -->
+      <div class="article-cta">
+        <h2>Want to see what this means for your company?</h2>
+        <p>We'll walk through your current plan and show you what alternatives might look like. No obligation.</p>
+        <a href="/talk-to-us" class="btn-primary">Talk to Us</a>
+      </div>
+    </article>
   </div>
 
-  <article class="article-layout">
-    <header class="article-header">
-      <span class={`article-badge ${badgeClass}`}>{audienceTags[0]}</span>
-      <h1>{title}</h1>
-      <div class="article-meta">
-        <span>{difficulty.charAt(0).toUpperCase() + difficulty.slice(1)}</span>
-        <span>Published {formattedDate}</span>
-      </div>
-    </header>
-
-    {learningTrack && trackOrder && (
-      <div class="track-context">
-        <div class="track-context-text">
-          Article <strong>{trackOrder} of {trackArticles.length}</strong> in <strong>{trackName}</strong>
-        </div>
-        <a href={`/learn/${learningTrack}`}>View full track →</a>
-      </div>
-    )}
-
-    <div class="article-body">
-      <slot />
-    </div>
-
-    <!-- Prev / Next navigation -->
-    {learningTrack && trackArticles.length > 0 && (
-      <nav class="article-nav" aria-label="Article navigation">
-        {trackOrder && trackOrder > 1 ? (
-          <a href={`/learn/${trackArticles[trackOrder - 2].slug}`} class="article-nav-item">
-            <div class="article-nav-label">← Previous</div>
-            <div class="article-nav-title">{trackArticles[trackOrder - 2].data.title}</div>
-          </a>
-        ) : <div />}
-        {trackOrder && trackOrder < trackArticles.length ? (
-          <a href={`/learn/${trackArticles[trackOrder].slug}`} class="article-nav-item article-nav-item--next">
-            <div class="article-nav-label">Next article →</div>
-            <div class="article-nav-title">{trackArticles[trackOrder].data.title}</div>
-          </a>
-        ) : <div />}
-      </nav>
-    )}
-
-    <div class="article-cta">
-      <h2>Want to see what this means for your company?</h2>
-      <p>We'll walk through your current plan and show you what alternatives might look like. No obligation.</p>
-      <a href="/talk-to-us" class="btn-primary">Talk to Us</a>
-    </div>
-  </article>
-
 </BaseLayout>
+
+<style>
+/* ============================================
+   BREADCRUMB
+   ============================================ */
+.breadcrumb {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 24px var(--section-pad-x) 0;
+  font-size: 13px;
+  color: var(--nero-400);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.breadcrumb a {
+  color: var(--nero-500);
+  text-decoration: none;
+  transition: color var(--t-fast);
+}
+.breadcrumb a:hover { color: var(--elm-600); }
+.breadcrumb span[aria-hidden] { color: var(--nero-300); font-size: 11px; }
+.breadcrumb-current {
+  color: var(--nero-600);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 300px;
+}
+
+/* ============================================
+   ARTICLE LAYOUT
+   ============================================ */
+.article-layout {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 0 var(--section-pad-x) 80px;
+}
+
+/* ============================================
+   ARTICLE HEADER
+   ============================================ */
+.article-header {
+  padding: 48px 0 40px;
+  border-bottom: 1px solid var(--nero-200);
+  margin-bottom: 48px;
+}
+.article-header-meta {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.article-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 5px 14px;
+  border-radius: 999px;
+}
+.article-badge--biz { background: var(--elm-50); color: var(--elm-700); }
+.article-badge--hr { background: var(--gold-100); color: var(--gold-800); }
+.article-difficulty {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--nero-400);
+}
+.article-header h1 {
+  font-family: var(--font-display);
+  font-size: clamp(32px, 4.5vw, 44px);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  margin-bottom: 16px;
+}
+.article-excerpt {
+  font-size: 18px;
+  line-height: 1.65;
+  color: var(--nero-500);
+  margin-bottom: 16px;
+}
+.article-date {
+  font-size: 13px;
+  color: var(--nero-400);
+}
+
+/* ============================================
+   TRACK CONTEXT BAR
+   ============================================ */
+.track-context {
+  background: var(--warm-linen);
+  border: 1px solid var(--nero-100);
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.track-context-progress {
+  display: flex;
+  gap: 6px;
+}
+.track-dot {
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background: var(--nero-200);
+  transition: background var(--t-fast);
+}
+.track--biz .track-dot--filled { background: var(--elm-400); }
+.track--hr .track-dot--filled { background: var(--gold-500); }
+.track-dot--current {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--elm-400);
+}
+.track--hr .track-dot--current {
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px var(--gold-500);
+}
+.track-context-info {
+  font-size: 13px;
+  color: var(--nero-500);
+}
+.track-context-info a {
+  color: var(--elm-600);
+  text-decoration: none;
+  font-weight: 600;
+}
+.track-context-info a:hover { text-decoration: underline; }
+
+/* ============================================
+   ARTICLE BODY — PROSE STYLES
+   ============================================ */
+.article-body {
+  font-size: 17px;
+  line-height: 1.8;
+  color: var(--nero-700);
+}
+
+/* Headings */
+.article-body :global(h2) {
+  font-family: var(--font-display);
+  font-size: clamp(24px, 3vw, 30px);
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.01em;
+  color: var(--nero-900);
+  margin-top: 56px;
+  margin-bottom: 20px;
+}
+.article-body :global(h3) {
+  font-family: var(--font-display);
+  font-size: clamp(20px, 2.5vw, 24px);
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--nero-900);
+  margin-top: 44px;
+  margin-bottom: 16px;
+}
+.article-body :global(h4) {
+  font-family: var(--font-body);
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: var(--nero-800);
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+/* Paragraphs */
+.article-body :global(p) {
+  margin-bottom: 24px;
+}
+
+/* Strong and emphasis */
+.article-body :global(strong) {
+  font-weight: 600;
+  color: var(--nero-900);
+}
+.article-body :global(em) {
+  font-style: italic;
+}
+
+/* Links */
+.article-body :global(a) {
+  color: var(--elm-600);
+  text-decoration: underline;
+  text-decoration-color: var(--elm-200);
+  text-underline-offset: 3px;
+  transition: text-decoration-color var(--t-fast);
+}
+.article-body :global(a:hover) {
+  text-decoration-color: var(--elm-500);
+}
+
+/* Lists */
+.article-body :global(ul),
+.article-body :global(ol) {
+  margin-bottom: 24px;
+  padding-left: 24px;
+}
+.article-body :global(ul) {
+  list-style: none;
+  padding-left: 0;
+}
+.article-body :global(ul > li) {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 12px;
+}
+.article-body :global(ul > li::before) {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 11px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--elm-400);
+}
+.article-body :global(ol > li) {
+  margin-bottom: 12px;
+  padding-left: 4px;
+}
+.article-body :global(ol > li::marker) {
+  color: var(--elm-600);
+  font-weight: 600;
+}
+
+/* Nested lists */
+.article-body :global(li > ul),
+.article-body :global(li > ol) {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+/* Blockquotes */
+.article-body :global(blockquote) {
+  border-left: 3px solid var(--elm-400);
+  padding: 20px 24px;
+  margin: 32px 0;
+  background: var(--warm-linen);
+  border-radius: 0 12px 12px 0;
+}
+.article-body :global(blockquote p) {
+  font-size: 16px;
+  font-style: italic;
+  color: var(--nero-600);
+  margin-bottom: 0;
+  line-height: 1.7;
+}
+.article-body :global(blockquote p:not(:last-child)) {
+  margin-bottom: 12px;
+}
+
+/* Code */
+.article-body :global(code) {
+  font-family: 'SF Mono', 'Fira Code', 'Fira Mono', monospace;
+  font-size: 0.88em;
+  background: var(--nero-50);
+  border: 1px solid var(--nero-100);
+  padding: 2px 6px;
+  border-radius: 4px;
+  color: var(--nero-700);
+}
+.article-body :global(pre) {
+  background: var(--nero-900);
+  color: var(--nero-100);
+  padding: 24px;
+  border-radius: 12px;
+  overflow-x: auto;
+  margin: 32px 0;
+  line-height: 1.6;
+  font-size: 14px;
+}
+.article-body :global(pre code) {
+  background: none;
+  border: none;
+  padding: 0;
+  font-size: inherit;
+  color: inherit;
+}
+
+/* Horizontal rules */
+.article-body :global(hr) {
+  border: none;
+  height: 1px;
+  background: var(--nero-200);
+  margin: 48px 0;
+}
+
+/* Images */
+.article-body :global(img) {
+  border-radius: 12px;
+  margin: 32px 0;
+  box-shadow: 0 4px 16px rgba(38, 35, 36, 0.06);
+}
+
+/* Tables */
+.article-body :global(table) {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 32px 0;
+  font-size: 15px;
+}
+.article-body :global(thead) {
+  border-bottom: 2px solid var(--nero-200);
+}
+.article-body :global(th) {
+  text-align: left;
+  font-weight: 600;
+  color: var(--nero-800);
+  padding: 12px 16px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.article-body :global(td) {
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--nero-100);
+  color: var(--nero-600);
+}
+.article-body :global(tbody tr:hover) {
+  background: var(--warm-linen);
+}
+
+/* First element spacing */
+.article-body :global(> :first-child) {
+  margin-top: 0;
+}
+
+/* ============================================
+   ARTICLE NAVIGATION (prev/next)
+   ============================================ */
+.article-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-top: 64px;
+  padding-top: 40px;
+  border-top: 1px solid var(--nero-200);
+}
+.article-nav-item {
+  display: block;
+  padding: 20px 24px;
+  border: 1px solid var(--nero-100);
+  border-radius: 12px;
+  text-decoration: none;
+  color: inherit;
+  transition: all var(--t-fast);
+  background: #fff;
+}
+.article-nav-item:hover {
+  border-color: var(--elm-200);
+  box-shadow: 0 4px 16px rgba(38, 35, 36, 0.06);
+  transform: translateY(-2px);
+}
+.article-nav-item--next {
+  text-align: right;
+}
+.article-nav-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--elm-600);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 8px;
+}
+.article-nav-title {
+  font-family: var(--font-display);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--nero-800);
+}
+
+/* ============================================
+   BOTTOM CTA
+   ============================================ */
+.article-cta {
+  margin-top: 64px;
+  padding: 48px 40px;
+  background: var(--warm-linen);
+  border-radius: 16px;
+  text-align: center;
+  border: 1px solid var(--nero-100);
+}
+.article-cta h2 {
+  font-family: var(--font-display);
+  font-size: clamp(22px, 3vw, 28px);
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 12px;
+}
+.article-cta p {
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--nero-500);
+  max-width: 440px;
+  margin: 0 auto 28px;
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+@media (max-width: 768px) {
+  .breadcrumb {
+    padding: 16px 24px 0;
+  }
+  .breadcrumb-current {
+    max-width: 180px;
+  }
+  .article-layout {
+    padding: 0 24px 64px;
+  }
+  .article-header {
+    padding: 32px 0 32px;
+    margin-bottom: 32px;
+  }
+  .article-header h1 {
+    font-size: 28px;
+  }
+  .article-excerpt {
+    font-size: 16px;
+  }
+  .article-body {
+    font-size: 16px;
+  }
+  .article-body :global(h2) {
+    margin-top: 40px;
+    margin-bottom: 16px;
+  }
+  .article-body :global(h3) {
+    margin-top: 32px;
+    margin-bottom: 12px;
+  }
+  .article-body :global(blockquote) {
+    padding: 16px 20px;
+    margin: 24px 0;
+  }
+  .article-nav {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin-top: 48px;
+    padding-top: 32px;
+  }
+  .article-nav-item--next {
+    text-align: left;
+  }
+  .article-cta {
+    padding: 36px 24px;
+    margin-top: 48px;
+  }
+}
+
+@media (max-width: 420px) {
+  .breadcrumb { padding: 12px 16px 0; font-size: 12px; }
+  .article-layout { padding: 0 16px 48px; }
+  .article-header h1 { font-size: 24px; }
+  .track-context { padding: 16px 18px; }
+}
+</style>
