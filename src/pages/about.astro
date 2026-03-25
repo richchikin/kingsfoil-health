@@ -42,7 +42,7 @@ import BaseLayout from '@layouts/BaseLayout.astro';
         <p>We can't fix the healthcare system from the top down. But we can help businesses and their people navigate it smarter, get a better experience, and build something more financially sustainable. One company at a time.</p>
       </div>
       <div class="mission-card">
-        <div class="eyebrow" style="color:var(--gold-700)">Our vision</div>
+        <div class="eyebrow" style="color:var(--gold-800)">Our vision</div>
         <h2>Become the most trusted brand in the health ecosystem</h2>
         <p>Through enduring advocacy for care recipients, solving one problem at a time. Trust isn't claimed. It's earned through consistently showing up with clarity, transparency, and care.</p>
       </div>
@@ -92,12 +92,12 @@ import BaseLayout from '@layouts/BaseLayout.astro';
       <p>We partner with industry-leading providers to deliver modern benefits infrastructure. The outcomes matter more than the names, but here's who we work with.</p>
     </div>
     <div class="partners-logos">
-      <div class="partner-logo"><img src="/images/logo-healthez.png" alt="HealthEZ" loading="lazy"></div>
-      <div class="partner-logo"><img src="/images/logo-thatch.jpg" alt="Thatch" loading="lazy"></div>
-      <div class="partner-logo"><img src="/images/logo-401go.jpg" alt="401Go" loading="lazy"></div>
-      <div class="partner-logo"><img src="/images/logo-row-partners.png" alt="Row Partners" loading="lazy"></div>
-      <div class="partner-logo"><img src="/images/logo-healthee.svg" alt="Healthee" loading="lazy"></div>
-      <div class="partner-logo"><img src="/images/logo-outsail.png" alt="Outsail" loading="lazy"></div>
+      <div class="partner-logo"><img src="/images/logo-healthez.png" alt="HealthEZ" loading="lazy" width="140" height="60"></div>
+      <div class="partner-logo"><img src="/images/logo-thatch.jpg" alt="Thatch" loading="lazy" width="140" height="60"></div>
+      <div class="partner-logo"><img src="/images/logo-401go.jpg" alt="401Go" loading="lazy" width="140" height="60"></div>
+      <div class="partner-logo"><img src="/images/logo-row-partners.png" alt="Row Partners" loading="lazy" width="140" height="60"></div>
+      <div class="partner-logo"><img src="/images/logo-healthee.svg" alt="Healthee" loading="lazy" width="140" height="60"></div>
+      <div class="partner-logo"><img src="/images/logo-outsail.png" alt="Outsail" loading="lazy" width="140" height="60"></div>
     </div>
     <div class="partners-cta">
       <a href="/partners">See all partners <span aria-hidden="true">→</span></a>
@@ -178,28 +178,15 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 .bottom-cta p{font-size:17px;color:var(--nero-400);margin-bottom:40px;max-width:480px;margin-left:auto;margin-right:auto;position:relative;line-height:1.6}
 .bottom-cta .btn-primary{font-size:17px;padding:16px 36px;position:relative}
 
-/* FOOTER */
-.footer{background:var(--nero-900);color:var(--nero-400);border-top:1px solid var(--nero-800);padding:64px var(--section-pad-x) 32px;font-size:14px}
-.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;max-width:var(--inner-max);margin:0 auto}
-.footer-brand{font-family:var(--font-display);font-size:18px;font-weight:700;color:var(--elm-400);margin-bottom:12px}
-.footer-tagline{font-style:italic;color:var(--nero-500);margin-bottom:12px;font-size:14px}
-.footer p{line-height:1.6;max-width:280px}
-.footer-col h4{font-size:11px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--nero-500);margin-bottom:16px}
-.footer-col a{display:block;color:var(--nero-400);text-decoration:none;margin-bottom:10px;transition:color var(--t-fast)}.footer-col a:hover{color:var(--elm-400)}
-.footer-bottom{max-width:var(--inner-max);margin:48px auto 0;padding-top:24px;border-top:1px solid var(--nero-800);font-size:12px;color:var(--nero-600);display:flex;gap:16px;flex-wrap:wrap}
-.footer-bottom a{color:var(--nero-500);text-decoration:none;transition:color var(--t-fast)}.footer-bottom a:hover{color:var(--elm-400)}
-
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:0.01ms!important;animation-iteration-count:1!important;transition-duration:0.01ms!important}html{scroll-behavior:auto}}
 @media(max-width:768px){
   :root{--section-pad-y:80px;--section-pad-x:24px}
-  .nav{padding:0 24px;height:64px}.nav-links{display:none}.nav-cta:not(.nav-overlay .nav-cta){display:none}.nav-toggle{display:block}
   .page-hero{padding:48px 24px 56px}
   .story-layout{grid-template-columns:1fr}.story-visual{height:240px}
   .mission-grid{grid-template-columns:1fr}
   .values-grid{grid-template-columns:1fr}.value-card--wide{grid-column:auto}
-  .footer-grid{grid-template-columns:1fr 1fr;gap:32px}
 }
-@media(max-width:420px){:root{--section-pad-x:16px;--section-pad-y:64px}.page-hero{padding:40px 16px 48px}.mission-card{padding:32px 24px}.footer-grid{grid-template-columns:1fr}}
+@media(max-width:420px){:root{--section-pad-x:16px;--section-pad-y:64px}.page-hero{padding:40px 16px 48px}.mission-card{padding:32px 24px}}
 </style>
 
 

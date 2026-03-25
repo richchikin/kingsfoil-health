@@ -107,7 +107,7 @@ import BaseLayout from '@layouts/BaseLayout.astro';
     <!-- Pillar 3: Proactive Management -->
     <div class="pillar-row">
       <div class="pillar-content">
-        <div class="eyebrow" style="color:var(--gold-700)">Proactive management</div>
+        <div class="eyebrow" style="color:var(--gold-800)">Proactive management</div>
         <h3>Your plan gets better over time, not just more expensive</h3>
         <p>Most brokers check in once a year when it's time to renew. By then, it's too late to influence the outcome. We monitor your plan continuously, catch problems early, and build renewal strategy months in advance.</p>
         <p>The result: a benefits program that improves year over year instead of just costing more.</p>
@@ -595,10 +595,6 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 
 @media(max-width:768px){
   :root{--section-pad-y:80px;--section-pad-x:24px}
-  .nav{padding:0 24px;height:64px}
-  .nav-links{display:none}
-  .nav-cta:not(.nav-overlay .nav-cta){display:none}
-  .nav-toggle{display:block}
   .page-hero{padding:48px 24px 56px}
   .how-steps{grid-template-columns:1fr}
   .how-step::after{display:none}
@@ -622,14 +618,12 @@ import BaseLayout from '@layouts/BaseLayout.astro';
   .comparison-cell:nth-child(2)::before{content:'Traditional: ';font-weight:600;color:var(--nero-400);margin-right:4px}
   .comparison-cell:nth-child(3)::before{content:'Kingsfoil: ';font-weight:600;color:var(--elm-600);margin-right:4px}
   .comparison-cell:nth-child(3){border-bottom:1px solid var(--elm-100)}
-  .footer-grid{grid-template-columns:1fr 1fr;gap:32px}
 }
 
 @media(max-width:420px){
   :root{--section-pad-x:16px;--section-pad-y:64px}
   .page-hero{padding:40px 16px 48px}
   .pillar-highlights{gap:10px}
-  .footer-grid{grid-template-columns:1fr}
 }
 </style>
 

@@ -7,7 +7,8 @@
       "WebFetch(domain:unsplash.com)",
       "Bash(curl:*)",
       "Bash(dir:*)",
-      "Bash(npx --yes sharp-cli:*)"
+      "Bash(npx --yes sharp-cli:*)",
+      "Bash(xargs:*)"
     ]
   }
 }

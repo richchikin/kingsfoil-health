@@ -176,7 +176,7 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 .form-input,.form-select,.form-textarea{
   font-family:var(--font-body);font-size:15px;color:var(--nero-800);
   background:var(--nero-50);border:1px solid var(--nero-200);border-radius:10px;
-  padding:13px 16px;transition:all var(--t-fast);width:100%;
+  padding:13px 16px;min-height:48px;transition:all var(--t-fast);width:100%;
 }
 .form-input:focus,.form-select:focus,.form-textarea:focus{outline:none;border-color:var(--elm-400);box-shadow:0 0 0 3px rgba(46,149,130,0.12);background:#fff}
 .form-textarea{resize:vertical;min-height:100px}
@@ -214,35 +214,19 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 .faq-answer-inner{padding:0 0 24px;font-size:15px;line-height:1.7;color:var(--nero-600)}
 .faq-item.is-open .faq-answer{max-height:300px}
 
-/* FOOTER */
-.footer{background:var(--nero-900);color:var(--nero-400);border-top:1px solid var(--nero-800);padding:64px var(--section-pad-x) 32px;font-size:14px}
-.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;max-width:var(--inner-max);margin:0 auto}
-.footer-brand{font-family:var(--font-display);font-size:18px;font-weight:700;color:var(--elm-400);margin-bottom:12px}
-.footer-tagline{font-style:italic;color:var(--nero-500);margin-bottom:12px;font-size:14px}
-.footer p{line-height:1.6;max-width:280px}
-.footer-col h4{font-size:11px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--nero-500);margin-bottom:16px}
-.footer-col a{display:block;color:var(--nero-400);text-decoration:none;margin-bottom:10px;transition:color var(--t-fast)}
-.footer-col a:hover{color:var(--elm-400)}
-.footer-bottom{max-width:var(--inner-max);margin:48px auto 0;padding-top:24px;border-top:1px solid var(--nero-800);font-size:12px;color:var(--nero-600);display:flex;gap:16px;flex-wrap:wrap}
-.footer-bottom a{color:var(--nero-500);text-decoration:none;transition:color var(--t-fast)}
-.footer-bottom a:hover{color:var(--elm-400)}
-
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:0.01ms!important;animation-iteration-count:1!important;transition-duration:0.01ms!important}html{scroll-behavior:auto}}
 @media(max-width:1024px){:root{--section-pad-x:32px}.contact-layout{gap:48px}}
 @media(max-width:768px){
   :root{--section-pad-y:80px;--section-pad-x:24px}
-  .nav{padding:0 24px;height:64px}.nav-links{display:none}.nav-cta:not(.nav-overlay .nav-cta){display:none}.nav-toggle{display:block}
   .contact-hero{padding:48px 24px 0}
   .contact-layout{grid-template-columns:1fr;gap:48px}
   .form-row{grid-template-columns:1fr}
   .proof-bar-inner{flex-direction:column;gap:24px}.proof-bar-dot{width:48px;height:1px}
-  .footer-grid{grid-template-columns:1fr 1fr;gap:32px}
 }
 @media(max-width:420px){
   :root{--section-pad-x:16px;--section-pad-y:64px}
   .contact-hero{padding:40px 16px 0}
   .form-card{padding:32px 24px}
-  .footer-grid{grid-template-columns:1fr}
 }
 </style>
 

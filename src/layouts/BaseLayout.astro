@@ -34,7 +34,8 @@ const canonical = `${siteUrl}${canonicalPath}`;
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,700&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,700&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400;1,700&family=DM+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"></noscript>
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -52,8 +53,14 @@ const canonical = `${siteUrl}${canonicalPath}`;
   </script>
   -->
 
-  <!-- Netlify Identity (required for Decap CMS login) -->
-  <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <!-- Netlify Identity (only needed on /admin) -->
+  <script>
+    if (window.location.pathname.startsWith('/admin')) {
+      const s = document.createElement('script');
+      s.src = 'https://identity.netlify.com/v1/netlify-identity-widget.js';
+      document.head.appendChild(s);
+    }
+  </script>
 
   <!-- Page-specific head content -->
   <slot name="head" />
@@ -70,57 +77,59 @@ const canonical = `${siteUrl}${canonicalPath}`;
 
   <!-- GA4 Custom Events -->
   <script>
-    // Track CTA clicks
-    document.querySelectorAll('.btn-primary, .btn-warm, .nav-cta').forEach(btn => {
-      btn.addEventListener('click', () => {
-        gtag('event', 'cta_click', {
-          cta_text: btn.textContent.trim(),
-          page_section: btn.closest('section')?.getAttribute('aria-labelledby') || 'nav'
-        });
-      });
-    });
-
-    // Track article read depth (75%)
-    const articleBody = document.querySelector('.article-body');
-    if (articleBody) {
-      let tracked = false;
-      window.addEventListener('scroll', () => {
-        if (tracked) return;
-        const rect = articleBody.getBoundingClientRect();
-        const scrolled = (window.innerHeight - rect.top) / rect.height;
-        if (scrolled > 0.75) {
-          tracked = true;
-          gtag('event', 'article_read', {
-            article_title: document.title,
-            scroll_depth: '75%'
+    if (typeof gtag === 'function') {
+      // Track CTA clicks
+      document.querySelectorAll('.btn-primary, .btn-warm, .nav-cta').forEach(btn => {
+        btn.addEventListener('click', () => {
+          gtag('event', 'cta_click', {
+            cta_text: btn.textContent.trim(),
+            page_section: btn.closest('section')?.getAttribute('aria-labelledby') || 'nav'
           });
-        }
-      }, { passive: true });
-    }
-
-    // Track form submissions
-    document.querySelectorAll('form').forEach(form => {
-      form.addEventListener('submit', () => {
-        const formType = form.closest('.form-card') ? 'contact' :
-                         form.closest('.newsletter') ? 'newsletter' :
-                         form.closest('.gate-form') ? 'resource_download' : 'other';
-        gtag('event', 'form_submit', { form_type: formType });
-      });
-    });
-
-    // Track learning track starts
-    document.querySelectorAll('.track-link, .track-card').forEach(link => {
-      link.addEventListener('click', () => {
-        gtag('event', 'track_start', {
-          track_name: link.querySelector('h3')?.textContent || link.textContent.trim()
         });
       });
-    });
+
+      // Track article read depth (75%)
+      const articleBody = document.querySelector('.article-body');
+      if (articleBody) {
+        let tracked = false;
+        window.addEventListener('scroll', () => {
+          if (tracked) return;
+          const rect = articleBody.getBoundingClientRect();
+          const scrolled = (window.innerHeight - rect.top) / rect.height;
+          if (scrolled > 0.75) {
+            tracked = true;
+            gtag('event', 'article_read', {
+              article_title: document.title,
+              scroll_depth: '75%'
+            });
+          }
+        }, { passive: true });
+      }
+
+      // Track form submissions
+      document.querySelectorAll('form').forEach(form => {
+        form.addEventListener('submit', () => {
+          const formType = form.closest('.form-card') ? 'contact' :
+                           form.closest('.newsletter') ? 'newsletter' :
+                           form.closest('.gate-form') ? 'resource_download' : 'other';
+          gtag('event', 'form_submit', { form_type: formType });
+        });
+      });
+
+      // Track learning track starts
+      document.querySelectorAll('.track-link, .track-card').forEach(link => {
+        link.addEventListener('click', () => {
+          gtag('event', 'track_start', {
+            track_name: link.querySelector('h3')?.textContent || link.textContent.trim()
+          });
+        });
+      });
+    }
   </script>
 
   <!-- Netlify Identity redirect after login -->
   <script>
-    if (window.netlifyIdentity) {
+    if (window.location.pathname.startsWith('/admin') && window.netlifyIdentity) {
       window.netlifyIdentity.on("init", user => {
         if (!user) {
           window.netlifyIdentity.on("login", () => {

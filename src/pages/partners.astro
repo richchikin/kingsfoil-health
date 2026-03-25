@@ -119,25 +119,12 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 .btn-primary:hover{background:var(--elm-600);transform:translateY(-1px);box-shadow:0 4px 16px rgba(46,149,130,0.2)}
 .bottom-cta .btn-primary{font-size:17px;padding:16px 36px;position:relative}
 
-/* FOOTER */
-.footer{background:var(--nero-900);color:var(--nero-400);border-top:1px solid var(--nero-800);padding:64px var(--section-pad-x) 32px;font-size:14px}
-.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;max-width:var(--inner-max);margin:0 auto}
-.footer-brand{font-family:var(--font-display);font-size:18px;font-weight:700;color:var(--elm-400);margin-bottom:12px}
-.footer-tagline{font-style:italic;color:var(--nero-500);margin-bottom:12px;font-size:14px}
-.footer p{line-height:1.6;max-width:280px}
-.footer-col h4{font-size:11px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--nero-500);margin-bottom:16px}
-.footer-col a{display:block;color:var(--nero-400);text-decoration:none;margin-bottom:10px;transition:color var(--t-fast)}.footer-col a:hover{color:var(--elm-400)}
-.footer-bottom{max-width:var(--inner-max);margin:48px auto 0;padding-top:24px;border-top:1px solid var(--nero-800);font-size:12px;color:var(--nero-600);display:flex;gap:16px;flex-wrap:wrap}
-.footer-bottom a{color:var(--nero-500);text-decoration:none;transition:color var(--t-fast)}.footer-bottom a:hover{color:var(--elm-400)}
-
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:0.01ms!important;animation-iteration-count:1!important;transition-duration:0.01ms!important}html{scroll-behavior:auto}}
 @media(max-width:768px){
   :root{--section-pad-y:80px;--section-pad-x:24px}
-  .nav{padding:0 24px;height:64px}.nav-links{display:none}.nav-cta:not(.nav-overlay .nav-cta){display:none}.nav-toggle{display:block}
   .page-hero{padding:48px 24px 56px}
   .partner-grid{grid-template-columns:1fr}
   .choosing-layout{grid-template-columns:1fr}.choosing-visual{height:240px}
-  .footer-grid{grid-template-columns:1fr 1fr;gap:32px}
 }
-@media(max-width:420px){:root{--section-pad-x:16px;--section-pad-y:64px}.page-hero{padding:40px 16px 48px}.partner-card{padding:32px 24px}.footer-grid{grid-template-columns:1fr}}
+@media(max-width:420px){:root{--section-pad-x:16px;--section-pad-y:64px}.page-hero{padding:40px 16px 48px}.partner-card{padding:32px 24px}}
 </style>

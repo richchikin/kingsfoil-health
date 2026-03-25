@@ -283,7 +283,7 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 
 .hero-eyebrow{
   font-size:12px;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;
-  color:var(--gold-700);margin-bottom:28px;position:relative;z-index:1;
+  color:var(--gold-800);margin-bottom:28px;position:relative;z-index:1;
   display:flex;align-items:center;gap:12px;
   opacity:0;animation:fadeUp 0.6s 0.2s forwards;
 }
@@ -440,7 +440,7 @@ import BaseLayout from '@layouts/BaseLayout.astro';
   margin-bottom:16px;
 }
 .persona-card--biz .role{color:var(--elm-600)}
-.persona-card--hr .role{color:var(--gold-700)}
+.persona-card--hr .role{color:var(--gold-800)}
 
 .persona-card h3{
   font-family:var(--font-display);font-size:24px;font-weight:700;
@@ -603,12 +603,6 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 @media(max-width:768px){
   :root{--section-pad-y:80px;--section-pad-x:24px}
 
-  /* Nav — mobile mode */
-  .nav{padding:0 24px;height:64px}
-  .nav-links{display:none}
-  .nav-cta:not(.nav-overlay .nav-cta){display:none}
-  .nav-toggle{display:block}
-
   /* Hero */
   .hero{padding:56px 24px 48px;min-height:auto}
   .hero-blob{display:none}
@@ -635,8 +629,6 @@ import BaseLayout from '@layouts/BaseLayout.astro';
   /* Edu */
   .edu-cards{grid-template-columns:1fr}
 
-  /* Footer */
-  .footer-grid{grid-template-columns:1fr 1fr;gap:32px}
 }
 
 /* ========================================
@@ -650,7 +642,6 @@ import BaseLayout from '@layouts/BaseLayout.astro';
   .hero-actions .btn-warm{width:100%;text-align:center}
   .problem-stats{flex-direction:column;gap:24px}
   .persona-card{padding:32px 24px}
-  .footer-grid{grid-template-columns:1fr}
 }
 </style>
 

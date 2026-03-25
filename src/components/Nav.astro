@@ -73,25 +73,25 @@ const navItems = [
   .nav-links a[aria-current="page"]::after { transform: scaleX(1); }
   .nav-cta {
     font-size: 14px; font-weight: 600; background: var(--elm-500); color: #fff;
-    border: none; border-radius: 8px; padding: 10px 24px; cursor: pointer;
+    border: none; border-radius: 8px; padding: 12px 24px; cursor: pointer;
     transition: background var(--t-fast); text-decoration: none; flex-shrink: 0;
   }
   .nav-cta:hover { background: var(--elm-600); }
   .nav-toggle {
     display: none; background: none; border: none; cursor: pointer;
-    width: 40px; height: 40px; position: relative; z-index: 200; flex-shrink: 0;
+    min-width: 48px; min-height: 48px; width: 48px; height: 48px; position: relative; z-index: 200; flex-shrink: 0;
   }
   .nav-toggle span {
     display: block; width: 22px; height: 2px; background: var(--nero-700);
     border-radius: 2px; transition: all var(--t-med) var(--ease-out);
-    position: absolute; left: 9px;
+    position: absolute; left: 13px;
   }
-  .nav-toggle span:nth-child(1) { top: 14px; }
-  .nav-toggle span:nth-child(2) { top: 20px; }
-  .nav-toggle span:nth-child(3) { top: 26px; }
-  .nav-toggle[aria-expanded="true"] span:nth-child(1) { top: 20px; transform: rotate(45deg); }
+  .nav-toggle span:nth-child(1) { top: 18px; }
+  .nav-toggle span:nth-child(2) { top: 24px; }
+  .nav-toggle span:nth-child(3) { top: 30px; }
+  .nav-toggle[aria-expanded="true"] span:nth-child(1) { top: 24px; transform: rotate(45deg); }
   .nav-toggle[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
-  .nav-toggle[aria-expanded="true"] span:nth-child(3) { top: 20px; transform: rotate(-45deg); }
+  .nav-toggle[aria-expanded="true"] span:nth-child(3) { top: 24px; transform: rotate(-45deg); }
   .nav-overlay {
     display: none; position: fixed; inset: 0; z-index: 99;
     background: rgba(253,249,243,0.98); backdrop-filter: blur(24px);
