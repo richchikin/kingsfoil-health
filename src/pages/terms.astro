@@ -1,0 +1,116 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Terms of Service — Kingsfoil Health"
+  description="Terms and conditions for using the Kingsfoil Health website."
+  canonicalPath="/terms"
+>
+
+<!-- PAGE HERO -->
+<section class="page-hero" aria-label="Page introduction">
+  <div class="eyebrow">Terms of Service</div>
+  <h1>Terms of <em>service</em></h1>
+  <p class="page-hero-sub">Please read these terms carefully before using our website.</p>
+</section>
+
+<!-- PROSE CONTENT -->
+<section class="section prose-section" aria-label="Terms of service content">
+  <div class="section-inner">
+    <div class="prose">
+      <p class="last-updated">Last updated: March 25, 2026</p>
+
+      <h2>Acceptance of Terms</h2>
+      <p>By accessing and using the Kingsfoil Health website (kingsfoilhealth.com), operated by Resilience Stack, LLC ("we," "us," or "our"), you accept and agree to be bound by these Terms of Service. If you do not agree to these terms, please do not use our website.</p>
+
+      <h2>Use of the Site</h2>
+      <p>You may use our website for lawful purposes only. You agree not to:</p>
+      <ul>
+        <li>Use the site in any way that violates applicable federal, state, or local laws</li>
+        <li>Attempt to gain unauthorized access to any part of the site or its related systems</li>
+        <li>Use the site to transmit any harmful, threatening, or objectionable material</li>
+        <li>Interfere with or disrupt the operation of the site</li>
+        <li>Use automated systems (bots, scrapers) to access the site without our prior written consent</li>
+      </ul>
+
+      <h2>Intellectual Property</h2>
+      <p>All content on this website — including text, graphics, logos, images, and software — is the property of Resilience Stack, LLC or its content suppliers and is protected by United States and international copyright laws.</p>
+      <p>You may not reproduce, distribute, modify, or create derivative works from any content on this website without our prior written consent. You may view and download content for personal, non-commercial use only.</p>
+
+      <h2>Disclaimers</h2>
+      <p>The information provided on this website is for general informational purposes only. It is not intended as, and should not be construed as, insurance advice, financial advice, legal advice, or a recommendation to purchase any specific insurance product.</p>
+      <p>This website is provided on an "as is" and "as available" basis without warranties of any kind, either express or implied, including but not limited to warranties of merchantability, fitness for a particular purpose, or non-infringement.</p>
+      <p>We do not guarantee the accuracy, completeness, or timeliness of the information on this site. Insurance products, pricing, and availability may vary and are subject to change.</p>
+
+      <h2>Limitation of Liability</h2>
+      <p>To the fullest extent permitted by law, Resilience Stack, LLC shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or related to your use of this website, including but not limited to:</p>
+      <ul>
+        <li>Loss of profits, data, or business opportunities</li>
+        <li>Errors or omissions in website content</li>
+        <li>Any unauthorized access to or use of our servers or personal information</li>
+        <li>Any interruption or cessation of service</li>
+      </ul>
+      <p>Our total liability for any claim arising from your use of this website shall not exceed the amount you paid us, if any, during the six months preceding the claim.</p>
+
+      <h2>Third-Party Links</h2>
+      <p>Our website may contain links to third-party websites or services. We are not responsible for the content, privacy practices, or terms of any third-party sites. Accessing third-party links is at your own risk.</p>
+
+      <h2>Governing Law</h2>
+      <p>These Terms of Service shall be governed by and construed in accordance with the laws of the State of Utah, without regard to its conflict of law provisions. Any legal action or proceeding arising under these terms shall be brought exclusively in the courts located in Utah.</p>
+
+      <h2>Changes to These Terms</h2>
+      <p>We reserve the right to modify these Terms of Service at any time. Changes will be effective immediately upon posting to this page. Your continued use of the website after any changes constitutes acceptance of the revised terms.</p>
+
+      <h2>Contact</h2>
+      <p>If you have questions about these Terms of Service, please contact us:</p>
+      <p><strong>Resilience Stack, LLC (dba Kingsfoil Health)</strong><br>
+      Email: <a href="mailto:legal@kingsfoilhealth.com">legal@kingsfoilhealth.com</a></p>
+    </div>
+  </div>
+</section>
+
+</BaseLayout>
+
+<style>
+/* PAGE HERO */
+.page-hero{padding:72px var(--section-pad-x) 64px;text-align:center;position:relative;overflow:hidden}
+.page-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 50% 60% at 30% 80%, rgba(252,244,215,0.35) 0%, transparent 50%),radial-gradient(ellipse 40% 50% at 70% 70%, rgba(212,238,234,0.2) 0%, transparent 50%);pointer-events:none}
+.page-hero .eyebrow{color:var(--elm-600);position:relative;z-index:1}
+.page-hero h1{font-family:var(--font-display);font-size:clamp(36px,5vw,60px);font-weight:700;line-height:1.08;letter-spacing:-0.03em;max-width:720px;margin:0 auto 20px;position:relative;z-index:1}
+.page-hero h1 em{font-style:italic;background:linear-gradient(135deg, var(--elm-600), var(--elm-500));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.page-hero-sub{font-size:clamp(16px,1.6vw,19px);line-height:1.65;color:var(--nero-500);max-width:560px;margin:0 auto;position:relative;z-index:1}
+
+/* PROSE */
+.prose-section{background:var(--warm-linen)}
+.prose{max-width:720px;margin:0 auto}
+.prose .last-updated{font-size:14px;color:var(--nero-400);margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--nero-200)}
+.prose h2{font-family:var(--font-display);font-size:clamp(22px,2.5vw,28px);font-weight:700;line-height:1.2;margin:48px 0 16px}
+.prose h3{font-family:var(--font-display);font-size:18px;font-weight:700;line-height:1.3;margin:32px 0 12px}
+.prose p{font-size:16px;line-height:1.75;color:var(--nero-600);margin-bottom:16px}
+.prose ul{margin:0 0 20px 24px;padding:0}
+.prose li{font-size:16px;line-height:1.75;color:var(--nero-600);margin-bottom:8px}
+.prose li strong{color:var(--nero-800)}
+.prose a{color:var(--elm-600);text-decoration:underline;transition:color var(--t-fast)}
+.prose a:hover{color:var(--elm-700)}
+
+/* FOOTER */
+.footer{background:var(--nero-900);color:var(--nero-400);border-top:1px solid var(--nero-800);padding:64px var(--section-pad-x) 32px;font-size:14px}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;max-width:var(--inner-max);margin:0 auto}
+.footer-brand{font-family:var(--font-display);font-size:18px;font-weight:700;color:var(--elm-400);margin-bottom:12px}
+.footer-tagline{font-style:italic;color:var(--nero-500);margin-bottom:12px;font-size:14px}
+.footer p{line-height:1.6;max-width:280px}
+.footer-col h4{font-size:11px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--nero-500);margin-bottom:16px}
+.footer-col a{display:block;color:var(--nero-400);text-decoration:none;margin-bottom:10px;transition:color var(--t-fast)}.footer-col a:hover{color:var(--elm-400)}
+.footer-bottom{max-width:var(--inner-max);margin:48px auto 0;padding-top:24px;border-top:1px solid var(--nero-800);font-size:12px;color:var(--nero-600);display:flex;gap:16px;flex-wrap:wrap}
+.footer-bottom a{color:var(--nero-500);text-decoration:none;transition:color var(--t-fast)}.footer-bottom a:hover{color:var(--elm-400)}
+
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:0.01ms!important;animation-iteration-count:1!important;transition-duration:0.01ms!important}html{scroll-behavior:auto}}
+@media(max-width:768px){
+  :root{--section-pad-y:80px;--section-pad-x:24px}
+  .nav{padding:0 24px;height:64px}.nav-links{display:none}.nav-cta:not(.nav-overlay .nav-cta){display:none}.nav-toggle{display:block}
+  .page-hero{padding:48px 24px 56px}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:32px}
+}
+@media(max-width:420px){:root{--section-pad-x:16px;--section-pad-y:64px}.page-hero{padding:40px 16px 48px}.footer-grid{grid-template-columns:1fr}}
+</style>

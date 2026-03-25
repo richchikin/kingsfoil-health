@@ -115,7 +115,8 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   <div class="newsletter-inner">
     <h2 id="newsletter-heading">Get smarter about benefits</h2>
     <p>One email per month. Practical insights on health insurance, cost management, and employee experience. No fluff.</p>
-    <form class="newsletter-form" action="#" method="POST">
+    <form class="newsletter-form" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+      <input type="hidden" name="bot-field">
       <label for="newsletter-email" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)">Email address</label>
       <input class="newsletter-input" type="email" id="newsletter-email" name="email" placeholder="Your work email" required>
       <button class="newsletter-submit" type="submit">Get the Newsletter</button>

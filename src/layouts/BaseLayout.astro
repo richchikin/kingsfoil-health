@@ -39,8 +39,8 @@ const canonical = `${siteUrl}${canonicalPath}`;
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
-  <!-- Google Analytics 4 -->
-  <!-- Replace G-XXXXXXXXXX with your Measurement ID -->
+  <!-- Google Analytics 4 — UNCOMMENT AND REPLACE G-XXXXXXXXXX WITH YOUR REAL MEASUREMENT ID -->
+  <!--
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -48,6 +48,7 @@ const canonical = `${siteUrl}${canonicalPath}`;
     gtag('js', new Date());
     gtag('config', 'G-XXXXXXXXXX');
   </script>
+  -->
 
   <!-- Page-specific head content -->
   <slot name="head" />
