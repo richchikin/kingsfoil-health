@@ -25,9 +25,8 @@ import BaseLayout from '@layouts/BaseLayout.astro';
         <p>We saw companies paying more every year with no visibility into why, no control over outcomes, and no one in their corner advocating for a better approach.</p>
         <p>Kingsfoil Health was built to change that. We bring modern plan structures, proactive claims management, and a concierge employee experience to businesses that deserve better than the status quo. We're based in Utah, serving the companies and communities we're part of.</p>
       </div>
-      <div class="story-visual" role="img" aria-label="Placeholder: team working together in natural light office">
-        <!-- PHOTO: Team in a bright, warm office. Natural light. Collaborative, authentic, no stock cliches. -->
-        [ Photography: team working together, warm natural light ]
+      <div class="story-visual">
+        <img src="/images/team-collaboration.jpg" alt="Team collaborating at a table with notebooks and warm natural light" width="800" height="600" loading="lazy">
       </div>
     </div>
   </div>
@@ -131,7 +130,8 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 .story-content h2{font-family:var(--font-display);font-size:clamp(28px,3.5vw,38px);font-weight:700;line-height:1.15;letter-spacing:-0.02em;margin-bottom:24px}
 .story-content p{font-size:17px;line-height:1.7;color:var(--nero-600);margin-bottom:20px}
 .story-content p:last-of-type{margin-bottom:0}
-.story-visual{border-radius:20px;height:400px;overflow:hidden;display:flex;align-items:center;justify-content:center;color:var(--nero-400);font-size:13px;text-align:center;padding:20px;box-shadow:0 16px 48px rgba(38,35,36,0.06);background:linear-gradient(160deg, var(--elm-50) 0%, var(--gold-50) 100%)}
+.story-visual{border-radius:20px;height:400px;overflow:hidden;box-shadow:0 16px 48px rgba(38,35,36,0.06)}
+.story-visual img{width:100%;height:100%;object-fit:cover;display:block}
 
 /* MISSION / VISION (Cream) */
 .mission{background:var(--warm-cream)}

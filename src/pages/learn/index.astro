@@ -58,7 +58,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     <div class="article-grid">
       <!-- CMS: {{#each articles}} -->
       <a href="/learn/business-case/why-premiums-keep-climbing" class="article-card">
-        <div class="article-card-image" role="img" aria-label="Article illustration">[ Article image ]</div>
+        <div class="article-card-image">
+          <img src="/images/article-premiums.jpg" alt="Financial documents and calculator" width="600" height="400" loading="lazy">
+        </div>
         <div class="article-card-body">
           <span class="article-badge article-badge--biz">Business Leaders</span>
           <div class="article-card-title">Why Your Health Insurance Premiums Keep Climbing</div>
@@ -66,7 +68,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         </div>
       </a>
       <a href="/learn/business-case/fully-funded-alternatives" class="article-card">
-        <div class="article-card-image" role="img" aria-label="Article illustration">[ Article image ]</div>
+        <div class="article-card-image">
+          <img src="/images/article-alternatives.jpg" alt="Business planning with laptop and documents" width="600" height="400" loading="lazy">
+        </div>
         <div class="article-card-body">
           <span class="article-badge article-badge--biz">Business Leaders</span>
           <div class="article-card-title">What Are the Alternatives to Fully Funded Plans?</div>
@@ -74,7 +78,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         </div>
       </a>
       <a href="/learn/hr-playbook/why-benefits-feel-hard" class="article-card">
-        <div class="article-card-image" role="img" aria-label="Article illustration">[ Article image ]</div>
+        <div class="article-card-image">
+          <img src="/images/article-hr-challenges.jpg" alt="Professional woman in modern office" width="600" height="400" loading="lazy">
+        </div>
         <div class="article-card-body">
           <span class="article-badge article-badge--hr">HR Playbook</span>
           <div class="article-card-title">Why Benefits Feel So Hard (It's Not You)</div>
@@ -82,7 +88,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         </div>
       </a>
       <a href="/learn/business-case/claims-data" class="article-card">
-        <div class="article-card-image" role="img" aria-label="Article illustration">[ Article image ]</div>
+        <div class="article-card-image">
+          <img src="/images/article-claims-data.jpg" alt="Charts and data visualizations" width="600" height="400" loading="lazy">
+        </div>
         <div class="article-card-body">
           <span class="article-badge article-badge--biz">Business Leaders</span>
           <div class="article-card-title">Claims Data: What You Should Be Seeing (And Aren't)</div>
@@ -90,7 +98,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         </div>
       </a>
       <a href="/learn/hr-playbook/concierge-vs-call-center" class="article-card">
-        <div class="article-card-image" role="img" aria-label="Article illustration">[ Article image ]</div>
+        <div class="article-card-image">
+          <img src="/images/article-concierge.jpg" alt="Healthcare professional at laptop with stethoscope" width="600" height="400" loading="lazy">
+        </div>
         <div class="article-card-body">
           <span class="article-badge article-badge--hr">HR Playbook</span>
           <div class="article-card-title">Concierge vs. Call Center: What Your Employees Actually Experience</div>
@@ -98,7 +108,9 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         </div>
       </a>
       <a href="/learn/business-case/roi-modeling" class="article-card">
-        <div class="article-card-image" role="img" aria-label="Article illustration">[ Article image ]</div>
+        <div class="article-card-image">
+          <img src="/images/article-roi.jpg" alt="Financial charts and market data" width="600" height="400" loading="lazy">
+        </div>
         <div class="article-card-body">
           <span class="article-badge article-badge--biz">Business Leaders</span>
           <div class="article-card-title">How to Model the ROI of Switching Plan Structures</div>
@@ -167,10 +179,11 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 .article-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
 .article-card{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 2px 8px rgba(38,35,36,0.04);border:1px solid var(--nero-100);transition:all var(--t-med);text-decoration:none;display:block;color:inherit}
 .article-card:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(38,35,36,0.08)}
-.article-card-image{height:140px;display:flex;align-items:center;justify-content:center;font-size:12px;color:var(--nero-400)}
-.article-card:nth-child(3n+1) .article-card-image{background:linear-gradient(160deg, var(--elm-50), var(--gold-50))}
-.article-card:nth-child(3n+2) .article-card-image{background:linear-gradient(160deg, var(--sapphire-50), var(--elm-50))}
-.article-card:nth-child(3n+3) .article-card-image{background:linear-gradient(160deg, var(--gold-50), var(--warm-linen))}
+.article-card-image{height:140px;overflow:hidden}
+.article-card-image img{width:100%;height:100%;object-fit:cover;display:block}
+.article-card:nth-child(3n+1) .article-card-image{background:var(--elm-50)}
+.article-card:nth-child(3n+2) .article-card-image{background:var(--sapphire-50)}
+.article-card:nth-child(3n+3) .article-card-image{background:var(--gold-50)}
 .article-card-body{padding:24px}
 .article-badge{display:inline-block;font-size:11px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;padding:4px 12px;border-radius:999px;margin-bottom:12px}
 .article-badge--biz{background:var(--elm-50);color:var(--elm-700)}

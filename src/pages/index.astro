@@ -46,9 +46,8 @@ import BaseLayout from '@layouts/BaseLayout.astro';
           </div>
         </div>
       </div>
-      <div class="problem-visual" role="img" aria-label="Placeholder: small team in a huddle with warm afternoon light through office windows">
-        <!-- PHOTO: Natural-light workplace. Small team in a huddle, warm afternoon sun through windows. Authentic, relaxed, generous negative space. No stock cliches. -->
-        [ Photography: small team in a huddle, warm afternoon light through office windows ]
+      <div class="problem-visual">
+        <img src="/images/team-huddle.jpg" alt="Small team working together around a table with warm natural light" width="800" height="600" loading="lazy">
       </div>
     </div>
   </div>
@@ -193,7 +192,9 @@ import BaseLayout from '@layouts/BaseLayout.astro';
     </div>
     <div class="edu-cards">
       <a href="/learn/business-case/why-premiums-keep-climbing" class="edu-card">
-        <div class="edu-card-image" role="img" aria-label="Article illustration">[ Article image ]</div>
+        <div class="edu-card-image">
+          <img src="/images/article-premiums.jpg" alt="Tax and financial documents with calculator" width="600" height="400" loading="lazy">
+        </div>
         <div class="edu-card-body">
           <span class="edu-card-badge">Business Leaders</span>
           <div class="edu-card-title">Why Your Health Insurance Premiums Keep Climbing</div>
@@ -201,7 +202,9 @@ import BaseLayout from '@layouts/BaseLayout.astro';
         </div>
       </a>
       <a href="/learn/business-case/claims-data" class="edu-card">
-        <div class="edu-card-image" role="img" aria-label="Article illustration">[ Article image ]</div>
+        <div class="edu-card-image">
+          <img src="/images/article-claims-data.jpg" alt="Charts and data visualizations on paper" width="600" height="400" loading="lazy">
+        </div>
         <div class="edu-card-body">
           <span class="edu-card-badge">Business Leaders</span>
           <div class="edu-card-title">Claims Data: What You Should Be Seeing (And Aren't)</div>
@@ -209,7 +212,9 @@ import BaseLayout from '@layouts/BaseLayout.astro';
         </div>
       </a>
       <a href="/learn/hr-playbook/why-benefits-feel-hard" class="edu-card">
-        <div class="edu-card-image" role="img" aria-label="Article illustration">[ Article image ]</div>
+        <div class="edu-card-image">
+          <img src="/images/article-hr-challenges.jpg" alt="Professional woman in modern office" width="600" height="400" loading="lazy">
+        </div>
         <div class="edu-card-body">
           <span class="edu-card-badge">HR Playbook</span>
           <div class="edu-card-title">Why Benefits Feel So Hard (It's Not You)</div>
@@ -346,11 +351,9 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 
 .problem-visual{
   border-radius:20px;height:420px;position:relative;overflow:hidden;
-  background:linear-gradient(160deg, var(--warm-linen) 0%, var(--gold-100) 50%, var(--elm-50) 100%);
-  display:flex;align-items:center;justify-content:center;
-  color:var(--nero-400);font-size:13px;text-align:center;padding:20px;
   box-shadow:0 20px 60px rgba(38,35,36,0.06);
 }
+.problem-visual img{width:100%;height:100%;object-fit:cover;display:block}
 
 /* ========================================
    SOLUTION SECTION (Cream)
@@ -509,12 +512,12 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 }
 .edu-card:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(38,35,36,0.08)}
 .edu-card-image{
-  height:140px;display:flex;align-items:center;justify-content:center;
-  font-size:12px;color:var(--nero-400);
+  height:140px;overflow:hidden;
 }
-.edu-card:nth-child(1) .edu-card-image{background:linear-gradient(160deg, var(--elm-50), var(--gold-50))}
-.edu-card:nth-child(2) .edu-card-image{background:linear-gradient(160deg, var(--sapphire-50), var(--elm-50))}
-.edu-card:nth-child(3) .edu-card-image{background:linear-gradient(160deg, var(--gold-50), var(--warm-linen))}
+.edu-card-image img{width:100%;height:100%;object-fit:cover;display:block}
+.edu-card:nth-child(1) .edu-card-image{background:var(--elm-50)}
+.edu-card:nth-child(2) .edu-card-image{background:var(--sapphire-50)}
+.edu-card:nth-child(3) .edu-card-image{background:var(--gold-50)}
 .edu-card-body{padding:24px}
 .edu-card-badge{
   display:inline-block;font-size:11px;font-weight:600;

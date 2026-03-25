@@ -65,13 +65,8 @@ import BaseLayout from '@layouts/BaseLayout.astro';
         <p>We evaluate partners on transparency, service quality, technology, and alignment with our values. If a partner can't demonstrate measurable benefit to our clients, they don't make the cut — regardless of incentives or industry relationships.</p>
         <p>This isn't a static list. We continuously evaluate our partnerships and aren't afraid to make changes when something better comes along for our clients.</p>
       </div>
-      <div class="choosing-visual" role="img" aria-label="Placeholder: collaborative partnership meeting">
-        <div class="choosing-visual-inner">
-          <div class="choosing-icon" aria-hidden="true">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-          </div>
-          <span>Vetted for your benefit, not ours</span>
-        </div>
+      <div class="choosing-visual">
+        <img src="/images/partnership-meeting.jpg" alt="Team collaborating around a whiteboard in a bright office" width="800" height="600" loading="lazy">
       </div>
     </div>
   </div>
@@ -111,10 +106,8 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 .choosing-content h2{font-family:var(--font-display);font-size:clamp(28px,3.5vw,38px);font-weight:700;line-height:1.15;letter-spacing:-0.02em;margin-bottom:24px}
 .choosing-content p{font-size:17px;line-height:1.7;color:var(--nero-600);margin-bottom:20px}
 .choosing-content p:last-of-type{margin-bottom:0}
-.choosing-visual{border-radius:20px;height:360px;overflow:hidden;display:flex;align-items:center;justify-content:center;box-shadow:0 16px 48px rgba(38,35,36,0.06);background:linear-gradient(160deg, var(--elm-50) 0%, var(--gold-50) 100%)}
-.choosing-visual-inner{display:flex;flex-direction:column;align-items:center;gap:16px;color:var(--nero-500);text-align:center;padding:20px}
-.choosing-icon{color:var(--elm-400)}
-.choosing-visual-inner span{font-size:14px;font-weight:500;max-width:200px}
+.choosing-visual{border-radius:20px;height:360px;overflow:hidden;box-shadow:0 16px 48px rgba(38,35,36,0.06)}
+.choosing-visual img{width:100%;height:100%;object-fit:cover;display:block}
 
 /* BOTTOM CTA */
 .bottom-cta{background:var(--nero-900);color:#fff;text-align:center;padding:var(--section-pad-y) var(--section-pad-x);position:relative;overflow:hidden}

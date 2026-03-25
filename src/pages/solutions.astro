@@ -72,9 +72,8 @@ import BaseLayout from '@layouts/BaseLayout.astro';
           </div>
         </div>
       </div>
-      <div class="pillar-visual pillar-visual--elm" role="img" aria-label="Placeholder: dashboard showing benefits cost breakdown">
-        <!-- PHOTO: Clean dashboard or report view showing cost transparency. Warm light, modern office setting. -->
-        [ Visual: cost transparency dashboard or report ]
+      <div class="pillar-visual pillar-visual--elm">
+        <img src="/images/dashboard-analytics.jpg" alt="Data analytics dashboard showing charts and metrics" width="800" height="600" loading="lazy">
       </div>
     </div>
 
@@ -100,9 +99,8 @@ import BaseLayout from '@layouts/BaseLayout.astro';
           </div>
         </div>
       </div>
-      <div class="pillar-visual pillar-visual--sapphire" role="img" aria-label="Placeholder: employee receiving friendly support">
-        <!-- PHOTO: Warm, personal interaction. Someone receiving helpful guidance. Not a call center. -->
-        [ Visual: personal support interaction ]
+      <div class="pillar-visual pillar-visual--sapphire">
+        <img src="/images/personal-guidance.jpg" alt="Two professionals in a friendly one-on-one conversation" width="800" height="600" loading="lazy">
       </div>
     </div>
 
@@ -128,9 +126,8 @@ import BaseLayout from '@layouts/BaseLayout.astro';
           </div>
         </div>
       </div>
-      <div class="pillar-visual pillar-visual--gold" role="img" aria-label="Placeholder: year-over-year performance chart">
-        <!-- PHOTO: Performance trending upward. Clean data visualization feel. Warm natural light. -->
-        [ Visual: performance improvement over time ]
+      <div class="pillar-visual pillar-visual--gold">
+        <img src="/images/growth-chart.jpg" alt="Laptop displaying performance analytics with upward trends" width="800" height="600" loading="lazy">
       </div>
     </div>
   </div>
@@ -398,10 +395,9 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 
 .pillar-visual{
   border-radius:20px;height:360px;position:relative;overflow:hidden;
-  display:flex;align-items:center;justify-content:center;
-  color:var(--nero-400);font-size:13px;text-align:center;padding:20px;
   box-shadow:0 16px 48px rgba(38,35,36,0.06);
 }
+.pillar-visual img{width:100%;height:100%;object-fit:cover;display:block}
 .pillar-visual--elm{background:linear-gradient(160deg, var(--elm-50) 0%, var(--gold-50) 100%)}
 .pillar-visual--sapphire{background:linear-gradient(160deg, var(--sapphire-50) 0%, var(--elm-50) 100%)}
 .pillar-visual--gold{background:linear-gradient(160deg, var(--gold-50) 0%, var(--warm-linen) 100%)}

@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(npx astro build)",
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "WebSearch",
+      "WebFetch(domain:unsplash.com)",
+      "Bash(curl:*)",
+      "Bash(dir:*)"
     ]
   }
 }
