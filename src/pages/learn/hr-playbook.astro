@@ -1,0 +1,20 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+// Production HTML source: kh-track-template.html (swap to HR Playbook data)
+
+const articles = (await getCollection('articles'))
+  .filter(a => a.data.learningTrack === 'hr-playbook')
+  .sort((a, b) => (a.data.trackOrder || 0) - (b.data.trackOrder || 0));
+---
+<BaseLayout
+  title="The HR Playbook — Learn — Kingsfoil Health"
+  description="What benefits modernization looks like operationally. Transitions, templates, and less admin work."
+  canonicalPath="/learn/hr-playbook"
+>
+  <!-- Copy sections from kh-track-template.html, swap accent colors to gold,
+       replace static article list with dynamic rendering -->
+  <section class="page-hero" aria-label="Page introduction">
+    <p style="text-align:center;padding:200px 48px;color:#807c79;">[HR Playbook track — adapt from kh-track-template.html]</p>
+  </section>
+</BaseLayout>

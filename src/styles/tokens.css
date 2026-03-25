@@ -1,0 +1,262 @@
+/* ========================================
+   KINGSFOIL HEALTH DESIGN TOKENS
+   Golden Hour direction
+   ======================================== */
+
+:root {
+  /* Color Ramps — Elm Green */
+  --elm-50: #eef8f6;
+  --elm-100: #d4eeea;
+  --elm-200: #a6ddd3;
+  --elm-300: #6ec7b8;
+  --elm-400: #44ae9c;
+  --elm-500: #2e9582;
+  --elm-600: #267a6b;
+  --elm-700: #1e5f53;
+  --elm-800: #16453d;
+  --elm-900: #0e2d28;
+
+  /* Color Ramps — Sapphire Blue */
+  --sapphire-50: #f0f4f9;
+  --sapphire-100: #d7e2f0;
+  --sapphire-200: #b0c5e0;
+  --sapphire-300: #88a8d1;
+  --sapphire-400: #5e8abb;
+  --sapphire-500: #3468a0;
+  --sapphire-600: #2b5584;
+  --sapphire-700: #224369;
+  --sapphire-800: #1a324f;
+  --sapphire-900: #112135;
+
+  /* Color Ramps — Equator Gold */
+  --gold-50: #fefbf0;
+  --gold-100: #fcf4d7;
+  --gold-200: #f7e5a8;
+  --gold-300: #f0d67a;
+  --gold-400: #e9cc66;
+  --gold-500: #e1c45e;
+  --gold-600: #c9a83a;
+  --gold-700: #a18528;
+  --gold-800: #79641e;
+  --gold-900: #524412;
+
+  /* Color Ramps — Nero Neutrals (warm-toned) */
+  --nero-50: #faf9f9;
+  --nero-100: #f2f0ef;
+  --nero-200: #e3e1df;
+  --nero-300: #ccc9c7;
+  --nero-400: #a8a4a1;
+  --nero-500: #807c79;
+  --nero-600: #5f5b58;
+  --nero-700: #454240;
+  --nero-800: #333130;
+  --nero-900: #262324;
+
+  /* Surfaces — Golden Hour */
+  --warm-cream: #fdf9f3;
+  --warm-linen: #f8f3eb;
+
+  /* Typography */
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Spacing */
+  --section-pad-y: 120px;
+  --section-pad-x: 48px;
+  --inner-max: 1100px;
+
+  /* Transitions */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --t-fast: 150ms;
+  --t-med: 250ms;
+
+  /* Focus */
+  --focus-ring: 0 0 0 3px rgba(46, 149, 130, 0.4);
+}
+
+/* ========================================
+   RESET & BASE
+   ======================================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--nero-900);
+  background: var(--warm-cream);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font-family: var(--font-body);
+}
+
+/* Skip to Content */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 16px;
+  background: var(--elm-500);
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 0 0 8px 8px;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  z-index: 9999;
+  transition: top var(--t-fast);
+}
+.skip-link:focus {
+  top: 0;
+}
+
+/* Focus styles */
+:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+}
+a:focus-visible,
+button:focus-visible {
+  outline: none;
+  box-shadow: var(--focus-ring);
+  border-radius: 4px;
+}
+
+/* ========================================
+   SHARED PATTERNS
+   ======================================== */
+.section {
+  padding: var(--section-pad-y) var(--section-pad-x);
+}
+.section-inner {
+  max-width: var(--inner-max);
+  margin: 0 auto;
+}
+.eyebrow {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+/* ========================================
+   BUTTONS
+   ======================================== */
+.btn-primary {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 600;
+  background: var(--elm-500);
+  color: #fff;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  padding: 14px 32px;
+  cursor: pointer;
+  transition: all var(--t-fast);
+  text-decoration: none;
+}
+.btn-primary:hover {
+  background: var(--elm-600);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 16px rgba(46, 149, 130, 0.2);
+}
+
+.btn-warm {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 600;
+  background: var(--gold-100);
+  color: var(--gold-800);
+  border: 2px solid var(--gold-200);
+  border-radius: 8px;
+  padding: 14px 32px;
+  cursor: pointer;
+  transition: all var(--t-fast);
+  text-decoration: none;
+}
+.btn-warm:hover {
+  background: var(--gold-200);
+  border-color: var(--gold-300);
+}
+
+.btn-secondary {
+  display: inline-block;
+  font-family: var(--font-body);
+  font-size: 16px;
+  font-weight: 600;
+  background: transparent;
+  color: var(--elm-600);
+  border: 2px solid var(--elm-200);
+  border-radius: 8px;
+  padding: 14px 32px;
+  cursor: pointer;
+  transition: all var(--t-fast);
+  text-decoration: none;
+}
+.btn-secondary:hover {
+  border-color: var(--elm-400);
+  background: var(--elm-50);
+}
+
+/* ========================================
+   REDUCED MOTION
+   ======================================== */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* ========================================
+   RESPONSIVE BREAKPOINTS
+   ======================================== */
+@media (max-width: 1024px) {
+  :root {
+    --section-pad-x: 32px;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --section-pad-y: 80px;
+    --section-pad-x: 24px;
+  }
+}
+
+@media (max-width: 420px) {
+  :root {
+    --section-pad-x: 16px;
+    --section-pad-y: 64px;
+  }
+}

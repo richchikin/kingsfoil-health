@@ -1,0 +1,78 @@
+---
+// No props needed — footer is the same on every page
+---
+
+<footer class="footer">
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand">Kingsfoil Health</div>
+      <div class="footer-tagline">Health insurance, healed.</div>
+      <p>A proactive, modern health insurance partner for forward-thinking businesses.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Solutions</h4>
+      <a href="/solutions">Our Approach</a>
+      <a href="/solutions#how-it-works">How It Works</a>
+    </div>
+    <div class="footer-col">
+      <h4>Learn</h4>
+      <a href="/learn/business-case">The Business Case</a>
+      <a href="/learn/hr-playbook">The HR Playbook</a>
+      <a href="/learn">All Articles</a>
+      <a href="/learn/resources">Reports &amp; Resources</a>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <a href="/about">About</a>
+      <a href="/partners">Partners</a>
+      <a href="/talk-to-us">Talk to Us</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; {new Date().getFullYear()} Kingsfoil Health (Resilience Stack, LLC)</span>
+    <span>Lehi, UT</span>
+    <a href="/privacy">Privacy</a>
+    <a href="/terms">Terms</a>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    background: var(--nero-900); color: var(--nero-400);
+    border-top: 1px solid var(--nero-800);
+    padding: 64px var(--section-pad-x) 32px; font-size: 14px;
+  }
+  .footer-grid {
+    display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px;
+    max-width: var(--inner-max); margin: 0 auto;
+  }
+  .footer-brand {
+    font-family: var(--font-display); font-size: 18px; font-weight: 700;
+    color: var(--elm-400); margin-bottom: 12px;
+  }
+  .footer-tagline { font-style: italic; color: var(--nero-500); margin-bottom: 12px; font-size: 14px; }
+  .footer p { line-height: 1.6; max-width: 280px; }
+  .footer-col h4 {
+    font-size: 11px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--nero-500); margin-bottom: 16px;
+  }
+  .footer-col a {
+    display: block; color: var(--nero-400); text-decoration: none;
+    margin-bottom: 10px; transition: color var(--t-fast);
+  }
+  .footer-col a:hover { color: var(--elm-400); }
+  .footer-bottom {
+    max-width: var(--inner-max); margin: 48px auto 0; padding-top: 24px;
+    border-top: 1px solid var(--nero-800); font-size: 12px; color: var(--nero-600);
+    display: flex; gap: 16px; flex-wrap: wrap;
+  }
+  .footer-bottom a { color: var(--nero-500); text-decoration: none; transition: color var(--t-fast); }
+  .footer-bottom a:hover { color: var(--elm-400); }
+
+  @media (max-width: 768px) {
+    .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
+  }
+  @media (max-width: 420px) {
+    .footer-grid { grid-template-columns: 1fr; }
+  }
+</style>

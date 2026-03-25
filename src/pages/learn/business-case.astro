@@ -1,0 +1,20 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+// Production HTML source: kh-track-template.html (populated with business-case data)
+
+const articles = (await getCollection('articles'))
+  .filter(a => a.data.learningTrack === 'business-case')
+  .sort((a, b) => (a.data.trackOrder || 0) - (b.data.trackOrder || 0));
+---
+<BaseLayout
+  title="The Business Case — Learn — Kingsfoil Health"
+  description="The financial argument for rethinking your company's health benefits. 8 articles from rising premiums to ROI modeling."
+  canonicalPath="/learn/business-case"
+>
+  <!-- Copy sections from kh-track-template.html, replace static article list
+       with dynamic rendering from articles collection -->
+  <section class="page-hero" aria-label="Page introduction">
+    <p style="text-align:center;padding:200px 48px;color:#807c79;">[Business Case track — copy from kh-track-template.html]</p>
+  </section>
+</BaseLayout>

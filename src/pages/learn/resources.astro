@@ -1,0 +1,19 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+// Production HTML source: kh-resources.html
+
+const gatedContent = (await getCollection('articles'))
+  .filter(a => a.data.isGated || a.data.type === 'report' || a.data.type === 'case-study');
+---
+<BaseLayout
+  title="Reports & Resources — Kingsfoil Health"
+  description="Downloadable reports, case studies, and tools to help you evaluate your company's health benefits options."
+  canonicalPath="/learn/resources"
+>
+  <!-- Copy sections from kh-resources.html, replace static cards
+       with dynamic rendering from gatedContent collection -->
+  <section class="page-hero" aria-label="Page introduction">
+    <p style="text-align:center;padding:200px 48px;color:#807c79;">[Resources sections — copy from kh-resources.html]</p>
+  </section>
+</BaseLayout>

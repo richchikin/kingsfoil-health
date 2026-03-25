@@ -1,0 +1,96 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+interface Props {
+  title: string;
+  description: string;
+  audienceTags: string[];
+  difficulty: string;
+  publishedDate: Date;
+  learningTrack?: string;
+  trackOrder?: number;
+  relatedArticles?: string[];
+}
+
+const {
+  title, description, audienceTags, difficulty,
+  publishedDate, learningTrack, trackOrder, relatedArticles
+} = Astro.props;
+
+// Get track info if article belongs to a track
+let trackArticles: any[] = [];
+let trackName = '';
+if (learningTrack) {
+  const allArticles = await getCollection('articles');
+  trackArticles = allArticles
+    .filter(a => a.data.learningTrack === learningTrack)
+    .sort((a, b) => (a.data.trackOrder || 0) - (b.data.trackOrder || 0));
+  trackName = learningTrack === 'business-case' ? 'The Business Case' : 'The HR Playbook';
+}
+
+const badgeClass = audienceTags.includes('HR') ? 'article-badge--hr' : 'article-badge--biz';
+const formattedDate = publishedDate.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+---
+
+<BaseLayout title={`${title} — Kingsfoil Health`} description={description}>
+
+  <!-- Breadcrumb -->
+  <div class="breadcrumb">
+    <a href="/">Home</a><span>›</span>
+    <a href="/learn">Learn</a><span>›</span>
+    {learningTrack && (
+      <><a href={`/learn/${learningTrack}`}>{trackName}</a><span>›</span></>
+    )}
+    {trackOrder ? `Article ${trackOrder} of ${trackArticles.length}` : title}
+  </div>
+
+  <article class="article-layout">
+    <header class="article-header">
+      <span class={`article-badge ${badgeClass}`}>{audienceTags[0]}</span>
+      <h1>{title}</h1>
+      <div class="article-meta">
+        <span>{difficulty.charAt(0).toUpperCase() + difficulty.slice(1)}</span>
+        <span>Published {formattedDate}</span>
+      </div>
+    </header>
+
+    {learningTrack && trackOrder && (
+      <div class="track-context">
+        <div class="track-context-text">
+          Article <strong>{trackOrder} of {trackArticles.length}</strong> in <strong>{trackName}</strong>
+        </div>
+        <a href={`/learn/${learningTrack}`}>View full track →</a>
+      </div>
+    )}
+
+    <div class="article-body">
+      <slot />
+    </div>
+
+    <!-- Prev / Next navigation -->
+    {learningTrack && trackArticles.length > 0 && (
+      <nav class="article-nav" aria-label="Article navigation">
+        {trackOrder && trackOrder > 1 ? (
+          <a href={`/learn/${trackArticles[trackOrder - 2].slug}`} class="article-nav-item">
+            <div class="article-nav-label">← Previous</div>
+            <div class="article-nav-title">{trackArticles[trackOrder - 2].data.title}</div>
+          </a>
+        ) : <div />}
+        {trackOrder && trackOrder < trackArticles.length ? (
+          <a href={`/learn/${trackArticles[trackOrder].slug}`} class="article-nav-item article-nav-item--next">
+            <div class="article-nav-label">Next article →</div>
+            <div class="article-nav-title">{trackArticles[trackOrder].data.title}</div>
+          </a>
+        ) : <div />}
+      </nav>
+    )}
+
+    <div class="article-cta">
+      <h2>Want to see what this means for your company?</h2>
+      <p>We'll walk through your current plan and show you what alternatives might look like. No obligation.</p>
+      <a href="/talk-to-us" class="btn-primary">Talk to Us</a>
+    </div>
+  </article>
+
+</BaseLayout>

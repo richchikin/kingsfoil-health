@@ -1,0 +1,19 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+// Production HTML source: kh-learn-hub.html
+
+const allArticles = await getCollection('articles');
+const featured = allArticles.filter(a => a.data.isFeatured);
+---
+<BaseLayout
+  title="Learn — Kingsfoil Health"
+  description="Practical articles that help business leaders and HR professionals understand their health benefits options."
+  canonicalPath="/learn"
+>
+  <!-- Copy sections from kh-learn-hub.html, replace static article cards
+       with dynamic rendering from allArticles collection -->
+  <section class="page-hero" aria-label="Page introduction">
+    <p style="text-align:center;padding:200px 48px;color:#807c79;">[Learn Hub sections — copy from kh-learn-hub.html]</p>
+  </section>
+</BaseLayout>

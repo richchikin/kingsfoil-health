@@ -1,0 +1,139 @@
+---
+interface Props {
+  currentPath?: string;
+}
+const { currentPath = '' } = Astro.props;
+
+const navItems = [
+  { href: '/solutions', label: 'Solutions' },
+  { href: '/learn', label: 'Learn' },
+  { href: '/about', label: 'About' },
+  { href: '/partners', label: 'Partners' },
+];
+---
+
+<nav class="nav" aria-label="Primary navigation">
+  <a href="/" class="nav-logo">Kingsfoil Health</a>
+  <ul class="nav-links">
+    {navItems.map(item => (
+      <li>
+        <a
+          href={item.href}
+          aria-current={currentPath.startsWith(item.href) ? 'page' : undefined}
+        >
+          {item.label}
+        </a>
+      </li>
+    ))}
+  </ul>
+  <a href="/talk-to-us" class="nav-cta">Talk to Us</a>
+  <button class="nav-toggle" aria-expanded="false" aria-controls="nav-overlay" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="nav-overlay" id="nav-overlay" role="dialog" aria-label="Mobile navigation">
+  {navItems.map(item => (
+    <a href={item.href}>{item.label}</a>
+  ))}
+  <a href="/talk-to-us" class="nav-cta">Talk to Us</a>
+</div>
+
+<style>
+  /* Nav styles — scoped to this component */
+  .nav {
+    position: sticky; top: 0; z-index: 100;
+    background: rgba(253,249,243,0.92);
+    backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(204,201,199,0.25);
+    padding: 0 var(--section-pad-x); height: 72px;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .nav-logo {
+    font-family: var(--font-display); font-size: 20px; font-weight: 700;
+    color: var(--elm-700); letter-spacing: -0.01em; text-decoration: none; flex-shrink: 0;
+  }
+  .nav-links { display: flex; gap: 36px; list-style: none; }
+  .nav-links a {
+    font-size: 14px; font-weight: 500; color: var(--nero-600);
+    text-decoration: none; transition: color var(--t-fast); position: relative;
+  }
+  .nav-links a::after {
+    content: ''; position: absolute; bottom: -4px; left: 0; right: 0;
+    height: 2px; background: var(--elm-500); border-radius: 1px;
+    transform: scaleX(0); transition: transform var(--t-med) var(--ease-out);
+  }
+  .nav-links a:hover { color: var(--elm-600); }
+  .nav-links a:hover::after { transform: scaleX(1); }
+  .nav-links a[aria-current="page"] { color: var(--elm-600); font-weight: 600; }
+  .nav-links a[aria-current="page"]::after { transform: scaleX(1); }
+  .nav-cta {
+    font-size: 14px; font-weight: 600; background: var(--elm-500); color: #fff;
+    border: none; border-radius: 8px; padding: 10px 24px; cursor: pointer;
+    transition: background var(--t-fast); text-decoration: none; flex-shrink: 0;
+  }
+  .nav-cta:hover { background: var(--elm-600); }
+  .nav-toggle {
+    display: none; background: none; border: none; cursor: pointer;
+    width: 40px; height: 40px; position: relative; z-index: 200; flex-shrink: 0;
+  }
+  .nav-toggle span {
+    display: block; width: 22px; height: 2px; background: var(--nero-700);
+    border-radius: 2px; transition: all var(--t-med) var(--ease-out);
+    position: absolute; left: 9px;
+  }
+  .nav-toggle span:nth-child(1) { top: 14px; }
+  .nav-toggle span:nth-child(2) { top: 20px; }
+  .nav-toggle span:nth-child(3) { top: 26px; }
+  .nav-toggle[aria-expanded="true"] span:nth-child(1) { top: 20px; transform: rotate(45deg); }
+  .nav-toggle[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
+  .nav-toggle[aria-expanded="true"] span:nth-child(3) { top: 20px; transform: rotate(-45deg); }
+  .nav-overlay {
+    display: none; position: fixed; inset: 0; z-index: 99;
+    background: rgba(253,249,243,0.98); backdrop-filter: blur(24px);
+    flex-direction: column; align-items: center; justify-content: center; gap: 32px;
+    opacity: 0; transition: opacity var(--t-med);
+  }
+  .nav-overlay.is-open { display: flex; opacity: 1; }
+  .nav-overlay a {
+    font-family: var(--font-display); font-size: 28px; font-weight: 600;
+    color: var(--nero-800); text-decoration: none; transition: color var(--t-fast);
+  }
+  .nav-overlay a:hover { color: var(--elm-600); }
+  .nav-overlay .nav-cta { font-size: 16px; padding: 14px 32px; margin-top: 16px; }
+
+  @media (max-width: 768px) {
+    .nav { padding: 0 24px; height: 64px; }
+    .nav-links { display: none; }
+    .nav-cta:not(.nav-overlay .nav-cta) { display: none; }
+    .nav-toggle { display: block; }
+  }
+</style>
+
+<script>
+  const toggle = document.querySelector('.nav-toggle');
+  const overlay = document.getElementById('nav-overlay');
+  if (toggle && overlay) {
+    toggle.addEventListener('click', () => {
+      const open = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!open));
+      overlay.classList.toggle('is-open', !open);
+      document.body.style.overflow = open ? '' : 'hidden';
+    });
+    overlay.querySelectorAll('a').forEach(link => {
+      link.addEventListener('click', () => {
+        toggle.setAttribute('aria-expanded', 'false');
+        overlay.classList.remove('is-open');
+        document.body.style.overflow = '';
+      });
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && overlay.classList.contains('is-open')) {
+        toggle.setAttribute('aria-expanded', 'false');
+        overlay.classList.remove('is-open');
+        document.body.style.overflow = '';
+        toggle.focus();
+      }
+    });
+  }
+</script>

@@ -1,0 +1,51 @@
+---
+/**
+ * Homepage — Kingsfoil Health
+ * 
+ * Production HTML source: kh-homepage.html
+ * 
+ * To integrate: Copy each section from kh-homepage.html into this file,
+ * replacing inline styles with classes from tokens.css and page-specific
+ * <style> block. The Nav and Footer are handled by BaseLayout.
+ */
+import BaseLayout from '@layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Kingsfoil Health — Health Insurance, Healed"
+  description="Kingsfoil Health is a modern health insurance brokerage helping Utah businesses take control of their benefits through proactive claims management and a concierge employee experience."
+  canonicalPath="/"
+>
+
+  <!-- 
+    INTEGRATION NOTE:
+    Copy section HTML from kh-homepage.html into this file.
+    Remove the <nav>, <footer>, <script> (mobile menu), and surrounding
+    <html>/<head>/<body> tags — BaseLayout handles those.
+    Move page-specific CSS into a <style> block below.
+    
+    Sections to copy:
+    1. .hero (with blobs, eyebrow, h1, sub, actions, scroll)
+    2. .section.problem
+    3. .section.solution
+    4. .proof
+    5. .section.personas
+    6. .section.trust (H.E.A.R.T. values)
+    7. .section.edu-teaser
+    8. .bottom-cta
+  -->
+
+  <section class="hero" aria-label="Introduction">
+    <!-- Copy from kh-homepage.html -->
+    <p style="text-align:center;padding:200px 48px;color:#807c79;">
+      [Homepage sections — copy from kh-homepage.html]
+    </p>
+  </section>
+
+</BaseLayout>
+
+<style>
+  /* Page-specific styles — copy from kh-homepage.html <style> block,
+     excluding tokens (already in tokens.css), nav, and footer styles
+     (already in their components). */
+</style>
