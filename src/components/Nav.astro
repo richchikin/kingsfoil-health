@@ -13,7 +13,9 @@ const navItems = [
 ---
 
 <nav class="nav" aria-label="Primary navigation">
-  <a href="/" class="nav-logo">Kingsfoil Health</a>
+  <a href="/" class="nav-logo" aria-label="Kingsfoil Health — Home">
+    <img src="/images/logo-horizontal.svg" alt="Kingsfoil Health" class="nav-logo-img" width="500" height="150">
+  </a>
   <ul class="nav-links">
     {navItems.map(item => (
       <li>
@@ -50,8 +52,10 @@ const navItems = [
     display: flex; align-items: center; justify-content: space-between;
   }
   .nav-logo {
-    font-family: var(--font-display); font-size: 20px; font-weight: 700;
-    color: var(--elm-700); letter-spacing: -0.01em; text-decoration: none; flex-shrink: 0;
+    text-decoration: none; flex-shrink: 0; display: flex; align-items: center;
+  }
+  .nav-logo-img {
+    height: 40px; width: auto; display: block;
   }
   .nav-links { display: flex; gap: 36px; list-style: none; }
   .nav-links a {
