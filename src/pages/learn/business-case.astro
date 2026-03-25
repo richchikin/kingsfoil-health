@@ -1,20 +1,177 @@
 ---
-import BaseLayout from '@layouts/BaseLayout.astro';
-import { getCollection } from 'astro:content';
-// Production HTML source: kh-track-template.html (populated with business-case data)
-
-const articles = (await getCollection('articles'))
-  .filter(a => a.data.learningTrack === 'business-case')
-  .sort((a, b) => (a.data.trackOrder || 0) - (b.data.trackOrder || 0));
+import BaseLayout from '../../layouts/BaseLayout.astro';
 ---
+
 <BaseLayout
   title="The Business Case — Learn — Kingsfoil Health"
-  description="The financial argument for rethinking your company's health benefits. 8 articles from rising premiums to ROI modeling."
+  description="The financial argument for rethinking your company\'s health benefits. 8 articles from rising premiums to ROI modeling."
   canonicalPath="/learn/business-case"
 >
-  <!-- Copy sections from kh-track-template.html, replace static article list
-       with dynamic rendering from articles collection -->
-  <section class="page-hero" aria-label="Page introduction">
-    <p style="text-align:center;padding:200px 48px;color:#807c79;">[Business Case track — copy from kh-track-template.html]</p>
-  </section>
+
+<!-- BREADCRUMB -->
+<!-- CMS: Home > Learn > {{track.title}} -->
+<div class="breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn">Learn</a><span>›</span>The Business Case</div>
+
+<!-- TRACK HERO -->
+<!-- CMS: class="track-hero track-hero--{{track.slug}}" -->
+<div class="track-hero track-hero--biz">
+  <!-- CMS: {{track.audience_label}} -->
+  <div class="eyebrow">For business leaders</div>
+  <!-- CMS: {{track.title}} -->
+  <h1>The Business Case</h1>
+  <!-- CMS: {{track.description}} -->
+  <p>The financial argument for rethinking your company's health benefits. Start with the basics and build toward ROI modeling and strategic decision-making.</p>
+  <div class="track-stats">
+    <!-- CMS: {{track.article_count}} articles -->
+    <span>8 articles</span>
+    <span class="dot" aria-hidden="true"></span>
+    <!-- CMS: {{track.reading_time}} -->
+    <span>~60 min total</span>
+    <span class="dot" aria-hidden="true"></span>
+    <span>Beginner to Advanced</span>
+  </div>
+</div>
+
+<!-- ARTICLE LIST (Linen) -->
+<!-- CMS: class="track--{{track.slug}}" -->
+<section class="section article-list-section track--biz" aria-labelledby="articles-heading">
+  <div class="section-inner">
+    <h2 id="articles-heading" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)">Articles in this track</h2>
+    <div class="article-list">
+      <!-- CMS: {{#each track.articles}} -->
+      <a href="/learn/business-case/why-premiums-keep-climbing" class="article-list-item">
+        <div class="article-number">1</div>
+        <div class="article-list-content">
+          <h2>Why Your Health Insurance Premiums Keep Climbing</h2>
+          <p>The structural reasons behind annual rate increases and why your broker may not be showing you the full picture.</p>
+          <div class="article-list-meta"><span>Beginner</span><span>5 min read</span></div>
+        </div>
+      </a>
+      <a href="/learn/business-case/fully-funded-alternatives" class="article-list-item">
+        <div class="article-number">2</div>
+        <div class="article-list-content">
+          <h2>What Are the Alternatives to Fully Funded Plans?</h2>
+          <p>An introduction to level-funded, partially self-funded, and PEO-based plan structures in plain language.</p>
+          <div class="article-list-meta"><span>Beginner</span><span>6 min read</span></div>
+        </div>
+      </a>
+      <a href="/learn/business-case/unused-premiums" class="article-list-item">
+        <div class="article-number">3</div>
+        <div class="article-list-content">
+          <h2>Where Do Your Unused Premiums Go?</h2>
+          <p>With fully funded plans, the carrier keeps everything. Other structures let that money flow back to your company.</p>
+          <div class="article-list-meta"><span>Beginner</span><span>4 min read</span></div>
+        </div>
+      </a>
+      <a href="/learn/business-case/claims-data" class="article-list-item">
+        <div class="article-number">4</div>
+        <div class="article-list-content">
+          <h2>Claims Data: What You Should Be Seeing (And Aren't)</h2>
+          <p>Most companies have zero visibility into their claims. Here's what transparent reporting looks like and why it matters.</p>
+          <div class="article-list-meta"><span>Intermediate</span><span>5 min read</span></div>
+        </div>
+      </a>
+      <a href="/learn/business-case/concierge-cost-connection" class="article-list-item">
+        <div class="article-number">5</div>
+        <div class="article-list-content">
+          <h2>How Better Employee Experience Lowers Costs</h2>
+          <p>Concierge support and proactive care guidance aren't just perks. They directly reduce claims costs.</p>
+          <div class="article-list-meta"><span>Intermediate</span><span>5 min read</span></div>
+        </div>
+      </a>
+      <a href="/learn/business-case/stop-loss-explained" class="article-list-item">
+        <div class="article-number">6</div>
+        <div class="article-list-content">
+          <h2>Stop-Loss Insurance: Your Safety Net Explained</h2>
+          <p>The protection that makes alternative plan structures financially safe. How it works and what to look for.</p>
+          <div class="article-list-meta"><span>Intermediate</span><span>6 min read</span></div>
+        </div>
+      </a>
+      <a href="/learn/business-case/roi-modeling" class="article-list-item">
+        <div class="article-number">7</div>
+        <div class="article-list-content">
+          <h2>How to Model the ROI of Switching Plan Structures</h2>
+          <p>A framework for comparing your current fully funded plan against alternative structures. Real numbers, real decisions.</p>
+          <div class="article-list-meta"><span>Advanced</span><span>7 min read</span></div>
+        </div>
+      </a>
+      <a href="/learn/business-case/making-the-switch" class="article-list-item">
+        <div class="article-number">8</div>
+        <div class="article-list-content">
+          <h2>Making the Switch: What the Process Looks Like</h2>
+          <p>Timeline, milestones, and what to expect when transitioning to a new plan structure. No surprises.</p>
+          <div class="article-list-meta"><span>Advanced</span><span>6 min read</span></div>
+        </div>
+      </a>
+      <!-- CMS: {{/each}} -->
+    </div>
+  </div>
+</section>
+
+<!-- COMPLETION CTA -->
+<section class="section track-cta" aria-labelledby="track-cta-heading">
+  <div class="track-cta-inner">
+    <h2 id="track-cta-heading">Ready to see the numbers for your company?</h2>
+    <p>You've read the case. Now let's look at what this means for your specific situation, your team, and your budget.</p>
+    <a href="/talk-to-us" class="btn-primary">Talk to Us</a>
+  </div>
+</section>
+
 </BaseLayout>
+
+<style>
+/* TRACK HERO */
+.track-hero{padding:40px var(--section-pad-x) 64px;max-width:var(--inner-max);margin:0 auto}
+.track-hero .eyebrow{font-size:12px;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;margin-bottom:16px}
+/* CMS: accent color per track */
+.track-hero--biz .eyebrow{color:var(--elm-600)}
+.track-hero--hr .eyebrow{color:var(--gold-700)}
+.track-hero h1{font-family:var(--font-display);font-size:clamp(36px,5vw,52px);font-weight:700;line-height:1.1;letter-spacing:-0.02em;margin-bottom:16px}
+.track-hero p{font-size:17px;line-height:1.7;color:var(--nero-500);max-width:640px;margin-bottom:24px}
+.track-stats{display:flex;gap:24px;font-size:14px;color:var(--nero-500)}
+.track-stats span{display:flex;align-items:center;gap:6px}
+.track-stats .dot{width:4px;height:4px;border-radius:50%;background:var(--nero-300)}
+
+/* ARTICLE LIST (Linen) */
+.article-list-section{background:var(--warm-linen)}
+.article-list{max-width:760px;counter-reset:article}
+.article-list-item{counter-increment:article;display:flex;gap:24px;padding:28px 0;border-bottom:1px solid var(--nero-200);text-decoration:none;color:inherit;transition:all var(--t-fast);align-items:flex-start}
+.article-list-item:first-child{border-top:1px solid var(--nero-200)}
+.article-list-item:hover{padding-left:8px}
+.article-number{flex-shrink:0;width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700;margin-top:4px}
+.track--biz .article-number{background:var(--elm-50);color:var(--elm-600)}
+.track--hr .article-number{background:var(--gold-100);color:var(--gold-700)}
+.article-list-content h2{font-family:var(--font-display);font-size:19px;font-weight:700;line-height:1.3;margin-bottom:6px}
+.article-list-content p{font-size:14px;line-height:1.6;color:var(--nero-600);margin-bottom:6px}
+.article-list-meta{font-size:12px;color:var(--nero-400);display:flex;gap:12px}
+
+/* COMPLETION CTA */
+.track-cta{background:var(--warm-cream);text-align:center}
+.track-cta-inner{max-width:560px;margin:0 auto}
+.track-cta h2{font-family:var(--font-display);font-size:clamp(24px,3vw,34px);font-weight:700;line-height:1.2;margin-bottom:12px}
+.track-cta p{font-size:16px;color:var(--nero-500);margin-bottom:32px;line-height:1.6}
+.btn-primary{display:inline-block;font-family:var(--font-body);font-size:16px;font-weight:600;background:var(--elm-500);color:#fff;border:2px solid transparent;border-radius:8px;padding:14px 32px;cursor:pointer;transition:all var(--t-fast);text-decoration:none}
+.btn-primary:hover{background:var(--elm-600);transform:translateY(-1px);box-shadow:0 4px 16px rgba(46,149,130,0.2)}
+
+/* FOOTER */
+.footer{background:var(--nero-900);color:var(--nero-400);border-top:1px solid var(--nero-800);padding:64px var(--section-pad-x) 32px;font-size:14px}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;max-width:var(--inner-max);margin:0 auto}
+.footer-brand{font-family:var(--font-display);font-size:18px;font-weight:700;color:var(--elm-400);margin-bottom:12px}
+.footer-tagline{font-style:italic;color:var(--nero-500);margin-bottom:12px;font-size:14px}.footer p{line-height:1.6;max-width:280px}
+.footer-col h4{font-size:11px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--nero-500);margin-bottom:16px}
+.footer-col a{display:block;color:var(--nero-400);text-decoration:none;margin-bottom:10px;transition:color var(--t-fast)}.footer-col a:hover{color:var(--elm-400)}
+.footer-bottom{max-width:var(--inner-max);margin:48px auto 0;padding-top:24px;border-top:1px solid var(--nero-800);font-size:12px;color:var(--nero-600);display:flex;gap:16px;flex-wrap:wrap}
+.footer-bottom a{color:var(--nero-500);text-decoration:none;transition:color var(--t-fast)}.footer-bottom a:hover{color:var(--elm-400)}
+
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:0.01ms!important;animation-iteration-count:1!important;transition-duration:0.01ms!important}html{scroll-behavior:auto}}
+@media(max-width:768px){
+  :root{--section-pad-y:80px;--section-pad-x:24px}
+  .nav{padding:0 24px;height:64px}.nav-links{display:none}.nav-cta:not(.nav-overlay .nav-cta){display:none}.nav-toggle{display:block}
+  .track-hero{padding:32px 24px 48px}
+  .track-stats{flex-wrap:wrap;gap:12px}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:32px}
+}
+@media(max-width:420px){:root{--section-pad-x:16px;--section-pad-y:64px}.footer-grid{grid-template-columns:1fr}}
+</style>
+
+

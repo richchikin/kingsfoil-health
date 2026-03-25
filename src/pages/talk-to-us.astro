@@ -1,15 +1,248 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
-// Production HTML source: kh-talk-to-us.html
-// Form action: replace "#" with Formspree endpoint or Cloudflare Worker URL
 ---
+
 <BaseLayout
   title="Talk to Us — Kingsfoil Health"
-  description="Start a conversation about your company's health benefits. No pressure, no jargon."
+  description="Start a conversation about your company\'s health benefits. No pressure, no jargon."
   canonicalPath="/talk-to-us"
 >
-  <!-- Copy sections from kh-talk-to-us.html (exclude nav/footer/html shell) -->
-  <section class="contact-hero" aria-labelledby="contact-heading">
-    <p style="text-align:center;padding:200px 48px;color:#807c79;">[Contact sections — copy from kh-talk-to-us.html]</p>
-  </section>
+
+<!-- CONTACT HERO + FORM -->
+<section class="contact-hero" aria-labelledby="contact-heading">
+  <div class="contact-layout">
+    <div class="contact-text">
+      <div class="eyebrow">Talk to Us</div>
+      <h1>Start a <em>conversation</em></h1>
+      <p>No sales pitch, no jargon. Tell us about your company and what matters most. We'll walk through your options together.</p>
+      <p>Most conversations take about 30 minutes. You'll leave with a clear picture of whether there's a better way to structure your benefits.</p>
+
+      <div class="expect-list">
+        <h2>What to expect</h2>
+        <div class="expect-item">
+          <div class="expect-number">1</div>
+          <p><strong>You tell us about your situation.</strong> Team size, current plan, what's working, what isn't. We listen first.</p>
+        </div>
+        <div class="expect-item">
+          <div class="expect-number">2</div>
+          <p><strong>We share what's possible.</strong> Based on your situation, we'll explain which plan structures might be a fit and why.</p>
+        </div>
+        <div class="expect-item">
+          <div class="expect-number">3</div>
+          <p><strong>You decide if you want to go further.</strong> If there's a match, we'll build a comparison. If not, you leave with more knowledge than you came in with.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-card">
+      <h2>Get in touch</h2>
+      <p>We'll reach out within one business day.</p>
+      <!-- FORM: Connect to form handler (Astro form action, Formspree, or HubSpot embed) -->
+      <form action="#" method="POST">
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="first-name">First name</label>
+            <input class="form-input" type="text" id="first-name" name="first_name" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="last-name">Last name</label>
+            <input class="form-input" type="text" id="last-name" name="last_name" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="email">Work email</label>
+            <input class="form-input" type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="company">Company name</label>
+            <input class="form-input" type="text" id="company" name="company">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="team-size">Team size</label>
+            <select class="form-select" id="team-size" name="team_size">
+              <option value="">Select</option>
+              <option value="2-10">2–10 employees</option>
+              <option value="11-50">11–50 employees</option>
+              <option value="51-100">51–100 employees</option>
+              <option value="101-250">101–250 employees</option>
+              <option value="250+">250+ employees</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="role">Your role</label>
+            <select class="form-select" id="role" name="role">
+              <option value="">Select</option>
+              <option value="ceo-founder">CEO / Founder</option>
+              <option value="cfo-finance">CFO / Finance</option>
+              <option value="hr">HR / People Ops</option>
+              <option value="operations">Operations</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group form-group--full">
+            <label class="form-label" for="message">Anything else we should know? <span style="font-weight:400;color:var(--nero-400)">(optional)</span></label>
+            <textarea class="form-textarea" id="message" name="message" rows="3"></textarea>
+          </div>
+        </div>
+        <button type="submit" class="form-submit">Start the Conversation</button>
+        <p class="form-privacy">We respect your privacy. No spam, ever. <a href="/privacy">Privacy Policy</a></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- SOCIAL PROOF BAR -->
+<section class="proof-bar" aria-label="Trust indicators">
+  <div class="proof-bar-inner">
+    <div class="proof-bar-item">
+      <div class="proof-bar-number">100%</div>
+      <div class="proof-bar-label">Commission transparency</div>
+    </div>
+    <div class="proof-bar-dot" aria-hidden="true"></div>
+    <div class="proof-bar-item">
+      <div class="proof-bar-number">Utah-based</div>
+      <div class="proof-bar-label">Serving local businesses</div>
+    </div>
+    <div class="proof-bar-dot" aria-hidden="true"></div>
+    <div class="proof-bar-item">
+      <div class="proof-bar-number">Zero</div>
+      <div class="proof-bar-label">Obligation to proceed</div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="section faq" aria-labelledby="faq-heading">
+  <div class="section-inner">
+    <div class="faq-header">
+      <h2 id="faq-heading">Before you reach out</h2>
+      <p>Quick answers to the questions we hear most often.</p>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">Is this a sales call?<span class="faq-icon" aria-hidden="true">+</span></button>
+        <div class="faq-answer"><div class="faq-answer-inner">No. It's a conversation. We'll ask about your current situation and explain what options exist for a company like yours. If there's a fit, we'll offer to build a detailed comparison. If not, you'll leave with useful information either way.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">How long does the conversation take?<span class="faq-icon" aria-hidden="true">+</span></button>
+        <div class="faq-answer"><div class="faq-answer-inner">Usually about 30 minutes. We'll cover your current plan, your priorities, and give you a high-level picture of what might be possible. You won't be asked to commit to anything.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">What should I have ready?<span class="faq-icon" aria-hidden="true">+</span></button>
+        <div class="faq-answer"><div class="faq-answer-inner">Nothing specific is required. If you have your current plan details or renewal date handy, that helps. But we can have a productive first conversation with just the basics: team size, general budget range, and what's frustrating you about your current setup.</div></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">Is my company too small for this?<span class="faq-icon" aria-hidden="true">+</span></button>
+        <div class="faq-answer"><div class="faq-answer-inner">Probably not. Some plan structures work for companies with as few as 10 employees, and PEO partnerships can make enterprise-level benefits accessible to even smaller teams. The conversation will help us figure out the best fit for your size.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
 </BaseLayout>
+
+<style>
+/* CONTACT HERO + FORM LAYOUT */
+.contact-hero{padding:72px var(--section-pad-x) 0;position:relative;overflow:hidden}
+.contact-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 50% 60% at 30% 80%, rgba(252,244,215,0.35) 0%, transparent 50%),radial-gradient(ellipse 40% 50% at 70% 70%, rgba(212,238,234,0.2) 0%, transparent 50%);pointer-events:none}
+.contact-layout{max-width:var(--inner-max);margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start;position:relative;z-index:1;padding-bottom:var(--section-pad-y)}
+.contact-text .eyebrow{color:var(--elm-600)}
+.contact-text h1{font-family:var(--font-display);font-size:clamp(36px,4.5vw,52px);font-weight:700;line-height:1.1;letter-spacing:-0.02em;margin-bottom:20px}
+.contact-text h1 em{font-style:italic;background:linear-gradient(135deg, var(--elm-600), var(--elm-500));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.contact-text>p{font-size:17px;line-height:1.7;color:var(--nero-500);margin-bottom:20px}
+
+/* What to expect */
+.expect-list{margin-top:40px}
+.expect-list h2{font-family:var(--font-display);font-size:22px;font-weight:700;margin-bottom:20px}
+.expect-item{display:flex;gap:16px;margin-bottom:20px;align-items:flex-start}
+.expect-number{flex-shrink:0;width:32px;height:32px;border-radius:8px;background:var(--elm-50);color:var(--elm-600);font-size:14px;font-weight:700;display:flex;align-items:center;justify-content:center;margin-top:2px}
+.expect-item p{font-size:15px;line-height:1.6;color:var(--nero-600)}
+.expect-item strong{color:var(--nero-800)}
+
+/* FORM CARD */
+.form-card{background:#fff;border-radius:20px;padding:44px 40px;box-shadow:0 8px 32px rgba(38,35,36,0.06);border:1px solid var(--nero-100)}
+.form-card h2{font-family:var(--font-display);font-size:24px;font-weight:700;margin-bottom:8px}
+.form-card>p{font-size:14px;color:var(--nero-500);margin-bottom:32px}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:16px}
+.form-group{display:flex;flex-direction:column;margin-bottom:0}
+.form-group--full{grid-column:1/-1}
+.form-label{font-size:13px;font-weight:600;color:var(--nero-700);margin-bottom:6px}
+.form-input,.form-select,.form-textarea{
+  font-family:var(--font-body);font-size:15px;color:var(--nero-800);
+  background:var(--nero-50);border:1px solid var(--nero-200);border-radius:10px;
+  padding:13px 16px;transition:all var(--t-fast);width:100%;
+}
+.form-input:focus,.form-select:focus,.form-textarea:focus{outline:none;border-color:var(--elm-400);box-shadow:0 0 0 3px rgba(46,149,130,0.12);background:#fff}
+.form-textarea{resize:vertical;min-height:100px}
+.form-select{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23807c79' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 16px center;padding-right:40px}
+.form-submit{
+  display:block;width:100%;font-family:var(--font-body);font-size:16px;font-weight:600;
+  background:var(--elm-500);color:#fff;border:none;border-radius:10px;
+  padding:16px 32px;cursor:pointer;transition:all var(--t-fast);margin-top:24px;
+}
+.form-submit:hover{background:var(--elm-600);transform:translateY(-1px);box-shadow:0 4px 16px rgba(46,149,130,0.2)}
+.form-privacy{font-size:12px;color:var(--nero-400);margin-top:16px;text-align:center;line-height:1.5}
+.form-privacy a{color:var(--elm-600);text-decoration:underline}
+
+/* SOCIAL PROOF BAR */
+.proof-bar{background:var(--elm-50);border-top:1px solid var(--elm-100);border-bottom:1px solid var(--elm-100);padding:64px var(--section-pad-x)}
+.proof-bar-inner{max-width:var(--inner-max);margin:0 auto;display:flex;justify-content:center;gap:64px;align-items:center}
+.proof-bar-item{text-align:center}
+.proof-bar-number{font-family:var(--font-display);font-size:32px;font-weight:700;color:var(--elm-700);line-height:1}
+.proof-bar-label{font-size:13px;color:var(--elm-800);margin-top:6px;opacity:0.7}
+.proof-bar-dot{width:1px;height:40px;background:var(--elm-200)}
+
+/* FAQ */
+.faq{background:var(--warm-linen)}
+.faq-header{text-align:center;max-width:560px;margin:0 auto 56px}
+.faq-header h2{font-family:var(--font-display);font-size:clamp(24px,3vw,34px);font-weight:700;line-height:1.2;margin-bottom:12px}
+.faq-header p{font-size:16px;color:var(--nero-500)}
+.faq-list{max-width:740px;margin:0 auto}
+.faq-item{border-bottom:1px solid var(--nero-200)}
+.faq-item:first-child{border-top:1px solid var(--nero-200)}
+.faq-question{width:100%;background:none;border:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;padding:24px 0;text-align:left;font-family:var(--font-body);font-size:16px;font-weight:600;color:var(--nero-800);line-height:1.4;transition:color var(--t-fast)}
+.faq-question:hover{color:var(--elm-600)}
+.faq-icon{flex-shrink:0;width:28px;height:28px;display:flex;align-items:center;justify-content:center;border-radius:50%;background:var(--nero-100);font-size:18px;color:var(--nero-500);transition:all var(--t-med) var(--ease-out);margin-left:16px}
+.faq-item.is-open .faq-icon{transform:rotate(45deg);background:var(--elm-50);color:var(--elm-600)}
+.faq-answer{max-height:0;overflow:hidden;transition:max-height 0.4s var(--ease-out)}
+.faq-answer-inner{padding:0 0 24px;font-size:15px;line-height:1.7;color:var(--nero-600)}
+.faq-item.is-open .faq-answer{max-height:300px}
+
+/* FOOTER */
+.footer{background:var(--nero-900);color:var(--nero-400);border-top:1px solid var(--nero-800);padding:64px var(--section-pad-x) 32px;font-size:14px}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;max-width:var(--inner-max);margin:0 auto}
+.footer-brand{font-family:var(--font-display);font-size:18px;font-weight:700;color:var(--elm-400);margin-bottom:12px}
+.footer-tagline{font-style:italic;color:var(--nero-500);margin-bottom:12px;font-size:14px}
+.footer p{line-height:1.6;max-width:280px}
+.footer-col h4{font-size:11px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--nero-500);margin-bottom:16px}
+.footer-col a{display:block;color:var(--nero-400);text-decoration:none;margin-bottom:10px;transition:color var(--t-fast)}
+.footer-col a:hover{color:var(--elm-400)}
+.footer-bottom{max-width:var(--inner-max);margin:48px auto 0;padding-top:24px;border-top:1px solid var(--nero-800);font-size:12px;color:var(--nero-600);display:flex;gap:16px;flex-wrap:wrap}
+.footer-bottom a{color:var(--nero-500);text-decoration:none;transition:color var(--t-fast)}
+.footer-bottom a:hover{color:var(--elm-400)}
+
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:0.01ms!important;animation-iteration-count:1!important;transition-duration:0.01ms!important}html{scroll-behavior:auto}}
+@media(max-width:1024px){:root{--section-pad-x:32px}.contact-layout{gap:48px}}
+@media(max-width:768px){
+  :root{--section-pad-y:80px;--section-pad-x:24px}
+  .nav{padding:0 24px;height:64px}.nav-links{display:none}.nav-cta:not(.nav-overlay .nav-cta){display:none}.nav-toggle{display:block}
+  .contact-hero{padding:48px 24px 0}
+  .contact-layout{grid-template-columns:1fr;gap:48px}
+  .form-row{grid-template-columns:1fr}
+  .proof-bar-inner{flex-direction:column;gap:24px}.proof-bar-dot{width:48px;height:1px}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:32px}
+}
+@media(max-width:420px){
+  :root{--section-pad-x:16px;--section-pad-y:64px}
+  .contact-hero{padding:40px 16px 0}
+  .form-card{padding:32px 24px}
+  .footer-grid{grid-template-columns:1fr}
+}
+</style>
+
+

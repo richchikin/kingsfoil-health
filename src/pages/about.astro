@@ -1,14 +1,205 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
-// Production HTML source: kh-about.html
 ---
+
 <BaseLayout
   title="About — Kingsfoil Health"
   description="Kingsfoil Health exists to restore dignity to American healthcare through compassion and modernization."
   canonicalPath="/about"
 >
-  <!-- Copy sections from kh-about.html (exclude nav/footer/html shell) -->
-  <section class="page-hero" aria-label="Page introduction">
-    <p style="text-align:center;padding:200px 48px;color:#807c79;">[About sections — copy from kh-about.html]</p>
-  </section>
+
+<!-- PAGE HERO -->
+<section class="page-hero" aria-label="Page introduction">
+  <div class="eyebrow">About Kingsfoil Health</div>
+  <h1>We believe healthcare <em>deserves better</em></h1>
+  <p class="page-hero-sub">Kingsfoil Health is a modern health insurance brokerage built to restore dignity to the way businesses and their people experience healthcare.</p>
+</section>
+
+<!-- STORY (Linen) -->
+<section class="section story" aria-labelledby="story-heading">
+  <div class="section-inner">
+    <div class="story-layout">
+      <div class="story-content">
+        <h2 id="story-heading">Why we started</h2>
+        <p>The health insurance industry is built around convenience for carriers and brokers, not for the businesses buying coverage. Most companies get shown the same fully funded plans year after year because that's the path of least resistance for everyone except the client.</p>
+        <p>We saw companies paying more every year with no visibility into why, no control over outcomes, and no one in their corner advocating for a better approach.</p>
+        <p>Kingsfoil Health was built to change that. We bring modern plan structures, proactive claims management, and a concierge employee experience to businesses that deserve better than the status quo. We're based in Utah, serving the companies and communities we're part of.</p>
+      </div>
+      <div class="story-visual" role="img" aria-label="Placeholder: team working together in natural light office">
+        <!-- PHOTO: Team in a bright, warm office. Natural light. Collaborative, authentic, no stock cliches. -->
+        [ Photography: team working together, warm natural light ]
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- MISSION / VISION (Cream) -->
+<section class="section mission" aria-labelledby="mission-heading">
+  <div class="section-inner">
+    <div class="mission-grid">
+      <div class="mission-card">
+        <div class="eyebrow" style="color:var(--elm-600)">Our mission</div>
+        <h2 id="mission-heading">Restore dignity to American healthcare through compassion and modernization</h2>
+        <p>We can't fix the healthcare system from the top down. But we can help businesses and their people navigate it smarter, get a better experience, and build something more financially sustainable. One company at a time.</p>
+      </div>
+      <div class="mission-card">
+        <div class="eyebrow" style="color:var(--gold-700)">Our vision</div>
+        <h2>Become the most trusted brand in the health ecosystem</h2>
+        <p>Through enduring advocacy for care recipients, solving one problem at a time. Trust isn't claimed. It's earned through consistently showing up with clarity, transparency, and care.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- H.E.A.R.T. VALUES (Brand dark) -->
+<section class="section trust" aria-labelledby="trust-heading">
+  <div class="section-inner trust-inner">
+    <div class="trust-layout">
+      <div class="trust-header">
+        <h2 id="trust-heading">We serve with H.E.A.R.T.</h2>
+        <p>Five values that change how we actually operate, not just what we put on a wall.</p>
+      </div>
+      <div class="values-grid">
+        <div class="value-card">
+          <div class="value-card-top"><div class="value-letter" aria-hidden="true">H</div><div class="value-name">Honor</div></div>
+          <div class="value-action"><strong>We disclose our commissions upfront.</strong> Every dollar, every incentive, in writing, before you sign anything. The Consolidated Appropriations Act requires it. We'd do it anyway.</div>
+        </div>
+        <div class="value-card">
+          <div class="value-card-top"><div class="value-letter" aria-hidden="true">E</div><div class="value-name">Excellence</div></div>
+          <div class="value-action"><strong>We use concierge tools, not call centers.</strong> Your employees get real human guidance navigating care. Not a phone tree. Not a chatbot. A person who knows their name.</div>
+        </div>
+        <div class="value-card">
+          <div class="value-card-top"><div class="value-letter" aria-hidden="true">A</div><div class="value-name">Accountability</div></div>
+          <div class="value-action"><strong>We share your claims data with you.</strong> Year-over-year performance tracking, transparent reporting, and honest assessments of what's working and what isn't. No black boxes.</div>
+        </div>
+        <div class="value-card">
+          <div class="value-card-top"><div class="value-letter" aria-hidden="true">R</div><div class="value-name">Respect</div></div>
+          <div class="value-action"><strong>We treat your benefits budget like our own money.</strong> Every recommendation starts with what's right for your company and your people. We'll tell you if staying on your current plan is the best option.</div>
+        </div>
+        <div class="value-card value-card--wide">
+          <div class="value-card-top"><div class="value-letter" aria-hidden="true">T</div><div class="value-name">Trust</div></div>
+          <div class="value-action"><strong>We're a year-round partner, not a once-a-year salesperson.</strong> Proactive check-ins, claims monitoring, and renewal strategy that starts months before your renewal date. You'll never wonder if we're paying attention.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PARTNERS PREVIEW (White) -->
+<section class="section partners-preview" aria-labelledby="partners-heading">
+  <div class="section-inner">
+    <div class="partners-header">
+      <h2 id="partners-heading">Built with the right partners</h2>
+      <p>We partner with industry-leading providers to deliver modern benefits infrastructure. The outcomes matter more than the names, but here's who we work with.</p>
+    </div>
+    <div class="partners-logos">
+      <!-- Replace with actual partner logos -->
+      <div class="partner-logo">[ HealthEZ ]</div>
+      <div class="partner-logo">[ Thatch ]</div>
+      <div class="partner-logo">[ 401Go ]</div>
+      <div class="partner-logo">[ Ampian ]</div>
+      <div class="partner-logo">[ Healthee ]</div>
+      <div class="partner-logo">[ Outsail ]</div>
+    </div>
+    <div class="partners-cta">
+      <a href="/partners">See all partners <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- BOTTOM CTA -->
+<section class="bottom-cta" aria-labelledby="cta-heading">
+  <h2 id="cta-heading">Let's talk about what's possible</h2>
+  <p>A 30-minute conversation. No jargon, no pressure. Just a clear look at your options.</p>
+  <a href="/talk-to-us" class="btn-primary">Talk to Us</a>
+</section>
+
 </BaseLayout>
+
+<style>
+/* PAGE HERO */
+.page-hero{padding:72px var(--section-pad-x) 64px;text-align:center;position:relative;overflow:hidden}
+.page-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 50% 60% at 30% 80%, rgba(252,244,215,0.35) 0%, transparent 50%),radial-gradient(ellipse 40% 50% at 70% 70%, rgba(212,238,234,0.2) 0%, transparent 50%);pointer-events:none}
+.page-hero .eyebrow{color:var(--elm-600);position:relative;z-index:1}
+.page-hero h1{font-family:var(--font-display);font-size:clamp(36px,5vw,60px);font-weight:700;line-height:1.08;letter-spacing:-0.03em;max-width:720px;margin:0 auto 20px;position:relative;z-index:1}
+.page-hero h1 em{font-style:italic;background:linear-gradient(135deg, var(--elm-600), var(--elm-500));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+.page-hero-sub{font-size:clamp(16px,1.6vw,19px);line-height:1.65;color:var(--nero-500);max-width:560px;margin:0 auto;position:relative;z-index:1}
+
+/* STORY SECTION (Linen) */
+.story{background:var(--warm-linen)}
+.story-layout{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
+.story-content h2{font-family:var(--font-display);font-size:clamp(28px,3.5vw,38px);font-weight:700;line-height:1.15;letter-spacing:-0.02em;margin-bottom:24px}
+.story-content p{font-size:17px;line-height:1.7;color:var(--nero-600);margin-bottom:20px}
+.story-content p:last-of-type{margin-bottom:0}
+.story-visual{border-radius:20px;height:400px;overflow:hidden;display:flex;align-items:center;justify-content:center;color:var(--nero-400);font-size:13px;text-align:center;padding:20px;box-shadow:0 16px 48px rgba(38,35,36,0.06);background:linear-gradient(160deg, var(--elm-50) 0%, var(--gold-50) 100%)}
+
+/* MISSION / VISION (Cream) */
+.mission{background:var(--warm-cream)}
+.mission-grid{display:grid;grid-template-columns:1fr 1fr;gap:32px}
+.mission-card{background:#fff;border-radius:18px;padding:48px 40px;border:1px solid var(--nero-100);box-shadow:0 2px 8px rgba(38,35,36,0.04)}
+.mission-card .eyebrow{margin-bottom:12px}
+.mission-card h2{font-family:var(--font-display);font-size:clamp(22px,2.5vw,28px);font-weight:700;line-height:1.2;margin-bottom:16px}
+.mission-card p{font-size:16px;line-height:1.7;color:var(--nero-600)}
+
+/* H.E.A.R.T. VALUES (Brand dark) */
+.trust{background:linear-gradient(135deg, var(--elm-700) 0%, var(--elm-600) 100%);color:#fff;position:relative;overflow:hidden}
+.trust::before{content:'';position:absolute;top:-20%;right:-10%;width:500px;height:500px;border-radius:50%;background:radial-gradient(ellipse, rgba(225,196,94,0.08) 0%, transparent 60%);pointer-events:none}
+.trust-inner{position:relative;z-index:1}
+.trust-layout{max-width:960px;margin:0 auto}
+.trust-header{max-width:700px;margin:0 auto 56px;text-align:center}
+.trust-header h2{font-family:var(--font-display);font-size:clamp(28px,3.5vw,40px);font-weight:700;line-height:1.15;margin-bottom:12px}
+.trust-header p{font-size:16px;color:var(--elm-100);line-height:1.65}
+.values-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:960px;margin:0 auto}
+.value-card{background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.08);border-radius:14px;padding:28px 28px 24px;transition:all 200ms}
+.value-card:hover{background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0.14)}
+.value-card-top{display:flex;align-items:center;gap:14px;margin-bottom:12px}
+.value-letter{font-family:var(--font-display);font-size:28px;font-weight:700;color:var(--gold-400);line-height:1}
+.value-name{font-size:16px;font-weight:700;color:#fff}
+.value-action{font-size:14px;color:var(--elm-100);line-height:1.6}
+.value-action strong{color:#fff;font-weight:600}
+.value-card--wide{grid-column:1/-1}
+
+/* PARTNERS PREVIEW (White) */
+.partners-preview{background:#fff;border-top:1px solid rgba(204,201,199,0.2)}
+.partners-header{text-align:center;max-width:560px;margin:0 auto 56px}
+.partners-header h2{font-family:var(--font-display);font-size:clamp(24px,3vw,34px);font-weight:700;line-height:1.2;margin-bottom:12px}
+.partners-header p{font-size:16px;color:var(--nero-500);line-height:1.65}
+.partners-logos{display:flex;flex-wrap:wrap;justify-content:center;gap:32px;margin-bottom:40px}
+.partner-logo{width:140px;height:60px;border-radius:12px;background:var(--nero-50);border:1px solid var(--nero-100);display:flex;align-items:center;justify-content:center;font-size:11px;color:var(--nero-400);text-align:center;padding:8px}
+.partners-cta{text-align:center}
+.partners-cta a{font-size:15px;font-weight:600;color:var(--sapphire-500);text-decoration:none;display:inline-flex;align-items:center;gap:6px;transition:gap var(--t-fast)}
+.partners-cta a:hover{gap:10px}
+
+/* BOTTOM CTA */
+.bottom-cta{background:var(--nero-900);color:#fff;text-align:center;padding:var(--section-pad-y) var(--section-pad-x);position:relative;overflow:hidden}
+.bottom-cta::before{content:'';position:absolute;bottom:-20%;left:50%;transform:translateX(-50%);width:700px;height:400px;border-radius:50%;background:radial-gradient(ellipse, rgba(225,196,94,0.1) 0%, transparent 60%);pointer-events:none}
+.bottom-cta::after{content:'';position:absolute;top:-10%;left:30%;width:400px;height:300px;border-radius:50%;background:radial-gradient(ellipse, rgba(46,149,130,0.06) 0%, transparent 60%);pointer-events:none}
+.bottom-cta h2{font-family:var(--font-display);font-size:clamp(32px,4vw,48px);font-weight:700;line-height:1.1;letter-spacing:-0.02em;max-width:640px;margin:0 auto 16px;position:relative}
+.bottom-cta p{font-size:17px;color:var(--nero-400);margin-bottom:40px;max-width:480px;margin-left:auto;margin-right:auto;position:relative;line-height:1.6}
+.bottom-cta .btn-primary{font-size:17px;padding:16px 36px;position:relative}
+
+/* FOOTER */
+.footer{background:var(--nero-900);color:var(--nero-400);border-top:1px solid var(--nero-800);padding:64px var(--section-pad-x) 32px;font-size:14px}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px;max-width:var(--inner-max);margin:0 auto}
+.footer-brand{font-family:var(--font-display);font-size:18px;font-weight:700;color:var(--elm-400);margin-bottom:12px}
+.footer-tagline{font-style:italic;color:var(--nero-500);margin-bottom:12px;font-size:14px}
+.footer p{line-height:1.6;max-width:280px}
+.footer-col h4{font-size:11px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;color:var(--nero-500);margin-bottom:16px}
+.footer-col a{display:block;color:var(--nero-400);text-decoration:none;margin-bottom:10px;transition:color var(--t-fast)}.footer-col a:hover{color:var(--elm-400)}
+.footer-bottom{max-width:var(--inner-max);margin:48px auto 0;padding-top:24px;border-top:1px solid var(--nero-800);font-size:12px;color:var(--nero-600);display:flex;gap:16px;flex-wrap:wrap}
+.footer-bottom a{color:var(--nero-500);text-decoration:none;transition:color var(--t-fast)}.footer-bottom a:hover{color:var(--elm-400)}
+
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:0.01ms!important;animation-iteration-count:1!important;transition-duration:0.01ms!important}html{scroll-behavior:auto}}
+@media(max-width:768px){
+  :root{--section-pad-y:80px;--section-pad-x:24px}
+  .nav{padding:0 24px;height:64px}.nav-links{display:none}.nav-cta:not(.nav-overlay .nav-cta){display:none}.nav-toggle{display:block}
+  .page-hero{padding:48px 24px 56px}
+  .story-layout{grid-template-columns:1fr}.story-visual{height:240px}
+  .mission-grid{grid-template-columns:1fr}
+  .values-grid{grid-template-columns:1fr}.value-card--wide{grid-column:auto}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:32px}
+}
+@media(max-width:420px){:root{--section-pad-x:16px;--section-pad-y:64px}.page-hero{padding:40px 16px 48px}.mission-card{padding:32px 24px}.footer-grid{grid-template-columns:1fr}}
+</style>
+
+

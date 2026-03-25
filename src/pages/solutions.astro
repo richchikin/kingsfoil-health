@@ -1,14 +1,659 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
-// Production HTML source: kh-solutions.html
 ---
+
 <BaseLayout
   title="Our Approach — Kingsfoil Health"
   description="Kingsfoil Health helps businesses take control of their health benefits through proactive claims management, concierge employee support, and plan structures that put unused premiums back in your hands."
   canonicalPath="/solutions"
 >
-  <!-- Copy sections from kh-solutions.html (exclude nav/footer/html shell) -->
-  <section class="page-hero" aria-label="Page introduction">
-    <p style="text-align:center;padding:200px 48px;color:#807c79;">[Solutions sections — copy from kh-solutions.html]</p>
-  </section>
+
+<!-- PAGE HERO -->
+<section class="page-hero" aria-label="Page introduction">
+  <div class="eyebrow">Our Approach</div>
+  <h1>Benefits that actually <em>work for you</em></h1>
+  <p class="page-hero-sub">We help companies take control of their health insurance through smarter plan structures, proactive claims management, and a concierge experience your employees will notice.</p>
+</section>
+
+<!-- HOW IT WORKS (Linen) -->
+<section class="section how-it-works" aria-labelledby="how-heading">
+  <div class="section-inner">
+    <div class="how-header">
+      <h2 id="how-heading">How it works</h2>
+      <p>Three steps to a benefits program that saves your company money and gives your people a better experience.</p>
+    </div>
+    <div class="how-steps">
+      <div class="how-step">
+        <div class="how-step-number">1</div>
+        <h3>We learn your situation</h3>
+        <p>A 30-minute conversation about your current plan, your workforce, and what matters most. No forms, no pressure. We listen first.</p>
+      </div>
+      <div class="how-step">
+        <div class="how-step-number">2</div>
+        <h3>We build your options</h3>
+        <p>We shop across plan structures, carriers, and PEO partnerships to find the right fit. Not just the familiar one. You'll see a side-by-side comparison with projected costs and employee impact.</p>
+      </div>
+      <div class="how-step">
+        <div class="how-step-number">3</div>
+        <h3>We manage it year-round</h3>
+        <p>Implementation, onboarding, claims monitoring, and renewal strategy. We're a continuous partner, not an annual salesperson. Your plan gets better over time, not more expensive.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- THREE PILLARS (Cream, alternating layout) -->
+<section class="section pillars" aria-labelledby="pillars-heading">
+  <div class="section-inner">
+    <div class="pillars-header">
+      <h2 id="pillars-heading">What makes this different</h2>
+      <p>Three capabilities that work together: financial control for your company, a better experience for your employees, and active management that keeps the whole system performing.</p>
+    </div>
+
+    <!-- Pillar 1: Financial Control -->
+    <div class="pillar-row">
+      <div class="pillar-content">
+        <div class="eyebrow" style="color:var(--elm-600)">Financial control</div>
+        <h3>See where your money goes. Get unused premiums back.</h3>
+        <p>With traditional fully funded plans, the insurance carrier keeps everything, whether your team uses it or not. With the right plan structure, unused premium dollars can flow back to your company.</p>
+        <p>That changes the economics of your second-largest line item.</p>
+        <div class="pillar-highlights">
+          <div class="pillar-highlight">
+            <div class="pillar-highlight-icon pillar-highlight-icon--elm" aria-hidden="true">✓</div>
+            <span>Transparent claims data so you see exactly where dollars are spent</span>
+          </div>
+          <div class="pillar-highlight">
+            <div class="pillar-highlight-icon pillar-highlight-icon--elm" aria-hidden="true">✓</div>
+            <span>Potential return of unused premium funds at year-end</span>
+          </div>
+          <div class="pillar-highlight">
+            <div class="pillar-highlight-icon pillar-highlight-icon--elm" aria-hidden="true">✓</div>
+            <span>Renewal strategy built on your actual data, not carrier averages</span>
+          </div>
+        </div>
+      </div>
+      <div class="pillar-visual pillar-visual--elm" role="img" aria-label="Placeholder: dashboard showing benefits cost breakdown">
+        <!-- PHOTO: Clean dashboard or report view showing cost transparency. Warm light, modern office setting. -->
+        [ Visual: cost transparency dashboard or report ]
+      </div>
+    </div>
+
+    <!-- Pillar 2: Concierge Experience -->
+    <div class="pillar-row pillar-row--reverse">
+      <div class="pillar-content">
+        <div class="eyebrow" style="color:var(--sapphire-600)">Concierge experience</div>
+        <h3>Real human help for your employees, not a phone tree</h3>
+        <p>When your people have a health question, they shouldn't have to navigate an automated system. Our concierge approach gives them a real person who helps them find the right care, understand their coverage, and resolve issues quickly.</p>
+        <p>Better guidance means better care decisions. Better care decisions mean better outcomes for your employees and smarter claims for your plan.</p>
+        <div class="pillar-highlights">
+          <div class="pillar-highlight">
+            <div class="pillar-highlight-icon pillar-highlight-icon--sapphire" aria-hidden="true">✓</div>
+            <span>Dedicated support that knows your plan and your people by name</span>
+          </div>
+          <div class="pillar-highlight">
+            <div class="pillar-highlight-icon pillar-highlight-icon--sapphire" aria-hidden="true">✓</div>
+            <span>Help finding high-quality, cost-effective providers</span>
+          </div>
+          <div class="pillar-highlight">
+            <div class="pillar-highlight-icon pillar-highlight-icon--sapphire" aria-hidden="true">✓</div>
+            <span>Claims questions resolved without the runaround</span>
+          </div>
+        </div>
+      </div>
+      <div class="pillar-visual pillar-visual--sapphire" role="img" aria-label="Placeholder: employee receiving friendly support">
+        <!-- PHOTO: Warm, personal interaction. Someone receiving helpful guidance. Not a call center. -->
+        [ Visual: personal support interaction ]
+      </div>
+    </div>
+
+    <!-- Pillar 3: Proactive Management -->
+    <div class="pillar-row">
+      <div class="pillar-content">
+        <div class="eyebrow" style="color:var(--gold-700)">Proactive management</div>
+        <h3>Your plan gets better over time, not just more expensive</h3>
+        <p>Most brokers check in once a year when it's time to renew. By then, it's too late to influence the outcome. We monitor your plan continuously, catch problems early, and build renewal strategy months in advance.</p>
+        <p>The result: a benefits program that improves year over year instead of just costing more.</p>
+        <div class="pillar-highlights">
+          <div class="pillar-highlight">
+            <div class="pillar-highlight-icon pillar-highlight-icon--gold" aria-hidden="true">✓</div>
+            <span>Ongoing claims monitoring and trend analysis</span>
+          </div>
+          <div class="pillar-highlight">
+            <div class="pillar-highlight-icon pillar-highlight-icon--gold" aria-hidden="true">✓</div>
+            <span>Proactive check-ins, not reactive firefighting</span>
+          </div>
+          <div class="pillar-highlight">
+            <div class="pillar-highlight-icon pillar-highlight-icon--gold" aria-hidden="true">✓</div>
+            <span>Renewal preparation that starts months before your renewal date</span>
+          </div>
+        </div>
+      </div>
+      <div class="pillar-visual pillar-visual--gold" role="img" aria-label="Placeholder: year-over-year performance chart">
+        <!-- PHOTO: Performance trending upward. Clean data visualization feel. Warm natural light. -->
+        [ Visual: performance improvement over time ]
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PLAN STRUCTURES — The Toolkit (Elm-50) -->
+<section class="section toolkit" aria-labelledby="toolkit-heading">
+  <div class="section-inner">
+    <div class="toolkit-header">
+      <h2 id="toolkit-heading">The tools we use to get you there</h2>
+      <p>We aren't locked into one plan type. We shop across structures to find the best fit for your company, your budget, and your people.</p>
+    </div>
+    <div class="toolkit-grid">
+      <div class="toolkit-card">
+        <h3>Level-funded plans</h3>
+        <p>A fixed monthly cost with the potential to receive a return of unused claims dollars. Combines the predictability of fully funded coverage with the financial upside of self-funding.</p>
+      </div>
+      <div class="toolkit-card">
+        <h3>Partially self-funded plans</h3>
+        <p>Your company shares in the claims risk (with stop-loss protection) and gains direct access to claims data, cost transparency, and the ability to influence plan performance.</p>
+      </div>
+      <div class="toolkit-card">
+        <h3>PEO partnerships</h3>
+        <p>Access large-group benefits pricing through a Professional Employer Organization. Often the best option for small teams that want enterprise-level coverage without enterprise-level headcount.</p>
+      </div>
+    </div>
+    <p class="toolkit-note">We evaluate every option for your situation. The right structure depends on your team size, risk tolerance, and goals. That's what the conversation is for.</p>
+  </div>
+</section>
+
+<!-- COMPARISON TABLE (White) -->
+<section class="section comparison" aria-labelledby="comparison-heading">
+  <div class="section-inner">
+    <div class="comparison-header">
+      <h2 id="comparison-heading">Traditional broker vs. Kingsfoil Health</h2>
+      <p>The difference isn't just what we offer. It's how we operate.</p>
+    </div>
+    <div class="comparison-table" role="table" aria-label="Comparison between traditional brokers and Kingsfoil Health">
+      <div class="comparison-row comparison-row--header" role="row">
+        <div class="comparison-cell" role="columnheader">&nbsp;</div>
+        <div class="comparison-cell" role="columnheader">Traditional Broker</div>
+        <div class="comparison-cell" role="columnheader">Kingsfoil Health</div>
+      </div>
+      <div class="comparison-row" role="row">
+        <div class="comparison-cell" role="rowheader">Plan options shown</div>
+        <div class="comparison-cell" role="cell">Fully funded only (usually)</div>
+        <div class="comparison-cell" role="cell">All structures evaluated</div>
+      </div>
+      <div class="comparison-row" role="row">
+        <div class="comparison-cell" role="rowheader">Claims visibility</div>
+        <div class="comparison-cell" role="cell">Carrier keeps the data</div>
+        <div class="comparison-cell" role="cell">Transparent reporting, shared with you</div>
+      </div>
+      <div class="comparison-row" role="row">
+        <div class="comparison-cell" role="rowheader">Unused premiums</div>
+        <div class="comparison-cell" role="cell">Carrier retains them</div>
+        <div class="comparison-cell" role="cell">Potential return to your company</div>
+      </div>
+      <div class="comparison-row" role="row">
+        <div class="comparison-cell" role="rowheader">Employee support</div>
+        <div class="comparison-cell" role="cell">Carrier call center</div>
+        <div class="comparison-cell" role="cell">Concierge guidance, real people</div>
+      </div>
+      <div class="comparison-row" role="row">
+        <div class="comparison-cell" role="rowheader">Commission transparency</div>
+        <div class="comparison-cell" role="cell">Disclosed if asked</div>
+        <div class="comparison-cell" role="cell">Disclosed upfront, every time</div>
+      </div>
+      <div class="comparison-row" role="row">
+        <div class="comparison-cell" role="rowheader">Engagement model</div>
+        <div class="comparison-cell" role="cell">Annual renewal contact</div>
+        <div class="comparison-cell" role="cell">Year-round active partnership</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ (Linen) -->
+<section class="section faq" aria-labelledby="faq-heading">
+  <div class="section-inner">
+    <div class="faq-header">
+      <h2 id="faq-heading">Common questions</h2>
+      <p>If you don't see your question here, that's what the conversation is for.</p>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Is this only for large companies?
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">No. We work primarily with startups and small-to-mid-sized businesses in Utah. Some of these plan structures are available to companies with as few as 10 employees. PEO partnerships can make enterprise-level benefits accessible to even smaller teams.</div>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Will my employees notice a difference?
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">Yes, and that's the point. The concierge experience means your employees get real human support instead of automated phone trees. They'll have someone who helps them find the right providers, understand their coverage, and resolve issues quickly. Most employees report it as a significant upgrade.</div>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          How is this different from just switching carriers?
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">Switching carriers doesn't change the underlying structure. You're still on a fully funded plan where the carrier controls the data, keeps unused premiums, and has limited incentive to manage costs aggressively. We change the structure itself, which changes who benefits from better performance.</div>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          What if our current plan turns out to be the best option?
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">We'll tell you. Our recommendation is always based on what's right for your company. If your current plan is the best fit, we'll say so and explain why. That honesty is part of how we operate.</div>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          How much does it cost to work with Kingsfoil Health?
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer">
+          <div class="faq-answer-inner">We earn a commission from the plans we place, just like every broker. The difference is we disclose that commission to you upfront, in writing, before you sign anything. There's no fee to have a conversation with us, and no obligation. We're transparent about how we get paid because we believe you should know.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BOTTOM CTA (Dark) -->
+<section class="bottom-cta" aria-labelledby="cta-heading">
+  <h2 id="cta-heading">See what your benefits could look like</h2>
+  <p>A 30-minute conversation. No jargon, no pressure. Just a clear look at your options.</p>
+  <a href="/talk-to-us" class="btn-primary">Talk to Us</a>
+</section>
+
 </BaseLayout>
+
+<style>
+/* ========================================
+   PAGE HERO (Compact, text-only)
+   ======================================== */
+.page-hero{
+  padding:72px var(--section-pad-x) 64px;
+  text-align:center;position:relative;overflow:hidden;
+}
+.page-hero::before{
+  content:'';position:absolute;inset:0;
+  background:
+    radial-gradient(ellipse 50% 60% at 30% 80%, rgba(252,244,215,0.35) 0%, transparent 50%),
+    radial-gradient(ellipse 40% 50% at 70% 70%, rgba(212,238,234,0.2) 0%, transparent 50%);
+  pointer-events:none;
+}
+.page-hero .eyebrow{color:var(--elm-600);position:relative;z-index:1}
+.page-hero h1{
+  font-family:var(--font-display);font-size:clamp(36px,5vw,60px);
+  font-weight:700;line-height:1.08;letter-spacing:-0.03em;
+  max-width:720px;margin:0 auto 20px;position:relative;z-index:1;
+}
+.page-hero h1 em{
+  font-style:italic;
+  background:linear-gradient(135deg, var(--elm-600), var(--elm-500));
+  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+}
+.page-hero-sub{
+  font-size:clamp(16px,1.6vw,19px);line-height:1.65;color:var(--nero-500);
+  max-width:560px;margin:0 auto;position:relative;z-index:1;
+}
+
+/* ========================================
+   HOW IT WORKS (Linen)
+   ======================================== */
+.how-it-works{background:var(--warm-linen)}
+.how-header{text-align:center;max-width:620px;margin:0 auto 64px}
+.how-header h2{
+  font-family:var(--font-display);font-size:clamp(28px,3.5vw,40px);
+  font-weight:700;line-height:1.15;letter-spacing:-0.02em;margin-bottom:14px;
+}
+.how-header p{font-size:17px;line-height:1.7;color:var(--nero-500)}
+
+.how-steps{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:32px;
+  counter-reset:step;
+}
+.how-step{
+  position:relative;padding:40px 32px 36px;
+  background:#fff;border-radius:16px;
+  border:1px solid var(--nero-100);
+  box-shadow:0 1px 3px rgba(38,35,36,0.04);
+  transition:all var(--t-med);
+  counter-increment:step;
+}
+.how-step:hover{
+  transform:translateY(-3px);
+  box-shadow:0 8px 28px rgba(38,35,36,0.07);
+  border-color:var(--elm-200);
+}
+.how-step-number{
+  display:flex;align-items:center;justify-content:center;
+  width:40px;height:40px;border-radius:12px;
+  background:var(--elm-50);color:var(--elm-600);
+  font-size:16px;font-weight:700;margin-bottom:20px;
+}
+.how-step h3{
+  font-family:var(--font-display);font-size:20px;font-weight:700;
+  line-height:1.3;margin-bottom:10px;
+}
+.how-step p{font-size:15px;line-height:1.65;color:var(--nero-600)}
+
+/* Connecting line between steps (desktop only) */
+.how-step::after{
+  content:'';position:absolute;top:60px;right:-16px;
+  width:32px;height:2px;
+  background:linear-gradient(90deg, var(--elm-200), transparent);
+  pointer-events:none;
+}
+.how-step:last-child::after{display:none}
+
+/* ========================================
+   THREE PILLARS (Cream, expanded)
+   ======================================== */
+.pillars{background:var(--warm-cream)}
+.pillars-header{text-align:center;max-width:620px;margin:0 auto 64px}
+.pillars-header h2{
+  font-family:var(--font-display);font-size:clamp(28px,3.5vw,40px);
+  font-weight:700;line-height:1.15;letter-spacing:-0.02em;margin-bottom:14px;
+}
+.pillars-header p{font-size:17px;line-height:1.7;color:var(--nero-500)}
+
+.pillar-row{
+  display:grid;grid-template-columns:1fr 1fr;gap:64px;
+  align-items:center;margin-bottom:80px;
+}
+.pillar-row:last-child{margin-bottom:0}
+.pillar-row--reverse .pillar-visual{order:-1}
+
+.pillar-content .eyebrow{margin-bottom:12px}
+.pillar-content h3{
+  font-family:var(--font-display);font-size:clamp(24px,3vw,32px);
+  font-weight:700;line-height:1.2;letter-spacing:-0.01em;margin-bottom:16px;
+}
+.pillar-content p{font-size:16px;line-height:1.7;color:var(--nero-600);margin-bottom:16px}
+.pillar-content p:last-of-type{margin-bottom:0}
+
+.pillar-highlights{
+  display:flex;flex-direction:column;gap:12px;margin-top:24px;
+}
+.pillar-highlight{
+  display:flex;align-items:flex-start;gap:12px;
+  font-size:15px;line-height:1.55;color:var(--nero-700);
+}
+.pillar-highlight-icon{
+  flex-shrink:0;width:24px;height:24px;border-radius:6px;
+  display:flex;align-items:center;justify-content:center;
+  font-size:14px;margin-top:2px;
+}
+.pillar-highlight-icon--elm{background:var(--elm-50);color:var(--elm-600)}
+.pillar-highlight-icon--sapphire{background:var(--sapphire-50);color:var(--sapphire-600)}
+.pillar-highlight-icon--gold{background:var(--gold-100);color:var(--gold-700)}
+
+.pillar-visual{
+  border-radius:20px;height:360px;position:relative;overflow:hidden;
+  display:flex;align-items:center;justify-content:center;
+  color:var(--nero-400);font-size:13px;text-align:center;padding:20px;
+  box-shadow:0 16px 48px rgba(38,35,36,0.06);
+}
+.pillar-visual--elm{background:linear-gradient(160deg, var(--elm-50) 0%, var(--gold-50) 100%)}
+.pillar-visual--sapphire{background:linear-gradient(160deg, var(--sapphire-50) 0%, var(--elm-50) 100%)}
+.pillar-visual--gold{background:linear-gradient(160deg, var(--gold-50) 0%, var(--warm-linen) 100%)}
+
+/* ========================================
+   PLAN STRUCTURES — The Toolkit (Elm-50 tinted)
+   ======================================== */
+.toolkit{
+  background:var(--elm-50);
+  border-top:1px solid var(--elm-100);
+  border-bottom:1px solid var(--elm-100);
+}
+.toolkit-header{text-align:center;max-width:620px;margin:0 auto 48px}
+.toolkit-header h2{
+  font-family:var(--font-display);font-size:clamp(24px,3vw,34px);
+  font-weight:700;line-height:1.2;letter-spacing:-0.02em;margin-bottom:12px;
+}
+.toolkit-header p{font-size:16px;line-height:1.65;color:var(--nero-500)}
+
+.toolkit-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:960px;margin:0 auto}
+.toolkit-card{
+  background:#fff;border-radius:14px;padding:32px 28px;
+  border:1px solid var(--elm-100);
+  transition:all var(--t-med);
+}
+.toolkit-card:hover{
+  box-shadow:0 8px 24px rgba(38,35,36,0.06);
+  border-color:var(--elm-200);
+}
+.toolkit-card h3{
+  font-family:var(--font-display);font-size:18px;font-weight:700;
+  line-height:1.3;margin-bottom:10px;
+}
+.toolkit-card p{font-size:14px;line-height:1.6;color:var(--nero-600)}
+.toolkit-note{
+  text-align:center;font-size:14px;color:var(--nero-500);
+  max-width:520px;margin:32px auto 0;line-height:1.6;
+}
+
+/* ========================================
+   COMPARISON TABLE (White)
+   ======================================== */
+.comparison{background:#fff;border-top:1px solid rgba(204,201,199,0.2)}
+.comparison-header{text-align:center;max-width:620px;margin:0 auto 56px}
+.comparison-header h2{
+  font-family:var(--font-display);font-size:clamp(28px,3.5vw,38px);
+  font-weight:700;line-height:1.15;letter-spacing:-0.02em;margin-bottom:12px;
+}
+.comparison-header p{font-size:16px;line-height:1.65;color:var(--nero-500)}
+
+.comparison-table{
+  max-width:840px;margin:0 auto;
+  border-radius:16px;overflow:hidden;
+  border:1px solid var(--nero-200);
+  box-shadow:0 4px 16px rgba(38,35,36,0.04);
+}
+.comparison-row{
+  display:grid;grid-template-columns:1fr 1fr 1fr;
+  border-bottom:1px solid var(--nero-100);
+}
+.comparison-row:last-child{border-bottom:none}
+
+.comparison-row--header{
+  background:var(--warm-linen);
+  font-size:14px;font-weight:700;text-transform:uppercase;
+  letter-spacing:0.06em;
+}
+.comparison-row--header .comparison-cell{
+  padding:20px 24px;color:var(--nero-600);
+}
+.comparison-row--header .comparison-cell:nth-child(3){color:var(--elm-700)}
+
+.comparison-cell{
+  padding:18px 24px;font-size:14px;line-height:1.55;
+  color:var(--nero-700);
+  display:flex;align-items:center;
+}
+.comparison-cell:first-child{
+  font-weight:600;color:var(--nero-800);
+  background:var(--nero-50);border-right:1px solid var(--nero-100);
+}
+.comparison-cell:nth-child(2){
+  color:var(--nero-500);border-right:1px solid var(--nero-100);
+}
+.comparison-cell:nth-child(3){
+  color:var(--elm-800);background:rgba(238,248,246,0.3);
+}
+.comparison-check{
+  display:inline-flex;align-items:center;justify-content:center;
+  width:20px;height:20px;border-radius:50%;
+  font-size:12px;margin-right:8px;flex-shrink:0;
+}
+.comparison-check--yes{background:var(--elm-50);color:var(--elm-600)}
+.comparison-check--no{background:var(--nero-100);color:var(--nero-400)}
+
+/* ========================================
+   FAQ (Linen)
+   ======================================== */
+.faq{background:var(--warm-linen)}
+.faq-header{text-align:center;max-width:560px;margin:0 auto 56px}
+.faq-header h2{
+  font-family:var(--font-display);font-size:clamp(28px,3.5vw,38px);
+  font-weight:700;line-height:1.15;letter-spacing:-0.02em;margin-bottom:12px;
+}
+.faq-header p{font-size:16px;color:var(--nero-500)}
+
+.faq-list{max-width:740px;margin:0 auto}
+.faq-item{
+  border-bottom:1px solid var(--nero-200);
+}
+.faq-item:first-child{border-top:1px solid var(--nero-200)}
+.faq-question{
+  width:100%;background:none;border:none;cursor:pointer;
+  display:flex;align-items:center;justify-content:space-between;
+  padding:24px 0;text-align:left;
+  font-family:var(--font-body);font-size:16px;font-weight:600;
+  color:var(--nero-800);line-height:1.4;
+  transition:color var(--t-fast);
+}
+.faq-question:hover{color:var(--elm-600)}
+.faq-icon{
+  flex-shrink:0;width:28px;height:28px;
+  display:flex;align-items:center;justify-content:center;
+  border-radius:50%;background:var(--nero-100);
+  font-size:18px;color:var(--nero-500);
+  transition:all var(--t-med) var(--ease-out);margin-left:16px;
+}
+.faq-item.is-open .faq-icon{
+  transform:rotate(45deg);background:var(--elm-50);color:var(--elm-600);
+}
+.faq-answer{
+  max-height:0;overflow:hidden;
+  transition:max-height 0.4s var(--ease-out);
+}
+.faq-answer-inner{
+  padding:0 0 24px;font-size:15px;line-height:1.7;color:var(--nero-600);
+}
+.faq-item.is-open .faq-answer{max-height:300px}
+
+/* ========================================
+   BOTTOM CTA (Dark)
+   ======================================== */
+.bottom-cta{
+  background:var(--nero-900);color:#fff;text-align:center;
+  padding:var(--section-pad-y) var(--section-pad-x);
+  position:relative;overflow:hidden;
+}
+.bottom-cta::before{
+  content:'';position:absolute;bottom:-20%;left:50%;transform:translateX(-50%);
+  width:700px;height:400px;border-radius:50%;
+  background:radial-gradient(ellipse, rgba(225,196,94,0.1) 0%, transparent 60%);
+  pointer-events:none;
+}
+.bottom-cta::after{
+  content:'';position:absolute;top:-10%;left:30%;
+  width:400px;height:300px;border-radius:50%;
+  background:radial-gradient(ellipse, rgba(46,149,130,0.06) 0%, transparent 60%);
+  pointer-events:none;
+}
+.bottom-cta h2{
+  font-family:var(--font-display);font-size:clamp(32px,4vw,48px);
+  font-weight:700;line-height:1.1;letter-spacing:-0.02em;
+  max-width:640px;margin:0 auto 16px;position:relative;
+}
+.bottom-cta p{
+  font-size:17px;color:var(--nero-400);margin-bottom:40px;
+  max-width:480px;margin-left:auto;margin-right:auto;position:relative;line-height:1.6;
+}
+.bottom-cta .btn-primary{font-size:17px;padding:16px 36px;position:relative}
+
+/* ========================================
+   ANIMATIONS
+   ======================================== */
+@keyframes fadeUp{
+  from{opacity:0;transform:translateY(20px)}
+  to{opacity:1;transform:translateY(0)}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{
+    animation-duration:0.01ms!important;animation-iteration-count:1!important;
+    transition-duration:0.01ms!important;
+  }
+  html{scroll-behavior:auto}
+}
+
+/* ========================================
+   RESPONSIVE
+   ======================================== */
+@media(max-width:1024px){
+  :root{--section-pad-x:32px}
+  .how-steps{gap:24px}
+  .pillar-row{gap:40px}
+  .toolkit-grid{gap:16px}
+}
+
+@media(max-width:768px){
+  :root{--section-pad-y:80px;--section-pad-x:24px}
+  .nav{padding:0 24px;height:64px}
+  .nav-links{display:none}
+  .nav-cta:not(.nav-overlay .nav-cta){display:none}
+  .nav-toggle{display:block}
+  .page-hero{padding:48px 24px 56px}
+  .how-steps{grid-template-columns:1fr}
+  .how-step::after{display:none}
+  .pillar-row{grid-template-columns:1fr}
+  .pillar-row--reverse .pillar-visual{order:0}
+  .pillar-visual{height:240px}
+  .toolkit-grid{grid-template-columns:1fr}
+  .comparison-table{border-radius:12px}
+  .comparison-row{grid-template-columns:1fr}
+  .comparison-row--header{display:none}
+  .comparison-cell{padding:14px 20px}
+  .comparison-cell:first-child{
+    background:var(--warm-linen);border-right:none;
+    border-bottom:none;padding-bottom:4px;
+    font-size:13px;
+  }
+  .comparison-cell:nth-child(2),
+  .comparison-cell:nth-child(3){
+    border-right:none;padding-top:4px;
+  }
+  .comparison-cell:nth-child(2)::before{content:'Traditional: ';font-weight:600;color:var(--nero-400);margin-right:4px}
+  .comparison-cell:nth-child(3)::before{content:'Kingsfoil: ';font-weight:600;color:var(--elm-600);margin-right:4px}
+  .comparison-cell:nth-child(3){border-bottom:1px solid var(--elm-100)}
+  .footer-grid{grid-template-columns:1fr 1fr;gap:32px}
+}
+
+@media(max-width:420px){
+  :root{--section-pad-x:16px;--section-pad-y:64px}
+  .page-hero{padding:40px 16px 48px}
+  .pillar-highlights{gap:10px}
+  .footer-grid{grid-template-columns:1fr}
+}
+</style>
+
+<script>
+(function(){
+  document.querySelectorAll('.faq-question').forEach(function(btn){
+    btn.addEventListener('click', function(){
+      var item = this.closest('.faq-item');
+      var isOpen = item.classList.contains('is-open');
+      // Close all
+      document.querySelectorAll('.faq-item.is-open').forEach(function(openItem){
+        openItem.classList.remove('is-open');
+        openItem.querySelector('.faq-question').setAttribute('aria-expanded','false');
+      });
+      // Open clicked (if it was closed)
+      if(!isOpen){
+        item.classList.add('is-open');
+        this.setAttribute('aria-expanded','true');
+      }
+    });
+  });
+})();
+</script>
