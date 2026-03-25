@@ -21,32 +21,32 @@ import BaseLayout from '@layouts/BaseLayout.astro';
     <h2 id="partners-heading" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)">Our partners</h2>
     <div class="partner-grid">
       <div class="partner-card">
-        <div class="partner-name">HealthEZ</div>
+        <img src="/images/logo-healthez.png" alt="HealthEZ logo" class="partner-logo-img" width="200" height="60" loading="lazy">
         <div class="partner-role">Third-Party Administrator</div>
         <p>HealthEZ serves as our TPA for level-funded and self-funded plans. They handle claims processing, plan administration, and compliance so your benefits run smoothly behind the scenes. Their transparent reporting gives you visibility into where every dollar goes.</p>
       </div>
       <div class="partner-card">
-        <div class="partner-name">Thatch</div>
+        <img src="/images/logo-thatch.jpg" alt="Thatch logo" class="partner-logo-img" width="200" height="60" loading="lazy">
         <div class="partner-role">ICHRA Platform</div>
         <p>Thatch powers our Individual Coverage HRA (ICHRA) offerings. Their platform makes it simple for employers to provide tax-advantaged health benefits while giving employees the freedom to choose their own coverage. Modern, flexible, and built for today's workforce.</p>
       </div>
       <div class="partner-card">
-        <div class="partner-name">401Go</div>
+        <img src="/images/logo-401go.jpg" alt="401Go logo" class="partner-logo-img" width="200" height="60" loading="lazy">
         <div class="partner-role">Retirement Benefits</div>
         <p>401Go integrates retirement benefits alongside your health plan. A complete benefits package helps you attract and retain talent. Their platform is designed specifically for small and mid-size businesses, making 401(k) administration straightforward.</p>
       </div>
       <div class="partner-card">
-        <div class="partner-name">Ampian</div>
+        <img src="/images/logo-row-partners.png" alt="Row Partners logo" class="partner-logo-img" width="200" height="60" loading="lazy">
         <div class="partner-role">Employee Health Concierge</div>
-        <p>Ampian provides concierge-level health navigation for your employees. Instead of a call center, your team gets a real person who helps them find the right provider, understand their benefits, and navigate the healthcare system with confidence.</p>
+        <p>Row Partners provides concierge-level health navigation for your employees. Instead of a call center, your team gets a real person who helps them find the right provider, understand their benefits, and navigate the healthcare system with confidence.</p>
       </div>
       <div class="partner-card">
-        <div class="partner-name">Healthee</div>
+        <img src="/images/logo-healthee.svg" alt="Healthee logo" class="partner-logo-img" width="200" height="60" loading="lazy">
         <div class="partner-role">AI Benefits Navigation</div>
         <p>Healthee gives your employees an AI-powered benefits assistant available anytime. They can look up coverage details, find in-network providers, and get answers to benefits questions instantly — reducing the load on your HR team.</p>
       </div>
       <div class="partner-card">
-        <div class="partner-name">Outsail</div>
+        <img src="/images/logo-outsail.png" alt="Outsail logo" class="partner-logo-img" width="200" height="60" loading="lazy">
         <div class="partner-role">Broker Intelligence</div>
         <p>Outsail provides the plan comparison and analytics tooling that helps us evaluate options objectively. Their platform ensures we're looking at the full market when building your benefits strategy, not just the plans that are easiest to quote.</p>
       </div>
@@ -95,7 +95,7 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 .partner-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
 .partner-card{background:#fff;border-radius:18px;padding:40px 36px;border:1px solid var(--nero-100);box-shadow:0 2px 8px rgba(38,35,36,0.04);transition:all var(--t-med)}
 .partner-card:hover{border-color:var(--elm-200);box-shadow:0 8px 24px rgba(38,35,36,0.06)}
-.partner-name{font-family:var(--font-display);font-size:22px;font-weight:700;line-height:1.2;margin-bottom:6px}
+.partner-logo-img{height:40px;width:auto;object-fit:contain;display:block;margin-bottom:12px}
 .partner-role{font-size:12px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--elm-600);margin-bottom:16px}
 .partner-card p{font-size:15px;line-height:1.7;color:var(--nero-600)}
 

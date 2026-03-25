@@ -92,13 +92,12 @@ import BaseLayout from '@layouts/BaseLayout.astro';
       <p>We partner with industry-leading providers to deliver modern benefits infrastructure. The outcomes matter more than the names, but here's who we work with.</p>
     </div>
     <div class="partners-logos">
-      <!-- Replace with actual partner logos -->
-      <div class="partner-logo">HealthEZ</div>
-      <div class="partner-logo">Thatch</div>
-      <div class="partner-logo">401Go</div>
-      <div class="partner-logo">Ampian</div>
-      <div class="partner-logo">Healthee</div>
-      <div class="partner-logo">Outsail</div>
+      <div class="partner-logo"><img src="/images/logo-healthez.png" alt="HealthEZ" loading="lazy"></div>
+      <div class="partner-logo"><img src="/images/logo-thatch.jpg" alt="Thatch" loading="lazy"></div>
+      <div class="partner-logo"><img src="/images/logo-401go.jpg" alt="401Go" loading="lazy"></div>
+      <div class="partner-logo"><img src="/images/logo-row-partners.png" alt="Row Partners" loading="lazy"></div>
+      <div class="partner-logo"><img src="/images/logo-healthee.svg" alt="Healthee" loading="lazy"></div>
+      <div class="partner-logo"><img src="/images/logo-outsail.png" alt="Outsail" loading="lazy"></div>
     </div>
     <div class="partners-cta">
       <a href="/partners">See all partners <span aria-hidden="true">→</span></a>
@@ -165,7 +164,8 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 .partners-header h2{font-family:var(--font-display);font-size:clamp(24px,3vw,34px);font-weight:700;line-height:1.2;margin-bottom:12px}
 .partners-header p{font-size:16px;color:var(--nero-500);line-height:1.65}
 .partners-logos{display:flex;flex-wrap:wrap;justify-content:center;gap:32px;margin-bottom:40px}
-.partner-logo{width:140px;height:60px;border-radius:12px;background:var(--nero-50);border:1px solid var(--nero-100);display:flex;align-items:center;justify-content:center;font-size:11px;color:var(--nero-400);text-align:center;padding:8px}
+.partner-logo{width:140px;height:60px;border-radius:12px;background:var(--nero-50);border:1px solid var(--nero-100);display:flex;align-items:center;justify-content:center;padding:8px}
+.partner-logo img{max-width:100%;max-height:100%;object-fit:contain}
 .partners-cta{text-align:center}
 .partners-cta a{font-size:15px;font-weight:600;color:var(--sapphire-500);text-decoration:none;display:inline-flex;align-items:center;gap:6px;transition:gap var(--t-fast)}
 .partners-cta a:hover{gap:10px}
