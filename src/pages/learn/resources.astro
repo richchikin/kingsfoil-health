@@ -32,12 +32,22 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         <p class="gate-privacy">Free download. No spam, ever. <a href="/privacy">Privacy Policy</a></p>
       </div>
       <div class="featured-visual" role="img" aria-label="Guide cover preview">
-        <div class="featured-visual-inner">
-          <div class="featured-visual-icon" aria-hidden="true">
-            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+        <div class="pdf-cover">
+          <div class="pdf-cover-header">
+            <div class="pdf-cover-logo">Kingsfoil Health</div>
           </div>
-          <span class="featured-visual-label">The Rate Shock Survival Guide</span>
-          <span class="featured-visual-format">PDF · Free Download</span>
+          <div class="pdf-cover-body">
+            <div class="pdf-cover-eyebrow">Free Guide</div>
+            <div class="pdf-cover-title">The Rate Shock Survival Guide</div>
+            <div class="pdf-cover-divider"></div>
+            <div class="pdf-cover-toc">
+              <div class="pdf-cover-toc-item">Why premiums keep climbing</div>
+              <div class="pdf-cover-toc-item">Questions to ask at renewal</div>
+              <div class="pdf-cover-toc-item">Alternative plan structures</div>
+              <div class="pdf-cover-toc-item">Your action plan</div>
+            </div>
+          </div>
+          <div class="pdf-cover-footer">PDF · Free Download</div>
         </div>
       </div>
     </div>
@@ -51,8 +61,8 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
       <h2 id="resources-heading">All resources</h2>
       <div class="type-filters" role="group" aria-label="Filter resources">
         <button class="type-btn is-active">All</button>
+        <button class="type-btn">Guides</button>
         <button class="type-btn">Reports</button>
-        <button class="type-btn">Case Studies</button>
         <button class="type-btn">Tools</button>
       </div>
     </div>
@@ -72,26 +82,8 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         <h3>The Small Business Guide to Health Benefits Alternatives</h3>
         <p>A comprehensive guide to plan structures beyond fully funded coverage, with ROI frameworks and broker evaluation checklists.</p>
         <div class="resource-card-footer">
-          <span class="resource-format">PDF · 18 pages</span>
-          <a href="#" class="resource-cta" title="Coming soon">Download →</a>
-        </div>
-      </div>
-      <div class="resource-card">
-        <div class="resource-type resource-type--case-study">Case Study</div>
-        <h3>How a 45-Person Tech Company Saved on Benefits</h3>
-        <p>A real-world example of transitioning from fully funded to level-funded coverage, including timeline, employee experience, and financial results.</p>
-        <div class="resource-card-footer">
-          <span class="resource-format">PDF · 6 pages</span>
-          <a href="#" class="resource-cta" title="Coming soon">Download →</a>
-        </div>
-      </div>
-      <div class="resource-card">
-        <div class="resource-type resource-type--tool">Tool</div>
-        <h3>Benefits Plan Comparison Worksheet</h3>
-        <p>A structured worksheet for comparing your current plan against alternative structures. Bring it to your next broker meeting or use it with us.</p>
-        <div class="resource-card-footer">
-          <span class="resource-format">PDF · 4 pages</span>
-          <a href="#" class="resource-cta" title="Coming soon">Download →</a>
+          <span class="resource-format">PDF · Coming Soon</span>
+          <span class="resource-cta resource-cta--soon">Coming Soon</span>
         </div>
       </div>
       <div class="resource-card">
@@ -99,8 +91,17 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         <h3>Understanding Commission Transparency in Health Insurance</h3>
         <p>What the Consolidated Appropriations Act means for broker compensation, and how to read the disclosure you should be receiving.</p>
         <div class="resource-card-footer">
-          <span class="resource-format">PDF · 8 pages</span>
-          <a href="#" class="resource-cta" title="Coming soon">Download →</a>
+          <span class="resource-format">PDF · Coming Soon</span>
+          <span class="resource-cta resource-cta--soon">Coming Soon</span>
+        </div>
+      </div>
+      <div class="resource-card">
+        <div class="resource-type resource-type--tool">Tool</div>
+        <h3>Benefits Plan Comparison Worksheet</h3>
+        <p>A structured worksheet for comparing your current plan against alternative structures. Bring it to your next broker meeting or use it with us.</p>
+        <div class="resource-card-footer">
+          <span class="resource-format">Interactive · Coming Soon</span>
+          <span class="resource-cta resource-cta--soon">Coming Soon</span>
         </div>
       </div>
       <!-- CMS: {{/each}} -->
@@ -145,11 +146,21 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 .gate-privacy{font-size:11px;color:var(--nero-400);margin-top:8px;line-height:1.4}
 .gate-privacy a{color:var(--elm-600);text-decoration:underline}
 
-.featured-visual{border-radius:20px;height:360px;overflow:hidden;display:flex;align-items:center;justify-content:center;color:var(--nero-400);font-size:13px;text-align:center;padding:20px;box-shadow:0 16px 48px rgba(38,35,36,0.06);background:linear-gradient(160deg, var(--gold-50) 0%, var(--elm-50) 100%)}
-.featured-visual-inner{display:flex;flex-direction:column;align-items:center;gap:12px}
-.featured-visual-icon{color:var(--elm-400)}
-.featured-visual-label{font-family:var(--font-display);font-size:16px;font-weight:700;color:var(--nero-600);max-width:200px;line-height:1.3}
-.featured-visual-format{font-size:12px;color:var(--nero-400)}
+.featured-visual{display:flex;align-items:center;justify-content:center;padding:20px}
+
+/* PDF cover preview */
+.pdf-cover{width:260px;background:#fff;border-radius:6px;box-shadow:0 8px 40px rgba(38,35,36,0.12),0 2px 8px rgba(38,35,36,0.06);overflow:hidden;transform:rotate(1deg);transition:transform var(--t-med)}
+.featured-visual:hover .pdf-cover{transform:rotate(0deg) scale(1.02)}
+.pdf-cover-header{background:linear-gradient(135deg, var(--elm-600), var(--elm-500));padding:20px 24px 16px}
+.pdf-cover-logo{font-family:var(--font-display);font-size:13px;font-weight:700;color:#fff;letter-spacing:0.02em}
+.pdf-cover-body{padding:24px 24px 20px}
+.pdf-cover-eyebrow{font-size:9px;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;color:var(--elm-500);margin-bottom:10px}
+.pdf-cover-title{font-family:var(--font-display);font-size:18px;font-weight:700;line-height:1.25;color:var(--nero-900);margin-bottom:16px}
+.pdf-cover-divider{width:32px;height:2px;background:var(--elm-400);margin-bottom:16px}
+.pdf-cover-toc{display:flex;flex-direction:column;gap:8px}
+.pdf-cover-toc-item{font-size:11px;color:var(--nero-500);padding-left:14px;position:relative;line-height:1.4}
+.pdf-cover-toc-item::before{content:'';position:absolute;left:0;top:5px;width:5px;height:5px;border-radius:50%;background:var(--elm-300)}
+.pdf-cover-footer{padding:12px 24px;background:var(--nero-50);border-top:1px solid var(--nero-100);font-size:11px;color:var(--nero-400);text-align:center}
 
 /* RESOURCE GRID (Cream) */
 .resources{background:var(--warm-cream)}
@@ -172,6 +183,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 .resource-format{font-size:12px;color:var(--nero-400);display:flex;align-items:center;gap:6px}
 .resource-cta{font-size:13px;font-weight:600;color:var(--elm-600);text-decoration:none;transition:color var(--t-fast)}
 .resource-cta:hover{color:var(--elm-700)}
+.resource-cta--soon{color:var(--nero-400);font-weight:500;font-style:italic}
 
 /* BOTTOM CTA */
 .bottom-cta{background:var(--nero-900);color:#fff;text-align:center;padding:var(--section-pad-y) var(--section-pad-x);position:relative;overflow:hidden}
@@ -186,7 +198,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 @media(max-width:768px){
   :root{--section-pad-y:80px;--section-pad-x:24px}
   .page-hero{padding:48px 24px 56px}
-  .featured-layout{grid-template-columns:1fr}.featured-visual{height:200px}
+  .featured-layout{grid-template-columns:1fr}.featured-visual{justify-content:center;padding:0 0 20px}
   .gate-form{flex-direction:column}
   .resource-grid{grid-template-columns:1fr}
 }

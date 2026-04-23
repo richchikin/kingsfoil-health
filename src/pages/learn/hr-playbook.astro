@@ -10,7 +10,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 <!-- BREADCRUMB -->
 <!-- CMS: Home > Learn > {{track.title}} -->
-<div class="breadcrumb"><a href="/">Home</a><span>›</span><a href="/learn">Learn</a><span>›</span>The HR Playbook</div>
+<div class="breadcrumb"><a href="/">Home</a><span aria-hidden="true">›</span><a href="/learn">Learn</a><span aria-hidden="true">›</span>The HR Playbook</div>
 
 <!-- TRACK HERO -->
 <!-- CMS: class="track-hero track-hero--{{track.slug}}" -->
@@ -111,14 +111,20 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 
 </BaseLayout>
 <style>
+/* BREADCRUMB */
+.breadcrumb{max-width:var(--inner-max);margin:0 auto;padding:28px var(--section-pad-x) 0;font-size:13px;color:var(--nero-400);display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.breadcrumb a{color:var(--nero-500);text-decoration:none;transition:color var(--t-fast)}
+.breadcrumb a:hover{color:var(--elm-600)}
+.breadcrumb span{color:var(--nero-300);font-size:11px}
+
 /* TRACK HERO */
-.track-hero{padding:40px var(--section-pad-x) 64px;max-width:var(--inner-max);margin:0 auto}
+.track-hero{padding:48px var(--section-pad-x) 72px;max-width:var(--inner-max);margin:0 auto;text-align:center}
 .track-hero .eyebrow{font-size:12px;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;margin-bottom:16px}
 /* CMS: accent color per track */
 .track-hero--hr .eyebrow{color:var(--gold-800)}
 .track-hero h1{font-family:var(--font-display);font-size:clamp(36px,5vw,52px);font-weight:700;line-height:1.1;letter-spacing:-0.02em;margin-bottom:16px}
-.track-hero p{font-size:17px;line-height:1.7;color:var(--nero-500);max-width:640px;margin-bottom:24px}
-.track-stats{display:flex;gap:24px;font-size:14px;color:var(--nero-500)}
+.track-hero p{font-size:17px;line-height:1.7;color:var(--nero-500);max-width:640px;margin:0 auto 24px}
+.track-stats{display:flex;justify-content:center;gap:24px;font-size:14px;color:var(--nero-500)}
 .track-stats span{display:flex;align-items:center;gap:6px}
 .track-stats .dot{width:4px;height:4px;border-radius:50%;background:var(--nero-300)}
 

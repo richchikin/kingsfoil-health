@@ -41,6 +41,44 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   </div>
 </section>
 
+<!-- REPORTS & GUIDES -->
+<section class="section reports" aria-labelledby="reports-heading">
+  <div class="section-inner">
+    <div class="reports-header">
+      <h2 id="reports-heading">Reports &amp; guides</h2>
+      <p>Free, downloadable resources that go deeper than our articles.</p>
+    </div>
+    <div class="report-cards">
+      <a href="/learn/resources/rate-shock" class="report-card">
+        <div class="report-card-visual">
+          <div class="report-card-icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          </div>
+        </div>
+        <div class="report-card-body">
+          <span class="report-badge">Free Guide</span>
+          <h3>The Rate Shock Survival Guide</h3>
+          <p>What's driving your premium increase, the questions to ask your broker, and a framework for evaluating your options.</p>
+          <span class="report-link">Get the Guide <span aria-hidden="true">→</span></span>
+        </div>
+      </a>
+      <a href="/learn/resources" class="report-card report-card--browse">
+        <div class="report-card-visual report-card-visual--browse">
+          <div class="report-card-icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </div>
+        </div>
+        <div class="report-card-body">
+          <span class="report-badge report-badge--muted">Resources</span>
+          <h3>Browse all resources</h3>
+          <p>Reports, tools, and guides to help you evaluate your benefits options.</p>
+          <span class="report-link">View Resources <span aria-hidden="true">→</span></span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
 <!-- ALL ARTICLES (Cream) -->
 <section class="section articles" aria-labelledby="articles-heading">
   <div class="section-inner">
@@ -167,6 +205,25 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 .track-link{font-size:14px;font-weight:600;color:var(--sapphire-500);display:inline-flex;align-items:center;gap:6px;transition:gap var(--t-fast)}
 .track-card:hover .track-link{gap:10px}
 
+/* REPORTS & GUIDES */
+.reports{background:var(--warm-cream)}
+.reports-header{text-align:center;max-width:560px;margin:0 auto 40px}
+.reports-header h2{font-family:var(--font-display);font-size:clamp(24px,3vw,34px);font-weight:700;line-height:1.2;margin-bottom:12px}
+.reports-header p{font-size:16px;color:var(--nero-500)}
+.report-cards{display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:920px;margin:0 auto}
+.report-card{display:flex;flex-direction:column;background:#fff;border-radius:16px;overflow:hidden;border:1px solid var(--nero-100);box-shadow:0 2px 8px rgba(38,35,36,0.04);transition:all var(--t-med);text-decoration:none;color:inherit}
+.report-card:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(38,35,36,0.08);border-color:var(--elm-200)}
+.report-card-visual{height:100px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg, var(--elm-50), var(--gold-50))}
+.report-card-visual--browse{background:linear-gradient(135deg, var(--sapphire-50), var(--elm-50))}
+.report-card-icon{color:var(--elm-400)}
+.report-card-body{padding:24px 28px 28px;flex:1;display:flex;flex-direction:column}
+.report-badge{display:inline-block;font-size:11px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;padding:4px 12px;border-radius:999px;background:var(--elm-50);color:var(--elm-700);margin-bottom:12px;align-self:flex-start}
+.report-badge--muted{background:var(--nero-50);color:var(--nero-500)}
+.report-card h3{font-family:var(--font-display);font-size:20px;font-weight:700;line-height:1.3;margin-bottom:8px}
+.report-card p{font-size:14px;line-height:1.6;color:var(--nero-600);margin-bottom:16px;flex:1}
+.report-link{font-size:14px;font-weight:600;color:var(--elm-600);display:inline-flex;align-items:center;gap:6px;transition:gap var(--t-fast)}
+.report-card:hover .report-link{gap:10px}
+
 /* ARTICLE GRID (Cream) */
 .articles{background:var(--warm-cream)}
 .articles-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:40px;flex-wrap:wrap;gap:16px}
@@ -210,6 +267,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   :root{--section-pad-y:80px;--section-pad-x:24px}
   .page-hero{padding:48px 24px 56px}
   .track-cards{grid-template-columns:1fr}
+  .report-cards{grid-template-columns:1fr}
   .article-grid{grid-template-columns:1fr}
   .newsletter-form{flex-direction:column}
 }
