@@ -117,6 +117,8 @@ This is where alternative plan structures truly differentiate themselves from fu
 
 **"Do we have the bandwidth to manage this?"** You don't manage it alone. Your benefits advisor, TPA, and navigation team handle the operational details. Your role is to review reports, ask questions, and make strategic decisions. That's a reasonable time commitment for one of your largest budget items.
 
+> **Facing a renewal increase right now?** Download [The Rate Shock Survival Guide](/learn/resources/rate-shock) — a free guide that covers what's driving your premium increase, the questions to ask your broker, and how to evaluate whether a different plan structure is right for your business.
+
 ## The bottom line
 
 Switching plan structures is a process, not a leap of faith. It follows a clear timeline with defined phases, and each phase is supported by professionals who do this work every day. The companies that navigate this transition successfully share one trait: they start early, communicate well, and commit to being engaged plan sponsors.

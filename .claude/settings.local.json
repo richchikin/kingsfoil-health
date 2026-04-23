@@ -1,14 +1,7 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npx astro build)",
-      "Bash(npm install:*)",
-      "WebSearch",
-      "WebFetch(domain:unsplash.com)",
-      "Bash(curl:*)",
-      "Bash(dir:*)",
-      "Bash(npx --yes sharp-cli:*)",
-      "Bash(xargs:*)"
+      "Bash(del \"C:\\\\Users\\\\jonat\\\\OneDrive\\\\Desktop\\\\My Custom Software\\\\kingsfoilhealth.com\\\\kh-site\\\\.claude\\\\settings.json\")"
     ]
   }
 }

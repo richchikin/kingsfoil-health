@@ -82,6 +82,8 @@ No single alternative is the right answer for every business. Here's a simple wa
 
 Each of these models solves a different problem. Level-funded plans are about getting a fairer deal with minimal disruption. Partial self-funding is about taking the wheel and driving costs down with data. PEOs are about punching above your weight class. ICHRA is about getting out of the group plan business entirely.
 
+> **Ready to take the next step?** Download [The Rate Shock Survival Guide](/learn/resources/rate-shock) — a free guide with the questions to ask your broker at renewal and a framework for choosing between these plan structures.
+
 ## Understanding your options is step one
 
 Knowing what's available is important. But knowing which option fits your specific business, your team, your budget, and your risk tolerance is what actually matters.

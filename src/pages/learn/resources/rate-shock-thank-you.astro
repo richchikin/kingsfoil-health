@@ -1,0 +1,68 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="Your Guide Is Ready — Kingsfoil Health"
+  description="Download your copy of The Rate Shock Survival Guide."
+  canonicalPath="/learn/resources/rate-shock-thank-you"
+>
+
+<section class="ty-hero" aria-labelledby="ty-heading">
+  <div class="ty-inner">
+    <div class="ty-check" aria-hidden="true">
+      <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+    </div>
+    <h1 id="ty-heading">Your guide is ready</h1>
+    <p>Your download should start automatically. If it doesn't, use the button below.</p>
+    <a href="/downloads/The-Rate-Shock-Survival-Guide-by-Kingsfoil-Health.pdf" download class="btn-primary" id="manual-download">Download the Guide</a>
+    <p class="ty-next">While you're here, you might find these helpful:</p>
+    <div class="ty-links">
+      <a href="/learn/business-case/why-rates-keep-going-up" class="ty-link">
+        <span class="ty-link-label">Article</span>
+        <span class="ty-link-title">Why Rates Keep Going Up — And What You Can Do About It</span>
+      </a>
+      <a href="/learn/business-case/fully-funded-alternatives" class="ty-link">
+        <span class="ty-link-label">Article</span>
+        <span class="ty-link-title">What Are the Alternatives to Fully Funded Plans?</span>
+      </a>
+      <a href="/talk-to-us" class="ty-link ty-link--cta">
+        <span class="ty-link-label">Next step</span>
+        <span class="ty-link-title">Talk to Us — See What This Looks Like for Your Company</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+</BaseLayout>
+
+<!-- Auto-start download -->
+<script>
+  window.addEventListener('DOMContentLoaded', () => {
+    const link = document.createElement('a');
+    link.href = '/downloads/The-Rate-Shock-Survival-Guide-by-Kingsfoil-Health.pdf';
+    link.download = '';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  });
+</script>
+
+<style>
+.ty-hero{padding:120px var(--section-pad-x) var(--section-pad-y);text-align:center}
+.ty-inner{max-width:640px;margin:0 auto}
+.ty-check{color:var(--elm-500);margin-bottom:24px}
+.ty-hero h1{font-family:var(--font-display);font-size:clamp(32px,4vw,44px);font-weight:700;line-height:1.15;margin-bottom:16px}
+.ty-hero>section>div>p,.ty-inner>p{font-size:17px;line-height:1.65;color:var(--nero-500);margin-bottom:28px}
+.ty-next{margin-top:56px;font-size:15px;color:var(--nero-500);margin-bottom:20px}
+.ty-links{display:flex;flex-direction:column;gap:12px;text-align:left}
+.ty-link{display:block;padding:20px 24px;border:1px solid var(--nero-100);border-radius:12px;text-decoration:none;color:inherit;transition:all var(--t-fast);background:#fff}
+.ty-link:hover{border-color:var(--elm-200);box-shadow:0 4px 16px rgba(38,35,36,0.06);transform:translateY(-2px)}
+.ty-link--cta{border-color:var(--elm-200);background:var(--elm-50)}
+.ty-link--cta:hover{border-color:var(--elm-400);background:var(--elm-100)}
+.ty-link-label{font-size:11px;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--elm-600);display:block;margin-bottom:4px}
+.ty-link-title{font-family:var(--font-display);font-size:16px;font-weight:600;line-height:1.35;color:var(--nero-800)}
+
+@media(max-width:768px){.ty-hero{padding:80px 24px 80px}}
+@media(max-width:420px){.ty-hero{padding:64px 16px 64px}}
+</style>

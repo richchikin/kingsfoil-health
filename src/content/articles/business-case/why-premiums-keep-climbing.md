@@ -47,4 +47,6 @@ The first step is understanding that fully funded plans aren't the only option. 
 
 We cover those alternatives in the next article in this track.
 
+> **Want the full playbook?** We put together [The Rate Shock Survival Guide](/learn/resources/rate-shock) — a free, practical guide for business leaders who are tired of double-digit increases. It covers warning signs, the questions to ask your broker, and a framework for evaluating your options.
+
 > The system isn't broken for everyone. Carriers and brokers are doing fine. It's broken for the businesses paying the premiums and the employees navigating the care. That's who we built Kingsfoil Health to serve.
