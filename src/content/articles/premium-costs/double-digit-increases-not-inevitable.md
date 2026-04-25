@@ -100,7 +100,7 @@ For a 50-employee company paying $600,000 in annual premiums, even a 15% structu
 
 Here's the rough timeline for an employer actually making the shift:
 
-1. **Now:** Request your claims data from the current carrier. Hire or consult a transparent advisor to interpret it.
+1. **Now:** Request a summary of your claims experience from the current carrier. Hire or consult a transparent advisor to interpret it.
 2. **60 days before your renewal:** Get quotes on level-funded and self-funded alternatives alongside the fully-insured renewal.
 3. **30 days before renewal:** Model the alternatives against your claims data. Identify the structure with the best expected value and best worst-case.
 4. **At renewal:** Make an informed choice. In most cases, that's a move to level-funded.

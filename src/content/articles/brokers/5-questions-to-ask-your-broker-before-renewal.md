@@ -52,7 +52,7 @@ This article is a short, practical list: **five questions every employer should 
 
 The most important question, and the one most brokers hope you don't ask.
 
-You want a specific number, in writing. A vague answer like "about 5%" or "commissions range from X to Y" is not enough. The kind of answer to look for is one with the actual percentage and dollar amount earned on your specific account in the most recent year, plus any override bonuses or contingent commissions.
+You want a specific number, in writing. A vague answer like "around the usual range" or "commissions range from X to Y" is not enough. The kind of answer to look for is one with the actual percentage and dollar amount earned on your specific account in the most recent year, plus any override bonuses or contingent commissions.
 
 If the broker can't or won't give you that level of detail, consider it a meaningful signal about the relationship. A broker who's confident in the value they deliver is comfortable telling you what they earn.
 

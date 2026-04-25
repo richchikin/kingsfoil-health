@@ -63,6 +63,8 @@ Think about that for a moment. You're essentially placing a bet each year that y
 
 ## A concrete example
 
+> All dollar amounts in worked examples below are illustrative — premium, claims, and surplus figures are for explanation only.[^2] Actual numbers vary substantially by group profile and plan design.
+
 Let's say you run a 50-person company. Your annual health insurance premium is $600,000. After the carrier pays out claims and covers administrative costs, the actual spend comes to $480,000.
 
 That leaves $120,000 in surplus.
@@ -128,3 +130,5 @@ Now you understand how money flows through different plan structures and why som
 Specifically, you need to understand what claims data is, why it matters, and what most business leaders are missing because their current plan doesn't share it. That's what we cover in the next article.
 
 [^1]: Centers for Medicare & Medicaid Services, [Medical Loss Ratio rule](https://www.cms.gov/marketplace/private-health-insurance/medical-loss-ratio). The MLR rule under the ACA requires health insurance issuers to spend a minimum percentage of premium revenue on healthcare claims and quality improvement, with rebates to consumers in aggregate (not to individual employers) when carriers fall below the threshold.
+
+[^2]: All dollar amounts in worked examples in this article — premium totals, surplus amounts, claims totals, and refund figures — are illustrative. Real surplus, claims, and refund outcomes vary substantially by group size, demographics, claims experience, plan design, stop-loss arrangement, and carrier. Modeling against your specific group's data is essential before making any decision.

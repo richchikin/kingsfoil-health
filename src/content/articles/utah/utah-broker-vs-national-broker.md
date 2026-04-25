@@ -79,7 +79,7 @@ A practical way to think about the Utah vs. national broker decision:
 
 ### Go local Utah if:
 
-- Your workforce is primarily in Utah (>80% of employees)
+- Your workforce is overwhelmingly Utah-based
 - Your company is 10–150 employees
 - You value personal relationship and quick response over scale infrastructure
 - You're primarily evaluating SelectHealth, Regence, or a local option as your best fit

@@ -70,14 +70,14 @@ This is the highest-leverage decision, and the one most brokers avoid surfacing.
 
 **Fully-insured:** Carrier assumes all claims risk, you pay a fixed premium, no claims data access. Simple but typically the most expensive.
 
-**Level-funded:** Self-funded structure in fully-insured-style monthly payments, with potential surplus refunds. Usually 10–25% cheaper than fully-insured for healthy groups.
+**Level-funded:** Self-funded structure in fully-insured-style monthly payments, with potential surplus refunds. Often meaningfully cheaper than fully-insured for healthy groups.
 
 **Fully self-funded:** Employer pays claims directly with stop-loss protection. Typically lowest total cost for healthy groups of 50+ employees, but requires active management.
 
 How to decide:
 
 - **Group under 10 employees:** Fully-insured by default; ICHRA as an alternative worth considering.
-- **10–50 employees:** Level-funded almost always worth quoting. Often beats fully-insured by 15–25%.
+- **10–50 employees:** Level-funded almost always worth quoting. Often beats fully-insured by a meaningful margin for healthy groups.
 - **50+ employees:** Run quotes on all three structures. Level-funded or self-funded usually wins.
 
 See [The 3 Types of Employer Health Plans](/learn/plan-structures/three-types-of-employer-health-plans) for a detailed walk-through and [Self-Funded vs. Fully-Insured](/learn/plan-structures/self-funded-vs-fully-insured) for the pillar comparison.
@@ -153,7 +153,7 @@ For most employers, two or three carriers will be viable candidates. The differe
 
 Within a given carrier, there are often multiple network options — broad networks, narrow networks, accountable care organization (ACO) networks. The choice affects premium and employee access.
 
-Broader networks have more providers but higher premiums. Narrower networks restrict provider choice but often cost 10–20% less.
+Broader networks have more providers but higher premiums. Narrower networks restrict provider choice but often cost meaningfully less.
 
 Key questions:
 

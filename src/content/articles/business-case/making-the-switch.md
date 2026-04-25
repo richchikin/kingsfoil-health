@@ -60,7 +60,7 @@ The process starts well before your current plan's renewal date. Ideally, you be
 
 During this phase, you'll work with your benefits advisor to:
 
-**Review your current plan performance.** What are you paying? What's your renewal increase? If you can access claims data from your current carrier, this is the time to request it. Some carriers will release summary data even on fully funded plans, especially if you're exploring alternatives.
+**Review your current plan performance.** What are you paying? What's your renewal increase? If you can access claims information from your current carrier, this is the time to request it. Some carriers will release summary data even on fully funded plans, especially if you're exploring alternatives.
 
 **Assess your group profile.** Your advisor will look at your workforce demographics, including age distribution, geographic location, industry, and any known high-cost conditions. These factors shape the financial model.
 

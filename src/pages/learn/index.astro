@@ -1,22 +1,129 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { Image } from 'astro:assets';
-import articlePremiums from '@assets/images/article-premiums.jpg';
-import articleAlternatives from '@assets/images/article-alternatives.jpg';
-import articleHrChallenges from '@assets/images/article-hr-challenges.jpg';
-import articleClaimsData from '@assets/images/article-claims-data.jpg';
-import articleConcierge from '@assets/images/article-concierge.jpg';
-import articleRoi from '@assets/images/article-roi.jpg';
+
+import { getCollection } from 'astro:content';
+
+// Fetch all articles, drop drafts, sort newest first
+const allArticles = (await getCollection('articles'))
+  .sort((a, b) => b.data.publishedDate.getTime() - a.data.publishedDate.getTime());
+
+// Counts per learning track for the track cards
+const businessCaseCount = allArticles.filter(a => a.data.learningTrack === 'business-case').length;
+const hrPlaybookCount = allArticles.filter(a => a.data.learningTrack === 'hr-playbook').length;
+
+// Group articles by content cluster for the "Browse by topic" section
+const CLUSTER_META: Record<string, { title: string; description: string; href: string }> = {
+  'Pillar': {
+    title: 'Pillar guides',
+    description: 'Comprehensive top-level references that anchor each topic.',
+    href: '/learn/pillars',
+  },
+  'Plan Structures': {
+    title: 'Plan structures',
+    description: 'Fully-insured, level-funded, self-funded — how each works and when to use them.',
+    href: '/learn/plan-structures',
+  },
+  'Plan Types': {
+    title: 'Plan types',
+    description: 'HMO, PPO, EPO, deductibles, copays — the building blocks of any plan.',
+    href: '/learn/plan-types',
+  },
+  'Premium Costs': {
+    title: 'Premium costs',
+    description: 'Why premiums keep going up and what you can actually do about it.',
+    href: '/learn/premium-costs',
+  },
+  'Stop-Loss': {
+    title: 'Stop-loss insurance',
+    description: 'How stop-loss makes self-funded and level-funded plans safe.',
+    href: '/learn/stop-loss',
+  },
+  'HSA & Tax-Advantaged': {
+    title: 'HSA & tax-advantaged accounts',
+    description: 'HSAs, employer contributions, and the tax efficiency case for HDHPs.',
+    href: '/learn/hsa',
+  },
+  'HRA & Reimbursement': {
+    title: 'HRA, ICHRA & QSEHRA',
+    description: 'Reimbursement-based benefits — when they fit and how to choose.',
+    href: '/learn/hra-ichra',
+  },
+  'Direct Primary Care': {
+    title: 'Direct primary care',
+    description: 'How DPC pairs with self-funded plans to cut claims and improve experience.',
+    href: '/learn/direct-primary-care',
+  },
+  'Wellness & EAP': {
+    title: 'Wellness & EAP',
+    description: 'Employee assistance programs, mental health, and wellness that actually works.',
+    href: '/learn/wellness',
+  },
+  'Broker Transparency': {
+    title: 'Broker transparency',
+    description: 'How brokers are paid, what to ask, and how to align incentives.',
+    href: '/learn/brokers',
+  },
+  'PEO Comparison': {
+    title: 'PEO vs. broker',
+    description: 'When a PEO makes sense, when an independent broker wins, and the hidden costs.',
+    href: '/learn/peo',
+  },
+  'ACA Compliance': {
+    title: 'ACA compliance',
+    description: 'What you actually have to do — and what you don\'t — at every employer size.',
+    href: '/learn/aca-compliance',
+  },
+  'Retention & Culture': {
+    title: 'Retention & culture',
+    description: 'Health benefits as a retention and recruiting lever.',
+    href: '/learn/retention',
+  },
+  'Utah Local': {
+    title: 'Utah employers',
+    description: 'Utah-specific carriers, compliance, and market dynamics.',
+    href: '/learn/utah',
+  },
+  'Fundamentals': {
+    title: 'Fundamentals',
+    description: 'First-time benefits offerings, costs, and the basics of group coverage.',
+    href: '/learn/fundamentals',
+  },
+};
+
+const clusterEntries = Object.entries(CLUSTER_META).map(([cluster, meta]) => {
+  const count = allArticles.filter(a => a.data.contentCluster === cluster).length;
+  return { cluster, ...meta, count };
+}).filter(e => e.count > 0);
+
+// Article display data — flatten to plain objects so we can serialize for client-side filtering
+const articlesForDisplay = allArticles.map(a => ({
+  slug: a.slug,
+  title: a.data.title,
+  excerpt: a.data.excerpt,
+  audience: a.data.audienceTags?.[0] || 'All',
+  audienceTags: a.data.audienceTags || [],
+  difficulty: a.data.difficulty,
+  cluster: a.data.contentCluster || 'Other',
+  readingTime: a.data.readingTime,
+  isFeatured: a.data.isFeatured,
+  publishedDate: a.data.publishedDate.toISOString(),
+}));
+
+// Distinct audience tags + difficulties for filter buttons
+const audienceOptions = Array.from(new Set(articlesForDisplay.flatMap(a => a.audienceTags))).sort();
+const difficultyOptions = ['beginner', 'intermediate', 'advanced'];
 
 const breadcrumbs = [
   { name: 'Home', url: '/' },
   { name: 'Learn', url: '/learn' },
 ];
+
+const PAGE_SIZE = 12;
 ---
 
 <BaseLayout
   title="Learn — Kingsfoil Health"
-  description="Practical articles on health insurance, plan structures, claims management, and employee benefits — for business leaders and HR professionals evaluating their options."
+  description="Practical articles on health insurance, plan structures, claims management, and employee benefits — for business leaders and HR professionals."
   canonicalPath="/learn"
   breadcrumbs={breadcrumbs}
 >
@@ -28,7 +135,7 @@ const breadcrumbs = [
   <p class="page-hero-sub">Practical articles that help business leaders and HR professionals make better decisions about their company's health benefits.</p>
 </section>
 
-<!-- LEARNING TRACKS (Linen) -->
+<!-- LEARNING TRACKS -->
 <section class="section tracks" aria-labelledby="tracks-heading">
   <div class="section-inner">
     <div class="tracks-header">
@@ -40,14 +147,14 @@ const breadcrumbs = [
         <div class="role">For business leaders</div>
         <h3>The Business Case</h3>
         <p>The financial argument for rethinking your company's health benefits. From rising premiums to ROI modeling.</p>
-        <div class="track-meta"><span>8 articles</span><span>~60 min</span><span>Beginner to Advanced</span></div>
+        <div class="track-meta"><span>{businessCaseCount} articles</span><span>Beginner to Advanced</span></div>
         <span class="track-link">Start the track <span aria-hidden="true">→</span></span>
       </a>
       <a href="/learn/hr-playbook" class="track-card track-card--hr">
         <div class="role">For HR professionals</div>
         <h3>The HR Playbook</h3>
         <p>What benefits modernization looks like operationally. Transitions, templates, and less admin work.</p>
-        <div class="track-meta"><span>7 articles</span><span>~55 min</span><span>Beginner to Advanced</span></div>
+        <div class="track-meta"><span>{hrPlaybookCount} articles</span><span>Beginner to Advanced</span></div>
         <span class="track-link">Start the track <span aria-hidden="true">→</span></span>
       </a>
     </div>
@@ -92,83 +199,95 @@ const breadcrumbs = [
   </div>
 </section>
 
-<!-- ALL ARTICLES (Cream) -->
+<!-- BROWSE BY TOPIC -->
+<section class="section topics" aria-labelledby="topics-heading">
+  <div class="section-inner">
+    <div class="topics-header">
+      <h2 id="topics-heading">Browse by topic</h2>
+      <p>Jump to the area that's most relevant to your decision.</p>
+    </div>
+    <div class="topic-grid">
+      {clusterEntries.map(entry => (
+        <a href={entry.href} class="topic-card">
+          <div class="topic-card-title">{entry.title}</div>
+          <p class="topic-card-desc">{entry.description}</p>
+          <div class="topic-card-meta">
+            <span class="topic-count">{entry.count} {entry.count === 1 ? 'article' : 'articles'}</span>
+            <span class="topic-arrow" aria-hidden="true">→</span>
+          </div>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- ALL ARTICLES -->
 <section class="section articles" aria-labelledby="articles-heading">
   <div class="section-inner">
     <div class="articles-header">
       <h2 id="articles-heading">All articles</h2>
-      <div class="filters" role="group" aria-label="Filter articles">
-        <button class="filter-btn is-active">All</button>
-        <button class="filter-btn">Business Leaders</button>
-        <button class="filter-btn">HR Playbook</button>
-        <button class="filter-btn">Beginner</button>
-        <button class="filter-btn">Intermediate</button>
-        <button class="filter-btn">Advanced</button>
+      <div class="articles-count" aria-live="polite">
+        Showing <span id="visible-count">{Math.min(PAGE_SIZE, articlesForDisplay.length)}</span> of <span id="total-count">{articlesForDisplay.length}</span>
       </div>
     </div>
-    <div class="article-grid">
-      <!-- CMS: {{#each articles}} -->
-      <a href="/learn/business-case/why-premiums-keep-climbing" class="article-card">
-        <div class="article-card-image">
-          <Image src={articlePremiums} alt="Tax forms and calculator for premium cost analysis" width={600} height={400} loading="lazy" />
-        </div>
-        <div class="article-card-body">
-          <span class="article-badge article-badge--biz">Business Leaders</span>
-          <div class="article-card-title">Why Your Health Insurance Premiums Keep Climbing</div>
-          <div class="article-card-meta">Beginner · 5 min read</div>
-        </div>
-      </a>
-      <a href="/learn/business-case/fully-funded-alternatives" class="article-card">
-        <div class="article-card-image">
-          <Image src={articleAlternatives} alt="Laptop and benefits plan documents during a business strategy session" width={600} height={400} loading="lazy" />
-        </div>
-        <div class="article-card-body">
-          <span class="article-badge article-badge--biz">Business Leaders</span>
-          <div class="article-card-title">What Are the Alternatives to Fully Funded Plans?</div>
-          <div class="article-card-meta">Beginner · 6 min read</div>
-        </div>
-      </a>
-      <a href="/learn/hr-playbook/why-benefits-feel-hard" class="article-card">
-        <div class="article-card-image">
-          <Image src={articleHrChallenges} alt="HR manager managing employee benefits in a modern office workspace" width={600} height={400} loading="lazy" />
-        </div>
-        <div class="article-card-body">
-          <span class="article-badge article-badge--hr">HR Playbook</span>
-          <div class="article-card-title">Why Benefits Feel So Hard (It's Not You)</div>
-          <div class="article-card-meta">Beginner · 4 min read</div>
-        </div>
-      </a>
-      <a href="/learn/business-case/claims-data" class="article-card">
-        <div class="article-card-image">
-          <Image src={articleClaimsData} alt="Line charts and data graphs showing healthcare claims analysis" width={600} height={400} loading="lazy" />
-        </div>
-        <div class="article-card-body">
-          <span class="article-badge article-badge--biz">Business Leaders</span>
-          <div class="article-card-title">Claims Data: What You Should Be Seeing (And Aren't)</div>
-          <div class="article-card-meta">Intermediate · 5 min read</div>
-        </div>
-      </a>
-      <a href="/learn/hr-playbook/concierge-vs-call-center" class="article-card">
-        <div class="article-card-image">
-          <Image src={articleConcierge} alt="Healthcare professional at laptop with stethoscope" width={600} height={400} loading="lazy" />
-        </div>
-        <div class="article-card-body">
-          <span class="article-badge article-badge--hr">HR Playbook</span>
-          <div class="article-card-title">Concierge vs. Call Center: What Your Employees Actually Experience</div>
-          <div class="article-card-meta">Intermediate · 5 min read</div>
-        </div>
-      </a>
-      <a href="/learn/business-case/roi-modeling" class="article-card">
-        <div class="article-card-image">
-          <Image src={articleRoi} alt="Financial dashboard displaying ROI and benefits program performance metrics" width={600} height={400} loading="lazy" />
-        </div>
-        <div class="article-card-body">
-          <span class="article-badge article-badge--biz">Business Leaders</span>
-          <div class="article-card-title">How to Model the ROI of Switching Plan Structures</div>
-          <div class="article-card-meta">Advanced · 7 min read</div>
-        </div>
-      </a>
-      <!-- CMS: {{/each}} -->
+
+    <!-- Filters -->
+    <div class="filters" role="group" aria-label="Filter articles">
+      <div class="filter-group">
+        <span class="filter-label">Audience:</span>
+        <button class="filter-btn is-active" data-filter="audience" data-value="all" type="button">All</button>
+        {audienceOptions.map(tag => (
+          <button class="filter-btn" data-filter="audience" data-value={tag} type="button">{tag}</button>
+        ))}
+      </div>
+      <div class="filter-group">
+        <span class="filter-label">Difficulty:</span>
+        <button class="filter-btn is-active" data-filter="difficulty" data-value="all" type="button">All</button>
+        {difficultyOptions.map(d => (
+          <button class="filter-btn" data-filter="difficulty" data-value={d} type="button">{d.charAt(0).toUpperCase() + d.slice(1)}</button>
+        ))}
+      </div>
+    </div>
+
+    <!-- Article grid -->
+    <div class="article-grid" id="article-grid">
+      {articlesForDisplay.map((article, i) => (
+        <a
+          href={`/learn/${article.slug}`}
+          class="article-card"
+          data-audience={article.audienceTags.join(',')}
+          data-difficulty={article.difficulty}
+          data-index={i}
+        >
+          <div class="article-card-body">
+            <div class="article-card-tags">
+              <span class={`article-badge ${article.audienceTags.includes('HR') ? 'article-badge--hr' : 'article-badge--biz'}`}>
+                {article.audience}
+              </span>
+              <span class="article-cluster">{article.cluster}</span>
+            </div>
+            <div class="article-card-title">{article.title}</div>
+            <p class="article-card-excerpt">{article.excerpt}</p>
+            <div class="article-card-meta">
+              <span>{article.difficulty.charAt(0).toUpperCase() + article.difficulty.slice(1)}</span>
+              {article.readingTime && <span>· {article.readingTime} min read</span>}
+            </div>
+          </div>
+        </a>
+      ))}
+    </div>
+
+    <!-- Empty state -->
+    <div class="article-empty" id="article-empty" hidden>
+      <p>No articles match the selected filters.</p>
+      <button class="filter-btn" type="button" id="reset-filters">Clear filters</button>
+    </div>
+
+    <!-- Load more -->
+    <div class="article-pagination" id="article-pagination">
+      <button class="load-more-btn" type="button" id="load-more">
+        Show more articles
+      </button>
     </div>
   </div>
 </section>
@@ -187,6 +306,98 @@ const breadcrumbs = [
     <p class="newsletter-privacy">No spam. Unsubscribe anytime.</p>
   </div>
 </section>
+
+<!-- Filter + pagination behavior -->
+<script is:inline define:vars={{ PAGE_SIZE }}>
+(function() {
+  const grid = document.getElementById('article-grid');
+  const empty = document.getElementById('article-empty');
+  const loadMoreBtn = document.getElementById('load-more');
+  const pagination = document.getElementById('article-pagination');
+  const visibleCountEl = document.getElementById('visible-count');
+  const totalCountEl = document.getElementById('total-count');
+  const resetBtn = document.getElementById('reset-filters');
+  if (!grid) return;
+
+  const cards = Array.from(grid.querySelectorAll('.article-card'));
+  const filterButtons = Array.from(document.querySelectorAll('[data-filter]'));
+
+  let activeFilters = { audience: 'all', difficulty: 'all' };
+  let visibleLimit = PAGE_SIZE;
+
+  function matchesFilters(card) {
+    const audienceTags = (card.dataset.audience || '').split(',');
+    const difficulty = card.dataset.difficulty || '';
+    const audOk = activeFilters.audience === 'all' || audienceTags.includes(activeFilters.audience);
+    const diffOk = activeFilters.difficulty === 'all' || difficulty === activeFilters.difficulty;
+    return audOk && diffOk;
+  }
+
+  function render() {
+    let matchedCount = 0;
+    let shownCount = 0;
+    cards.forEach(card => {
+      const matches = matchesFilters(card);
+      if (matches) {
+        matchedCount++;
+        if (shownCount < visibleLimit) {
+          card.removeAttribute('hidden');
+          shownCount++;
+        } else {
+          card.setAttribute('hidden', '');
+        }
+      } else {
+        card.setAttribute('hidden', '');
+      }
+    });
+
+    if (matchedCount === 0) {
+      empty.removeAttribute('hidden');
+      pagination.setAttribute('hidden', '');
+    } else {
+      empty.setAttribute('hidden', '');
+      if (shownCount < matchedCount) {
+        pagination.removeAttribute('hidden');
+      } else {
+        pagination.setAttribute('hidden', '');
+      }
+    }
+
+    if (visibleCountEl) visibleCountEl.textContent = String(shownCount);
+    if (totalCountEl) totalCountEl.textContent = String(matchedCount);
+  }
+
+  filterButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const group = btn.dataset.filter;
+      const value = btn.dataset.value;
+      if (!group || !value) return;
+      activeFilters[group] = value;
+      // Update active state within the same group
+      document.querySelectorAll(`[data-filter="${group}"]`).forEach(b => b.classList.remove('is-active'));
+      btn.classList.add('is-active');
+      // Reset pagination on filter change
+      visibleLimit = PAGE_SIZE;
+      render();
+    });
+  });
+
+  loadMoreBtn?.addEventListener('click', () => {
+    visibleLimit += PAGE_SIZE;
+    render();
+  });
+
+  resetBtn?.addEventListener('click', () => {
+    activeFilters = { audience: 'all', difficulty: 'all' };
+    visibleLimit = PAGE_SIZE;
+    document.querySelectorAll('[data-filter]').forEach(b => b.classList.remove('is-active'));
+    document.querySelectorAll('[data-value="all"]').forEach(b => b.classList.add('is-active'));
+    render();
+  });
+
+  render();
+})();
+</script>
 
 </BaseLayout>
 
@@ -237,29 +448,61 @@ const breadcrumbs = [
 .report-link{font-size:14px;font-weight:600;color:var(--elm-600);display:inline-flex;align-items:center;gap:6px;transition:gap var(--t-fast)}
 .report-card:hover .report-link{gap:10px}
 
+/* TOPICS (Browse by topic) */
+.topics{background:var(--warm-linen)}
+.topics-header{text-align:center;max-width:560px;margin:0 auto 40px}
+.topics-header h2{font-family:var(--font-display);font-size:clamp(24px,3vw,34px);font-weight:700;line-height:1.2;margin-bottom:12px}
+.topics-header p{font-size:16px;color:var(--nero-500)}
+.topic-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;max-width:1100px;margin:0 auto}
+.topic-card{background:#fff;border:1px solid var(--nero-100);border-radius:14px;padding:24px;text-decoration:none;color:inherit;transition:all var(--t-med);display:flex;flex-direction:column;gap:8px}
+.topic-card:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(38,35,36,0.06);border-color:var(--elm-200)}
+.topic-card-title{font-family:var(--font-display);font-size:18px;font-weight:700;line-height:1.3;color:var(--nero-900)}
+.topic-card-desc{font-size:14px;line-height:1.55;color:var(--nero-500);margin:0;flex:1}
+.topic-card-meta{display:flex;justify-content:space-between;align-items:center;margin-top:8px}
+.topic-count{font-size:12px;font-weight:600;color:var(--elm-700);background:var(--elm-50);padding:3px 10px;border-radius:999px;letter-spacing:0.04em}
+.topic-arrow{color:var(--elm-500);font-weight:700;transition:transform var(--t-fast)}
+.topic-card:hover .topic-arrow{transform:translateX(2px)}
+
 /* ARTICLE GRID (Cream) */
 .articles{background:var(--warm-cream)}
-.articles-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:40px;flex-wrap:wrap;gap:16px}
+.articles-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:24px;flex-wrap:wrap;gap:16px}
 .articles-header h2{font-family:var(--font-display);font-size:clamp(24px,3vw,32px);font-weight:700;line-height:1.2}
-/* Filters */
-.filters{display:flex;gap:8px;flex-wrap:wrap}
-.filter-btn{font-family:var(--font-body);font-size:13px;font-weight:600;background:var(--nero-50);color:var(--nero-600);border:1px solid var(--nero-200);border-radius:999px;padding:12px 20px;min-height:48px;cursor:pointer;transition:all var(--t-fast)}
-.filter-btn:hover,.filter-btn.is-active{background:var(--elm-50);color:var(--elm-700);border-color:var(--elm-200)}
+.articles-count{font-size:13px;color:var(--nero-400)}
+.articles-count span{color:var(--nero-700);font-weight:600}
 
-.article-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
-.article-card{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 2px 8px rgba(38,35,36,0.04);border:1px solid var(--nero-100);transition:all var(--t-med);text-decoration:none;display:block;color:inherit}
-.article-card:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(38,35,36,0.08)}
-.article-card-image{height:140px;overflow:hidden}
-.article-card-image img{width:100%;height:100%;object-fit:cover;display:block}
-.article-card:nth-child(3n+1) .article-card-image{background:var(--elm-50)}
-.article-card:nth-child(3n+2) .article-card-image{background:var(--sapphire-50)}
-.article-card:nth-child(3n+3) .article-card-image{background:var(--gold-50)}
-.article-card-body{padding:24px}
-.article-badge{display:inline-block;font-size:11px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;padding:4px 12px;border-radius:999px;margin-bottom:12px}
+/* Filters */
+.filters{display:flex;flex-direction:column;gap:14px;margin-bottom:32px;padding:20px;background:#fff;border:1px solid var(--nero-100);border-radius:14px}
+.filter-group{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.filter-label{font-size:12px;font-weight:600;color:var(--nero-500);text-transform:uppercase;letter-spacing:0.06em;margin-right:4px}
+.filter-btn{font-family:var(--font-body);font-size:13px;font-weight:600;background:var(--nero-50);color:var(--nero-600);border:1px solid var(--nero-200);border-radius:999px;padding:8px 14px;min-height:36px;cursor:pointer;transition:all var(--t-fast)}
+.filter-btn:hover{background:var(--elm-50);color:var(--elm-700);border-color:var(--elm-200)}
+.filter-btn.is-active{background:var(--elm-500);color:#fff;border-color:var(--elm-500)}
+
+.article-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:24px}
+.article-card{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 2px 8px rgba(38,35,36,0.04);border:1px solid var(--nero-100);transition:all var(--t-med);text-decoration:none;display:flex;flex-direction:column;color:inherit}
+.article-card[hidden]{display:none}
+.article-card:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(38,35,36,0.08);border-color:var(--elm-200)}
+.article-card-body{padding:22px;display:flex;flex-direction:column;gap:10px;flex:1}
+.article-card-tags{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.article-badge{display:inline-block;font-size:11px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;padding:4px 10px;border-radius:999px}
 .article-badge--biz{background:var(--elm-50);color:var(--elm-700)}
 .article-badge--hr{background:var(--gold-100);color:var(--gold-800)}
-.article-card-title{font-family:var(--font-display);font-size:17px;font-weight:700;line-height:1.35;margin-bottom:8px}
-.article-card-meta{font-size:12px;color:var(--nero-400)}
+.article-cluster{font-size:11px;color:var(--nero-400);font-weight:500}
+.article-card-title{font-family:var(--font-display);font-size:17px;font-weight:700;line-height:1.35;color:var(--nero-900)}
+.article-card-excerpt{font-size:13px;line-height:1.55;color:var(--nero-500);margin:0;flex:1;
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.article-card-meta{font-size:12px;color:var(--nero-400);display:flex;gap:8px}
+
+/* Empty state */
+.article-empty{text-align:center;padding:60px 20px;background:#fff;border:1px solid var(--nero-100);border-radius:14px}
+.article-empty p{font-size:15px;color:var(--nero-500);margin-bottom:16px}
+.article-empty[hidden]{display:none}
+
+/* Pagination */
+.article-pagination{text-align:center;margin-top:40px}
+.article-pagination[hidden]{display:none}
+.load-more-btn{font-family:var(--font-body);font-size:14px;font-weight:600;background:#fff;color:var(--elm-700);border:1px solid var(--elm-200);border-radius:10px;padding:14px 32px;cursor:pointer;transition:all var(--t-fast)}
+.load-more-btn:hover{background:var(--elm-50);border-color:var(--elm-400)}
 
 /* NEWSLETTER CTA (Brand dark) */
 .newsletter{background:linear-gradient(135deg, var(--elm-700), var(--elm-600));color:#fff;position:relative;overflow:hidden;padding:80px var(--section-pad-x)}
@@ -281,10 +524,13 @@ const breadcrumbs = [
   .page-hero{padding:48px 24px 56px}
   .track-cards{grid-template-columns:1fr}
   .report-cards{grid-template-columns:1fr}
+  .topic-grid{grid-template-columns:1fr}
   .article-grid{grid-template-columns:1fr}
   .newsletter-form{flex-direction:column}
+  .articles-header{flex-direction:column;align-items:flex-start}
 }
 @media(max-width:420px){:root{--section-pad-x:16px;--section-pad-y:64px}.page-hero{padding:40px 16px 48px}}
 </style>
 
 
+</BaseLayout>

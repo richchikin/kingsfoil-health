@@ -53,6 +53,8 @@ When business leaders first hear about self-funded or level-funded health plans,
 
 The answer is stop-loss insurance. It's the mechanism that puts a ceiling on your exposure and makes alternative plan structures financially viable for companies of all sizes, including yours.
 
+> All dollar amounts and percentages in this article are illustrative — attachment points, claims totals, premiums, and reimbursement examples below are for explanation only.[^1] Actual figures vary substantially by group size, claims history, demographics, carrier, and contract terms.
+
 ## What stop-loss insurance does
 
 Stop-loss insurance is a separate policy that protects your company from unexpectedly high claims. It doesn't replace your health plan. It sits behind it, acting as a backstop that kicks in when claims exceed a defined threshold.
@@ -127,3 +129,5 @@ This is another area where good health navigation and claims management can pay 
 Stop-loss insurance is the mechanism that makes self-funded and level-funded plans work for employers who aren't giant corporations. It puts a defined ceiling on your financial exposure while preserving your ability to benefit from good claims performance.
 
 When someone tells you that self-funding is too risky for a company your size, the right response is to ask whether they've accounted for stop-loss. With the right policy in place, you're not gambling on your employees' health. You're making a calculated decision with built-in protections, and that's a fundamentally different proposition than going without a safety net.
+
+[^1]: All dollar amounts and percentages in this article — including specific and aggregate attachment points, expected and actual claims figures, reimbursement examples, and premium-related numbers — are illustrative. Real attachment points, premiums, and exposure vary substantially by group size, demographics, claims history, plan design, and carrier. Always model against your specific group's data with a benefits advisor before making any decision.

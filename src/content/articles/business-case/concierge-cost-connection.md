@@ -66,7 +66,7 @@ Here are the primary ways this drives down costs:
 
 **Steering to high-quality, cost-effective providers.** Not all providers charge the same for the same procedure. A knee MRI can cost $400 at one facility and $2,500 at another, with no difference in quality. A navigator helps employees find providers that deliver excellent care at reasonable prices. Over a full year, this kind of steering adds up fast.
 
-**Reducing unnecessary emergency room visits.** ER visits are one of the biggest cost drivers in any health plan. Many of those visits are for conditions that could be handled at an urgent care clinic or a primary care office at a fraction of the cost. When employees have someone to call who can help them evaluate their situation and find the right care setting, ER utilization drops significantly. Studies consistently show that navigation programs reduce avoidable ER visits by 10-20%.
+**Reducing unnecessary emergency room visits.** ER visits are one of the biggest cost drivers in any health plan. Many of those visits are for conditions that could be handled at an urgent care clinic or a primary care office at a fraction of the cost. When employees have someone to call who can help them evaluate their situation and find the right care setting, ER utilization tends to drop meaningfully.
 
 **Supporting better medication management.** Pharmacy costs account for a substantial share of total claims. Navigators help employees understand when generics are available, when a manufacturer's assistance program could offset costs, and when a medication review with their doctor might lead to a more affordable treatment plan. These small interventions prevent large pharmacy claims from accumulating over time.
 
@@ -76,16 +76,16 @@ Here are the primary ways this drives down costs:
 
 You don't have to take this on faith. The evidence is strong.
 
-Organizations that implement concierge health navigation services typically see claims reductions of 5-15% within the first one to two years. The range depends on your starting point. Companies with high ER utilization, poor chronic disease management, or a workforce that has historically been disengaged from their benefits tend to see the largest improvements.
+Organizations that implement concierge health navigation services often see meaningful claims reductions within the first one to two years. The magnitude depends on your starting point. Companies with high ER utilization, poor chronic disease management, or a workforce that has historically been disengaged from their benefits tend to see the largest improvements.
 
-Here's a simplified picture of how the math works for a 50-person company:
+Here's a simplified, illustrative picture of how the math can work for a hypothetical 50-person company.[^1] The dollar amounts and percentages below are for illustration only and will vary substantially by group:
 
 - **Annual health plan spend:** $500,000
-- **Claims reduction from navigation (conservative 8%):** $40,000
+- **Claims reduction from navigation (illustrative 8%):** $40,000
 - **Cost of navigation service:** $10,000-$15,000
 - **Net savings:** $25,000-$30,000 in year one
 
-That's a return on investment of roughly two to three dollars for every dollar spent. And the effect compounds. As employees develop better healthcare habits and your claims trend improves, you build a track record that can lead to better stop-loss pricing, more favorable renewal terms, and a more sustainable benefits budget over time.
+In this scenario, that's a return of roughly two to three dollars for every dollar spent on navigation. And the effect can compound. As employees develop better healthcare habits and your claims trend improves, you build a track record that can lead to better stop-loss pricing, more favorable renewal terms, and a more sustainable benefits budget over time.
 
 ## It's not just about the money
 
@@ -99,7 +99,7 @@ When employees feel like their employer genuinely cares about their health and w
 
 **Lower presenteeism costs.** Presenteeism, which is the lost productivity that happens when employees are at work but not functioning at their best due to health issues, costs employers more than absenteeism does. Navigation services that help people get conditions under control address this often-invisible cost driver.
 
-**Stronger retention.** Replacing an employee costs anywhere from 50% to 200% of their annual salary, depending on the role. A benefits experience that makes people feel supported is a meaningful retention tool, especially in competitive hiring markets.
+**Stronger retention.** Replacing an employee is widely recognized as a meaningful cost — often a substantial fraction of annual salary, depending on the role. A benefits experience that makes people feel supported is a meaningful retention tool, especially in competitive hiring markets.
 
 ## What good navigation looks like
 
@@ -118,3 +118,5 @@ Not all navigation services are equal. When you're evaluating options, look for 
 Investing in employee experience isn't a soft initiative. It's a cost management strategy with measurable returns. When you give your people real support in navigating healthcare, they make decisions that are better for their health and better for your bottom line.
 
 That connection between experience and cost is at the heart of how modern benefits strategies work. And it's one of the key reasons companies are moving away from traditional fully funded plans toward structures that reward good stewardship of the healthcare dollar.
+
+[^1]: All dollar amounts and percentages in the worked example in this article are illustrative — annual plan spend, claims-reduction percentage, navigation cost, and net savings. Actual figures vary significantly by group size, demographics, claims experience, navigation vendor, and program execution. Modeling against your specific group's data is essential before making any decision.

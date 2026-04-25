@@ -48,7 +48,7 @@ relatedArticles:
   - "business-case/unused-premiums"
 ---
 
-If you run a business with a group health plan, you've seen it: renewal season arrives, and your broker tells you premiums are going up. Again. Maybe 10%. Maybe 20%. The explanation usually boils down to "claims were higher than expected" or "the market went up."
+If you run a business with a group health plan, you've seen it: renewal season arrives, and your broker tells you premiums are going up. Again. The increases are often substantial — sometimes well into the double digits. The explanation usually boils down to "claims were higher than expected" or "the market went up."
 
 But the real story is more structural than that. Understanding why premiums keep climbing is the first step toward doing something about it.
 

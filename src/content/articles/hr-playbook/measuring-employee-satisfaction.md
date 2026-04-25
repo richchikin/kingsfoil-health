@@ -154,13 +154,13 @@ Data without interpretation is just numbers. Here's how to make sense of what yo
 
 **Segment your data.** If possible, break results down by department, location, or plan type. Aggregate scores can mask problems that are concentrated in specific groups. One department might be thriving while another is struggling, and the overall average won't tell you that.
 
-**Compare against benchmarks.** While every organization is different, here are general benchmarks for a successful benefits transition:
+**Compare against benchmarks.** While every organization is different, here are directional benchmarks for a successful benefits transition. Treat these as illustrative targets to set internally, not industry standards:
 
-- **Benefits satisfaction score:** 3.8 or above out of 5 at 90 days
-- **Benefits NPS:** +20 or above at 90 days
-- **HR ticket volume reduction:** 40-60% decrease compared to pre-transition volume
-- **Concierge resolution rate:** 85% or above resolved without escalation
-- **Survey response rate:** 60% or above (lower than this and your data may not be representative)
+- **Benefits satisfaction score:** comfortably above the midpoint of your scale at 90 days
+- **Benefits NPS:** clearly positive at 90 days
+- **HR ticket volume reduction:** a meaningful decrease compared to pre-transition volume
+- **Concierge resolution rate:** a strong majority of inquiries resolved without escalation
+- **Survey response rate:** high enough that the data is representative of your workforce
 
 ## What to do if satisfaction dips
 

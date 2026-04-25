@@ -58,7 +58,7 @@ If this feels familiar, you're not alone. Businesses across the country face the
 
 ## The annual increase isn't random
 
-When your premiums go up 8%, 15%, or even 25%, it's not because healthcare suddenly got that much more expensive overnight. It's because of how the traditional insurance model works.
+When your premiums climb meaningfully year after year — sometimes well into the double digits — it's not because healthcare suddenly got that much more expensive overnight. It's because of how the traditional insurance model works.
 
 In a fully funded plan, you pay a fixed premium to a carrier. The carrier pools your money with thousands of other businesses, pays out claims, takes a cut for administration, and keeps whatever's left as profit. Next year, they recalculate based on the pool's overall performance — and your rate goes up accordingly.
 
@@ -67,7 +67,7 @@ Here's the part that stings: even if *your* team was healthy and your claims wer
 ## Three forces pushing your rates higher
 
 **1. Medical inflation is real — but it's not the whole story.**
-Healthcare costs do rise faster than general inflation. New drugs, new procedures, hospital consolidation — these are genuine cost drivers. But they account for maybe 4-6% per year. If your renewal is coming in at 15% or more, something else is going on.
+Healthcare costs do rise faster than general inflation. New drugs, new procedures, hospital consolidation — these are genuine cost drivers. But underlying medical trend typically accounts for only a portion of what employers see at renewal. If your renewal increase is meaningfully larger than underlying medical trend, something else is going on.
 
 **2. You're subsidizing the pool.**
 In a fully funded arrangement, healthy groups subsidize less healthy ones. Carriers price based on the average, not on your specific experience. If your team is younger, healthier, or more careful about utilization, you're likely overpaying — and you'd never know it, because you don't see the data.
@@ -90,7 +90,7 @@ Without that information, you're making one of your largest budget decisions in 
 
 The businesses that break this cycle tend to do three things:
 
-**They get visibility into their data.** Even before switching plan structures, they request claims data from their carrier (you're entitled to it in many states). This alone changes the conversation.
+**They get visibility into their numbers.** Even before switching plan structures, they request a summary of claims experience from their carrier (you're entitled to it in many states). This alone changes the conversation.
 
 **They explore alternative plan structures.** Level-funded and self-funded plans give employers access to their claims data, the potential to benefit from good years, and real control over plan design. These aren't just for large companies anymore — businesses with as few as 10 employees are making the switch.
 

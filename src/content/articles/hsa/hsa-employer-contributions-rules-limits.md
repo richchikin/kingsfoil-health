@@ -91,7 +91,7 @@ Employers contributing to HSAs **outside a cafeteria plan** must follow the IRS 
 - "Same coverage tier" means self-only vs. family
 - Comparison applies to employees eligible for HSAs who work a substantially similar number of hours
 
-This means you generally cannot contribute $1,000 to Employee A and $500 to Employee B if they're both in the same coverage tier, unless you're operating through a cafeteria plan (Section 125) where comparability doesn't apply.
+This means you generally cannot contribute a different amount to Employee A than to Employee B if they're both in the same coverage tier, unless you're operating through a cafeteria plan (Section 125) where comparability doesn't apply.
 
 The penalty for violating comparability is meaningful — the IRS imposes an excise tax on non-comparable contributions.[^3] Most employers operate within a Section 125 cafeteria plan to avoid the comparability complications.
 
@@ -103,9 +103,9 @@ Beyond compliance, the interesting question is how to use HSA contributions stra
 
 ### 1. Seeding the HSA to ease HDHP adoption
 
-The biggest barrier to HDHP adoption is employee anxiety about the deductible. Employees see "$3,000 deductible" and interpret it as a benefit cut, even when the premium savings and HSA tax advantages make the total economics favorable.
+The biggest barrier to HDHP adoption is employee anxiety about the deductible. Employees see a multi-thousand-dollar deductible and interpret it as a benefit cut, even when the premium savings and HSA tax advantages make the total economics favorable.
 
-A common solution: the employer seeds each employee's HSA with a meaningful opening contribution ($500–$2,000 typical) that covers a substantial portion of the deductible up front. This converts the psychological experience from "I have to pay $3,000 before insurance kicks in" to "I have $1,500 in my HSA and need to fund the next $1,500."
+A common solution: the employer seeds each employee's HSA with a meaningful opening contribution that covers a substantial portion of the deductible up front. This converts the psychological experience from "I have to pay the full deductible before insurance kicks in" to "I already have a meaningful balance in my HSA — I only need to fund the rest."
 
 ### 2. Pairing HSA with wellness participation
 
@@ -117,7 +117,7 @@ Some employers shift budget from paying a high share of HDHP premium to offering
 
 ### 4. Retention and recruiting differentiation
 
-A generous employer HSA contribution ($1,500+ for self-only, $3,000+ for family) is highly visible on compensation comparison sites and in offer letters. Because the dollars are tax-advantaged, they cost the employer less than the equivalent salary bump would — a genuinely efficient differentiator.
+A generous employer HSA contribution is highly visible on compensation comparison sites and in offer letters. Because the dollars are tax-advantaged, they cost the employer less than the equivalent salary bump would — a genuinely efficient differentiator.
 
 ## Common mistakes
 

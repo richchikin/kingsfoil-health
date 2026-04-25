@@ -128,7 +128,7 @@ Level-funded tends to be the clear winner when:
 - Your team is generally healthy or has favorable demographics
 - You want transparency into your costs
 - Your finance team wants fixed monthly payments, not variability
-- You're on fully-insured and facing a 10%+ renewal increase
+- You're on fully-insured and facing a meaningful renewal increase
 - You want the option to move to fully self-funded in a year or two once you have data
 
 Level-funded tends to be the wrong fit when:
@@ -167,6 +167,6 @@ The right broker will walk you through all of this. If they can't, that's useful
 
 A level-funded health plan is the structure most small-to-mid-sized employers should be comparing against their fully-insured quote every single year. It gives you the predictability your CFO wants, the data your plan advisor needs to actually help you, and the upside of keeping what you don't spend. The trade-off is that you take on bounded claims risk — capped by stop-loss — and you engage more actively with the plan.
 
-For a business tired of watching [premiums climb 10% or 20% a year](/learn/business-case/why-rates-keep-going-up) with nothing to show for it, that's a trade-off worth making.
+For a business tired of watching [premiums climb year after year](/learn/business-case/why-rates-keep-going-up) with nothing to show for it, that's a trade-off worth making.
 
 > **Want to see what this would look like for your company?** The *Rate Shock Survival Guide* walks through how to read a level-funded quote, what to ask your broker, and how to compare it to your current plan honestly. [Download the free guide here](/learn/resources/rate-shock).

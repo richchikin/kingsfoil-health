@@ -156,7 +156,7 @@ The decision usually comes down to three questions.
 
 **3. Can your cash flow handle month-to-month variability?** Fully self-funded plans vary month to month based on actual claims. Level-funded plans fix that variability at the cost of a slightly higher expected spend. Both protect you from catastrophe with stop-loss. Pick the one your finance team can live with.
 
-The most common path we see at Kingsfoil Health is a progression: employers start fully-insured, get tired of 10–20% annual increases, move to level-funded for one plan year to see their data, and then make a more informed decision about whether to stay there or move to full self-funding.
+The most common path we see at Kingsfoil Health is a progression: employers start fully-insured, get tired of years of meaningful renewal increases, move to level-funded for one plan year to see their data, and then make a more informed decision about whether to stay there or move to full self-funding.
 
 ## The bottom line
 

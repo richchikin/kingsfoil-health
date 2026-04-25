@@ -1,0 +1,263 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+// Cluster index pages — one page per content cluster.
+// Routes: /learn/plan-structures, /learn/hra-ichra, /learn/wellness, etc.
+//
+// These do NOT collide with the article catch-all at [...slug].astro because
+// article URLs always have at least two segments (cluster/article-slug),
+// whereas cluster index pages have exactly one segment after /learn/.
+//
+// Note: /learn/business-case and /learn/hr-playbook are reserved by the
+// learning track index pages and are NOT generated here.
+
+const CLUSTER_META = [
+  {
+    slug: 'pillars',
+    cluster: 'Pillar',
+    title: 'Pillar guides',
+    description: 'Comprehensive top-level references that anchor each major topic.',
+  },
+  {
+    slug: 'plan-structures',
+    cluster: 'Plan Structures',
+    title: 'Plan structures',
+    description: 'Fully-insured, level-funded, and self-funded — how each works and when to use them.',
+  },
+  {
+    slug: 'plan-types',
+    cluster: 'Plan Types',
+    title: 'Plan types & terminology',
+    description: 'HMO, PPO, EPO, deductibles, copays — the building blocks every employee benefits from understanding.',
+  },
+  {
+    slug: 'premium-costs',
+    cluster: 'Premium Costs',
+    title: 'Premium costs',
+    description: 'Why premiums keep going up and what employers can actually do about it.',
+  },
+  {
+    slug: 'stop-loss',
+    cluster: 'Stop-Loss',
+    title: 'Stop-loss insurance',
+    description: 'How stop-loss insurance makes self-funded and level-funded plans financially safe for small employers.',
+  },
+  {
+    slug: 'hsa',
+    cluster: 'HSA & Tax-Advantaged',
+    title: 'HSA & tax-advantaged accounts',
+    description: 'HSAs, employer contributions, and the tax-efficiency case for high-deductible plans.',
+  },
+  {
+    slug: 'hra-ichra',
+    cluster: 'HRA & Reimbursement',
+    title: 'HRA, ICHRA & QSEHRA',
+    description: 'Reimbursement-based benefits structures — when each fits and how to choose.',
+  },
+  {
+    slug: 'direct-primary-care',
+    cluster: 'Direct Primary Care',
+    title: 'Direct primary care',
+    description: 'How DPC pairs with self-funded plans to reduce claims and improve the primary care experience.',
+  },
+  {
+    slug: 'wellness',
+    cluster: 'Wellness & EAP',
+    title: 'Wellness & EAP',
+    description: 'Employee assistance programs, mental health support, and wellness programming that actually works.',
+  },
+  {
+    slug: 'brokers',
+    cluster: 'Broker Transparency',
+    title: 'Broker transparency',
+    description: 'How brokers are paid, what to ask, and how to align incentives with your interests.',
+  },
+  {
+    slug: 'peo',
+    cluster: 'PEO Comparison',
+    title: 'PEO vs. broker',
+    description: 'When a PEO makes sense, when an independent broker wins, and the hidden costs to evaluate.',
+  },
+  {
+    slug: 'aca-compliance',
+    cluster: 'ACA Compliance',
+    title: 'ACA compliance',
+    description: 'What you actually have to do — and what you don\'t — at every employer size.',
+  },
+  {
+    slug: 'retention',
+    cluster: 'Retention & Culture',
+    title: 'Retention & culture',
+    description: 'Health benefits as a retention and recruiting lever, with the data to back it up.',
+  },
+  {
+    slug: 'utah',
+    cluster: 'Utah Local',
+    title: 'Utah employers',
+    description: 'Utah-specific carriers, compliance, and market dynamics for local businesses.',
+  },
+  {
+    slug: 'fundamentals',
+    cluster: 'Fundamentals',
+    title: 'Fundamentals',
+    description: 'First-time benefits offerings, group coverage costs, and the basics of getting started.',
+  },
+];
+
+export async function getStaticPaths() {
+  const allArticles = (await getCollection('articles'))
+    .sort((a, b) => b.data.publishedDate.getTime() - a.data.publishedDate.getTime());
+
+  const CLUSTERS = [
+    { slug: 'pillars', cluster: 'Pillar', title: 'Pillar guides', description: 'Comprehensive top-level references that anchor each major topic.' },
+    { slug: 'plan-structures', cluster: 'Plan Structures', title: 'Plan structures', description: 'Fully-insured, level-funded, and self-funded — how each works and when to use them.' },
+    { slug: 'plan-types', cluster: 'Plan Types', title: 'Plan types & terminology', description: 'HMO, PPO, EPO, deductibles, copays — the building blocks every employee benefits from understanding.' },
+    { slug: 'premium-costs', cluster: 'Premium Costs', title: 'Premium costs', description: 'Why premiums keep going up and what employers can actually do about it.' },
+    { slug: 'stop-loss', cluster: 'Stop-Loss', title: 'Stop-loss insurance', description: 'How stop-loss insurance makes self-funded and level-funded plans financially safe for small employers.' },
+    { slug: 'hsa', cluster: 'HSA & Tax-Advantaged', title: 'HSA & tax-advantaged accounts', description: 'HSAs, employer contributions, and the tax-efficiency case for high-deductible plans.' },
+    { slug: 'hra-ichra', cluster: 'HRA & Reimbursement', title: 'HRA, ICHRA & QSEHRA', description: 'Reimbursement-based benefits structures — when each fits and how to choose.' },
+    { slug: 'direct-primary-care', cluster: 'Direct Primary Care', title: 'Direct primary care', description: 'How DPC pairs with self-funded plans to reduce claims and improve the primary care experience.' },
+    { slug: 'wellness', cluster: 'Wellness & EAP', title: 'Wellness & EAP', description: 'Employee assistance programs, mental health support, and wellness programming that actually works.' },
+    { slug: 'brokers', cluster: 'Broker Transparency', title: 'Broker transparency', description: 'How brokers are paid, what to ask, and how to align incentives with your interests.' },
+    { slug: 'peo', cluster: 'PEO Comparison', title: 'PEO vs. broker', description: 'When a PEO makes sense, when an independent broker wins, and the hidden costs to evaluate.' },
+    { slug: 'aca-compliance', cluster: 'ACA Compliance', title: 'ACA compliance', description: 'What you actually have to do — and what you don\'t — at every employer size.' },
+    { slug: 'retention', cluster: 'Retention & Culture', title: 'Retention & culture', description: 'Health benefits as a retention and recruiting lever, with the data to back it up.' },
+    { slug: 'utah', cluster: 'Utah Local', title: 'Utah employers', description: 'Utah-specific carriers, compliance, and market dynamics for local businesses.' },
+    { slug: 'fundamentals', cluster: 'Fundamentals', title: 'Fundamentals', description: 'First-time benefits offerings, group coverage costs, and the basics of getting started.' },
+  ];
+
+  return CLUSTERS.map(c => {
+    const articles = allArticles
+      .filter(a => a.data.contentCluster === c.cluster)
+      .map(a => ({
+        slug: a.slug,
+        title: a.data.title,
+        excerpt: a.data.excerpt,
+        difficulty: a.data.difficulty,
+        readingTime: a.data.readingTime,
+        audienceTags: a.data.audienceTags || [],
+        isFeatured: a.data.isFeatured,
+        publishedDate: a.data.publishedDate.toISOString(),
+      }));
+    return {
+      params: { cluster: c.slug },
+      props: { meta: c, articles },
+    };
+  });
+}
+
+const { meta, articles } = Astro.props;
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Learn', url: '/learn' },
+  { name: meta.title, url: `/learn/${meta.slug}` },
+];
+---
+
+<BaseLayout
+  title={`${meta.title} — Kingsfoil Health`}
+  description={meta.description}
+  canonicalPath={`/learn/${meta.slug}`}
+  breadcrumbs={breadcrumbs}
+>
+
+<!-- BREADCRUMB -->
+<nav class="breadcrumb" aria-label="Breadcrumb">
+  <a href="/">Home</a>
+  <span aria-hidden="true">›</span>
+  <a href="/learn">Learn</a>
+  <span aria-hidden="true">›</span>
+  <span class="breadcrumb-current">{meta.title}</span>
+</nav>
+
+<!-- CLUSTER HERO -->
+<section class="cluster-hero" aria-label="Topic introduction">
+  <div class="eyebrow">Topic</div>
+  <h1>{meta.title}</h1>
+  <p class="cluster-hero-sub">{meta.description}</p>
+  <div class="cluster-stats">
+    <span>{articles.length} {articles.length === 1 ? 'article' : 'articles'}</span>
+  </div>
+</section>
+
+<!-- ARTICLE LIST -->
+<section class="section cluster-articles" aria-labelledby="articles-heading">
+  <div class="section-inner">
+    <h2 id="articles-heading" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)">Articles in this topic</h2>
+    {articles.length === 0 ? (
+      <p class="cluster-empty">No articles in this topic yet.</p>
+    ) : (
+      <div class="article-grid">
+        {articles.map(article => (
+          <a href={`/learn/${article.slug}`} class="article-card">
+            <div class="article-card-body">
+              <div class="article-card-tags">
+                <span class={`article-badge ${article.audienceTags.includes('HR') ? 'article-badge--hr' : 'article-badge--biz'}`}>
+                  {article.audienceTags[0] || 'All'}
+                </span>
+              </div>
+              <div class="article-card-title">{article.title}</div>
+              <p class="article-card-excerpt">{article.excerpt}</p>
+              <div class="article-card-meta">
+                <span>{article.difficulty.charAt(0).toUpperCase() + article.difficulty.slice(1)}</span>
+                {article.readingTime && <span>· {article.readingTime} min read</span>}
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    )}
+  </div>
+</section>
+
+<!-- BACK TO LEARN -->
+<section class="back-to-learn" aria-label="Continue learning">
+  <div class="back-inner">
+    <p>Looking for something else?</p>
+    <a href="/learn" class="back-link">Browse all topics <span aria-hidden="true">→</span></a>
+  </div>
+</section>
+
+</BaseLayout>
+
+<style>
+.breadcrumb{max-width:1100px;margin:0 auto;padding:24px var(--section-pad-x) 0;font-size:13px;color:var(--nero-400);display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.breadcrumb a{color:var(--nero-500);text-decoration:none;transition:color var(--t-fast);padding:8px 4px;margin:-8px 0}
+.breadcrumb a:hover{color:var(--elm-600)}
+.breadcrumb span[aria-hidden]{color:var(--nero-300);font-size:11px}
+.breadcrumb-current{color:var(--nero-700);font-weight:500}
+
+.cluster-hero{padding:64px var(--section-pad-x) 56px;text-align:center;max-width:760px;margin:0 auto;position:relative}
+.cluster-hero .eyebrow{color:var(--elm-600);font-size:12px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;margin-bottom:12px}
+.cluster-hero h1{font-family:var(--font-display);font-size:clamp(32px,4.5vw,46px);font-weight:700;line-height:1.12;letter-spacing:-0.02em;margin-bottom:16px}
+.cluster-hero-sub{font-size:clamp(15px,1.6vw,18px);line-height:1.65;color:var(--nero-500);margin-bottom:20px}
+.cluster-stats{font-size:13px;color:var(--nero-400);font-weight:500}
+
+.cluster-articles{background:var(--warm-cream)}
+.cluster-empty{text-align:center;color:var(--nero-500);padding:60px 20px}
+
+.article-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:24px;max-width:1100px;margin:0 auto}
+.article-card{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 2px 8px rgba(38,35,36,0.04);border:1px solid var(--nero-100);transition:all var(--t-med);text-decoration:none;display:flex;flex-direction:column;color:inherit}
+.article-card:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(38,35,36,0.08);border-color:var(--elm-200)}
+.article-card-body{padding:22px;display:flex;flex-direction:column;gap:10px;flex:1}
+.article-card-tags{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.article-badge{display:inline-block;font-size:11px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;padding:4px 10px;border-radius:999px}
+.article-badge--biz{background:var(--elm-50);color:var(--elm-700)}
+.article-badge--hr{background:var(--gold-100);color:var(--gold-800)}
+.article-card-title{font-family:var(--font-display);font-size:17px;font-weight:700;line-height:1.35;color:var(--nero-900)}
+.article-card-excerpt{font-size:13px;line-height:1.55;color:var(--nero-500);margin:0;flex:1;
+  display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.article-card-meta{font-size:12px;color:var(--nero-400);display:flex;gap:8px}
+
+.back-to-learn{padding:48px var(--section-pad-x);text-align:center;background:var(--warm-linen);border-top:1px solid var(--nero-100)}
+.back-inner p{font-size:15px;color:var(--nero-500);margin-bottom:8px}
+.back-link{font-size:15px;font-weight:600;color:var(--elm-600);text-decoration:none;transition:color var(--t-fast)}
+.back-link:hover{color:var(--elm-700)}
+
+@media(max-width:768px){
+  .cluster-hero{padding:48px 24px 40px}
+  .article-grid{grid-template-columns:1fr}
+}
+</style>

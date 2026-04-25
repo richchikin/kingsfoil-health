@@ -59,7 +59,7 @@ For CFOs tired of double-digit annual renewal increases on group plans, the ICHR
 
 ### 2. No minimum participation requirements
 
-Group health plans typically require a minimum participation rate (often 70%+ of eligible employees enrolled). For very small employers, hitting that minimum can be hard — especially if some employees have spouse coverage and decline.
+Group health plans typically require a meaningful minimum participation rate (a high share of eligible employees must enroll — confirm the exact threshold with your carrier). For very small employers, hitting that minimum can be hard — especially if some employees have spouse coverage and decline.
 
 ICHRAs have no minimum participation requirement. One employee or one hundred — the structure works the same. This makes them especially viable for very small employers or businesses with high spouse-coverage opt-out rates.
 

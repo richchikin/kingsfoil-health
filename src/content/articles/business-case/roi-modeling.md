@@ -62,7 +62,7 @@ When you move to an alternative structure, those components get unbundled. That'
 
 **Current fully funded premium.** This is your baseline. Take your total annual premium cost, including both employer and employee contributions.
 
-**Expected claims.** This is what your group is likely to spend on medical and pharmacy claims in a given year. If you have claims data from a prior self-funded arrangement or can obtain it from your current carrier, use it. If not, your benefits advisor can estimate based on your group's demographics, industry, and region.
+**Expected claims.** This is what your group is likely to spend on medical and pharmacy claims in a given year. If you have claims information from a prior self-funded arrangement or can obtain it from your current carrier, use it. If not, your benefits advisor can estimate based on your group's demographics, industry, and region.
 
 **Administrative fees (TPA costs).** In an alternative plan, a third-party administrator handles claims processing, network access, and plan administration. These fees are typically quoted on a per-employee-per-month basis.
 
@@ -74,7 +74,7 @@ When you move to an alternative structure, those components get unbundled. That'
 
 ## A worked example: 50-person company
 
-Let's walk through a simplified comparison for a company with 50 employees.
+Let's walk through a simplified comparison for a company with 50 employees. All dollar amounts and percentages in worked examples below are illustrative — actual premiums, claims, and savings vary substantially by group profile, carrier, and design.[^1]
 
 **Current fully funded cost:**
 - Monthly premium per employee: $850
@@ -169,4 +169,6 @@ If your advisor can't answer these questions clearly and in plain language, that
 
 Modeling the ROI of switching plan structures isn't about finding a guaranteed outcome. It's about understanding the range of likely outcomes and making a decision with open eyes. For most companies in the 25-200 employee range, the expected savings are real, the downside is bounded by stop-loss, and the long-term trajectory favors active management over passive premium payments.
 
-Run the numbers. Stress-test the assumptions. And make your decision based on data, not inertia.
+Run the numbers. Stress-test the assumptions. And make your decision based on real analysis, not inertia.
+
+[^1]: All dollar amounts and percentages in worked examples in this article are illustrative — premium, expected claims, administrative fees, stop-loss premium, savings projections, and break-even points. Actual figures vary significantly by group size, demographics, claims experience, plan design, and carrier. Modeling against your specific group's data is essential before making any decision.

@@ -93,7 +93,7 @@ This isn't because employees are careless. It's because benefits language is gen
 
 So employees turn to the person they trust: you. And you do your best to explain, to translate, to advocate. But it's one more thing on a list that was already too long.
 
-> The average HR professional at a mid-sized company spends 20-30% of their time on benefits-related tasks. For many, the number is higher. That's time not spent on hiring, development, culture, or strategy.
+> The average HR professional at a mid-sized company spends a substantial share of their time on benefits-related tasks. For many, it's a meaningful chunk of the workweek. That's time not spent on hiring, development, culture, or strategy.
 
 ## There's a reason it feels unsustainable
 

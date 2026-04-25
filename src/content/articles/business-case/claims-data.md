@@ -86,7 +86,7 @@ Here are the key metrics you should expect to see -- and what each one tells you
 
 ### Loss ratio
 
-Your loss ratio is the percentage of premiums (or claims funding) that actually goes toward paying claims. A loss ratio of 75% means that for every dollar you put in, seventy-five cents paid for healthcare and twenty-five cents went to administration, stop-loss, and reserves.
+Your loss ratio is the percentage of premiums (or claims funding) that actually goes toward paying claims. For example, a loss ratio that lands in the mid-range of typical group plans means a substantial share of premium goes to healthcare while the remainder covers administration, stop-loss, and reserves.
 
 > **Key term -- Loss ratio:** The ratio of claims paid to premiums collected, expressed as a percentage. A lower loss ratio means more of your money went to non-claims costs (or became surplus). A higher loss ratio means claims consumed a larger share of premiums. Tracking this over time reveals whether your plan is trending in the right direction.
 
@@ -94,7 +94,7 @@ This number, tracked over multiple years, tells you whether your plan is getting
 
 ### Large claimant reports
 
-In most group health plans, a small number of individuals drive a disproportionate share of total costs. It's not unusual for 5% of plan members to account for 50% or more of total claims. A large claimant report shows you how many high-cost cases you had, what categories of care drove the cost, and how those cases affected your overall results.
+In most group health plans, a small number of individuals drive a disproportionate share of total costs — concentration is the rule, not the exception. A large claimant report shows you how many high-cost cases you had, what categories of care drove the cost, and how those cases affected your overall results.
 
 This isn't about identifying who's sick. The data is presented in aggregate and stripped of personally identifiable information. It's about understanding concentration risk. If one catastrophic case drove your entire year's cost increase, that's very different from a broad trend of rising utilization across the group -- and the appropriate response is different too.
 
@@ -108,7 +108,7 @@ These trends help you design benefits that actually encourage the right behavior
 
 Pharmacy costs are one of the fastest-growing components of healthcare spending. A good pharmacy report breaks down your spend by category: generics, preferred brands, non-preferred brands, and specialty drugs.
 
-Specialty pharmacy is where the real money is. A single specialty drug for one employee can cost $50,000 to $100,000 per year or more. Knowing whether you have specialty drug exposure -- and whether there are therapeutic alternatives or manufacturer assistance programs available -- can save tens of thousands of dollars.
+Specialty pharmacy is where the real money is. A single specialty drug for one employee can carry a high five- or six-figure annual cost. Knowing whether you have specialty drug exposure -- and whether there are therapeutic alternatives or manufacturer assistance programs available -- can produce meaningful savings.
 
 ## What good reporting looks like
 

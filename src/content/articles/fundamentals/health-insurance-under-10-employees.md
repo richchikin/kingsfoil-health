@@ -72,7 +72,7 @@ Group health insurance through a major carrier remains the most common option fo
 
 **Pricing:** Utah small-group rating rules apply. Age, geographic area, and family tier are rating factors; health status is not. Per-employee premiums tend to be higher than for larger groups because the risk pool is small.
 
-**Minimum participation:** Most carriers require 70-75% of eligible employees to enroll. For very small groups, this can be a constraint — if some employees have spouse coverage and decline, the remaining group may fail participation minimums.
+**Minimum participation:** Most carriers require a high share of eligible employees to enroll (commonly cited around the low- to mid-70-percent range — confirm the exact rule with your carrier). For very small groups, this can be a constraint — if some employees have spouse coverage and decline, the remaining group may fail participation minimums.
 
 **Pros:**
 - Predictable, ACA-compliant coverage
@@ -117,7 +117,7 @@ The Individual Coverage HRA is a structure introduced in 2020 that's become incr
 
 The Qualified Small Employer HRA is a simpler HRA variant designed specifically for employers under 50 employees.
 
-**How it works:** Similar to ICHRA but with IRS-set annual contribution limits (2026: ~$6,350 self-only / ~$12,800 family) and structural requirements around uniformity.
+**How it works:** Similar to ICHRA but with IRS-set annual contribution limits (see the current limits in [IRS Notice / Publication guidance on QSEHRA](https://www.irs.gov/pub/irs-drop/n-17-67.pdf)) and structural requirements around uniformity.
 
 **Minimum participation:** None, but employer must offer QSEHRA to all eligible employees on uniform terms.
 
@@ -187,7 +187,7 @@ The economics of group coverage start to favor the small-group approach at this 
 
 If you're near 10 employees and growing, the strategy can shift significantly:
 
-- **Level-funded plans** become widely available, typically saving 10–25% vs. fully-insured
+- **Level-funded plans** become widely available, often delivering meaningful savings vs. fully-insured for healthy groups
 - **Better pricing leverage** with carriers due to larger pool
 - **Stop-loss and alternative structures** enter consideration
 - **Group coverage economics** start to rival individual-market options

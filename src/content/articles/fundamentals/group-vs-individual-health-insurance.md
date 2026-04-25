@@ -53,7 +53,7 @@ Group health insurance is employer-sponsored coverage where all eligible employe
 
 - **Employer is the plan sponsor.** The employer contracts with the carrier; employees enroll under the employer's plan.
 - **Group underwriting.** Rates are based on the group's demographics (age mix, geography, size), not individual employee health.
-- **Employer premium contribution.** Typically the employer pays 50–100% of the premium, with employees paying the rest through payroll.
+- **Employer premium contribution.** Typically the employer pays a substantial share of the premium, with employees paying the rest through payroll.
 - **Tax advantages.** Employer contributions are deductible for the business and excluded from employee taxable income. Employee contributions can be pre-tax through a Section 125 cafeteria plan.
 - **Coverage ends at employment end.** Subject to COBRA or Utah mini-COBRA continuation rights.
 
@@ -64,7 +64,7 @@ Individual health insurance is purchased by an individual — usually through th
 - **Individual is the policyholder.** The policy belongs to the individual, not an employer.
 - **Individual rating.** Rates based on age, geography, tobacco status, and family tier (the same factors as group, but evaluated person by person).
 - **No automatic employer contribution.** The individual pays the full premium unless an employer reimburses via ICHRA/QSEHRA or pays salary instead.
-- **Potential premium tax credits.** Individuals with household income 100–400% of federal poverty level may qualify for ACA subsidies.
+- **Potential premium tax credits.** Individuals within the income bands set by the ACA may qualify for marketplace subsidies — see the [HealthCare.gov eligibility guide](https://www.healthcare.gov/lower-costs/) for current thresholds.
 - **Portable.** Coverage continues regardless of employment changes (as long as premiums are paid).
 - **Network by plan selection.** Individual plans have their own networks, often narrower than group plan networks.
 
@@ -74,7 +74,7 @@ Individual health insurance is purchased by an individual — usually through th
 |---|---|---|
 | Who is the policyholder | Employer | Individual |
 | Rating basis | Group demographics | Individual age, geography, tobacco |
-| Employer contribution | Yes, typically 50–100% | No (unless ICHRA structure) |
+| Employer contribution | Yes, typically a substantial share | No (unless ICHRA structure) |
 | Employer tax deduction | Yes | Only through ICHRA / QSEHRA |
 | Employee tax treatment | Pre-tax via payroll | Post-tax unless ICHRA reimbursement |
 | ACA premium tax credits | Not available | Available if income qualifies |
@@ -106,7 +106,7 @@ Group coverage comes with a standard administrative experience — one carrier, 
 
 ### 5. Your employees don't qualify for ACA tax credits
 
-ACA premium tax credits are reduced for higher-income households. Employees earning above ~$60,000 individual / ~$125,000 family income often don't qualify for meaningful subsidies, making individual market coverage less economically attractive than group coverage with employer contribution.
+ACA premium tax credits phase out as household income rises (see the [HealthCare.gov eligibility guide](https://www.healthcare.gov/lower-costs/)). Higher-earning employees often don't qualify for meaningful subsidies, which makes individual market coverage less economically attractive than group coverage with an employer contribution.
 
 ## When individual coverage (with ICHRA) makes more sense
 
