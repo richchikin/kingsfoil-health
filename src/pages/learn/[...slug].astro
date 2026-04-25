@@ -20,9 +20,19 @@ const { Content } = await article.render();
   audienceTags={article.data.audienceTags}
   difficulty={article.data.difficulty}
   publishedDate={article.data.publishedDate}
+  updatedDate={article.data.updatedDate}
   learningTrack={article.data.learningTrack}
   trackOrder={article.data.trackOrder}
   relatedArticles={article.data.relatedArticles}
+  contentCluster={article.data.contentCluster}
+  keyTakeaways={article.data.keyTakeaways}
+  faqs={article.data.faqs}
+  author={article.data.author}
+  authorTitle={article.data.authorTitle}
+  readingTime={article.data.readingTime}
+  seoTitle={article.data.seoTitle}
+  seoDescription={article.data.seoDescription}
+  slug={article.slug}
 >
   <Content />
 </ArticleLayout>

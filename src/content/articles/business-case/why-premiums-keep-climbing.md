@@ -1,16 +1,51 @@
 ---
 title: "Why Your Health Insurance Premiums Keep Climbing"
 type: blog
-excerpt: "The structural reasons behind annual rate increases and why your broker may not be showing you the full picture."
+excerpt: "The structural reasons behind annual rate increases and why your broker may not be showing you the full picture — the fully-funded model, risk pool averaging, and the incentive problem."
 publishedDate: 2026-04-01
-audienceTags: ["Business Leaders"]
+updatedDate: 2026-04-24
+audienceTags: ["Business Leaders", "CFO"]
 topicTags: ["Cost Management", "Getting Started"]
 difficulty: beginner
+contentCluster: Premium Costs
 learningTrack: business-case
 trackOrder: 1
 isFeatured: true
-relatedArticles: ["fully-funded-alternatives", "claims-data"]
-seoDescription: "Why health insurance premiums rise every year and what business owners can do about it. A plain-language explanation of the fully funded model."
+seoTitle: "Why Your Health Insurance Premiums Keep Climbing"
+seoDescription: "Why health insurance premiums rise every year and what business owners can do about it. A plain-language explanation of the fully funded model and alternatives."
+keywords:
+  - why health insurance premiums keep going up
+  - health insurance premium increase
+  - fully funded health insurance
+  - health insurance rate increase
+  - why are health insurance rates so high
+readingTime: 7
+keyTakeaways:
+  - "Premium increases aren't random — they're structural: medical inflation, risk pool averaging, and misaligned broker/carrier incentives all push rates higher year after year."
+  - "In a fully-funded plan, you're priced against a broad risk pool, which means healthy groups subsidize less-healthy ones."
+  - "Neither your broker (commission paid on premiums) nor your carrier (profit on premium-claims spread) has a financial incentive to lower your premium."
+  - "You don't see your claims data, which makes it nearly impossible to know whether your current plan is priced fairly."
+  - "The first step out of this cycle isn't switching plans — it's getting visibility into what's actually driving your costs."
+faqs:
+  - question: "Why do health insurance premiums go up every year?"
+    answer: "Three structural forces drive annual premium increases: (1) medical cost inflation, which has historically risen faster than general inflation; (2) risk pool averaging, where your premium is based partly on the broader group's experience, meaning healthy employers subsidize less-healthy ones; and (3) misaligned incentives, where brokers and carriers earn more when premiums are higher. The Kaiser Family Foundation's annual Employer Health Benefits Survey documents the long-run premium growth trend."
+  - question: "Is a 10–20% annual premium increase normal?"
+    answer: "Yes, in many years. The Kaiser Family Foundation's annual Employer Health Benefits Survey documents premium growth that has consistently outpaced general inflation, often producing meaningful annual increases for small-group fully-funded plans. Alternative plan structures (level-funded, self-funded) typically produce more stable year-over-year costs because they're tied to your own claims experience rather than the broader pool."
+  - question: "Why doesn't my broker tell me about alternatives to fully-funded?"
+    answer: "Most brokers are paid on commission as a percentage of premium. When you stay on fully-funded and premiums rise, their compensation rises. Level-funded and self-funded plans often generate lower commissions and require more work to quote and service. This isn't universal — flat-fee and transparent-commission advisors exist — but it's the industry default."
+  - question: "Can I see my own claims data on a fully-funded plan?"
+    answer: "In most cases, no. The carrier owns the data and will share only summary-level information at renewal (designed to justify the rate increase). You're entitled to more detail in some states, and you can request it — but meaningful, ongoing claims reporting is generally only available under self-funded or level-funded plan structures."
+  - question: "What can I actually do about rising health insurance premiums?"
+    answer: "Three concrete steps: (1) request your claims data from your current carrier, even if only in summary form; (2) get quotes on level-funded and self-funded alternatives at your next renewal, not just a fully-funded renewal; (3) find a benefits advisor whose compensation is aligned with lowering your total cost rather than keeping your premium high."
+author: "Kingsfoil Health Editorial Team"
+authorTitle: "Employer Benefits Desk"
+relatedArticles:
+  - "plan-structures/self-funded-vs-fully-insured"
+  - "plan-structures/three-types-of-employer-health-plans"
+  - "business-case/fully-funded-alternatives"
+  - "business-case/claims-data"
+  - "business-case/why-rates-keep-going-up"
+  - "business-case/unused-premiums"
 ---
 
 If you run a business with a group health plan, you've seen it: renewal season arrives, and your broker tells you premiums are going up. Again. Maybe 10%. Maybe 20%. The explanation usually boils down to "claims were higher than expected" or "the market went up."

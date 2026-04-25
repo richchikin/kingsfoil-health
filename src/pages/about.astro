@@ -1,11 +1,19 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
+import { Image } from 'astro:assets';
+import teamCollaboration from '@assets/images/team-collaboration.jpg';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'About', url: '/about' },
+];
 ---
 
 <BaseLayout
   title="About — Kingsfoil Health"
-  description="Kingsfoil Health exists to restore dignity to American healthcare through compassion and modernization."
+  description="Kingsfoil Health is a modern health insurance brokerage restoring dignity to American healthcare through compassion, transparency, and proactive benefits management."
   canonicalPath="/about"
+  breadcrumbs={breadcrumbs}
 >
 
 <!-- PAGE HERO -->
@@ -26,7 +34,7 @@ import BaseLayout from '@layouts/BaseLayout.astro';
         <p>Kingsfoil Health was built to change that. We bring modern plan structures, proactive claims management, and a concierge employee experience to businesses that deserve better than the status quo. We're based in Utah, serving the companies and communities we're part of.</p>
       </div>
       <div class="story-visual">
-        <img src="/images/team-collaboration.jpg" alt="Team collaborating at a table with notebooks and warm natural light" width="800" height="600" loading="lazy">
+        <Image src={teamCollaboration} alt="Team collaborating at a table with notebooks and warm natural light" width={800} height={600} loading="lazy" />
       </div>
     </div>
   </div>

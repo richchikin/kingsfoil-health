@@ -5,9 +5,14 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro build && npm run seo:check",
+    "build:strict": "node scripts/audit-citations.mjs --strict && astro build && npm run seo:check",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "seo:check": "node scripts/seo-validate.mjs",
+    "audit:citations": "node scripts/audit-citations.mjs",
+    "audit:citations:strict": "node scripts/audit-citations.mjs --strict",
+    "audit:citations:all": "node scripts/audit-citations.mjs --all"
   },
   "dependencies": {
     "astro": "^5.0.0",

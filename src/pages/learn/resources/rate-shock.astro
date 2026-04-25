@@ -1,11 +1,19 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Learn', url: '/learn' },
+  { name: 'Resources', url: '/learn/resources' },
+  { name: 'Rate Shock Survival Guide', url: '/learn/resources/rate-shock' },
+];
 ---
 
 <BaseLayout
   title="The Rate Shock Survival Guide — Kingsfoil Health"
   description="A free guide for business leaders who are tired of double-digit premium increases. Download the Rate Shock Survival Guide."
   canonicalPath="/learn/resources/rate-shock"
+  breadcrumbs={breadcrumbs}
 >
 
 <!-- HERO -->

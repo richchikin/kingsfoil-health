@@ -1,11 +1,21 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
+import { Image } from 'astro:assets';
+import dashboardAnalytics from '@assets/images/dashboard-analytics.jpg';
+import personalGuidance from '@assets/images/personal-guidance.jpg';
+import growthChart from '@assets/images/growth-chart.jpg';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Our Approach', url: '/solutions' },
+];
 ---
 
 <BaseLayout
   title="Our Approach — Kingsfoil Health"
-  description="Kingsfoil Health helps businesses take control of their health benefits through proactive claims management, concierge employee support, and plan structures that put unused premiums back in your hands."
+  description="How Kingsfoil Health helps businesses take control of their benefits: proactive claims management, concierge employee support, and smarter plan structures."
   canonicalPath="/solutions"
+  breadcrumbs={breadcrumbs}
 >
 
 <!-- PAGE HERO -->
@@ -13,6 +23,7 @@ import BaseLayout from '@layouts/BaseLayout.astro';
   <div class="eyebrow">Our Approach</div>
   <h1>Benefits that actually <em>work for you</em></h1>
   <p class="page-hero-sub">We help companies take control of their health insurance through smarter plan structures, proactive claims management, and a concierge experience your employees will notice.</p>
+  <p class="page-hero-meta">Looking for the services side? See our <a href="/brokerage">health insurance brokerage overview →</a></p>
 </section>
 
 <!-- HOW IT WORKS (Linen) -->
@@ -73,7 +84,7 @@ import BaseLayout from '@layouts/BaseLayout.astro';
         </div>
       </div>
       <div class="pillar-visual pillar-visual--elm">
-        <img src="/images/dashboard-analytics.jpg" alt="Data analytics dashboard showing charts and metrics" width="800" height="600" loading="lazy">
+        <Image src={dashboardAnalytics} alt="Data analytics dashboard showing charts and metrics" width={800} height={600} loading="lazy" />
       </div>
     </div>
 
@@ -100,7 +111,7 @@ import BaseLayout from '@layouts/BaseLayout.astro';
         </div>
       </div>
       <div class="pillar-visual pillar-visual--sapphire">
-        <img src="/images/personal-guidance.jpg" alt="Two professionals in a friendly one-on-one conversation" width="800" height="600" loading="lazy">
+        <Image src={personalGuidance} alt="Two professionals in a friendly one-on-one conversation" width={800} height={600} loading="lazy" />
       </div>
     </div>
 
@@ -127,7 +138,7 @@ import BaseLayout from '@layouts/BaseLayout.astro';
         </div>
       </div>
       <div class="pillar-visual pillar-visual--gold">
-        <img src="/images/growth-chart.jpg" alt="Laptop displaying performance analytics with upward trends" width="800" height="600" loading="lazy">
+        <Image src={growthChart} alt="Laptop displaying performance analytics with upward trends" width={800} height={600} loading="lazy" />
       </div>
     </div>
   </div>
@@ -301,6 +312,11 @@ import BaseLayout from '@layouts/BaseLayout.astro';
   font-size:clamp(16px,1.6vw,19px);line-height:1.65;color:var(--nero-500);
   max-width:560px;margin:0 auto;position:relative;z-index:1;
 }
+.page-hero-meta{
+  font-size:14px;color:var(--nero-500);margin-top:20px;position:relative;z-index:1;
+}
+.page-hero-meta a{color:var(--elm-600);font-weight:600;text-decoration:none;}
+.page-hero-meta a:hover{text-decoration:underline;}
 
 /* ========================================
    HOW IT WORKS (Linen)

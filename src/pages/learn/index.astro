@@ -1,11 +1,24 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import { Image } from 'astro:assets';
+import articlePremiums from '@assets/images/article-premiums.jpg';
+import articleAlternatives from '@assets/images/article-alternatives.jpg';
+import articleHrChallenges from '@assets/images/article-hr-challenges.jpg';
+import articleClaimsData from '@assets/images/article-claims-data.jpg';
+import articleConcierge from '@assets/images/article-concierge.jpg';
+import articleRoi from '@assets/images/article-roi.jpg';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Learn', url: '/learn' },
+];
 ---
 
 <BaseLayout
   title="Learn — Kingsfoil Health"
-  description="Practical articles that help business leaders and HR professionals understand their health benefits options."
+  description="Practical articles on health insurance, plan structures, claims management, and employee benefits — for business leaders and HR professionals evaluating their options."
   canonicalPath="/learn"
+  breadcrumbs={breadcrumbs}
 >
 
 <!-- PAGE HERO -->
@@ -97,7 +110,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
       <!-- CMS: {{#each articles}} -->
       <a href="/learn/business-case/why-premiums-keep-climbing" class="article-card">
         <div class="article-card-image">
-          <img src="/images/article-premiums.jpg" alt="Financial documents and calculator" width="600" height="400" loading="lazy">
+          <Image src={articlePremiums} alt="Tax forms and calculator for premium cost analysis" width={600} height={400} loading="lazy" />
         </div>
         <div class="article-card-body">
           <span class="article-badge article-badge--biz">Business Leaders</span>
@@ -107,7 +120,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
       </a>
       <a href="/learn/business-case/fully-funded-alternatives" class="article-card">
         <div class="article-card-image">
-          <img src="/images/article-alternatives.jpg" alt="Business planning with laptop and documents" width="600" height="400" loading="lazy">
+          <Image src={articleAlternatives} alt="Laptop and benefits plan documents during a business strategy session" width={600} height={400} loading="lazy" />
         </div>
         <div class="article-card-body">
           <span class="article-badge article-badge--biz">Business Leaders</span>
@@ -117,7 +130,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
       </a>
       <a href="/learn/hr-playbook/why-benefits-feel-hard" class="article-card">
         <div class="article-card-image">
-          <img src="/images/article-hr-challenges.jpg" alt="Professional woman in modern office" width="600" height="400" loading="lazy">
+          <Image src={articleHrChallenges} alt="HR manager managing employee benefits in a modern office workspace" width={600} height={400} loading="lazy" />
         </div>
         <div class="article-card-body">
           <span class="article-badge article-badge--hr">HR Playbook</span>
@@ -127,7 +140,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
       </a>
       <a href="/learn/business-case/claims-data" class="article-card">
         <div class="article-card-image">
-          <img src="/images/article-claims-data.jpg" alt="Charts and data visualizations" width="600" height="400" loading="lazy">
+          <Image src={articleClaimsData} alt="Line charts and data graphs showing healthcare claims analysis" width={600} height={400} loading="lazy" />
         </div>
         <div class="article-card-body">
           <span class="article-badge article-badge--biz">Business Leaders</span>
@@ -137,7 +150,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
       </a>
       <a href="/learn/hr-playbook/concierge-vs-call-center" class="article-card">
         <div class="article-card-image">
-          <img src="/images/article-concierge.jpg" alt="Healthcare professional at laptop with stethoscope" width="600" height="400" loading="lazy">
+          <Image src={articleConcierge} alt="Healthcare professional at laptop with stethoscope" width={600} height={400} loading="lazy" />
         </div>
         <div class="article-card-body">
           <span class="article-badge article-badge--hr">HR Playbook</span>
@@ -147,7 +160,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
       </a>
       <a href="/learn/business-case/roi-modeling" class="article-card">
         <div class="article-card-image">
-          <img src="/images/article-roi.jpg" alt="Financial charts and market data" width="600" height="400" loading="lazy">
+          <Image src={articleRoi} alt="Financial dashboard displaying ROI and benefits program performance metrics" width={600} height={400} loading="lazy" />
         </div>
         <div class="article-card-body">
           <span class="article-badge article-badge--biz">Business Leaders</span>

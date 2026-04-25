@@ -23,3 +23,6 @@ Thumbs.db
 
 # Debug
 npm-debug.log*
+
+# Content Strategy extraction artifacts (.docx files are source-of-truth)
+Content Strategy/_*.txt

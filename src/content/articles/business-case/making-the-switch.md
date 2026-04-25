@@ -3,14 +3,49 @@ title: "Making the Switch: What the Process Looks Like"
 type: blog
 excerpt: "Transitioning to a new plan structure sounds daunting, but it follows a clear, proven timeline. Here's every phase of the process, from evaluation to ongoing management, so you know exactly what to expect."
 publishedDate: 2026-04-01
+updatedDate: 2026-04-24
 audienceTags: ["Business Leaders"]
 topicTags: ["Benefits Strategy", "Plan Structures"]
 difficulty: advanced
+contentCluster: Plan Structures
 learningTrack: business-case
 trackOrder: 8
 isFeatured: false
-relatedArticles: ["business-case/roi-modeling", "business-case/why-premiums-keep-climbing"]
-seoDescription: "A complete guide to transitioning from fully funded to self-funded or level-funded health plans. Covers the full timeline, employee communication strategy, and what to expect at every stage."
+seoTitle: "Switching from Fully-Funded to Level-Funded or Self-Funded"
+seoDescription: "A complete guide to transitioning from fully funded to self-funded or level-funded health plans — timeline, employee communication, and what to expect."
+keywords:
+  - how to switch health insurance plans employer
+  - transition from fully funded to level funded
+  - self funded transition timeline
+  - switching employer health plan
+  - health plan renewal process
+readingTime: 9
+keyTakeaways:
+  - "Switching from fully-funded to level-funded or self-funded typically takes 90–120 days from decision to effective date."
+  - "The process has four stages: discovery and modeling, underwriting and quoting, plan design and employee communication, and implementation and ongoing management."
+  - "Employees usually experience little to no disruption — same network, same ID card (with a new logo), same claims process."
+  - "The biggest predictor of a smooth transition is clear, proactive communication with employees 30–45 days before the change."
+  - "Most employers who switch don't switch back; but you're committed to the new structure for the 12-month plan year before reassessing."
+faqs:
+  - question: "How long does it take to switch from fully-funded to level-funded health insurance?"
+    answer: "The typical timeline is 90–120 days from the decision to explore alternatives to the new plan's effective date. That includes 30–45 days of discovery and modeling, 30–45 days of underwriting and quoting, and 30–45 days of plan design finalization, employee communication, and implementation. Most employers time this to align with their existing plan's renewal date."
+  - question: "Do employees notice when an employer switches plan structures?"
+    answer: "In a well-managed transition, employees notice very little. The provider network is usually the same or very similar. The ID card has a new logo but looks familiar. The claims process is identical. The biggest change is often that employees suddenly have access to a health concierge or care navigator, which they generally welcome."
+  - question: "What can go wrong in a plan transition?"
+    answer: "The common failure modes are: inadequate employee communication leading to confusion at the first doctor visit; ID cards not mailed in time; network disruption if the new plan uses a different provider network; and claims payment delays during the cutover if run-in/run-out provisions weren't carefully structured. All of these are preventable with an experienced advisor managing the process."
+  - question: "Can you switch back to fully-funded if the new plan doesn't work out?"
+    answer: "Yes, at the end of the plan year. You commit to the new structure for 12 months, then have the option at renewal to stay, adjust, or switch back. In practice, very few employers switch back — the visibility into claims data and the potential savings usually make the change sticky."
+  - question: "What happens to ongoing medical claims during the transition?"
+    answer: "Ongoing claims are handled through run-in provisions (the new plan's stop-loss can be written to cover claims incurred before the effective date but paid after) and run-out provisions (the old plan continues to pay claims for a defined tail period after the effective date). A good advisor structures these so there's no gap in coverage for any employee."
+author: "Kingsfoil Health Editorial Team"
+authorTitle: "Employer Benefits Desk"
+relatedArticles:
+  - "plan-structures/self-funded-vs-fully-insured"
+  - "plan-structures/level-funded-health-plans-explained"
+  - "business-case/roi-modeling"
+  - "business-case/why-premiums-keep-climbing"
+  - "hr-playbook/transition-planning"
+  - "hr-playbook/enrollment-communications"
 ---
 
 You've looked at the numbers. You understand how alternative plan structures work. You know how stop-loss insurance protects your company. Now the question is practical: what does the actual process of switching look like?

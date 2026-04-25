@@ -3,19 +3,51 @@ title: "Why Rates Keep Going Up — And What You Can Do About It"
 type: blog
 excerpt: "Every renewal season brings another increase. Here's what's actually driving those numbers higher — and the strategies smart businesses are using to take back control."
 publishedDate: 2026-04-23
+updatedDate: 2026-04-24
 audienceTags: ["Business Leaders", "CFO"]
 topicTags: ["Cost Management", "Plan Structures", "Getting Started"]
 difficulty: beginner
+contentCluster: Premium Costs
 learningTrack: business-case
 trackOrder: 9
 isFeatured: false
 isGated: false
 gateAssetUrl: "https://kingsfoilhealth.com/downloads/The-Rate-Shock-Survival-Guide-by-Kingsfoil-Health.pdf"
-relatedArticles: ["why-premiums-keep-climbing", "fully-funded-alternatives", "making-the-switch"]
 ctaText: "Download the Rate Shock Survival Guide"
 ctaUrl: "/learn/resources/rate-shock"
-seoTitle: "Why Health Insurance Rates Keep Going Up — And What You Can Do About It"
+seoTitle: "Why Health Insurance Rates Keep Going Up — And What to Do"
 seoDescription: "What's really behind your annual premium increase, and the concrete steps growing businesses are taking to stop the cycle. Free survival guide included."
+keywords:
+  - why health insurance rates go up
+  - annual premium increase
+  - health insurance rate hike
+  - stop overpaying health insurance
+  - employer premium increase
+readingTime: 6
+keyTakeaways:
+  - "Medical inflation alone accounts for only part of a typical fully-funded renewal increase — when increases are well above general inflation, structural factors are usually at play."
+  - "Healthy groups on fully-funded plans subsidize less-healthy ones in the risk pool, often without ever seeing the data that would prove it."
+  - "Brokers earn percentage commissions on premium, and carriers profit from the spread — neither party has a structural incentive to bring your costs down."
+  - "You can't negotiate what you can't see; without claims data, every renewal is a guessing game."
+  - "Alternative plan structures (level-funded, self-funded) give employers visibility, aligned incentives, and the upside of their own favorable experience."
+faqs:
+  - question: "Why do my health insurance rates keep going up even when my team is healthy?"
+    answer: "In a fully-funded plan, your premium is based partly on your claims and partly on the broader risk pool's claims. Even if your team was healthy last year, you're sharing the pool's experience — and paying a share of other groups' bad years. On top of that, the carrier builds in profit margins, reserve requirements, and administrative costs. Your healthy-team discount, if it exists, is almost always less than you'd expect."
+  - question: "What's a 'normal' health insurance premium increase?"
+    answer: "Industry data — including the Kaiser Family Foundation's annual Employer Health Benefits Survey — consistently shows premium growth materially exceeding general inflation. Specific year-over-year increases vary, but compounding double-digit-or-near-double-digit increases over multiple years are well-documented. Level-funded and self-funded plans tied to your own experience tend to produce more stable year-over-year trends."
+  - question: "Can I negotiate my health insurance renewal?"
+    answer: "Yes, but negotiation is only as strong as the information behind it. If you don't have your claims data, you're negotiating on the carrier's terms with the carrier's numbers. Getting your data first — even in summary form — changes the conversation. At minimum, request claims history, large-claimant counts, and loss ratio before you sign a renewal."
+  - question: "How can I actually stop my premium from going up every year?"
+    answer: "Break the cycle in three steps: (1) request your claims data now, before renewal season; (2) get quotes on level-funded and self-funded alternatives, not just a fully-funded renewal; (3) find an advisor whose compensation is aligned with lowering your total cost rather than riding your premium up."
+author: "Kingsfoil Health Editorial Team"
+authorTitle: "Employer Benefits Desk"
+relatedArticles:
+  - "business-case/why-premiums-keep-climbing"
+  - "business-case/fully-funded-alternatives"
+  - "business-case/making-the-switch"
+  - "business-case/unused-premiums"
+  - "plan-structures/self-funded-vs-fully-insured"
+  - "plan-structures/level-funded-health-plans-explained"
 ---
 
 You open the renewal letter. The number is higher than last year. Again.

@@ -1,11 +1,17 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Talk to Us', url: '/talk-to-us' },
+];
 ---
 
 <BaseLayout
   title="Talk to Us — Kingsfoil Health"
-  description="Start a conversation about your company\'s health benefits. No pressure, no jargon."
+  description="Talk to Kingsfoil Health about your company's health benefits. A 30-minute conversation — no sales pitch, no jargon, just a clear look at your real options."
   canonicalPath="/talk-to-us"
+  breadcrumbs={breadcrumbs}
 >
 
 <!-- CONTACT HERO + FORM -->

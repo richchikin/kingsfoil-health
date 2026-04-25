@@ -1,11 +1,18 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Learn', url: '/learn' },
+  { name: 'Reports & Resources', url: '/learn/resources' },
+];
 ---
 
 <BaseLayout
   title="Reports & Resources — Kingsfoil Health"
-  description="Downloadable reports, case studies, and tools to help you evaluate your company\'s health benefits options."
+  description="Downloadable reports, case studies, and benefits planning tools for business leaders and HR teams evaluating health insurance plan options and vendor choices."
   canonicalPath="/learn/resources"
+  breadcrumbs={breadcrumbs}
 >
 
 <!-- PAGE HERO -->

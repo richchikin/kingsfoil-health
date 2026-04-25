@@ -1,11 +1,18 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Learn', url: '/learn' },
+  { name: 'The Business Case', url: '/learn/business-case' },
+];
 ---
 
 <BaseLayout
   title="The Business Case — Learn — Kingsfoil Health"
   description="The financial argument for rethinking your company\'s health benefits. 8 articles from rising premiums to ROI modeling."
   canonicalPath="/learn/business-case"
+  breadcrumbs={breadcrumbs}
 >
 
 <!-- BREADCRUMB -->

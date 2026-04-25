@@ -3,14 +3,50 @@ title: "What Are the Alternatives to Fully Funded Plans?"
 type: blog
 excerpt: "Fully funded plans aren't your only option. Here's a plain-language guide to level-funded, partially self-funded, PEO, and ICHRA plans and who each one works best for."
 publishedDate: 2026-04-01
+updatedDate: 2026-04-24
 audienceTags: ["Business Leaders"]
 topicTags: ["Plan Structures", "Getting Started"]
 difficulty: beginner
+contentCluster: Plan Structures
 learningTrack: business-case
 trackOrder: 2
 isFeatured: false
-relatedArticles: ["business-case/why-premiums-keep-climbing", "business-case/unused-premiums"]
-seoDescription: "A plain-language comparison of alternatives to fully funded health insurance: level-funded plans, partial self-funding, PEOs, and ICHRA. Learn which model fits your business."
+seoTitle: "Alternatives to Fully-Funded Health Plans for Employers"
+seoDescription: "A plain-language comparison of alternatives to fully funded health insurance: level-funded, self-funded, PEOs, and ICHRA. Find the right model for your business."
+keywords:
+  - alternatives to fully funded health insurance
+  - level funded health plan
+  - ichra
+  - peo health insurance
+  - self funded alternatives
+  - small business health insurance alternatives
+readingTime: 8
+keyTakeaways:
+  - "Fully-funded plans are the default, not the only option — level-funded, partially self-funded, PEO, and ICHRA are all viable alternatives for different business profiles."
+  - "Level-funded plans are usually the first alternative to consider: fixed monthly payments, access to claims data, and potential surplus refunds at year-end."
+  - "Partial self-funding with stop-loss is typically the lowest-total-cost option for healthy groups of 50+ employees."
+  - "ICHRA (Individual Coverage HRA) lets employers give pre-tax dollars to employees who choose their own individual market plans — works especially well for very small businesses and distributed teams."
+  - "PEOs bundle HR and benefits but tend to be expensive on a total-cost basis; the right fit for employers who want outsourced HR more than they want benefits savings."
+faqs:
+  - question: "What are the main alternatives to a fully-funded health insurance plan?"
+    answer: "The four main alternatives are: level-funded plans (self-funded structure packaged into fixed monthly payments), partial or full self-funding with stop-loss (direct claims payment with catastrophic-risk protection), PEOs (professional employer organizations that pool many employers into large-group plans), and ICHRAs (Individual Coverage Health Reimbursement Arrangements that let employers reimburse employees for individual market coverage). Each fits different company sizes and priorities."
+  - question: "What's the easiest alternative to fully-funded for a small business?"
+    answer: "For most businesses with 10–100 employees, a level-funded plan is the easiest entry point. It looks and feels like a fully-funded plan from a cash-flow perspective, but gives you visibility into claims data and potential surplus refunds. Most employers who switch never look back."
+  - question: "What is an ICHRA?"
+    answer: "An ICHRA (Individual Coverage Health Reimbursement Arrangement) is an IRS-approved structure where employers give employees a defined, pre-tax monthly allowance that employees use to buy their own individual market health coverage. It shifts the plan selection to the employee, makes the employer cost predictable, and works particularly well for remote teams across many states."
+  - question: "Are PEO health plans a good deal?"
+    answer: "PEOs can provide access to large-group rates that a small employer couldn't get on its own, which is valuable. But the all-in cost (including HR services, payroll, and administrative fees) is often higher than just buying benefits directly. PEOs are a good fit for employers who want outsourced HR bundled with benefits — less so for employers whose priority is lowering benefits cost."
+  - question: "How do I know which alternative is right for my business?"
+    answer: "Three questions: (1) How big is your team? (under 10 = fully-insured or ICHRA; 10–50 = level-funded; 50+ = level or self-funded). (2) Do you want outsourced HR? (PEO). (3) Is your team distributed across states? (ICHRA often fits best). A good benefits advisor should run quotes on multiple structures and present them side-by-side."
+author: "Kingsfoil Health Editorial Team"
+authorTitle: "Employer Benefits Desk"
+relatedArticles:
+  - "plan-structures/self-funded-vs-fully-insured"
+  - "plan-structures/level-funded-health-plans-explained"
+  - "plan-structures/three-types-of-employer-health-plans"
+  - "business-case/why-premiums-keep-climbing"
+  - "business-case/unused-premiums"
+  - "stop-loss/what-is-stop-loss-insurance"
 ---
 
 If you read our article on why premiums keep climbing, you already know the core issue: in a fully funded plan, you pay a fixed premium, the carrier keeps any surplus, and you have very little visibility into what's actually happening with your money.

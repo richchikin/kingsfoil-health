@@ -1,11 +1,19 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
+import { Image } from 'astro:assets';
+import partnershipMeeting from '@assets/images/partnership-meeting.jpg';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Partners', url: '/partners' },
+];
 ---
 
 <BaseLayout
   title="Partners — Kingsfoil Health"
-  description="We partner with industry-leading providers to deliver modern benefits infrastructure for your company."
+  description="Kingsfoil Health partners with industry-leading providers — HealthEZ, Thatch, Healthee, 401Go, and more — to deliver modern benefits infrastructure for your company."
   canonicalPath="/partners"
+  breadcrumbs={breadcrumbs}
 >
 
 <!-- PAGE HERO -->
@@ -66,7 +74,7 @@ import BaseLayout from '@layouts/BaseLayout.astro';
         <p>This isn't a static list. We continuously evaluate our partnerships and aren't afraid to make changes when something better comes along for our clients.</p>
       </div>
       <div class="choosing-visual">
-        <img src="/images/partnership-meeting.jpg" alt="Team collaborating around a whiteboard in a bright office" width="800" height="600" loading="lazy">
+        <Image src={partnershipMeeting} alt="Team collaborating around a whiteboard in a bright office" width={800} height={600} loading="lazy" />
       </div>
     </div>
   </div>

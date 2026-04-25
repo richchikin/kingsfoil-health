@@ -3,14 +3,46 @@ title: "Measuring Employee Satisfaction After a Benefits Change"
 type: blog
 excerpt: "You've rolled out a new benefits plan. Now how do you know if it's actually working for your people? Here's a practical framework for tracking satisfaction, interpreting the data, and reporting results."
 publishedDate: 2026-04-01
+updatedDate: 2026-04-24
 audienceTags: ["HR"]
 topicTags: ["Employee Experience", "Claims & Data"]
 difficulty: advanced
+contentCluster: Retention & Culture
 learningTrack: hr-playbook
 trackOrder: 7
 isFeatured: false
-relatedArticles: ["hr-playbook/reducing-admin-burden", "hr-playbook/why-benefits-feel-hard"]
+seoTitle: "Measuring Employee Satisfaction After a Benefits Change"
 seoDescription: "How to measure employee satisfaction after a benefits transition. Survey cadence, key metrics, sample questions, benchmarks, and how to report results to leadership."
+keywords:
+  - employee benefits satisfaction survey
+  - benefits nps
+  - measuring benefits impact
+  - employee benefits feedback
+  - post-enrollment survey
+readingTime: 8
+keyTakeaways:
+  - "Run three surveys: baseline (30 days before the change), short pulse (30 days after), and full survey (6 months after). That cadence shows both immediate reaction and settled experience."
+  - "Track three metrics: Benefits NPS (likelihood to recommend the plan), satisfaction with support (concierge / HR response), and usage intent (are employees confident using the plan?)."
+  - "Year-one benefits NPS improvements are commonly meaningful after switching from a fully-insured plan to a level-funded or self-funded plan paired with concierge support."
+  - "Share the data with leadership as a trend, not a snapshot — the story is how satisfaction evolves, not the absolute number."
+  - "Negative feedback after a transition is almost always concentrated in the first 60 days, then resolves as employees learn the new system."
+faqs:
+  - question: "How soon after a benefits change should we survey employees?"
+    answer: "Run a short pulse survey 30 days after the change to catch immediate reactions and any implementation issues, then a more comprehensive survey at 6 months to measure settled satisfaction. The early pulse lets you catch communication or process problems fast; the later survey measures whether the plan is actually working."
+  - question: "What should we ask in a benefits satisfaction survey?"
+    answer: "Focus on three dimensions: (1) overall satisfaction with the benefits package, (2) confidence using the plan (finding providers, understanding coverage, getting questions answered), and (3) likelihood to recommend the employer's benefits to a friend (Benefits NPS). 6–10 questions total is plenty — survey fatigue kills response rates."
+  - question: "What's a good Benefits NPS score?"
+    answer: "Benefits NPS scores vary by industry, plan design, and service experience. The most useful evaluation is comparing your own trend over time. Generally: positive scores indicate employees would recommend the benefits; strongly positive scores indicate excellent service quality; neutral or negative scores point to room for improvement. Context matters more than benchmarking against absolute thresholds."
+  - question: "How do you report benefits satisfaction data to leadership?"
+    answer: "Present it as a trend with three dimensions: NPS movement over time, category-specific satisfaction (claims, concierge, plan design), and qualitative themes from open-ended responses. Tie it to business outcomes where possible — retention correlation, escalation volume reduction, claims utilization. Leadership responds to trend and causation more than point-in-time numbers."
+author: "Kingsfoil Health Editorial Team"
+authorTitle: "Employer Benefits Desk"
+relatedArticles:
+  - "hr-playbook/reducing-admin-burden"
+  - "hr-playbook/why-benefits-feel-hard"
+  - "hr-playbook/concierge-vs-call-center"
+  - "hr-playbook/enrollment-communications"
+  - "business-case/concierge-cost-connection"
 ---
 
 You made the change. The new benefits plan is live, employees have enrolled, and the concierge team is handling inquiries. Now comes a question that separates reactive HR teams from strategic ones: how do you know if this is actually working?

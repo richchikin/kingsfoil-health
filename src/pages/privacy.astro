@@ -1,11 +1,17 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Privacy Policy', url: '/privacy' },
+];
 ---
 
 <BaseLayout
   title="Privacy Policy — Kingsfoil Health"
   description="How Kingsfoil Health collects, uses, and protects your personal information."
   canonicalPath="/privacy"
+  breadcrumbs={breadcrumbs}
 >
 
 <!-- PAGE HERO -->

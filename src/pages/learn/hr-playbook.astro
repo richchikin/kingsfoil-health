@@ -1,11 +1,18 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Learn', url: '/learn' },
+  { name: 'The HR Playbook', url: '/learn/hr-playbook' },
+];
 ---
 
 <BaseLayout
   title="The HR Playbook — Learn — Kingsfoil Health"
   description="What benefits modernization looks like operationally. Start with the basics and build toward implementation planning and ongoing management."
   canonicalPath="/learn/hr-playbook"
+  breadcrumbs={breadcrumbs}
 >
 
 <!-- BREADCRUMB -->

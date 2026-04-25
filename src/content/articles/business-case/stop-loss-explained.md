@@ -3,14 +3,50 @@ title: "Stop-Loss Insurance: Your Safety Net Explained"
 type: blog
 excerpt: "Stop-loss insurance is what makes self-funded and alternative plan structures financially safe, even for small companies. Here's how it works, what to watch for, and why it matters."
 publishedDate: 2026-04-01
+updatedDate: 2026-04-24
 audienceTags: ["Business Leaders"]
 topicTags: ["Plan Structures", "Benefits Strategy"]
 difficulty: intermediate
+contentCluster: Stop-Loss
 learningTrack: business-case
 trackOrder: 6
 isFeatured: false
-relatedArticles: ["business-case/concierge-cost-connection", "business-case/roi-modeling"]
-seoDescription: "A plain-language guide to stop-loss insurance for self-funded health plans. Learn about specific and aggregate stop-loss, attachment points, and what makes alternative plans safe for small employers."
+seoTitle: "Stop-Loss Insurance for Employers: The Safety Net Explained"
+seoDescription: "A plain-language guide to stop-loss insurance for self-funded health plans — specific and aggregate stop-loss, attachment points, and what makes alternative plans safe."
+keywords:
+  - stop loss insurance
+  - specific stop loss
+  - aggregate stop loss
+  - attachment point
+  - stop loss carrier
+  - lasering stop loss
+readingTime: 9
+keyTakeaways:
+  - "Stop-loss insurance is the mechanism that turns self-funding from unbounded risk into a calculated, capped financial decision."
+  - "Specific stop-loss caps exposure on any single employee's claims; aggregate stop-loss caps exposure on total group claims for the year."
+  - "Specific attachment points are dollar thresholds chosen at policy purchase; aggregate is typically expressed as a percentage above projected annual claims. Specific levels are negotiated based on group size and risk tolerance."
+  - "Key contract terms to watch: lasering, rate caps, paid vs. incurred basis, terminal liability, and carrier financial strength."
+  - "The cheapest stop-loss policy isn't always the best — low premiums often come with aggressive lasering or carriers with thin financial ratings."
+faqs:
+  - question: "What is stop-loss insurance?"
+    answer: "Stop-loss insurance is a separate policy that caps an employer's financial exposure under a self-funded or level-funded health plan. The employer pays claims directly up to a defined threshold; above that threshold, the stop-loss carrier reimburses the employer. It's what makes self-funding viable for companies that aren't large enough to absorb catastrophic claims on their own."
+  - question: "What is the difference between specific and aggregate stop-loss?"
+    answer: "Specific stop-loss covers any single covered person's claims exceeding a defined dollar threshold. Aggregate stop-loss covers total group claims exceeding a defined ceiling (typically expressed as a percentage above projected annual claims). Most employers carry both — they protect against different failure modes."
+  - question: "What is lasering in stop-loss insurance?"
+    answer: "Lasering is when the stop-loss carrier sets a higher individual attachment point for a specific named person in your group, usually someone with a known high-cost condition. The lasered attachment point is materially higher than the group's standard attachment, meaning the employer absorbs more risk for that individual before stop-loss reimburses. This can significantly affect net exposure on a lasered individual."
+  - question: "How much does stop-loss insurance cost?"
+    answer: "Stop-loss premiums vary based on group size, demographics, claims history, and the attachment points you choose. Lower attachment points (more protection) mean higher premiums; higher attachment points (more employer risk) mean lower premiums. Your benefits advisor models the trade-off based on your specific group."
+  - question: "Can you switch stop-loss carriers?"
+    answer: "Yes, at each renewal (typically 12-month policy periods). A good benefits advisor shops stop-loss at every renewal because premiums can vary meaningfully across carriers for the same group. Carrier relationships matter — stability, claims-paying reputation, and contract terms — but 'we always use the same carrier' is rarely the right answer."
+author: "Kingsfoil Health Editorial Team"
+authorTitle: "Employer Benefits Desk"
+relatedArticles:
+  - "stop-loss/what-is-stop-loss-insurance"
+  - "stop-loss/aggregate-vs-specific-stop-loss"
+  - "stop-loss/stop-loss-insurance-examples"
+  - "plan-structures/self-funded-vs-fully-insured"
+  - "business-case/concierge-cost-connection"
+  - "business-case/roi-modeling"
 ---
 
 When business leaders first hear about self-funded or level-funded health plans, the most common reaction is some version of this: "But what if we get hit with a catastrophic claim?" It's a reasonable concern. If your company is directly responsible for paying claims, what happens when an employee needs a $500,000 surgery or a year-long cancer treatment?

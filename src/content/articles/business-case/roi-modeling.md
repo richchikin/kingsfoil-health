@@ -3,14 +3,49 @@ title: "How to Model the ROI of Switching Plan Structures"
 type: blog
 excerpt: "Before you switch from a fully funded plan, you need to model the numbers. Here's a practical framework for comparing costs, assessing risk, and building a multi-year projection you can trust."
 publishedDate: 2026-04-01
-audienceTags: ["Business Leaders"]
+updatedDate: 2026-04-24
+audienceTags: ["Business Leaders", "CFO"]
 topicTags: ["Cost Management", "Benefits Strategy"]
 difficulty: advanced
+contentCluster: Plan Structures
 learningTrack: business-case
 trackOrder: 7
 isFeatured: false
-relatedArticles: ["business-case/stop-loss-explained", "business-case/making-the-switch"]
-seoDescription: "A practical framework for modeling the ROI of switching from fully funded to self-funded or level-funded health plans. Includes break-even analysis, risk scenarios, and a worked example for a 50-person company."
+seoTitle: "ROI of Switching to Self-Funded Health Plans: Modeling Framework"
+seoDescription: "A practical framework for modeling the ROI of switching from fully funded to self-funded or level-funded health plans — with break-even analysis and risk scenarios."
+keywords:
+  - health insurance roi
+  - self funded roi calculation
+  - level funded savings calculation
+  - break even analysis health plan
+  - health plan cost modeling
+readingTime: 10
+keyTakeaways:
+  - "ROI modeling for a plan switch requires three inputs: current fully-funded cost baseline, projected self-funded costs (claims + admin + stop-loss), and risk scenarios for how actual claims might vary."
+  - "A healthy mid-sized group typically sees meaningful year-one savings on a level-funded quote versus comparable fully-funded coverage — plus potential surplus refunds."
+  - "The key risk metric is the 'maximum claims liability' — the worst-case total spend in a bad year, which is capped by aggregate stop-loss."
+  - "Multi-year modeling matters more than year-one savings; the compounding advantage of controlling your own data usually dwarfs any single year's premium difference."
+  - "Any credible ROI model should include at least three scenarios: expected year, favorable year (surplus), and unfavorable year (stop-loss triggered)."
+faqs:
+  - question: "How do I calculate the ROI of switching to a self-funded health plan?"
+    answer: "The calculation compares total projected cost of the new structure (expected claims + administrative fees + stop-loss premium) against the fully-insured premium baseline, adjusted for the potential surplus refund in favorable years. A full model should include expected, favorable, and unfavorable scenarios — not just a single point estimate."
+  - question: "How much does a small business typically save by switching to level-funded?"
+    answer: "Savings depend on group claims experience, demographics, and starting structure. Healthy groups switching to level-funded commonly see meaningful first-year savings, plus potential surplus refunds at year-end if claims come in low. Over multi-year horizons, compounding advantages of data access and active plan management add further savings."
+  - question: "What's the break-even point for self-funding?"
+    answer: "Break-even in a self-funded plan occurs when actual claims plus admin and stop-loss costs equal what you would have paid in fully-insured premiums. For most healthy groups, break-even is well below expected claims, meaning the plan delivers savings in any year that isn't catastrophically bad. Stop-loss defines the worst-case downside."
+  - question: "How do you model risk in a self-funded plan?"
+    answer: "Model three scenarios: (1) expected case — claims at projected levels; (2) favorable case — claims meaningfully below projection, producing surplus; (3) unfavorable case — claims at or above stop-loss thresholds. The maximum unfavorable case is capped at your aggregate stop-loss attachment plus operating costs, which defines your worst-case exposure."
+  - question: "Do I need an actuary to model plan ROI?"
+    answer: "A good benefits advisor can build a credible model using standard tools and industry benchmarks. For complex groups (large, multi-state, or with unusual claims profiles), a consulting actuary may add value, particularly for multi-year projections. Most small and mid-sized employers don't need an actuary — they need an advisor who will show the math transparently."
+author: "Kingsfoil Health Editorial Team"
+authorTitle: "Employer Benefits Desk"
+relatedArticles:
+  - "stop-loss/stop-loss-insurance-examples"
+  - "stop-loss/aggregate-vs-specific-stop-loss"
+  - "plan-structures/level-funded-health-plans-explained"
+  - "business-case/stop-loss-explained"
+  - "business-case/making-the-switch"
+  - "business-case/claims-data"
 ---
 
 You've learned about alternative plan structures. You understand how stop-loss insurance works. Now comes the question that matters most: will switching actually save your company money?

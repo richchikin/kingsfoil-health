@@ -1,11 +1,17 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
+
+const breadcrumbs = [
+  { name: 'Home', url: '/' },
+  { name: 'Terms of Service', url: '/terms' },
+];
 ---
 
 <BaseLayout
   title="Terms of Service — Kingsfoil Health"
   description="Terms and conditions for using the Kingsfoil Health website."
   canonicalPath="/terms"
+  breadcrumbs={breadcrumbs}
 >
 
 <!-- PAGE HERO -->

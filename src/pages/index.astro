@@ -1,10 +1,15 @@
 ---
 import BaseLayout from '@layouts/BaseLayout.astro';
+import { Image } from 'astro:assets';
+import teamHuddle from '@assets/images/team-huddle.jpg';
+import articlePremiums from '@assets/images/article-premiums.jpg';
+import articleClaimsData from '@assets/images/article-claims-data.jpg';
+import articleHrChallenges from '@assets/images/article-hr-challenges.jpg';
 ---
 
 <BaseLayout
-  title="Kingsfoil Health — Health Insurance, Healed"
-  description="Kingsfoil Health is a modern health insurance brokerage helping Utah businesses take control of their benefits through proactive claims management and a concierge employee experience."
+  title="Health Insurance Brokerage for Modern Businesses"
+  description="Modern health insurance brokerage helping businesses take control of their benefits through proactive claims management and a concierge employee experience."
   canonicalPath="/"
 >
 
@@ -47,7 +52,7 @@ import BaseLayout from '@layouts/BaseLayout.astro';
         </div>
       </div>
       <div class="problem-visual">
-        <img src="/images/team-huddle.jpg" alt="Small team working together around a table with warm natural light" width="800" height="600" loading="lazy">
+        <Image src={teamHuddle} alt="Small team working together around a table with warm natural light" width={800} height={600} loading="lazy" />
       </div>
     </div>
   </div>
@@ -193,7 +198,7 @@ import BaseLayout from '@layouts/BaseLayout.astro';
     <div class="edu-cards">
       <a href="/learn/business-case/why-premiums-keep-climbing" class="edu-card">
         <div class="edu-card-image">
-          <img src="/images/article-premiums.jpg" alt="Tax and financial documents with calculator" width="600" height="400" loading="lazy">
+          <Image src={articlePremiums} alt="Tax forms, financial documents, and calculator used for business premium cost analysis" width={600} height={400} loading="lazy" />
         </div>
         <div class="edu-card-body">
           <span class="edu-card-badge">Business Leaders</span>
@@ -203,7 +208,7 @@ import BaseLayout from '@layouts/BaseLayout.astro';
       </a>
       <a href="/learn/business-case/claims-data" class="edu-card">
         <div class="edu-card-image">
-          <img src="/images/article-claims-data.jpg" alt="Charts and data visualizations on paper" width="600" height="400" loading="lazy">
+          <Image src={articleClaimsData} alt="Printed claims data charts and cost trend visualizations on a desk" width={600} height={400} loading="lazy" />
         </div>
         <div class="edu-card-body">
           <span class="edu-card-badge">Business Leaders</span>
@@ -213,7 +218,7 @@ import BaseLayout from '@layouts/BaseLayout.astro';
       </a>
       <a href="/learn/hr-playbook/why-benefits-feel-hard" class="edu-card">
         <div class="edu-card-image">
-          <img src="/images/article-hr-challenges.jpg" alt="Professional woman in modern office" width="600" height="400" loading="lazy">
+          <Image src={articleHrChallenges} alt="HR leader reviewing employee benefits documentation in a modern office" width={600} height={400} loading="lazy" />
         </div>
         <div class="edu-card-body">
           <span class="edu-card-badge">HR Playbook</span>

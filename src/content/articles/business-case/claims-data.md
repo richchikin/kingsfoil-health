@@ -3,14 +3,49 @@ title: "Claims Data: What You Should Be Seeing (And Aren't)"
 type: blog
 excerpt: "Most business leaders make their biggest benefits decisions with almost no data. Here's what claims data reveals, what fully funded plans hide, and how transparency changes everything."
 publishedDate: 2026-04-01
+updatedDate: 2026-04-24
 audienceTags: ["Business Leaders"]
 topicTags: ["Claims & Data", "Cost Management"]
 difficulty: intermediate
+contentCluster: Plan Structures
 learningTrack: business-case
 trackOrder: 4
 isFeatured: false
-relatedArticles: ["business-case/unused-premiums", "business-case/concierge-cost-connection"]
+seoTitle: "Claims Data for Employer Health Plans: What You Should See"
 seoDescription: "What is claims data, why do fully funded health plans hide it, and what key metrics should business leaders track? A guide to transparency in employee benefits."
+keywords:
+  - claims data
+  - employer claims data
+  - health insurance claims reporting
+  - loss ratio
+  - large claimant report
+  - pharmacy spend analysis
+readingTime: 8
+keyTakeaways:
+  - "Fully-funded health plans typically don't share detailed claims data with employers — the carrier owns it, and you only see next year's rate."
+  - "Level-funded and self-funded plans give employers access to loss ratio, large claimant reports, utilization trends, and pharmacy spend by category."
+  - "A small number of high-cost claimants typically drive most of a plan's spend — without the data, you can't tell a catastrophic year from a systemic trend."
+  - "The best reporting is a monthly or quarterly dashboard with plain-language commentary, not a 200-page PDF of billing codes."
+  - "Seeing your data changes concrete decisions: plan design, vendor accountability, wellness investments, and renewal negotiations."
+faqs:
+  - question: "What is claims data in employer health insurance?"
+    answer: "Claims data is the aggregate record of every healthcare service your employees and their dependents use under your plan — doctor visits, prescriptions, lab tests, hospitalizations. It's presented in aggregate (never identifying individual employees) and reveals where your healthcare dollars are actually going, what's driving costs, and where intervention could save money."
+  - question: "Why don't fully-funded health plans share claims data?"
+    answer: "Under a fully-funded arrangement, the carrier owns the data. They'll share a high-level summary at renewal — typically designed to justify the rate increase — but not the detailed reporting an employer would need to actively manage costs. Without that data, every benefits decision is effectively a guess, which is one of the biggest structural disadvantages of the fully-funded model."
+  - question: "What claims data should an employer expect to see?"
+    answer: "At minimum: monthly or quarterly dashboards showing claims versus budget, loss ratio trends, large claimant concentration, utilization patterns (ER, preventive care, specialist visits), pharmacy spend by category (generic/brand/specialty), and year-over-year comparisons. Good reporting includes plain-language commentary and benchmarking against similar groups."
+  - question: "Is it legal for employers to see employee claims data?"
+    answer: "Yes, when presented in aggregate and stripped of personally identifiable information. HIPAA and ERISA permit employers to access de-identified claims reporting for plan administration. Employers cannot see individual employees' specific medical details, but they can see aggregate patterns that inform plan strategy."
+  - question: "How does claims data help reduce healthcare costs?"
+    answer: "It shifts decisions from guesswork to evidence. Data reveals which plan design changes would help, where prevention investments would produce ROI, whether vendors are performing, and how to negotiate renewals from a position of knowledge. Businesses that actively use their claims data tend to manage costs more effectively than those operating without it."
+author: "Kingsfoil Health Editorial Team"
+authorTitle: "Employer Benefits Desk"
+relatedArticles:
+  - "plan-structures/self-funded-vs-fully-insured"
+  - "plan-structures/level-funded-health-plans-explained"
+  - "business-case/unused-premiums"
+  - "business-case/concierge-cost-connection"
+  - "business-case/roi-modeling"
 ---
 
 You probably track revenue, expenses, customer acquisition cost, and a dozen other metrics to run your business well. But when it comes to one of your largest line items -- employee health insurance -- how much data do you actually see?

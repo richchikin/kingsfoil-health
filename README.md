@@ -206,6 +206,35 @@ Submissions show up in your Netlify dashboard under **Forms**. Free tier include
 1. Create a form at [formspree.io](https://formspree.io)
 2. Replace `action="#"` with `action="https://formspree.io/f/YOUR_FORM_ID"`
 
+## SEO Roadmap
+
+Notes on potential future SEO work. Nothing here is committed — these are candidates to consider.
+
+### Geo-landing pages (e.g., `/utah`, `/salt-lake-city`)
+Only build geo variants **if the content is meaningfully distinct** — real local facts, unique testimonials, local carrier nuances, region-specific plan availability. Thin doorway pages (duplicated content with the city name swapped) are actively penalized by Google and hurt rather than help. If we can't write 600+ words of genuinely local content per page, don't ship it.
+
+### Organization / InsuranceAgency schema — fill in TODOs
+`src/layouts/BaseLayout.astro` contains site-wide JSON-LD with `TODO` placeholders for:
+- `streetAddress` and `postalCode`
+- `telephone` and `email`
+- `sameAs` social URLs (LinkedIn, etc.)
+Adding these strengthens local SEO and knowledge-panel eligibility.
+
+### Competitor gap analysis
+Identify 2–3 brokers ranking for target terms (e.g., "employee benefits broker", "self-funded health insurance broker"). Analyze their content depth and backlink profiles to find reachable gaps.
+
+### Backlink strategy
+Pursue editorial links from:
+- HR / benefits industry publications
+- Small business and SaaS trade publications
+- Guest posts on founder/CFO audience blogs
+- Local business associations (Chamber of Commerce, UBBA) — useful for local signals regardless of whether we build geo pages
+
+### Internal linking audit
+Once article count grows past ~60, audit internal link structure to ensure every article has 2–3 incoming links from related content. Helps both crawlability and topical authority.
+
+---
+
 ## Pre-Launch Checklist
 
 - [ ] All HTML sections integrated into Astro pages

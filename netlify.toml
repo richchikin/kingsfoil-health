@@ -1,5 +1,9 @@
 [build]
-  command = "npm run build"
+  # Runs the citation audit (report mode) before the Astro build.
+  # The audit logs findings to the Netlify build log but does not block the
+  # deploy. Flip to "build:strict" once the existing flagged claims are
+  # cleaned up so future deploys fail on any new unsourced claim.
+  command = "npm run audit:citations && npm run build"
   publish = "dist"
 
 [build.environment]

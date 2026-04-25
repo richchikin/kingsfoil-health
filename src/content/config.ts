@@ -3,6 +3,8 @@ import { defineCollection, z } from 'astro:content';
 /**
  * Kingsfoil Health Content Collections
  * Schema matches the CMS content types from kh-content-architecture.md
+ * and is extended with SEO/AEO fields (keywords, FAQs, key takeaways) so
+ * every article ships with structured data and answer-engine-friendly copy.
  */
 
 const articles = defineCollection({
@@ -30,6 +32,16 @@ const articles = defineCollection({
     learningTrack: z.enum(['business-case', 'hr-playbook']).optional(),
     trackOrder: z.number().optional(),
 
+    // Content clusters (SEO topic pillars — separate from learning tracks)
+    contentCluster: z.enum([
+      'Fundamentals', 'Plan Structures', 'Premium Costs', 'Stop-Loss',
+      'HSA & Tax-Advantaged', 'Broker Transparency', 'Retention & Culture',
+      'Utah Local', 'Pillar',
+      // Phase 2 clusters
+      'HRA & Reimbursement', 'Plan Types', 'ACA Compliance',
+      'Wellness & EAP', 'PEO Comparison', 'Direct Primary Care',
+    ]).optional(),
+
     // Gating (for reports and case studies)
     isGated: z.boolean().default(false),
     gateAssetUrl: z.string().url().optional(),
@@ -38,16 +50,30 @@ const articles = defineCollection({
     featuredImage: z.string().optional(),
     isFeatured: z.boolean().default(false),
 
-    // Relations
+    // Relations — slugs with folder prefix, e.g. "plan-structures/level-funded-health-plans-explained"
     relatedArticles: z.array(z.string()).optional(),
 
     // CTA overrides
     ctaText: z.string().optional(),
     ctaUrl: z.string().optional(),
 
-    // SEO overrides (defaults to title/excerpt if not set)
+    // SEO
     seoTitle: z.string().optional(),
     seoDescription: z.string().optional(),
+    keywords: z.array(z.string()).optional(),
+    canonicalUrl: z.string().url().optional(),
+
+    // AEO (answer-engine optimization)
+    keyTakeaways: z.array(z.string()).min(3).max(6).optional(),
+    faqs: z.array(z.object({
+      question: z.string(),
+      answer: z.string(),
+    })).optional(),
+
+    // Byline & reading time
+    author: z.string().default('Kingsfoil Health Editorial Team'),
+    authorTitle: z.string().optional(),
+    readingTime: z.number().optional(),
   }),
 });
 
