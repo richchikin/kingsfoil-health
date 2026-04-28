@@ -49,7 +49,7 @@ You made the change. The new benefits plan is live, employees have enrolled, and
 
 Gut feeling isn't enough. Leadership will want data. And more importantly, your employees deserve a team that's actively listening and ready to adjust if something isn't landing. Measuring employee satisfaction after a benefits change isn't just a reporting exercise. It's how you honor the trust your people placed in you when they accepted the transition.
 
-This article gives you a practical framework for what to measure, when to measure it, and how to turn the results into a story that matters to both your employees and your executive team.
+Here's a practical framework for what to measure, when to measure it, and how to turn the results into a story that matters to both your employees and your executive team.
 
 ## What to measure: the four key indicators
 
@@ -164,7 +164,7 @@ Data without interpretation is just numbers. Here's how to make sense of what yo
 
 ## What to do if satisfaction dips
 
-Here's something experienced HR professionals know: it's completely normal for satisfaction to dip in the first 30 days after a benefits change. Change is uncomfortable. Even people who end up loving the new plan may feel uncertain at first.
+Satisfaction dips in the first 30 days after a benefits change are completely normal. Change is uncomfortable. Even people who end up loving the new plan may feel uncertain at first.
 
 A dip is not a failure. A dip that doesn't recover is a problem.
 

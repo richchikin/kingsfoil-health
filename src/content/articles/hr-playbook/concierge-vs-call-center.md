@@ -49,7 +49,7 @@ You already know what it's like to call an insurance carrier. Hold music. Phone 
 
 Your employees know what that's like too. And when that experience frustrates them enough, they come to you. That's the cycle most HR teams live in: employees can't get help from the carrier, so HR becomes the middleman.
 
-A concierge model breaks that cycle. Let's look at what the difference actually feels like, scenario by scenario.
+A concierge model breaks that cycle. Here's what the difference actually feels like, scenario by scenario.
 
 ## Scenario 1: Finding a specialist
 
@@ -99,7 +99,7 @@ When employees consistently have positive experiences getting help, several thin
 
 ## The impact on HR ticket volume
 
-Let's be specific about this, because it matters for your day-to-day experience. In a traditional model, HR fields benefits questions constantly — during open enrollment, after claims are processed, when life events happen, and any time an employee gets a confusing piece of mail from their carrier.
+This matters for your day-to-day experience, so it's worth being specific. In a traditional model, HR fields benefits questions constantly — during open enrollment, after claims are processed, when life events happen, and any time an employee gets a confusing piece of mail from their carrier.
 
 In a concierge model, the concierge team is the first line of contact. Employees are given a direct number, an email, and often a chat option. They're told: "For any benefits questions, contact our concierge team." Over time, that becomes the default behavior.
 

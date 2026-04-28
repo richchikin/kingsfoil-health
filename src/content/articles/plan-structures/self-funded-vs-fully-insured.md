@@ -50,7 +50,6 @@ Every year at renewal, the same conversation happens in the same conference room
 
 The question almost nobody gets asked is whether the plan structure itself is still the right one. **Self-funded vs. fully-insured** is the biggest fork in the road for how a company pays for employee health coverage — and for most businesses, it's a fork they've never actively chosen. They just ended up on the fully-insured road by default.
 
-This guide walks through both structures in plain English: how each one works, where the money actually goes, and how to tell which is a better fit for where your company is right now.
 
 ## What is a fully-insured health plan?
 
@@ -113,34 +112,22 @@ The net result is a market where the default option is also the most expensive o
 
 ## When self-funded makes sense (and when it doesn't)
 
-Self-funding is a tool, not a religion. It works well in some situations and poorly in others.
+Self-funding works well for some employers and poorly for others. The distinction is mostly about demographics, cash flow, and engagement.
 
-**Self-funding tends to work well when:**
+Employers who benefit most from self-funding have teams that skew younger or healthier than the broader risk pool, stable and predictable claims experience, and enough cash flow cushion to absorb month-to-month variability. They want visibility into where their healthcare dollars go, and they're willing to engage with plan design decisions. Most employers with 25 or more employees (or 10+ for a level-funded structure) should at least model the comparison.
 
-- Your team skews younger or healthier than the broader risk pool
-- Your claims experience is stable and predictable
-- Your cash flow can absorb month-to-month claims variability
-- You have 25 or more employees (or 10+ for a level-funded structure)
-- You want visibility into where your healthcare dollars are going
-- You're willing to take an active role in plan management
-
-**Self-funding tends to work poorly when:**
-
-- Your team has known, ongoing high-cost claimants and stop-loss quotes reflect that
-- Your cash flow is too tight to handle the variance of direct claims payments
-- You have fewer than 10 employees (the math on stop-loss starts to break down)
-- Leadership isn't willing to engage with plan design decisions
+Self-funding is a poor fit when a team has known, ongoing high-cost claimants that drive up stop-loss quotes, when cash flow can't absorb claims variance, when the group has fewer than 10 employees (stop-loss economics break down at that scale), or when leadership doesn't want to be involved in plan design.
 
 For businesses that fit the first list but aren't ready to jump fully into self-funding, [level-funded plans](/learn/plan-structures/level-funded-health-plans-explained) are the logical middle step. They smooth the cash flow into a fixed monthly payment while still giving you access to your data and surplus-sharing when claims run low.
 
 ## Stop-loss: the piece that makes self-funding safe
 
-The concern almost every employer raises about self-funding is the same: *what happens if someone on our team has a catastrophic claim?* It's a fair question. The answer is [stop-loss insurance](/learn/stop-loss/what-is-stop-loss-insurance).
+The concern almost every employer raises about self-funding is the same: *what happens if someone on our team has a catastrophic claim?* The answer is [stop-loss insurance](/learn/stop-loss/what-is-stop-loss-insurance).
 
 Stop-loss is a separate policy that sits behind your self-funded plan and caps your exposure. There are two types, and most employers carry both:
 
 - **Specific stop-loss** protects against any single individual's claims exceeding a defined threshold for the year
-- **Aggregate stop-loss** protects against your total claims across the whole group running above a defined ceiling (typically expressed as a percentage above projected annual claims)
+- **Aggregate stop-loss** protects against your total claims across the whole group running above a defined ceiling, expressed as a percentage above projected annual claims
 
 With a well-designed stop-loss policy, your worst-case financial outcome in a self-funded plan is defined and predictable. You're not exposed to unlimited downside. That's the piece that reframes self-funding from "risky" to "calculated."
 
@@ -156,12 +143,12 @@ The decision usually comes down to three questions.
 
 **3. Can your cash flow handle month-to-month variability?** Fully self-funded plans vary month to month based on actual claims. Level-funded plans fix that variability at the cost of a slightly higher expected spend. Both protect you from catastrophe with stop-loss. Pick the one your finance team can live with.
 
-The most common path we see at Kingsfoil Health is a progression: employers start fully-insured, get tired of years of meaningful renewal increases, move to level-funded for one plan year to see their data, and then make a more informed decision about whether to stay there or move to full self-funding.
+The most common path we see at Kingsfoil Health is a progression: employers start fully-insured, get tired of years of double-digit renewal increases, move to level-funded for one plan year to see their data, and then make a more informed decision about whether to stay there or move to full self-funding.
 
-## The bottom line
+## Where to start
 
-**Self-funded vs. fully-insured** isn't a question about which one is universally better. It's a question about which one is right for your business, your team, and your tolerance for claims variability. For most employers with 25 or more employees and healthy claims experience, the honest answer is that the fully-insured default is costing them real money every year — and they don't know it because they've never been shown the data.
+For most employers with 25 or more employees and healthy claims experience, the fully-insured default is costing them real money every year. They don't know it because they've never been shown the data.
 
-The first step isn't choosing a structure. It's getting the visibility to choose intelligently.
+Get the data first. The structure decision follows.
 
 > **Ready to see what your numbers actually look like?** Download *The Rate Shock Survival Guide* — a free, practical walk-through of how to evaluate your current plan, ask the right questions at renewal, and tell whether an alternative structure would genuinely save your business money. [Get your copy here](/learn/resources/rate-shock).

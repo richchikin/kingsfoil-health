@@ -49,7 +49,7 @@ The health insurance market has historically been unkind to very small businesse
 
 That's changed in the past several years. ICHRAs have created a genuinely flexible option that didn't exist before 2020. Carriers have expanded level-funded to groups as small as 5 employees in some markets. And the individual market has gotten more competitive and subsidized, making employer-paid individual coverage strategies more viable.
 
-This article is the complete 2026 guide to **health insurance options for small businesses with under 10 employees** — including what works at specific employee counts, what doesn't, and how to pick among the options.
+Here's the complete 2026 guide to **health insurance options for small businesses with under 10 employees**, including what works at specific employee counts, what doesn't, and how to pick among the options.
 
 ## Your four main options
 
@@ -60,7 +60,7 @@ Under 10 employees, the viable options are:
 3. **QSEHRA (Qualified Small Employer HRA)** — specialized HRA for employers with <50 employees
 4. **Individual market with subsidies** — employees buy their own coverage, employer pays salary instead
 
-Level-funded plans are typically not available below 10 employees, though some carriers will quote 5+. Fully self-funded plans are not viable under 10 employees.
+Level-funded plans are not available below 10 employees at most carriers, though some will quote 5+. Fully self-funded plans are not viable under 10 employees.
 
 ## Option 1: Fully-insured small-group coverage
 
@@ -187,7 +187,7 @@ The economics of group coverage start to favor the small-group approach at this 
 
 If you're near 10 employees and growing, the strategy can shift significantly:
 
-- **Level-funded plans** become widely available, often delivering meaningful savings vs. fully-insured for healthy groups
+- **Level-funded plans** become widely available, and they deliver real savings vs. fully-insured for healthy groups
 - **Better pricing leverage** with carriers due to larger pool
 - **Stop-loss and alternative structures** enter consideration
 - **Group coverage economics** start to rival individual-market options
@@ -204,11 +204,11 @@ If you're planning to add employees to cross the 10-employee threshold within 12
 
 **4. Missing tax advantages.** HSA contributions, pre-tax premium arrangements (Section 125), and ICHRA reimbursements all have tax advantages that are often missed in very small group designs.
 
-**5. Using the wrong broker.** Some brokers don't actively work with very small groups because commissions are low. Others specialize in the small-group space and offer meaningful help. Ask specifically about experience with companies your size.
+**5. Using the wrong broker.** Some brokers don't actively work with very small groups because commissions are low. Others specialize in the small-group space and provide real help. Ask specifically about experience with companies your size.
 
-## The bottom line
+## What to do next
 
-**Health insurance for small businesses with under 10 employees** has become meaningfully more flexible in the 2020s. ICHRAs especially have opened options that didn't exist before, and the individual market has become more functional for employee coverage. The right answer depends on your specific employees, geography, budget, and administrative appetite.
+**Health insurance for small businesses with under 10 employees** has become far more flexible in the 2020s. ICHRAs especially have opened options that didn't exist before, and the individual market has become more functional for employee coverage. The right answer depends on your specific employees, geography, budget, and administrative appetite.
 
 For most very small employers, the decision involves three questions:
 

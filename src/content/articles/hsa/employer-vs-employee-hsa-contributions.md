@@ -46,7 +46,7 @@ relatedArticles:
 
 HSAs have an appealing property that distinguishes them from most other employer benefits: both the employer and the employee can contribute to the same account. That opens up strategic options — but it also creates questions. Who should contribute? How much? And what's the tax treatment difference between the two?
 
-This article walks through the mechanical and strategic differences between **employer HSA contributions and employee HSA contributions**, and how to decide the right split for your company.
+Here are the mechanical and strategic differences between **employer HSA contributions and employee HSA contributions**, and how to decide the right split for your company.
 
 ## The two contribution types, at a glance
 
@@ -65,13 +65,13 @@ This article walks through the mechanical and strategic differences between **em
 
 The tax differences are small in absolute terms but real in aggregate.
 
-**Employer HSA contribution: FICA/Medicare savings on both sides.** Neither the employer nor the employee pays the 7.65% payroll tax on the contribution.[^2] For an illustrative $2,000 annual employer HSA contribution per employee, the FICA savings on each side compounds to a meaningful per-employee tax efficiency relative to the equivalent salary dollar.
+**Employer HSA contribution: FICA/Medicare savings on both sides.** Neither the employer nor the employee pays the 7.65% payroll tax on the contribution.[^2] For an illustrative $2,000 annual employer HSA contribution per employee, the FICA savings on each side compounds to a real per-employee tax efficiency relative to the equivalent salary dollar.
 
 **Employee HSA contribution (via payroll + cafeteria plan):** Same FICA/Medicare savings on the employee side, plus income tax savings at the employee's marginal rate. The employer saves their share as well, since the contribution is excluded from wages for payroll tax purposes.
 
 **Employee HSA contribution (personal, outside payroll):** Income tax deduction only on the individual's return. No FICA savings. This is the least tax-efficient of the three options, and is usually reserved for catch-up contributions or situations where payroll isn't available.
 
-The meaningful takeaway: **always route employee HSA contributions through payroll via a Section 125 cafeteria plan** when possible. The FICA savings on the employee side compounds to real money over a career.
+The takeaway: **always route employee HSA contributions through payroll via a Section 125 cafeteria plan** when possible. The FICA savings on the employee side compounds to real money over a career.
 
 ## Who should contribute, strategically?
 
@@ -81,10 +81,10 @@ The split depends on what you're trying to accomplish.
 
 When the goal is to help employees comfortably choose a high-deductible plan, the employer should front-load the HSA contribution. A typical design:
 
-- Employer contributes a meaningful annual amount, scaled to coverage tier
+- Employer contributes a defined annual amount, scaled to coverage tier
 - Contribution is paid monthly or per-paycheck (to limit exposure if someone leaves)
 - Employee is encouraged but not required to contribute on top
-- The contribution covers a substantial portion of the typical HDHP deductible upfront
+- The contribution covers a large portion of the HDHP deductible upfront
 
 The employer is essentially converting premium savings from the HDHP into a tax-efficient dollar that the employee can use for medical expenses or retirement.
 
@@ -120,14 +120,14 @@ The practical implication: operate your HSA contributions through a cafeteria pl
 
 Employer HSA contributions are immediately the employee's property. If the employee leaves one month after you make a contribution, the employer cannot recover it.
 
-This is why most employers deposit HSA contributions monthly or per-paycheck rather than as a lump sum at the start of the plan year. It limits the exposure on mid-year departures while still providing meaningful funding to employees who stay.
+This is why most employers deposit HSA contributions monthly or per-paycheck rather than as a lump sum at the start of the plan year. It limits the exposure on mid-year departures while still providing consistent funding to employees who stay.
 
 A common hybrid:
 
 - 50% of the annual employer contribution in January (to make the first-quarter experience feel well-funded)
 - Remaining 50% spread monthly through the year
 
-This balances employee experience (meaningful opening balance) with employer risk management (not exposing too much at once).
+This balances employee experience (a solid opening balance) with employer risk management (not exposing too much at once).
 
 ## Employee contributions: the opt-in layer
 
@@ -137,7 +137,7 @@ For illustration: an employee at a moderate federal marginal tax bracket making 
 
 Most employers who want to maximize employee benefit communicate this math clearly during enrollment — employees often don't realize how much the HSA contribution actually saves them until it's spelled out. [Enrollment Communications](/learn/hr-playbook/enrollment-communications) covers how to present this effectively.
 
-> The most effective HSA designs use both contribution types: a meaningful employer base to anchor the program and communicate value, plus a clear pathway for employees to add their own payroll contributions on top.
+> The most effective HSA designs use both contribution types: a strong employer base to anchor the program and communicate value, plus a clear pathway for employees to add their own payroll contributions on top.
 
 ## Recommended default split
 
@@ -148,13 +148,13 @@ For most small and mid-sized employers paired with an HDHP, a reasonable default
 - **Employee auto-enrollment** at a default percentage of salary into payroll HSA (with easy opt-out)
 - **Annual true-up at year-end** if any employee unintentionally went over the IRS limit
 
-This design anchors the program with meaningful employer funding, maximizes tax efficiency through payroll, and leverages auto-enrollment behavioral defaults to encourage employee participation.
+This design anchors the program with visible employer funding, maximizes tax efficiency through payroll, and leverages auto-enrollment behavioral defaults to encourage employee participation.
 
-## The bottom line
+## Making the choice
 
-**Employer vs. employee HSA contributions** isn't an either/or — it's a design question about how to split funding between two tax-efficient channels. Employer contributions provide the visible benefit and anchor the program. Employee contributions through payroll deliver powerful individual tax savings and maximize the account's long-term accumulation.
+**Employer vs. employee HSA contributions** isn't an either/or. It's a design question about how to split funding between two tax-efficient channels. Employer contributions provide the visible benefit and anchor the program. Employee contributions through payroll deliver powerful individual tax savings and maximize the account's long-term accumulation.
 
-Get the split right, and the HSA becomes one of the most-appreciated elements of your benefits package — not because any single contribution is huge, but because the compounded tax efficiency is genuinely meaningful over years of participation.
+Get the split right, and the HSA becomes one of the most-appreciated elements of your benefits package — not because any single contribution is huge, but because the compounded tax efficiency adds up over years of participation.
 
 > **Not sure what HSA structure fits your team?** We can model the different splits, the compliance requirements, and the expected employee participation based on your demographics. [Talk to us](/talk-to-us).
 

@@ -46,20 +46,20 @@ relatedArticles:
   - "plan-structures/self-funded-vs-fully-insured"
 ---
 
-Most conversations about Employee Assistance Programs focus on the human side — supporting employees through mental health challenges, family issues, and life crises. That's the right framing for HR and culture. But there's a less-discussed financial story: **EAPs are one of the lowest-cost, highest-ROI claims-management tools available to self-funded employers.**
+Most conversations about Employee Assistance Programs focus on the human side: supporting employees through mental health challenges, family issues, and life crises. That's the right framing for HR and culture. But there's a less-discussed financial story: **EAPs are one of the lowest-cost, highest-ROI claims-management tools available to self-funded employers.**
 
 The mechanism is straightforward: short-term EAP counseling resolves issues before they require expensive longer-term care; early intervention reduces downstream healthcare utilization; mental health support improves physical health outcomes. The result, for self-funded employers especially, is meaningful claims savings on a modest per-employee investment.
 
-This article walks through **how EAPs reduce claims costs** and why the financial case for offering one is typically strong.
+Here's **how EAPs reduce claims costs** and why the financial case for offering one is strong for most employers.
 
 ## The mental-physical health link
 
 Foundational to the EAP-claims-cost connection: mental and physical health are deeply intertwined. Untreated mental health issues consistently correlate with:
 
-- **Higher physical healthcare utilization** — depression and anxiety drive more medical visits, ER trips, and chronic condition exacerbations
-- **Worse chronic disease outcomes** — diabetes, heart disease, and other chronic conditions become harder to manage when underlying mental health isn't addressed
-- **Higher prescription medication usage** — both for the mental health condition and for the physical conditions it amplifies
-- **More frequent and longer absences** — affecting both productivity and benefits costs
+- **Higher physical healthcare utilization.** Depression and anxiety drive more medical visits, ER trips, and chronic condition exacerbations.
+- **Worse chronic disease outcomes.** Diabetes, heart disease, and other chronic conditions become harder to manage when underlying mental health isn't addressed.
+- **Higher prescription medication usage**, both for the mental health condition and for the physical conditions it amplifies.
+- **More frequent and longer absences**, affecting both productivity and benefits costs.
 
 The implication: addressing mental health early through EAP services can produce downstream reductions in physical health claims, not just mental health claims.
 
@@ -71,7 +71,7 @@ EAPs reduce claims costs through several specific mechanisms:
 
 ### 1. Short-term resolution of mental health issues
 
-Many mental health concerns — situational anxiety, grief, relationship stress, mild-to-moderate depression — resolve effectively with short-term counseling. EAPs provide that short-term counseling at no cost to the employee, often resolving issues before they require longer-term therapy through health plan benefits.
+Many mental health concerns (situational anxiety, grief, relationship stress, mild-to-moderate depression) resolve effectively with short-term counseling. EAPs provide that short-term counseling at no cost to the employee, often resolving issues before they require longer-term therapy through health plan benefits.
 
 For employers on self-funded plans, every mental health issue resolved through 4-6 EAP sessions instead of progressing to ongoing health-plan-funded therapy represents direct claims savings.
 
@@ -81,7 +81,7 @@ Substance use disorders are expensive to treat once they progress. EAP counselor
 
 ### 3. Reduced ER and urgent care utilization
 
-Employees experiencing mental health crises sometimes go to the ER because they don't know what else to do. EAP 24/7 helpline access provides an alternative — a real person to talk to, options for de-escalation, and triage to appropriate next steps. Each avoided ER visit represents meaningful claims savings.
+Employees experiencing mental health crises sometimes go to the ER because they don't know what else to do. EAP 24/7 helpline access provides an alternative: a real person to talk to, options for de-escalation, and triage to appropriate next steps. Each avoided ER visit represents meaningful claims savings.
 
 ### 4. Chronic disease management support
 
@@ -89,7 +89,7 @@ Mental health support helps employees with chronic conditions (diabetes, heart d
 
 ### 5. Family member triage
 
-EAP services typically extend to employees' family members. When an employee's family member is struggling (substance use, mental health, family conflict), the EAP supports the situation — preventing the issue from cascading into the employee's work and health utilization.
+EAP services extend to employees' family members. When an employee's family member is struggling (substance use, mental health, family conflict), the EAP supports the situation, preventing the issue from cascading into the employee's work and health utilization.
 
 ### 6. Manager support
 
@@ -101,26 +101,26 @@ The structural detail that matters: who captures the EAP-driven claims savings d
 
 **Self-funded plans:** The employer pays claims directly. When the EAP reduces claims (mental health, substance use, ER visits, chronic disease management), the employer's claims spend goes down. The savings flow directly to the employer's bottom line. This is where EAP ROI is strongest.
 
-**Level-funded plans:** Similar to self-funded — claims savings reduce the actual claims paid, which can produce surplus refunds at year-end and better experience for renewal.
+**Level-funded plans:** Similar to self-funded. Claims savings reduce the actual claims paid, which can produce surplus refunds at year-end and better experience for renewal.
 
 **Fully-insured plans:** The carrier pays claims. EAP-driven claims reduction flows to the carrier's bottom line, not the employer's. The employer's premium is fixed regardless. At renewal, lower claims experience may translate into a more favorable rate, but the connection is indirect.
 
-For this reason, EAPs are typically a stronger investment for self-funded and level-funded employers than for fully-insured employers — though the human-resource and retention benefits still apply across plan structures.
+For this reason, EAPs are a stronger investment for self-funded and level-funded employers than for fully-insured employers — though the human-resource and retention benefits still apply across plan structures.
 
 ## EAP cost vs. value
 
-EAPs are typically among the lowest-cost employer benefits on a per-employee-per-month basis. Pricing varies by vendor and service scope, but EAPs are substantially cheaper than health insurance, dental, or vision coverage.
+EAPs are among the lowest-cost employer benefits on a per-employee-per-month basis. Pricing varies by vendor and service scope, but EAPs are substantially cheaper than health insurance, dental, or vision coverage.
 
 Against that modest investment, the potential ROI mechanisms include:
 
 - **Claims reduction** (self-funded employers especially)
-- **Reduced absenteeism** — employees addressing personal issues miss less work
-- **Reduced presenteeism** — employees at work but distracted by personal stress produce less; addressing the stress through EAP improves output
-- **Improved retention** — employees feeling supported through challenges stay longer
-- **Reduced HR workload** — EAP handles complex employee situations professionally
-- **Better outcomes for chronic conditions** — when mental health supports physical health management
+- **Reduced absenteeism.** Employees addressing personal issues miss less work.
+- **Reduced presenteeism.** Employees at work but distracted by personal stress produce less; addressing the stress through EAP improves output.
+- **Improved retention.** Employees feeling supported through challenges stay longer.
+- **Reduced HR workload.** EAP handles complex employee situations professionally.
+- **Better outcomes for chronic conditions** when mental health supports physical health management.
 
-Even with conservative assumptions, the payback math typically works for most employers. Industry research has documented EAP ROI in the range of several times the program cost.[^2]
+Even with conservative assumptions, the payback math works for most employers. Industry research has documented EAP ROI in the range of several times the program cost.[^2]
 
 ## Realizing the ROI: utilization matters
 
@@ -130,7 +130,7 @@ The most common mistake: launching the EAP, mentioning it during onboarding, and
 
 The solution is sustained communication:
 
-**Quarterly reminders.** Multiple channels (email, intranet, manager messages) — not just open enrollment.
+**Quarterly reminders.** Multiple channels (email, intranet, manager messages), not just open enrollment.
 
 **Topic-based campaigns.** Mental health awareness, financial wellness, family resources — each tied to relevant EAP services.
 
@@ -140,7 +140,7 @@ The solution is sustained communication:
 
 **Integration with culture.** Leadership using and discussing EAP normalizes it. Employees follow leadership cues on what's "okay" to use.
 
-Employers who treat EAP as an always-on benefit with regular promotion typically see substantially higher utilization — and therefore stronger ROI — than employers who launch and forget.
+Employers who treat EAP as an always-on benefit with regular promotion see substantially higher utilization — and therefore stronger ROI — than employers who launch and forget.
 
 > The EAP isn't an expensive program that needs to justify itself. It's a low-cost program where the financial case is typically strong. The challenge is utilization, and utilization is mostly a communication problem.
 
@@ -164,32 +164,32 @@ For self-funded employers, the claims reduction alone often justifies the EAP in
 
 ## Beyond the financial case
 
-The financial case for EAPs is typically strong, but it's not the whole story. The human case matters too:
+The financial case for EAPs is strong, but it's not the whole story. The human case matters too:
 
 - Employees facing mental health challenges deserve support
 - Workforces with strong mental health benefits attract better talent
 - Crisis support saves lives in genuine emergencies
 - Cultural messaging about mental health support shapes the workplace climate
 
-For most employers, both cases — financial and human — point in the same direction. The EAP delivers value in multiple dimensions simultaneously.
+For most employers, both cases (financial and human) point in the same direction. The EAP delivers value in multiple dimensions simultaneously.
 
 ## Implementation considerations
 
 For employers adding or improving an EAP:
 
-1. **Vendor selection** — choose a vendor with services aligned to your workforce needs
-2. **Communication planning** — design sustained communication, not just launch announcement
-3. **Manager training** — build manager capability to refer appropriately
-4. **Utilization tracking** — review quarterly EAP utilization reports and adjust communication based on what's working
-5. **Integration with health plan** — ensure smooth handoff from EAP to health plan mental health coverage when needed
+1. **Vendor selection.** Choose a vendor with services aligned to your workforce needs.
+2. **Communication planning.** Design sustained communication, not just a launch announcement.
+3. **Manager training.** Build manager capability to refer appropriately.
+4. **Utilization tracking.** Review quarterly EAP utilization reports and adjust communication based on what's working.
+5. **Integration with health plan.** Ensure smooth handoff from EAP to health plan mental health coverage when needed.
 
 [What Is an Employee Assistance Program (EAP)?](/learn/wellness/what-is-an-eap) covers the broader EAP overview.
 
-## The bottom line
+## Making it work
 
 **EAPs reduce claims costs** through early intervention, mental health support, ER avoidance, and chronic disease management — particularly for self-funded employers who capture the claims savings directly. Combined with reduced absenteeism, presenteeism, and turnover, the typical ROI on EAPs is strong even with conservative assumptions.
 
-The investment is modest; the operational lift is light; the value depends on utilization, which depends on communication. For most employers, the case for offering an EAP — and offering it well — is straightforward.
+The investment is modest; the operational lift is light; the value depends on utilization, which depends on communication. For most employers, the case for offering an EAP, and offering it well, is straightforward.
 
 > **Want help evaluating EAP options or improving utilization on your existing program?** We can compare vendors, design communication strategies, and integrate the EAP with your broader benefits stack. [Talk to us](/talk-to-us).
 

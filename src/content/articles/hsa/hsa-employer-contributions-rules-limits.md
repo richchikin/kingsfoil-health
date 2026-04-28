@@ -49,7 +49,7 @@ Health Savings Accounts (HSAs) paired with high-deductible health plans have bec
 
 But the tax advantages only work if the contributions comply with the IRS rules. And the strategic value only appears when contributions are designed intentionally — not set on autopilot at an arbitrary dollar amount.
 
-This article walks through the full landscape of **HSA employer contributions**: the rules, the 2026 limits, the strategic options, and the common pitfalls.
+Here is the full landscape of **HSA employer contributions**: the rules, the 2026 limits, the strategic options, and the common pitfalls.
 
 ## How the IRS HSA contribution limits work
 
@@ -93,7 +93,7 @@ Employers contributing to HSAs **outside a cafeteria plan** must follow the IRS 
 
 This means you generally cannot contribute a different amount to Employee A than to Employee B if they're both in the same coverage tier, unless you're operating through a cafeteria plan (Section 125) where comparability doesn't apply.
 
-The penalty for violating comparability is meaningful — the IRS imposes an excise tax on non-comparable contributions.[^3] Most employers operate within a Section 125 cafeteria plan to avoid the comparability complications.
+The penalty for violating comparability is real: the IRS imposes an excise tax on non-comparable contributions.[^3] Most employers operate within a Section 125 cafeteria plan to avoid the comparability complications.
 
 **Inside a cafeteria plan**, comparability doesn't apply, but the nondiscrimination rules do — you can't disproportionately favor highly compensated employees. Most employers use a cafeteria plan because of the flexibility and because cafeteria plans are a common vehicle for pre-tax employee contributions anyway.
 
@@ -105,7 +105,7 @@ Beyond compliance, the interesting question is how to use HSA contributions stra
 
 The biggest barrier to HDHP adoption is employee anxiety about the deductible. Employees see a multi-thousand-dollar deductible and interpret it as a benefit cut, even when the premium savings and HSA tax advantages make the total economics favorable.
 
-A common solution: the employer seeds each employee's HSA with a meaningful opening contribution that covers a substantial portion of the deductible up front. This converts the psychological experience from "I have to pay the full deductible before insurance kicks in" to "I already have a meaningful balance in my HSA — I only need to fund the rest."
+A common solution: the employer seeds each employee's HSA with an opening contribution that covers a large portion of the deductible up front. This converts the psychological experience from "I have to pay the full deductible before insurance kicks in" to "I already have a solid balance in my HSA and only need to fund the rest."
 
 ### 2. Pairing HSA with wellness participation
 
@@ -113,11 +113,11 @@ Many employers structure a base HSA contribution available to all HDHP-enrolled 
 
 ### 3. Replacing a portion of premium subsidy
 
-Some employers shift budget from paying a high share of HDHP premium to offering a lower premium subsidy plus a defined HSA contribution. For the employee, this frequently produces equivalent or better economics — the HSA dollar is triple-tax-advantaged — while giving the employer cleaner cost predictability.
+Some employers shift budget from paying a high share of HDHP premium to offering a lower premium subsidy plus a defined HSA contribution. For the employee, this frequently produces equivalent or better economics (the HSA dollar is triple-tax-advantaged) while giving the employer cleaner cost predictability.
 
 ### 4. Retention and recruiting differentiation
 
-A generous employer HSA contribution is highly visible on compensation comparison sites and in offer letters. Because the dollars are tax-advantaged, they cost the employer less than the equivalent salary bump would — a genuinely efficient differentiator.
+A generous employer HSA contribution is highly visible on compensation comparison sites and in offer letters. Because the dollars are tax-advantaged, they cost the employer less than the equivalent salary bump would, making them an efficient differentiator.
 
 ## Common mistakes
 
@@ -138,11 +138,11 @@ A generous employer HSA contribution is highly visible on compensation compariso
 - **Self-funded HDHP:** Be careful with first-dollar coverage carve-outs (like $0 copay primary care) — they can disqualify HSA eligibility. Standard HDHP designs work fine.
 - **ICHRA:** Employees on an ICHRA who select an HDHP individual plan can still contribute to an HSA (and employers cannot contribute to the HSA through the ICHRA, but can contribute separately).
 
-For businesses weighing [level-funded vs. fully-insured](/learn/plan-structures/self-funded-vs-fully-insured), HSA contributions add a meaningful dimension to the total-cost comparison.
+For businesses weighing [level-funded vs. fully-insured](/learn/plan-structures/self-funded-vs-fully-insured), HSA contributions add an important dimension to the total-cost comparison.
 
-## The bottom line
+## The practical takeaway
 
-**HSA employer contributions** are one of the highest-leverage tools in small and mid-sized employer benefits. Used strategically — aligned with HDHP adoption, wellness goals, or retention differentiation — they deliver tax efficiency, employee benefit, and employer cost predictability all at once.
+**HSA employer contributions** are one of the highest-leverage tools in small and mid-sized employer benefits. Used strategically (aligned with HDHP adoption, wellness goals, or retention differentiation) they deliver tax efficiency, employee benefit, and employer cost predictability all at once.
 
 The rules are manageable with a reasonable benefits advisor. The strategic design is where most employers leave value on the table. If your current HSA contribution is "we put in $500 a year because that's what we've always done," it's worth reopening the conversation with fresh numbers.
 

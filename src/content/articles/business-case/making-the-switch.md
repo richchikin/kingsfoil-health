@@ -52,7 +52,7 @@ You've looked at the numbers. You understand how alternative plan structures wor
 
 This is where many business leaders hesitate. Not because the financial case is weak, but because changing your health plan feels like a big disruption. What if something goes wrong? What if employees are confused or upset? What if the transition is a mess?
 
-These are fair concerns. But the truth is that switching plan structures follows a well-established process with a clear timeline. Companies do this every day. When it's managed well, employees often don't notice much change at all in their day-to-day experience. Here's what each phase looks like.
+But switching plan structures follows a well-established process with a clear timeline. Companies do this every day. When it's managed well, employees don't notice much change at all in their day-to-day experience. Here's what each phase looks like.
 
 ## Phase 1: Evaluation (60-90 days before renewal)
 
@@ -154,7 +154,7 @@ This is where alternative plan structures truly differentiate themselves from fu
 
 > **Facing a renewal increase right now?** Download [The Rate Shock Survival Guide](/learn/resources/rate-shock) — a free guide that covers what's driving your premium increase, the questions to ask your broker, and how to evaluate whether a different plan structure is right for your business.
 
-## The bottom line
+## Start here
 
 Switching plan structures is a process, not a leap of faith. It follows a clear timeline with defined phases, and each phase is supported by professionals who do this work every day. The companies that navigate this transition successfully share one trait: they start early, communicate well, and commit to being engaged plan sponsors.
 

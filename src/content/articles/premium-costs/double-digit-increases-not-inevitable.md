@@ -49,7 +49,7 @@ You've heard the script before. The renewal letter lands. Your broker calls to "
 
 Accept this framing often enough, and you start to believe **double-digit premium increases are just the cost of doing business** — something imposed by forces outside your control. That belief is exactly what the current system relies on.
 
-The truth is more nuanced and, honestly, more encouraging. Medical cost growth is real, but it's only part of what most employers are paying for. The rest is structural, and structural things can be changed.
+The truth is more nuanced and more encouraging. Medical cost growth is real, but it's only part of what most employers are paying for. The rest is structural, and structural things can be changed.
 
 ## The myth: premium increases are a fact of nature
 
@@ -59,7 +59,7 @@ But there's a gap between "the market is rising" and "your individual rate must 
 
 ## Where the structural costs come from
 
-A typical fully-insured renewal for a healthy mid-sized group bundles several components into a single opaque number:
+A fully-insured renewal for a healthy mid-sized group bundles several components into a single opaque number:
 
 - Underlying medical cost trend (utilization and pricing)
 - Carrier administrative load and profit margin
@@ -74,7 +74,7 @@ Of these, only the first is inherent to healthcare delivery. The others are func
 - You see your own **claims experience math** and can respond to it
 - **Carrier discretionary** adjustments become visible rather than hidden
 
-The structural components can represent a significant share of the typical renewal increase. That's real money fully-insured employers pay every year without seeing it directly.
+The structural components can represent a significant share of the renewal increase. That's real money fully-insured employers pay every year without seeing it directly.
 
 > "Everyone's going up" is technically true and strategically useless. The question isn't whether the market is moving — it's whether your plan structure is exposing you to the parts of the increase you could avoid.
 
@@ -88,11 +88,11 @@ The businesses that have genuinely flattened their healthcare cost trajectory ar
 
 **3. They align their advisor's compensation with their own interests.** Commission-based brokerage has a structural bias toward higher premiums. Flat-fee or transparent-commission advisors have the opposite bias: finding the lowest-total-cost structure. This isn't a moral judgment — it's an incentive reality.
 
-Employers who do all three consistently report a flatter trajectory year-over-year, with occasional flat or down years in good claims periods.
+Employers who do all three report a flatter trajectory year-over-year, with occasional flat or down years in good claims periods.
 
 ## The current context
 
-Heading into 2026, the gap between fully-insured renewal pricing and what alternative structures quote has been wide enough that healthy groups consistently find meaningful savings by getting alternative quotes. A healthy group on a longstanding fully-insured plan can often find substantial year-one savings by moving to a level-funded alternative — plus the potential for surplus refunds in favorable years.
+Heading into 2026, the gap between fully-insured renewal pricing and what alternative structures quote has been wide enough that healthy groups consistently find real savings by getting alternative quotes. A healthy group on a longstanding fully-insured plan can find substantial year-one savings by moving to a level-funded alternative, plus the potential for surplus refunds in favorable years.
 
 For a 50-employee company paying $600,000 in annual premiums, even a 15% structural reduction is $90,000 a year — money that can fund raises, cover equipment, or go to the bottom line.[^2]
 
@@ -106,9 +106,9 @@ Here's the rough timeline for an employer actually making the shift:
 4. **At renewal:** Make an informed choice. In most cases, that's a move to level-funded.
 5. **Year-end:** Reconcile claims vs. expected. Receive any surplus refund. Repeat the process with more data next year.
 
-It's not fast, but it's not complex either. The biggest obstacle is usually the inertia of a longstanding broker relationship — and that's a problem worth solving once for years of better outcomes.
+It's not fast, but it's not complex either. The biggest obstacle is the inertia of a longstanding broker relationship, and that's a problem worth solving once for years of better outcomes.
 
-## The bottom line
+## So what should you do?
 
 **Double-digit annual premium increases aren't inevitable.** They're a predictable result of a particular plan structure paired with particular incentives. Change the structure and the incentives, and the increases behave very differently. [How to Stop Overpaying for Employee Health Insurance](/learn/premium-costs/how-to-stop-overpaying) walks through the specific playbook for employers ready to make that change.
 

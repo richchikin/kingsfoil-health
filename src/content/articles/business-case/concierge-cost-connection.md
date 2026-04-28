@@ -44,7 +44,7 @@ relatedArticles:
   - "business-case/roi-modeling"
 ---
 
-Most conversations about healthcare costs focus on the plan itself: the structure, the rates, the deductibles. But there's a factor that often gets overlooked, and it might be the most powerful lever you have. It's the experience your employees actually have when they need care.
+Most conversations about healthcare costs focus on the plan itself: the structure, the rates, the deductibles. But there's a factor that gets overlooked, and it might be the most powerful lever you have: the experience your employees actually have when they need care.
 
 When people feel supported, informed, and guided through the healthcare system, they make better decisions. And better decisions translate directly into lower costs for your company.
 
@@ -66,7 +66,7 @@ Here are the primary ways this drives down costs:
 
 **Steering to high-quality, cost-effective providers.** Not all providers charge the same for the same procedure. A knee MRI can cost $400 at one facility and $2,500 at another, with no difference in quality. A navigator helps employees find providers that deliver excellent care at reasonable prices. Over a full year, this kind of steering adds up fast.
 
-**Reducing unnecessary emergency room visits.** ER visits are one of the biggest cost drivers in any health plan. Many of those visits are for conditions that could be handled at an urgent care clinic or a primary care office at a fraction of the cost. When employees have someone to call who can help them evaluate their situation and find the right care setting, ER utilization tends to drop meaningfully.
+**Reducing unnecessary emergency room visits.** ER visits are one of the biggest cost drivers in any health plan. Many of those visits are for conditions that could be handled at an urgent care clinic or a primary care office at a fraction of the cost. When employees have someone to call who can help them evaluate their situation and find the right care setting, ER utilization drops.
 
 **Supporting better medication management.** Pharmacy costs account for a substantial share of total claims. Navigators help employees understand when generics are available, when a manufacturer's assistance program could offset costs, and when a medication review with their doctor might lead to a more affordable treatment plan. These small interventions prevent large pharmacy claims from accumulating over time.
 
@@ -76,7 +76,7 @@ Here are the primary ways this drives down costs:
 
 You don't have to take this on faith. The evidence is strong.
 
-Organizations that implement concierge health navigation services often see meaningful claims reductions within the first one to two years. The magnitude depends on your starting point. Companies with high ER utilization, poor chronic disease management, or a workforce that has historically been disengaged from their benefits tend to see the largest improvements.
+Organizations that implement concierge health navigation services see claims reductions within the first one to two years. The magnitude depends on your starting point. Companies with high ER utilization, poor chronic disease management, or a workforce that has historically been disengaged from their benefits tend to see the largest improvements.
 
 Here's a simplified, illustrative picture of how the math can work for a hypothetical 50-person company.[^1] The dollar amounts and percentages below are for illustration only and will vary substantially by group:
 
@@ -97,9 +97,9 @@ When employees feel like their employer genuinely cares about their health and w
 
 **Reduced absenteeism.** Employees who manage their health proactively miss fewer days of work. When someone gets the right care at the right time, they recover faster and return to full productivity sooner.
 
-**Lower presenteeism costs.** Presenteeism, which is the lost productivity that happens when employees are at work but not functioning at their best due to health issues, costs employers more than absenteeism does. Navigation services that help people get conditions under control address this often-invisible cost driver.
+**Lower presenteeism costs.** Presenteeism (the lost productivity when employees are at work but not functioning at their best due to health issues) costs employers more than absenteeism does. Navigation services that help people get conditions under control address this invisible cost driver.
 
-**Stronger retention.** Replacing an employee is widely recognized as a meaningful cost — often a substantial fraction of annual salary, depending on the role. A benefits experience that makes people feel supported is a meaningful retention tool, especially in competitive hiring markets.
+**Stronger retention.** Replacing an employee is expensive, often a substantial fraction of annual salary depending on the role. A benefits experience that makes people feel supported is a real retention tool, especially in competitive hiring markets.
 
 ## What good navigation looks like
 
@@ -113,7 +113,7 @@ Not all navigation services are equal. When you're evaluating options, look for 
 
 **Measurable results.** You should be able to see the impact. Look for services that track utilization changes, claims trends, and engagement metrics, and report them to you in plain language.
 
-## The bottom line
+## What this means for your business
 
 Investing in employee experience isn't a soft initiative. It's a cost management strategy with measurable returns. When you give your people real support in navigating healthcare, they make decisions that are better for their health and better for your bottom line.
 

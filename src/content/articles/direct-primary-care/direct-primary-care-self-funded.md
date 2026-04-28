@@ -46,9 +46,9 @@ relatedArticles:
   - "business-case/concierge-cost-connection"
 ---
 
-The most interesting application of **direct primary care (DPC)** for employers is pairing it with a self-funded or level-funded health plan. The combination changes the economics meaningfully: primary care utilization moves out of the insurance claims pipeline, the employer captures the savings directly, and employees get a measurably better primary care experience. For self-funded employers in markets with strong DPC access, this is one of the higher-leverage benefits design moves available.
+The most interesting application of **direct primary care (DPC)** for employers is pairing it with a self-funded or level-funded health plan. The combination changes the economics in concrete ways: primary care utilization moves out of the insurance claims pipeline, the employer captures the savings directly, and employees get a better primary care experience. For self-funded employers in markets with strong DPC access, this is one of the higher-leverage benefits design moves available.
 
-This article walks through how the **DPC + self-funded** combination works, the economics, the implementation considerations, and when it makes sense.
+Here's how the **DPC + self-funded** combination works, the economics, the implementation considerations, and when it makes sense.
 
 ## The basic structure
 
@@ -99,7 +99,7 @@ Whether this saves money depends on the specific math:[^1]
 - Annual DPC membership cost per employee (and family if covered)
 - Plan design differences (HDHP vs. PPO; HSA contributions; etc.)
 
-For typical workforces, the DPC investment offsets the claims reduction roughly even, with employee experience as the net win. For workforces with high primary care utilization, the DPC investment often produces net employer savings on top of the experience improvement.
+For most workforces, the DPC investment offsets the claims reduction roughly even, with employee experience as the net win. For workforces with high primary care utilization, the DPC investment produces net employer savings on top of the experience improvement.
 
 ## The HDHP pairing
 
@@ -116,19 +116,19 @@ The employer cost stack:
 - DPC membership fee per employee
 - Optional HSA contribution
 
-The combined cost is often comparable to or lower than a richer non-HDHP plan without DPC, with the experience benefits of DPC layered on top.
+The combined cost is comparable to or lower than a richer non-HDHP plan without DPC, with the experience benefits of DPC layered on top.
 
 ## What about the deductible interaction?
 
 A common question: if DPC is moving primary care out of the insurance plan, doesn't that mean employees no longer accumulate deductible from primary care?
 
-Yes. And that's actually fine, by design. Here's why:
+Yes. And that's fine, by design. Here's why:
 
-- In a traditional plan, primary care utilization helps employees hit their deductible faster, but the cost of those services is real. Hitting the deductible doesn't make care free — it just shifts when the plan starts paying.
+- In a traditional plan, primary care utilization helps employees hit their deductible faster, but the cost of those services is real. Hitting the deductible doesn't make care free; it just shifts when the plan starts paying.
 - With DPC, primary care has no cost to the employee at all (it's covered by the membership). The employee never needs to "use up" their deductible on primary care.
-- For specialty and catastrophic care (where insurance actually pays significantly), the deductible still applies — and employees rarely hit it just from primary care anyway.
+- For specialty and catastrophic care (where insurance pays significantly), the deductible still applies, and employees rarely hit it just from primary care anyway.
 
-The trade-off is real but usually favorable. Employees pay less out of pocket for routine care; they have the same protection for major medical events; the employer's claims spend goes down or stays flat.
+The trade-off is real but favorable in most cases. Employees pay less out of pocket for routine care, they have the same protection for major medical events, and the employer's claims spend goes down or stays flat.
 
 ## Implementation considerations
 
@@ -136,7 +136,7 @@ Setting up DPC + self-funded requires coordination:
 
 ### 1. Verify DPC practice availability
 
-The biggest constraint. Map your employee geography against DPC practice locations. Without practice access, the model can't deploy. Multiple practices in each major employee location is ideal; one practice per location is workable; no practices means the model doesn't apply.
+The biggest constraint. Map your employee geography against DPC practice locations. Without practice access, the model can't deploy. Multiple practices in each major employee location is ideal. One practice per location is workable. No practices means the model doesn't apply.
 
 ### 2. Choose contracting model
 
@@ -188,7 +188,7 @@ The combined structure delivers:
 - Catastrophic protection (HDHP + stop-loss)
 - HR workload reduction (concierge handles benefits navigation; DPC handles primary care escalations)
 
-For employers willing to assemble the components, the result is often substantively better than the traditional fully-insured PPO they replaced — at comparable or lower total cost.
+For employers willing to assemble the components, the result is substantively better than the traditional fully-insured PPO they replaced, at comparable or lower total cost.
 
 > The DPC + self-funded combination is the structure where DPC's promise becomes most concrete. Better primary care experience, lower claims spend, predictable cost, and a plan design that fits modern workforces. The only real constraint is geographic DPC availability.
 
@@ -201,9 +201,9 @@ DPC + self-funded doesn't make sense in every situation:
 - **Workforces dominated by specialty utilization** (rather than primary care) see less DPC benefit
 - **Very small employers** may struggle to negotiate the self-funded structure regardless of DPC
 
-For those situations, the traditional fully-insured plan or level-funded plan without DPC is often the right answer. DPC is a meaningful upgrade for the right setup but not a universal solution.
+For those situations, the traditional fully-insured plan or level-funded plan without DPC is the right answer. DPC is a real upgrade for the right setup, but not a universal solution.
 
-## The bottom line
+## The practical takeaway
 
 **DPC + self-funded health plans** is one of the more interesting benefits design moves available to small and mid-sized employers in markets with established DPC presence. The combination delivers better employee experience, more predictable employer cost, and often lower total spend than the traditional alternative.
 

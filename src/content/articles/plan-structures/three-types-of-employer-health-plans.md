@@ -46,9 +46,9 @@ relatedArticles:
   - "business-case/why-rates-keep-going-up"
 ---
 
-Most small business owners, when asked what kind of health insurance their company has, will say some version of "we have Aetna" or "we have BlueCross." The carrier is the answer. The structure — how the plan is actually funded — is almost never part of the conversation.
+Most small business owners, when asked what kind of health insurance their company has, will say some version of "we have Aetna" or "we have BlueCross." The carrier is the answer. The structure (how the plan is actually funded) is almost never part of the conversation.
 
-But structure is the single biggest lever an employer has on what they pay and what they control. There are three types of employer health plans in common use, and each one pushes costs and risks around very differently. Understanding which one you're on, and whether a different one would fit your business better, is the foundation of every benefits decision that matters.
+But structure is the single biggest lever an employer has on what they pay and what they control. There are three types of employer health plans in common use, and each one distributes costs and risks differently. Understanding which one you're on, and whether a different one would fit your business better, is the foundation of every benefits decision that matters.
 
 Here's the plain-English version.
 
@@ -56,7 +56,7 @@ Here's the plain-English version.
 
 A fully-insured plan is the default. It's what most small and mid-sized businesses end up on because it's what brokers lead with.
 
-**How it works.** The employer pays a fixed monthly premium to an insurance carrier. The carrier takes on all the risk — they pay claims, they absorb bad years, they keep the savings from good years. The employer's financial exposure is capped at the premium.
+**How it works.** The employer pays a fixed monthly premium to an insurance carrier. The carrier takes on all the risk: they pay claims, they absorb bad years, they keep the savings from good years. The employer's financial exposure is capped at the premium.
 
 **What the carrier does:**
 - Prices the plan based on risk pool averages and group factors
@@ -72,15 +72,15 @@ A fully-insured plan is the default. It's what most small and mid-sized business
 
 **The pitch:** predictability and simplicity. You know exactly what you'll pay each month.
 
-**The catch:** on a multi-year basis, fully-insured is typically the most expensive structure. You're paying the carrier's profit margin, reserve requirements, administrative markup, and a subsidy for the rest of the pool. You never see your claims data, so you can't evaluate whether you're being priced fairly. Annual renewal increases compound — sustained mid-single-digit increases over five years produce a meaningfully higher premium baseline than the starting point.[^1]
+**The catch:** on a multi-year basis, fully-insured is the most expensive structure. You're paying the carrier's profit margin, reserve requirements, administrative markup, and a subsidy for the rest of the pool. You never see your claims data, so you can't evaluate whether you're being priced fairly. Annual renewal increases compound. Sustained mid-single-digit increases over five years produce a substantially higher premium baseline than the starting point.[^1]
 
-**Who it fits:** very small groups (fewer than 10 employees), companies with highly unpredictable or high-risk claims profiles, or employers who genuinely don't want to engage with the plan beyond signing a contract.
+**Who it fits:** very small groups (fewer than 10 employees), companies with unpredictable or high-risk claims profiles, or employers who don't want to engage with the plan beyond signing a contract.
 
-For most other employers, fully-insured is the structure to compare against — not the structure to default into. [Why rates keep going up](/learn/business-case/why-rates-keep-going-up) walks through what's actually driving the year-over-year increases on a fully-insured renewal.
+For most other employers, fully-insured is the structure to compare against, not the structure to default into. [Why rates keep going up](/learn/business-case/why-rates-keep-going-up) walks through what's actually driving the year-over-year increases on a fully-insured renewal.
 
 ## Type 2: Level-funded
 
-A level-funded plan is a self-funded arrangement packaged into fully-insured-style monthly payments. It's the bridge between the two worlds.
+A level-funded plan is a self-funded arrangement packaged into fully-insured-style monthly payments.
 
 **How it works.** The employer pays a fixed monthly amount that covers three things: expected claims, administrative fees, and [stop-loss insurance](/learn/stop-loss/what-is-stop-loss-insurance). At the end of the plan year, if claims came in below the expected amount, the employer may receive a refund of the surplus.
 
@@ -100,9 +100,9 @@ A level-funded plan is a self-funded arrangement packaged into fully-insured-sty
 
 **The catch:** most level-funded plans require medical underwriting, so groups with known high-cost conditions may see worse pricing or be declined. And while stop-loss caps your worst-case outcome, a bad claims year will affect your renewal pricing more directly than it would under fully-insured.
 
-**Who it fits:** employers with 10–200 employees, reasonably healthy claims experience, and an interest in seeing their data. It's the most common "first step out of fully-insured" for growing businesses.
+**Who it fits:** employers with 10-200 employees, reasonably healthy claims experience, and an interest in seeing their data. It's the most common first step out of fully-insured for growing businesses.
 
-For a deeper walkthrough of level-funded specifically — including how surplus refunds work, what medical underwriting looks like, and how to read a quote — see [Level-Funded Health Plans Explained](/learn/plan-structures/level-funded-health-plans-explained).
+For a deeper walkthrough of level-funded (including how surplus refunds work, what medical underwriting looks like, and how to read a quote), see [Level-Funded Health Plans Explained](/learn/plan-structures/level-funded-health-plans-explained).
 
 ## Type 3: Fully self-funded
 
@@ -120,13 +120,13 @@ A fully self-funded plan is where the employer takes on the claims risk directly
 - Funds claims as they're paid
 - Pays administrative and stop-loss premiums
 - Designs the plan (benefits, networks, cost-sharing)
-- Manages the plan actively — typically with a benefits advisor
+- Manages the plan actively, typically with a benefits advisor
 
 **The pitch:** maximum control and the lowest total cost for healthy groups.
 
 **The catch:** monthly costs vary based on actual claims, which some finance teams find uncomfortable. Plan administration is more involved. And if you go fully self-funded with weak stop-loss, a single bad month can hit cash flow hard.
 
-**Who it fits:** employers with 50+ employees (though some 25-employee groups make it work), stable cash flow, healthier-than-average claims experience, and leadership willing to engage with plan design. Fully self-funded is what most mid-market and large companies use, and it's increasingly accessible for well-positioned smaller groups.
+**Who it fits:** employers with 50+ employees (though some 25-employee groups make it work), stable cash flow, healthier-than-average claims experience, and leadership willing to engage with plan design. Most mid-market and large companies use fully self-funded, and it's increasingly accessible for well-positioned smaller groups.
 
 [Self-Funded Health Insurance for Dummies](/learn/plan-structures/self-funded-health-insurance-for-dummies) is the plain-English introduction if this is new territory.
 
@@ -148,9 +148,9 @@ A fully self-funded plan is where the employer takes on the claims risk directly
 
 The reason fully-insured is the only plan type most small employers know about is a structural feature of the brokerage industry. Most benefits brokers are paid on commission, calculated as a percentage of the fully-insured premium. When premiums go up, broker compensation goes up. When an employer moves to a level-funded or self-funded arrangement, commissions on the self-funded portion are typically lower and may be structured as a flat fee.
 
-This isn't a conspiracy. It's an incentive. Most brokers are honest professionals — but the path of least resistance in their business is to renew the fully-insured plan and point to "the market" when premiums rise. Presenting alternatives takes more work, generates less revenue for the broker, and can make the conversation uncomfortable.
+This isn't a conspiracy. It's an incentive. Most brokers are honest professionals, but the path of least resistance in their business is to renew the fully-insured plan and point to "the market" when premiums rise. Presenting alternatives takes more work, generates less revenue for the broker, and can make the conversation uncomfortable.
 
-The tell: ask your broker directly what the level-funded and self-funded quotes look like for your group. If the answer is a shrug or a redirect to "that's not really for businesses your size," consider a second opinion. For context on what to look for in a benefits advisor, [How to Choose the Right Health Insurance Broker](/learn/business-case/fully-funded-alternatives) is a useful starting point.
+The tell: ask your broker directly what the level-funded and self-funded quotes look like for your group. If the answer is a shrug or a redirect to "that's not really for businesses your size," get a second opinion. For context on what to look for in a benefits advisor, [How to Choose the Right Health Insurance Broker](/learn/business-case/fully-funded-alternatives) is a useful starting point.
 
 > The question every employer should ask at renewal isn't "how much is my fully-insured plan going up?" It's "what would a level-funded or self-funded quote look like for my group?" If no one will answer that, you're being underserved.
 
@@ -168,11 +168,11 @@ The decision rubric comes down to four factors:
 
 Most growing companies end up on a progression: fully-insured at launch, level-funded as they hit 25+ employees and get tired of double-digit renewal increases, and fully self-funded at 100+ as they get comfortable with the model and want to optimize further.
 
-## The bottom line
+## The short version
 
-There are three types of employer health plans, and each one is the right answer for someone. The problem isn't that any structure is universally better — it's that most small businesses are only ever shown one of the three, and they spend years wondering why their premiums keep climbing without context on what alternatives would look like.
+There are three types of employer health plans, and each one is the right answer for someone. The problem isn't that any structure is universally better. It's that most small businesses are only ever shown one of the three, and they spend years wondering why their premiums keep climbing without context on what alternatives would look like.
 
-The fix is straightforward: ask for quotes on all three structures at your next renewal. A broker who refuses to do that is telling you something important about how they make their money. A broker who does it, and walks you through the numbers honestly, is doing the job they're supposed to do.
+The fix is straightforward. Ask for quotes on all three structures at your next renewal. A broker who refuses to do that is telling you something important about how they make their money. A broker who does it and walks you through the numbers honestly is doing the job they're supposed to do.
 
 > **Not sure which structure is right for your business?** We can run quotes across all three types for your group, compare them side by side, and walk through the trade-offs. No commission on the back end — just a straight analysis of what fits. [Talk to us](/talk-to-us).
 

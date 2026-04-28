@@ -51,7 +51,7 @@ This isn't what you signed up for. And it doesn't have to be your reality.
 
 Modern benefits models, particularly those built around concierge support, are designed to take the bulk of that administrative weight off your shoulders. Not by eliminating your role, but by redirecting the routine work to people and systems built specifically to handle it.
 
-Let's walk through what this actually looks like in practice.
+Here's what that looks like in practice.
 
 ## The traditional model: you are the help desk
 
@@ -89,7 +89,7 @@ Here's what that means in practice:
 
 ## Before and after: a week in the life of an HR team
 
-Let's make this concrete. Here's what a typical week might look like for an HR generalist at a 150-person company, before and after implementing a concierge-supported benefits model.
+Here's what a typical week might look like for an HR generalist at a 150-person company, before and after implementing a concierge-supported benefits model.
 
 **Before: Traditional Model**
 
@@ -111,7 +111,7 @@ Total time on benefits administration: roughly 12 hours.
 
 Total time on benefits administration: roughly 2 hours.
 
-That's not a fantasy. That's the actual experience HR teams report after transitioning to a model where benefits support is handled by dedicated professionals instead of being layered on top of everything else HR does.
+This is the actual experience HR teams report after transitioning to a model where benefits support is handled by dedicated professionals instead of being layered on top of everything else HR does.
 
 ## Self-service tools that actually get used
 
@@ -141,7 +141,7 @@ The concierge team is also available during the enrollment window to answer ques
 
 ## What HR gets back
 
-Let's be honest about what's really at stake here. The admin burden isn't just about time, although the time savings are significant. It's about what that time costs you.
+The admin burden isn't just about time, although the time savings are significant. It's about what that time costs you.
 
 When you're spending 10 or more hours a week on benefits administration, something else isn't getting done. Maybe it's the onboarding program you want to improve. Maybe it's the employee engagement initiative leadership has been asking about. Maybe it's your own professional development.
 

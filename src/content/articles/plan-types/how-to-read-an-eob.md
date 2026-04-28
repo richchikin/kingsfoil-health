@@ -49,7 +49,7 @@ If you've received medical care recently, you've probably also received a piece 
 
 So what is it? And what are you supposed to do with it?
 
-This article is the plain-English guide to **how to read an Explanation of Benefits (EOB)** — what each line means, how to verify it against an actual bill, and what to do if something looks wrong.
+Here's the plain-English guide to **how to read an Explanation of Benefits (EOB)**: what each line means, how to verify it against an actual bill, and what to do if something looks wrong.
 
 ## What an EOB is (and isn't)
 
@@ -73,7 +73,7 @@ The structure exists because insurance is complicated and carriers want to give 
 
 ## Anatomy of an EOB: the lines you'll see
 
-EOB layouts vary by carrier, but most include these line items:
+EOB layouts vary by carrier, but most include these lines:
 
 ### "Service description" or "Procedure"
 
@@ -197,7 +197,7 @@ Many people see "$300 billed → $180 allowed" and ask: where did the $120 go? D
 
 No one paid it. The "amount billed" is essentially a list price — what the provider would charge a patient with no insurance and no negotiated rate. The "allowed amount" is the actual contracted rate between the carrier and the provider. The difference (sometimes called the "plan discount" or "PPO discount") is the savings from network membership; it's not a real charge to anyone.
 
-This is why insurance has value beyond the dollar of premium: the network access alone produces meaningful negotiated discounts that uninsured patients don't get.
+This is why insurance has value beyond the dollar of premium: the network access alone produces substantial negotiated discounts that uninsured patients don't get.
 
 ## EOBs and HSAs/HRAs
 
@@ -214,7 +214,7 @@ Beyond the immediate "do I owe anything?" question, EOBs serve as your billing r
 
 Saving and occasionally reviewing EOBs is one of the underrated personal-finance habits in healthcare.
 
-## The bottom line
+## One thing to remember
 
 **An Explanation of Benefits (EOB)** is a statement, not a bill. It explains how a claim was processed and tells you what (if anything) you owe. The provider sends a separate bill for the amount you owe — and that bill should match the EOB's patient responsibility line.
 

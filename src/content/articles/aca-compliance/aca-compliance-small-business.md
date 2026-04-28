@@ -45,9 +45,9 @@ relatedArticles:
   - "fundamentals/first-time-employer-benefits-guide"
 ---
 
-ACA compliance gets framed in headlines as a heavy regulatory burden on small businesses. The reality is more measured: ACA imposes meaningful but manageable requirements, and the requirements differ significantly based on employer size. Small employers under 50 FTEs have no federal mandate to offer health insurance at all; mid-sized and large employers (ALEs) have mandate requirements but reasonable compliance pathways.
+ACA compliance gets framed in headlines as a heavy regulatory burden on small businesses. The reality is more measured: ACA imposes real but manageable requirements, and the requirements differ based on employer size. Small employers under 50 FTEs have no federal mandate to offer health insurance at all. Mid-sized and large employers (ALEs) have mandate requirements but reasonable compliance pathways.
 
-This article walks through **ACA compliance for small businesses** in plain English: what's actually required at different size thresholds, what's commonly misunderstood, and what to do about it.
+Here's **ACA compliance for small businesses** in plain English: what's actually required at different size thresholds, what's commonly misunderstood, and what to do about it.
 
 ## The size thresholds that matter
 
@@ -75,7 +75,7 @@ ACA compliance rules differ based on employee count. The key thresholds:
 
 ## The FTE calculation
 
-Determining whether you're below 50 FTEs or at/above is straightforward but easy to get wrong. The IRS uses a specific calculation:[^1]
+Determining whether you're below 50 FTEs or at/above is straightforward but easy to miscalculate. The IRS uses a specific calculation:[^1]
 
 **Step 1: Count full-time employees.** Anyone working 30+ hours per week or 130+ hours per month on average.
 
@@ -216,11 +216,11 @@ A reasonable compliance approach:
 
 > ACA compliance for small businesses is more manageable than headlines suggest. The mandates are size-based, the requirements are knowable, and the compliance pathways are well-established. The biggest risk is unintentional non-compliance from misunderstanding what applies to your specific size — usually solvable through partnership with a knowledgeable benefits advisor.
 
-## The bottom line
+## Start here
 
 **ACA compliance for small businesses** is structured around employer size thresholds. Under 50 FTEs, you're not required to offer health insurance under the federal employer mandate. At 50+ FTEs, the mandate and reporting requirements apply. In all cases, if you offer health insurance, the plan must meet ACA benefit standards.
 
-For most small businesses, the practical compliance load is modest with the right partners — an ACA-compliant carrier handles plan compliance, a benefits advisor handles ongoing support, and the employer maintains required documentation. The real risk is unintentional misunderstanding of what applies, which leads to either over-investing in unnecessary compliance or missing requirements that should be met.
+For most small businesses, the practical compliance load is modest with the right partners. An ACA-compliant carrier handles plan compliance, a benefits advisor handles ongoing support, and the employer maintains required documentation. The real risk is misunderstanding what applies, which leads to either over-investing in unnecessary compliance or missing requirements that should be met.
 
 > **Want help understanding ACA requirements for your specific business size?** We can walk through your situation, calculate ALE status, and identify what compliance actions are required vs. optional. [Talk to us](/talk-to-us).
 

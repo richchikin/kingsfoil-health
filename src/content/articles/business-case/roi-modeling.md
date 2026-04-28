@@ -50,9 +50,9 @@ relatedArticles:
 
 You've learned about alternative plan structures. You understand how stop-loss insurance works. Now comes the question that matters most: will switching actually save your company money?
 
-The honest answer is that it depends. It depends on your current costs, your workforce demographics, your claims history, and how your plan is managed going forward. But you can model it. And you should model it before making any decision.
+It depends on your current costs, your workforce demographics, your claims history, and how your plan is managed going forward. But you can model it. And you should model it before making any decision.
 
-This article walks you through a practical framework for comparing your current fully funded plan against a self-funded or level-funded alternative. We'll use real numbers, identify the key variables, and show you how to think about risk and return over multiple years.
+Below is a practical framework for comparing your current fully funded plan against a self-funded or level-funded alternative. We'll use real numbers, identify the key variables, and show you how to think about risk and return over multiple years.
 
 ## The components you need to compare
 
@@ -64,7 +64,7 @@ When you move to an alternative structure, those components get unbundled. That'
 
 **Expected claims.** This is what your group is likely to spend on medical and pharmacy claims in a given year. If you have claims information from a prior self-funded arrangement or can obtain it from your current carrier, use it. If not, your benefits advisor can estimate based on your group's demographics, industry, and region.
 
-**Administrative fees (TPA costs).** In an alternative plan, a third-party administrator handles claims processing, network access, and plan administration. These fees are typically quoted on a per-employee-per-month basis.
+**Administrative fees (TPA costs).** In an alternative plan, a third-party administrator handles claims processing, network access, and plan administration. These fees are quoted on a per-employee-per-month basis.
 
 **Stop-loss premiums.** Both specific and aggregate stop-loss have a cost. This varies based on your group profile and the attachment points you select.
 
@@ -131,7 +131,7 @@ Single-year comparisons are useful, but they don't capture the full picture. The
 
 **Year two** is where data starts working for you. With a full year of claims data, your benefits advisor can identify cost drivers, adjust plan design, implement targeted wellness or navigation programs, and negotiate better stop-loss terms based on your actual experience.
 
-**Year three and beyond** is where the compounding effect takes hold. Companies that actively manage their plans often see claims trend improvements of 3-5% annually relative to the market average. That gap widens every year.
+**Year three and beyond** is where the compounding effect takes hold. Companies that actively manage their plans see claims trend improvements of 3-5% annually relative to the market average. That gap widens every year.
 
 Consider the cumulative impact. If your fully funded premiums would have increased 8% per year, and your alternative plan costs increase 4% per year because of active management, the savings gap grows substantially over a three-to-five-year period. What starts as an $80,000 annual savings can become $150,000 or more by year three.
 
@@ -147,7 +147,7 @@ Not every company will benefit equally from switching plan structures. Here are 
 
 **Willingness to be an active plan sponsor.** Alternative plans reward engagement. If you're willing to review data quarterly, make informed decisions about plan design, and invest in employee health navigation, you'll capture more value.
 
-**Current premiums that feel out of proportion to your claims.** If you suspect you're overpaying relative to your team's actual healthcare utilization, modeling will often confirm that intuition.
+**Current premiums that feel out of proportion to your claims.** If you suspect you're overpaying relative to your team's actual healthcare utilization, modeling will confirm that intuition.
 
 **Leadership that thinks long-term.** The biggest wins come in year two and beyond. If you're looking for a sustainable benefits strategy rather than a one-year fix, alternative plan structures are built for you.
 
@@ -165,7 +165,7 @@ When you sit down with that model, here are the questions to ask:
 
 If your advisor can't answer these questions clearly and in plain language, that tells you something. This decision should be grounded in transparent analysis, not guesswork.
 
-## The bottom line
+## Putting it together
 
 Modeling the ROI of switching plan structures isn't about finding a guaranteed outcome. It's about understanding the range of likely outcomes and making a decision with open eyes. For most companies in the 25-200 employee range, the expected savings are real, the downside is bounded by stop-loss, and the long-term trajectory favors active management over passive premium payments.
 

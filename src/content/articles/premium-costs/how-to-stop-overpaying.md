@@ -48,7 +48,7 @@ relatedArticles:
 
 Most conversations about lowering employer health insurance costs focus on plan design: raise the deductible, tighten the network, shift more cost to employees. Those are real levers, but they're the small ones. And they come at a real cost — reduced benefits, eroded employee trust, and a harder time attracting talent.
 
-The bigger levers are structural. Many employers are overpaying not because their plan is too generous, but because the *structure* they're in — fully-insured, commission-brokered, data-opaque — is systematically engineered to cost more than it has to. Change the structure, and you can save meaningfully without reducing a single benefit.
+The bigger levers are structural. Many employers are overpaying not because their plan is too generous, but because the *structure* they're in (fully-insured, commission-brokered, data-opaque) is systematically engineered to cost more than it has to. Change the structure, and you can save real money without reducing a single benefit.
 
 This is the playbook. Concrete steps, in priority order, that consistently produce **real reductions in employee health insurance costs**.
 
@@ -62,7 +62,7 @@ What the data tells you:
 - Are large claims driving your increase, or is utilization broadly up?
 - Is pharmacy a disproportionate cost driver, or medical?
 
-Data by itself doesn't save you money. But *not* having data is the single biggest reason employers accept renewal increases they should push back on. Fully-insured carriers typically share only the minimum at renewal; specifically requesting more detail often gets you it. If they refuse, that's useful information — they don't want you to have it for a reason.
+Data by itself doesn't save you money. But *not* having data is the single biggest reason employers accept renewal increases they should push back on. Fully-insured carriers share only the minimum at renewal; specifically requesting more detail frequently gets you it. If they refuse, that tells you something: they don't want you to have it for a reason.
 
 More detail on what to look for in [Claims Data: What You Should Be Seeing (And Aren't)](/learn/business-case/claims-data).
 
@@ -77,13 +77,13 @@ A true shop isn't a fully-insured comparison. It's a multi-structure comparison:
 - **A level-funded quote** from a carrier active in your market
 - **A self-funded/TPA quote** if your group is 50+ employees
 
-For a healthy group, the level-funded quote often comes in materially below the fully-insured renewal. The self-funded quote may be lower still for larger groups. Run the actual numbers — don't trust what any single source tells you.
+For a healthy group, the level-funded quote comes in well below the fully-insured renewal. The self-funded quote may be lower still for larger groups. Run the actual numbers — don't trust what any single source tells you.
 
 This is where [The 3 Types of Employer Health Plans](/learn/plan-structures/three-types-of-employer-health-plans) and [Self-Funded vs. Fully-Insured](/learn/plan-structures/self-funded-vs-fully-insured) become practical decisions rather than abstract education.
 
 ## Step 3: Hire an advisor with aligned incentives
 
-Most benefits brokers are paid as a percentage of fully-insured premium. When your premium goes up, so does their paycheck. This isn't usually malicious — it's structural — but it creates a soft, persistent pressure toward keeping you on fully-insured and accepting increases.
+Most benefits brokers are paid as a percentage of fully-insured premium. When your premium goes up, so does their paycheck. This isn't malicious. It's structural. But it creates a soft, persistent pressure toward keeping you on fully-insured and accepting increases.
 
 Alternatives:
 
@@ -95,22 +95,22 @@ Any of these beats opaque percentage commission. Ask any prospective advisor, in
 
 ## Step 4: Right-size stop-loss
 
-For employers on level-funded or self-funded plans, stop-loss is both a cost and a protection. The specific attachment point and aggregate factor you choose can move your premium meaningfully in either direction.
+For employers on level-funded or self-funded plans, stop-loss is both a cost and a protection. The specific attachment point and aggregate factor you choose can move your premium in either direction.
 
 Common mistakes:
 
 - **Over-insuring.** Choosing a very low specific attachment when your cash position could easily absorb a larger event. You pay for protection you don't need.
 - **Under-insuring.** Choosing a very high attachment when a single event would strain your cash flow. You're gambling on quiet years.
-- **Not shopping at renewal.** Stop-loss premiums vary across carriers for the same group. Renewing with the same carrier year after year often leaves real money on the table.
+- **Not shopping at renewal.** Stop-loss premiums vary across carriers for the same group. Renewing with the same carrier year after year leaves real money on the table.
 
 [What Is Stop-Loss Insurance](/learn/stop-loss/what-is-stop-loss-insurance) and [Aggregate vs. Specific Stop-Loss](/learn/stop-loss/aggregate-vs-specific-stop-loss) cover the mechanics.
 
 ## Step 5: Optimize pharmacy
 
-Pharmacy is a meaningful and growing share of most employer plans' total cost — and one of the fastest-growing components per the Kaiser Family Foundation's annual benefits survey.[^1] A few concrete levers:
+Pharmacy is a large and growing share of most employer plans' total cost, and one of the fastest-growing components per the Kaiser Family Foundation's annual benefits survey.[^1] A few concrete levers:
 
 - **Pharmacy benefit manager (PBM) review.** Many plans are on PBM contracts with terms that haven't been shopped in years. Transparent PBMs (no spread pricing, full rebate pass-through) can reduce pharmacy spend.
-- **Specialty drug management.** Copay accumulator and assistance programs for high-cost specialty drugs can shift meaningful cost.
+- **Specialty drug management.** Copay accumulator and assistance programs for high-cost specialty drugs can shift real cost.
 - **Formulary review.** High utilization of non-preferred brands where therapeutic equivalents exist is a common overspend.
 - **Mail-order utilization.** Shifting maintenance medications to 90-day mail-order is often cheaper.
 
@@ -126,7 +126,7 @@ This isn't a cost-reduction move in the first year, but it compounds. A concierg
 - Navigate billing disputes
 - Get appropriate early intervention (lower downstream claims)
 
-Employer claims savings from well-run navigation can be meaningful relative to the service cost. [How Better Employee Experience Lowers Costs](/learn/business-case/concierge-cost-connection) covers the mechanism.
+Employer claims savings from well-run navigation can more than cover the service cost. [How Better Employee Experience Lowers Costs](/learn/business-case/concierge-cost-connection) covers the mechanism.
 
 ## The compound effect
 
@@ -144,11 +144,11 @@ These aren't upper-bound numbers — they're directional patterns observed acros
 
 > The employers who stop overpaying aren't doing anything exotic. They're doing ordinary things that most employers don't do because the default system doesn't require them to.
 
-## The bottom line
+## What matters most
 
 **Stopping overpayment on employee health insurance** isn't about finding a magic product or a secret deal. It's about running a disciplined process: see your data, shop every structure, align incentives with a transparent advisor, right-size your risk coverage, optimize pharmacy, and add navigation.
 
-None of these steps require you to reduce benefits or pass costs to employees. Several of them actually improve the employee experience while reducing employer costs. That's the tell that you were overpaying structurally — when better economics and better experience can happen at the same time, the old plan was leaving money on every side.
+None of these steps require you to reduce benefits or pass costs to employees. Several of them actually improve the employee experience while reducing employer costs. When better economics and better experience happen at the same time, the old plan was leaving money on every side.
 
 The cycle starts breaking at your next renewal. Start the process 90 days before.
 

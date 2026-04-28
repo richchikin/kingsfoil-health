@@ -47,7 +47,7 @@ relatedArticles:
 
 If you're considering a move to a modern benefits structure, the biggest question on your mind probably isn't whether it's a good idea. It's whether the transition will be a nightmare.
 
-That's a reasonable concern. Benefits transitions done poorly create confusion, erode trust, and generate a flood of employee questions that land squarely on HR's desk. But transitions done well are almost invisible to employees — and that's exactly what we're going to help you plan.
+Benefits transitions done poorly create confusion, erode trust, and generate a flood of employee questions that land squarely on HR's desk. But transitions done well are almost invisible to employees — and that's exactly what we're going to help you plan.
 
 ## The 90-60-30 framework
 
@@ -59,11 +59,11 @@ This is the foundation phase. Before you communicate anything to employees, you 
 
 **Inventory your current benefits.** Document every plan, every tier, every add-on. Include medical, dental, vision, life, disability, and any voluntary benefits. Note which employees are on which plans, and identify anyone with ongoing treatment that requires continuity of care.
 
-**Map the transition.** For each current benefit, identify the equivalent in the new structure. In most cases, the actual coverage networks and plan designs stay very similar. What changes is the underlying structure (who bears the risk, how claims are managed, how surplus is handled). Make sure you can articulate what stays the same — because that's what employees care about most.
+**Map the transition.** For each current benefit, identify the equivalent in the new structure. In most cases, the actual coverage networks and plan designs stay very similar. What changes is the underlying structure (who bears the risk, how claims are managed, how surplus is handled). Make sure you can articulate what stays the same, because that's what employees care about most.
 
 **Identify edge cases.** Are any employees mid-treatment for a serious condition? Is anyone on a specialty medication that requires prior authorization? Are there employees on COBRA or leave? These situations need individual attention and a clear plan before you go broader.
 
-**Assemble your team.** You don't need to do this alone. Identify enrollment champions — managers or team leads who can help answer questions and reinforce messaging. Loop in your broker or benefits advisor early. If you're working with a concierge partner, get them involved in the planning now.
+**Assemble your team.** You don't need to do this alone. Identify enrollment champions (managers or team leads who can help answer questions and reinforce messaging). Loop in your broker or benefits advisor early. If you're working with a concierge partner, get them involved in the planning now.
 
 > **Key principle:** Employees don't fear change as much as they fear surprises. The more thoroughly you plan, the fewer surprises there will be.
 
@@ -80,7 +80,7 @@ With your inventory complete and your transition mapped, it's time to think abou
 - "Can I keep my doctor?" (Almost always yes — network access typically remains the same.)
 - "Will my costs go up?" (Out-of-pocket costs for employees usually stay the same or improve.)
 - "What happens to my current prescriptions?" (Coverage continuity is built into the transition plan.)
-- "Who do I call if I have a problem?" (Here's where you introduce the concierge support — this is the upgrade.)
+- "Who do I call if I have a problem?" (Here's where you introduce the concierge support. This is the upgrade.)
 - "Do I need to re-enroll?" (Yes, but the process is straightforward, and here's exactly how it works.)
 
 Write clear, honest answers. Don't use jargon. Don't oversell. Employees can tell when they're being marketed to, and it undermines trust.
@@ -142,7 +142,7 @@ The transition doesn't end on the effective date. The first month is when small 
 
 ## The most common mistake
 
-The biggest mistake HR teams make during benefits transitions isn't poor planning or bad communication. It's going dark after the change goes live. Employees interpret silence as indifference.
+The biggest mistake HR teams make during benefits transitions isn't poor planning or bad communication. It's going silent after the change goes live. Employees interpret silence as indifference.
 
 Stay engaged. Keep communicating. Celebrate the wins (employees love hearing that their new concierge support resolved something quickly). The first 90 days after a transition set the foundation for how employees will feel about their benefits for the entire year.
 

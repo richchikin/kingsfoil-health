@@ -50,7 +50,7 @@ When you hear "benefits modernization," your first reaction might be skepticism.
 
 But here's what modernization actually means in practice: you get help. Real help. Not another portal or another vendor to manage, but a structural shift in how benefits support works so that the hardest parts of your job get handled by people whose full-time job is handling them.
 
-Let's walk through what changes and what doesn't.
+Here's what changes and what doesn't.
 
 ## What stays the same
 
@@ -110,7 +110,7 @@ After enrollment closes, the administrative burden stays lower. Carrier integrat
 
 ## What this means for your role
 
-Here's the honest summary of what changes for you as an HR professional:
+What changes for you as an HR professional:
 
 **You stop being the benefits help desk.** Employees have a better resource, and they'll use it. Your benefits-related inquiries drop significantly.
 
@@ -130,7 +130,7 @@ It's not a one-size-fits-all plan. Your benefits are still designed around your 
 
 It's not an additional burden on HR. The entire point is to reduce your burden, not add to it. If a "modern" solution requires you to learn a complex new system, manage another vendor relationship, or do more work than before, it's not actually modern.
 
-## The bottom line
+## What this changes
 
 Benefits modernization is a shift in who does the heavy lifting. Instead of HR absorbing the complexity of the insurance system, a dedicated partner absorbs it for you. Your employees get better support. Your leadership gets better data. And you get to focus on the parts of your job that drew you to this work in the first place.
 

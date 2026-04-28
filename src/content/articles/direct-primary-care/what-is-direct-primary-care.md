@@ -50,15 +50,15 @@ Healthcare in the United States has a primary-care problem. Patients wait weeks 
 
 A growing alternative is **Direct Primary Care (DPC)** — a membership model that bypasses insurance for routine primary care, restoring the kind of accessible, relationship-based primary care that's been disappearing for decades. For employers, DPC has emerged as an interesting complement to self-funded health plans, often producing both better employee experience and lower claims costs.
 
-This article walks through what DPC is, how it works, and why it's worth knowing about as an employer.
+Here's what DPC is, how it works, and why it's worth knowing about as an employer.
 
 ## What is Direct Primary Care?
 
 **Direct primary care** is a membership-based primary care model where patients pay a flat monthly or annual fee directly to a primary care practice. In exchange, the membership typically includes:
 
 - Unlimited primary care office visits
-- Longer appointment times (often 30-60 minutes vs. 15 minutes in insurance-based primary care)
-- Direct physician access via text, phone, or video — often outside business hours
+- Longer appointment times (30-60 minutes vs. 15 minutes in insurance-based primary care)
+- Direct physician access via text, phone, or video, including outside business hours
 - Basic in-office labs and procedures at member rates or included
 - Wholesale-cost prescription dispensing for many common medications
 - Chronic disease management
@@ -82,7 +82,7 @@ For a patient on DPC:
 
 **Prescriptions and labs.** Many DPC practices dispense common medications at wholesale cost (often dramatically less than retail pharmacy) and offer in-house lab work at member rates. Specialty medications still go through your pharmacy benefit.
 
-For most members, the experience is a meaningful upgrade over traditional insurance-based primary care: faster access, longer visits, real continuity with one physician, and no surprise charges for routine care.
+For most members, the experience is a clear upgrade over traditional insurance-based primary care: faster access, longer visits, real continuity with one physician, and no surprise charges for routine care.
 
 ## What DPC does NOT replace
 
@@ -106,7 +106,7 @@ This is why DPC most commonly pairs with a high-deductible health plan: the high
 
 Several factors have driven DPC's growth over the past decade:
 
-**1. Insurance-based primary care frustration.** Patients increasingly experience traditional primary care as transactional, rushed, and inaccessible. Most insurance-based PCPs are pressured to see 25-30 patients per day, which structurally limits visit length and physician availability between visits.
+**1. Insurance-based primary care frustration.** Patients experience traditional primary care as transactional, rushed, and inaccessible. Most insurance-based PCPs are pressured to see 25-30 patients per day, which structurally limits visit length and physician availability between visits.
 
 **2. Physician burnout in fee-for-service medicine.** Many physicians find DPC's model professionally satisfying — fewer patients, longer visits, real relationships, less administrative overhead. The supply side has grown.
 
@@ -114,7 +114,7 @@ Several factors have driven DPC's growth over the past decade:
 
 **4. ACA-driven HDHP growth.** As HDHPs have become more common, the alignment between DPC and HDHPs has emerged: HDHP for catastrophic coverage, DPC for routine care. Members get both predictable monthly cost and tax-advantaged HSA savings.
 
-**5. Quality and outcome research.** Studies of DPC practices have generally shown high patient satisfaction, strong continuity of care, and outcomes comparable to or better than traditional primary care for chronic disease management.[^1]
+**5. Quality and outcome research.** Studies of DPC practices have shown high patient satisfaction, strong continuity of care, and outcomes comparable to or better than traditional primary care for chronic disease management.[^1]
 
 The growth has been geographically uneven. Some markets (Wichita, Kansas City, parts of Texas, parts of Utah) have well-developed DPC ecosystems. Other markets are still building out access.
 
@@ -126,9 +126,9 @@ There are several models for incorporating DPC into employer benefits:
 
 The employer pays the DPC membership fee for each enrolled employee as part of the benefits package. Often paired with a self-funded or level-funded health plan, particularly an HDHP design.
 
-- Employer cost: The membership fee per employee per month
-- Employee benefit: Access to DPC at no out-of-pocket cost
-- Strategic value: Reduces insurance claims; improves employee primary care experience
+- Employer cost: the membership fee per employee per month
+- Employee benefit: access to DPC at no out-of-pocket cost
+- Strategic value: reduces insurance claims, improves employee primary care experience
 
 ### Model 2: Employee-paid with HSA/FSA support
 
@@ -155,7 +155,7 @@ DPC practices set their own prices, with significant variation across markets an
 - **Family rates**: Many practices offer family memberships
 - **Age-banded**: Some practices charge more for older adults reflecting higher utilization
 
-For an employer offering employer-paid DPC, the per-employee monthly cost is the membership fee plus any administrative coordination fees (usually small or included). Compared to typical health plan premiums, DPC adds a relatively modest cost while delivering meaningful primary care improvement.
+For an employer offering employer-paid DPC, the per-employee monthly cost is the membership fee plus any administrative coordination fees (usually small or included). Compared to health plan premiums, DPC adds a relatively modest cost while delivering real primary care improvement.
 
 > The pitch isn't that DPC replaces insurance. It's that it replaces the broken insurance-based primary care experience with something that works — while leaving insurance to do what insurance does well: protect against catastrophic costs.
 
@@ -165,7 +165,7 @@ DPC isn't right for every situation. Honest considerations:
 
 **Geographic limitations.** DPC requires actual DPC practices in your employees' geographies. In markets with limited DPC presence, the model is hard to deploy.
 
-**Specialist coordination.** DPC physicians refer to specialists who bill through insurance. The handoff is generally smooth but requires both physicians to coordinate.
+**Specialist coordination.** DPC physicians refer to specialists who bill through insurance. The handoff is smooth in most cases but requires both physicians to coordinate.
 
 **Member compliance.** Employees who don't engage with their DPC practice don't benefit from the model — and the employer may have paid the membership for unused benefit. Communication and onboarding matter.
 
@@ -191,11 +191,11 @@ DPC tends to be a less natural fit when:
 - You're on a fully-insured group plan and the DPC investment is harder to recoup through claims reduction
 - Your workforce is highly mobile across markets where DPC presence varies
 
-## The bottom line
+## Where this leaves you
 
-**Direct primary care (DPC)** is a different way of paying for primary care that delivers measurably better experience and often better economics for the right employer setup. It's not a replacement for health insurance — it's a complement, particularly to high-deductible self-funded plans where DPC handles routine care and insurance handles catastrophic coverage.
+**Direct primary care (DPC)** is a different way of paying for primary care that delivers better experience and, for the right employer setup, better economics. It's not a replacement for health insurance — it's a complement, particularly to high-deductible self-funded plans where DPC handles routine care and insurance handles catastrophic coverage.
 
-For employers exploring how to deliver better employee health benefits at sustainable cost, DPC is increasingly worth evaluating. Even where it doesn't produce dramatic claims savings, it tends to produce meaningful employee-experience and HR-workload improvements.
+For employers exploring how to deliver better employee health benefits at sustainable cost, DPC is worth evaluating. Even where it doesn't produce dramatic claims savings, it produces real employee-experience and HR-workload improvements.
 
 > **Want help evaluating whether DPC fits your business and benefits design?** We can identify DPC practices in your employees' markets, model the integration with your health plan, and walk through implementation. [Talk to us](/talk-to-us).
 

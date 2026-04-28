@@ -45,7 +45,7 @@ relatedArticles:
 
 Every fall, the renewal letters land on CFO desks across the country, and every fall the reaction is some version of the same thing: *another double-digit increase?* Heading into 2026, that reaction is widespread. Industry trend surveys point to continued elevated premium increases on top of years of compounding cost growth.
 
-If you run a business in Utah or anywhere else, the 2026 renewal cycle is shaping up to be one of the harder ones in recent memory. This article walks through what's actually driving the trend, what the published data shows, and what Utah employers specifically should expect and do about it.
+If you run a business in Utah or anywhere else, the 2026 renewal cycle is shaping up to be one of the harder ones in recent memory. Here's what's actually driving the trend, what the published data shows, and what Utah employers specifically should expect and do about it.
 
 ## What the published trend data shows
 
@@ -67,7 +67,7 @@ On top of these underlying cost drivers, fully-insured pricing layers in carrier
 
 ## What Utah employers are seeing
 
-Utah's 2026 employer health insurance market generally tracks the national pattern, but with somewhat more favorable conditions overall. The favorable factors:
+Utah's 2026 employer health insurance market tracks the national pattern, but with more favorable conditions overall. The favorable factors:
 
 - A younger median age population — U.S. Census data lists Utah as the youngest state by median age[^3]
 - Active competition between SelectHealth, Regence BlueCross BlueShield of Utah, and the major national carriers along the Wasatch Front
@@ -94,15 +94,15 @@ Employers actually holding their costs down tend to be doing one or more of thes
 
 **2. Getting real claims data.** Employers who can see their own experience can negotiate from information rather than assumptions. For fully-insured employers this means requesting summaries from the carrier; for level-funded and self-funded the data is built in.
 
-**3. Shopping stop-loss aggressively.** Stop-loss premiums vary across carriers for the same group; re-shopping at each renewal often produces meaningful savings just on that line.
+**3. Shopping stop-loss aggressively.** Stop-loss premiums vary across carriers for the same group; re-shopping at each renewal produces real savings on that line.
 
 **4. Using transparent-compensation advisors.** Advisors compensated by flat fee or transparent commission have aligned incentives to find the lowest-total-cost structure.
 
-## The bottom line
+## What this means for your business
 
 **Employer health insurance premium increases in 2026** reflect real underlying cost pressure on top of structural factors that compound when employers default to whatever the incumbent broker renews. The industry trend reports update annually — the right move is to read the most recent KFF[^1] and Mercer[^2] editions for current numbers.
 
-For Utah employers, market conditions are somewhat better than many states, but the trajectory is the same: compounding premium increases year after year unless something changes structurally. The employers who break that cycle aren't using any tricks — they're getting data, shopping alternatives, and finding an advisor whose interests align with theirs.
+For Utah employers, market conditions are better than many states, but the trajectory is the same: compounding premium increases year after year unless something changes structurally. The employers who break that cycle aren't using any tricks. They're getting data, shopping alternatives, and finding an advisor whose interests align with theirs.
 
 > **Facing a painful 2026 renewal?** Download *The Rate Shock Survival Guide* — a free, practical guide for evaluating your renewal, getting competitive quotes, and understanding what the numbers actually mean. [Get your copy here](/learn/resources/rate-shock).
 

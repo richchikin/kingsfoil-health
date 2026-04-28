@@ -46,16 +46,16 @@ relatedArticles:
   - "plan-structures/three-types-of-employer-health-plans"
 ---
 
-If you've started looking at tax-advantaged healthcare accounts for your business, two acronyms come up immediately: **HRA** and **HSA**. They sound similar, both relate to healthcare, and both deliver some kind of tax advantage. They're also different in ways that meaningfully affect which one fits your situation.
+If you've started looking at tax-advantaged healthcare accounts for your business, two acronyms come up immediately: **HRA** and **HSA**. They sound similar, both relate to healthcare, and both deliver some kind of tax advantage. They're also different in ways that directly affect which one fits your situation.
 
-This guide is the side-by-side comparison: **HRA vs HSA**, who funds each one, how the tax treatment works, what plan structures pair with each, and how to decide which fits your business.
+Here's the side-by-side comparison: who funds each one, how the tax treatment works, what plan structures pair with each, and how to decide which fits your business.
 
 ## The fast answer
 
 - **HRA (Health Reimbursement Arrangement)** = employer-funded reimbursement account; employer owns it and sets the rules
 - **HSA (Health Savings Account)** = individual-owned tax-advantaged savings account; both employer and employee can contribute; requires an HSA-qualified HDHP
 
-That distinction — who owns the money — is the foundation of every other difference between them.
+That distinction (who owns the money) is the foundation of every other difference between them.
 
 ## What is an HRA?
 
@@ -78,7 +78,7 @@ An HSA is an individual-owned, tax-advantaged savings account paired with a qual
 - **Triple-tax-advantaged.** Contributions reduce taxable income; growth is tax-free; qualified medical withdrawals are tax-free.
 - **Investment-eligible.** Most HSA custodians let the employee invest balances above a threshold in mutual funds, growing the account over time.
 
-The HSA functions as both a current-year medical-expense account and a long-term tax-advantaged savings vehicle.
+The HSA works as both a current-year medical-expense account and a long-term tax-advantaged savings vehicle.
 
 ## The side-by-side comparison
 
@@ -110,14 +110,14 @@ For employers, both vehicles offer favorable tax treatment:[^3]
 - HSA contributions (employer or employee through payroll) are excluded from gross income and not subject to FICA/Medicare on either side
 - Both are deductible to the employer as business expenses
 
-The employee-side difference: HSAs offer additional benefits beyond the current-year reimbursement structure of HRAs. The HSA employee can:
+The employee-side difference: HSAs offer additional benefits beyond the current-year reimbursement structure of HRAs. An HSA holder can:
 
 - Contribute their own money pre-tax, reducing their taxable income
 - See their balance grow tax-free year after year
 - Withdraw tax-free for qualified medical expenses indefinitely
 - Use it like a retirement account at age 65 (non-medical withdrawals taxed as ordinary income, similar to a traditional IRA)
 
-For an employee thinking long-term, the HSA's compounding tax-free growth potential is a significant advantage. For an employee thinking only about current-year healthcare costs, the difference is smaller.
+For an employee thinking long-term, the HSA's compounding tax-free growth is a clear advantage. For an employee thinking only about current-year healthcare costs, the difference is smaller.
 
 ## When an HRA is the right choice
 
@@ -143,9 +143,9 @@ HSAs tend to be the better fit when:
 
 **You have a healthy workforce that can absorb the deductible.** HSAs work best when employees can fund the deductible through HSA contributions or out of pocket.
 
-**You want to maximize tax efficiency.** The triple-tax advantage is genuinely powerful over a multi-year horizon.
+**You want to maximize tax efficiency.** The triple-tax advantage compounds over a multi-year horizon.
 
-**Your employees value long-term saving.** Higher-income, financially-savvy employees often see HSAs as a stealth retirement account on top of their 401(k).
+**Your employees value long-term saving.** Higher-income, financially-savvy employees use HSAs as a stealth retirement account on top of their 401(k).
 
 **You want simpler admin.** HSA admin is lighter-touch than HRA admin (no substantiation requirements; mostly just payroll deduction handling).
 
@@ -184,7 +184,7 @@ A practical decision tree:
 
 For most mid-sized employers offering a traditional group plan, the cleanest answer is often: **HSA + HDHP for employees who choose it; offer a non-HDHP option for those who don't.** This combination delivers tax efficiency for the employees who can use it without forcing the design on those who can't.
 
-## The bottom line
+## The key distinction
 
 **HRA vs HSA** isn't a question of which is universally better. They're different tools for different situations. HSAs are individual-owned, triple-tax-advantaged savings vehicles requiring an HDHP. HRAs are employer-funded reimbursement accounts that pair with any plan structure (or replace one entirely with ICHRA/QSEHRA). Each has clear use cases.
 

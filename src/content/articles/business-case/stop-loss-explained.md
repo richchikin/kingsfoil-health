@@ -79,7 +79,7 @@ For a company with 25 to 100 employees, specific attachment points in the $50,00
 
 Aggregate stop-loss protects you against your total claims for the entire group running higher than expected. Even if no single individual hits the specific attachment point, it's possible for many moderate claims to add up to a bad year. Aggregate stop-loss covers that scenario.
 
-The aggregate attachment point is typically set at 120-125% of your expected claims for the year. If your total claims exceed that threshold, the aggregate stop-loss carrier pays the excess.
+The aggregate attachment point is set at 120-125% of your expected claims for the year. If your total claims exceed that threshold, the aggregate stop-loss carrier pays the excess.
 
 > **Key term -- Aggregate attachment point:** The maximum total claims amount your company is responsible for in a plan year across all covered individuals. Set as a percentage above your expected annual claims. If total claims exceed this amount, the stop-loss carrier reimburses the difference.
 
@@ -104,7 +104,7 @@ For companies in the 25-200 employee range, level-funded plans make this even si
 
 Not all stop-loss policies are created equal. Here are the key things to evaluate:
 
-**Lasering.** This is one of the most important terms to understand. Lasering occurs when the stop-loss carrier identifies a specific individual in your group who they consider high-risk, often someone with a known expensive condition, and sets a higher individual attachment point just for that person.
+**Lasering.** This is one of the most important terms to understand. Lasering occurs when the stop-loss carrier identifies a specific individual in your group who they consider high-risk (usually someone with a known expensive condition) and sets a higher individual attachment point just for that person.
 
 For example, if your standard specific attachment point is $75,000, the carrier might laser one employee at $250,000 because they're undergoing ongoing treatment. That means you're absorbing much more risk for that individual. Always ask whether a policy includes lasering provisions, and if it does, understand who is affected and at what levels.
 
@@ -120,11 +120,11 @@ For example, if your standard specific attachment point is $75,000, the carrier 
 
 ## How stop-loss premiums are set
 
-Stop-loss carriers price their policies based on several factors: the size of your group, the demographics of your workforce, your claims history if available, the attachment points you select, and the plan design. Healthier groups with lower historical claims will generally get better rates.
+Stop-loss carriers price their policies based on several factors: the size of your group, the demographics of your workforce, your claims history if available, the attachment points you select, and the plan design. Healthier groups with lower historical claims get better rates.
 
 This is another area where good health navigation and claims management can pay off. If your claims trend is improving because your employees are making better healthcare decisions, that can translate into better stop-loss pricing at renewal. It's a virtuous cycle: lower claims lead to lower stop-loss costs, which further reduce your total plan expense.
 
-## The bottom line
+## Where this leaves you
 
 Stop-loss insurance is the mechanism that makes self-funded and level-funded plans work for employers who aren't giant corporations. It puts a defined ceiling on your financial exposure while preserving your ability to benefit from good claims performance.
 

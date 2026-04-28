@@ -48,7 +48,7 @@ relatedArticles:
 
 If you've ever launched an employee wellness program — or if you've been part of one as an employee — you've probably noticed something: most of them don't really work. The fitness app subscription nobody uses. The wellness fair that gets attendance from the same eight people. The biometric screening that produced lots of data and zero behavior change.
 
-The pattern isn't that wellness programs can't work. It's that most are designed without the basics in place. This article walks through **employee wellness program ideas** that actually move the needle, organized by cost and impact level — and what to skip.
+The pattern isn't that wellness programs can't work. It's that most are designed without the basics in place. Below are **employee wellness program ideas** that actually move the needle, organized by cost and impact level, along with what to skip.
 
 ## Why most wellness programs underperform
 
@@ -113,7 +113,7 @@ These options cost meaningfully more but produce real engagement when used well.
 
 Vendors like Lyra Health, Spring Health, Modern Health, and Headspace for Work provide app-based mental health support that complements traditional EAP and health plan mental health coverage. Per-employee monthly fee. Often produces high utilization among employees who wouldn't otherwise engage with traditional EAP.
 
-For workforces under 40 especially, digital mental health benefits often outperform traditional EAP on utilization and satisfaction.
+For workforces under 40 especially, digital mental health benefits outperform traditional EAP on utilization and satisfaction.
 
 ### 2. Gym membership stipends
 
@@ -157,7 +157,7 @@ Programs like Maven Clinic that provide comprehensive maternity, fertility, and 
 
 Some wellness program ideas commonly proposed but rarely productive:
 
-**Token gym discounts** — small percentage discounts at chain gyms typically don't drive engagement.
+**Token gym discounts** — small percentage discounts at chain gyms don't drive engagement.
 
 **Wellness fairs as standalone events** — high planning effort, modest engagement, no behavior change. A wellness fair can be useful as an introduction to ongoing programming, but not as the entire program.
 
@@ -196,7 +196,7 @@ Whatever specific programs you choose, the design principles matter more than th
 5. **Integration with benefits.** Wellness programs should reinforce, not replace, broader benefits.
 6. **Realistic measurement.** Track participation and satisfaction, not just outcomes (which take years to manifest).
 
-## The bottom line
+## Putting it together
 
 **Employee wellness program ideas** range from cheap and high-engagement to expensive and uneven. The best programs share characteristics: they fit employee preferences, they're sustained over time, they integrate with broader benefits, and they don't try to be everything at once.
 

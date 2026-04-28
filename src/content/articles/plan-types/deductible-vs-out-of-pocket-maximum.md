@@ -45,9 +45,9 @@ relatedArticles:
   - "fundamentals/first-time-employer-benefits-guide"
 ---
 
-If you've ever stared at your health insurance summary and tried to figure out what "deductible" and "out-of-pocket maximum" actually mean — or how they relate to each other — you're in good company. These two numbers control most of what you'll pay if you actually use medical care, and they get confused constantly.
+If you've ever stared at your health insurance summary and tried to figure out what "deductible" and "out-of-pocket maximum" actually mean, or how they relate to each other, you're in good company. These two numbers control most of what you'll pay if you actually use medical care, and they get confused constantly.
 
-This is the plain-English version: **deductible vs out-of-pocket maximum**, what each one does, and how they work together to determine your real cost.
+Here's the plain-English version: what each one does, and how they work together to determine your real cost.
 
 ## The deductible: what you pay before insurance starts
 
@@ -56,12 +56,12 @@ The **deductible** is the amount you pay for covered medical care before your he
 Some examples of how it works:
 
 - You visit a specialist for a $300 in-network office visit (the negotiated rate). If you haven't met your deductible, you pay the $300 yourself.
-- You fill a $200 prescription. If you haven't met your deductible, you pay the $200 yourself (in most plans — pharmacy may have its own deductible structure).
+- You fill a $200 prescription. If you haven't met your deductible, you pay the $200 yourself (in most plans; pharmacy may have its own deductible structure).
 - You have an outpatient procedure with a negotiated cost of $5,000 (illustrative). If your deductible is $2,500 and you haven't paid anything else this year, you pay the first $2,500 toward the deductible; insurance starts paying its share after that.[^2]
 
 A few important points:
 
-**Preventive care is exempt.** The Affordable Care Act requires plans to cover preventive services (annual physicals, certain screenings, immunizations) with no out-of-pocket cost — even if you haven't met the deductible.
+**Preventive care is exempt.** The Affordable Care Act requires plans to cover preventive services (annual physicals, certain screenings, immunizations) with no out-of-pocket cost, even if you haven't met the deductible.
 
 **Deductibles reset.** They reset at the start of each plan year. Whatever you've paid toward the deductible doesn't carry over.
 
@@ -100,7 +100,7 @@ Let's walk through a year of healthcare costs to see how the two numbers interac
 
 **Phase 3: After the OOP maximum.** Your deductible spending + coinsurance + (typically) copays add up to $7,000. Once you hit that ceiling, the plan covers 100% of in-network covered services for the rest of the year.
 
-If you stay healthy, you might never hit even the deductible. If you have a major medical event, you'd likely hit the OOP maximum quickly — and at that point, your annual cost stops climbing. That cap is the protection insurance is actually delivering.
+If you stay healthy, you might never hit even the deductible. If you have a major medical event, you'd likely hit the OOP maximum quickly. At that point, your annual cost stops climbing. That cap is the protection insurance is actually delivering.
 
 > The deductible is the entry fee. The out-of-pocket maximum is the panic button. Most years, you'll touch one or neither. In a bad year, the OOP maximum is what keeps the bad year from being financially devastating.
 
@@ -128,7 +128,7 @@ These five numbers together describe what your annual cost looks like at differe
 
 High-deductible health plans (HDHPs) — the kind paired with HSAs — have higher deductibles by design.[^1] In exchange, they typically have lower premiums and the tax-advantaged HSA savings vehicle.
 
-Many employees see a high deductible and assume the plan is worse than a low-deductible PPO. The reality is usually more nuanced: with a meaningful employer HSA contribution and lower premium, the HDHP often comes out ahead on total annual cost for healthy users.[^2] [How HDHP + HSA Saves Money](/learn/hsa/hsa-hdhp-save-business-money) walks through the comparison.
+Many employees see a high deductible and assume the plan is worse than a low-deductible PPO. The reality is more nuanced: with a substantial employer HSA contribution and lower premium, the HDHP can come out ahead on total annual cost for healthy users.[^2] [How HDHP + HSA Saves Money](/learn/hsa/hsa-hdhp-save-business-money) walks through the comparison.
 
 ## The federal limits
 
@@ -136,11 +136,11 @@ The ACA sets federal maximum out-of-pocket limits that apply to most employer-sp
 
 For current-year specific dollar limits, see the [IRS HSA page](https://www.irs.gov/publications/p969) for HDHP minimums and maximums, and the [ACA marketplace rules](https://www.healthcare.gov/) for general OOP maximum limits.
 
-## The bottom line
+## Putting it together
 
 **Deductible vs out-of-pocket maximum** is two numbers describing the same financial structure: the deductible is the threshold before insurance kicks in; the OOP maximum is the ceiling on what you pay total. Understanding the relationship between them — and where coinsurance and copays fit — is the foundation of making any informed health plan decision.
 
-If you're choosing between plans, the goal isn't to minimize any single number — it's to model your expected total cost across the full structure. A high-deductible plan with a low premium can be the cheapest option for healthy users; a low-deductible plan with a higher premium can be the cheapest option for heavy users. The right answer depends on you.
+If you're choosing between plans, the goal isn't to minimize any single number. It's to model your expected total cost across the full structure. A high-deductible plan with a low premium can be the cheapest option for healthy users; a low-deductible plan with a higher premium can be the cheapest option for heavy users. The right answer depends on you.
 
 > **Want help comparing your plan options?** We can model expected total cost for any of your benefits options at different usage levels, helping you understand what you'd actually pay in different scenarios. [Talk to us](/talk-to-us).
 

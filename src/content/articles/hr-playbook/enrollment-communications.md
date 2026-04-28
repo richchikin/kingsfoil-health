@@ -161,6 +161,6 @@ That kind of direct, honest language builds more trust than any glossy benefits 
 
 ## Your employees will mirror your confidence
 
-Here's the truth that experienced HR professionals already know: employees take their cues from you. If your communications are anxious, hedging, or overly corporate, people will sense that something is off. If your communications are calm, clear, and genuinely enthusiastic about the improvements, that energy transfers.
+Employees take their cues from you. If your communications are anxious, hedging, or overly corporate, people will sense that something is off. If your communications are calm, clear, and genuinely enthusiastic about the improvements, that energy transfers.
 
 You chose this plan for good reasons. Communicate those reasons like you believe in them, because you do. Your employees will follow your lead.

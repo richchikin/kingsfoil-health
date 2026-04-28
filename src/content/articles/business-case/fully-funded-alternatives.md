@@ -59,7 +59,7 @@ Let's walk through the main alternatives.
 
 ## Level-funded plans
 
-A level-funded plan is probably the closest relative to a fully funded plan, and it's often the most natural first step for businesses exploring their options.
+A level-funded plan is probably the closest relative to a fully funded plan, and it's the most natural first step for businesses exploring their options.
 
 > **Key term -- Level-funded plan:** A health insurance arrangement where you pay a fixed monthly amount (like a fully funded plan), but that payment is divided into three buckets: expected claims costs, administrative fees, and stop-loss insurance. If actual claims come in below the expected amount, you may receive a refund of the surplus.
 
@@ -89,7 +89,7 @@ A Professional Employer Organization (PEO) takes a very different approach. Inst
 
 Through a PEO, you might be able to offer your team a benefits package that looks like what a Fortune 500 company provides. The PEO handles administration, compliance, and renewals. You focus on running your business.
 
-The limitation is that you give up some control. The PEO selects the carriers and plan designs. You're choosing from their menu, not building your own. And because you're part of a shared pool, you won't typically have access to your own claims data or the ability to recover surplus premiums.
+The limitation is that you give up some control. The PEO selects the carriers and plan designs. You're choosing from their menu, not building your own. And because you're part of a shared pool, you won't have access to your own claims data or the ability to recover surplus premiums.
 
 **Best for:** Very small businesses (under 25 employees) that want to offer competitive benefits without building an in-house HR function. Also a good fit if your priority is simplicity and access to richer plan options rather than cost transparency.
 

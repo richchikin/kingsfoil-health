@@ -48,7 +48,7 @@ relatedArticles:
 
 Stop-loss insurance is non-negotiable for any self-funded or level-funded health plan. But "stop-loss" isn't a single product — it's two distinct types of coverage, each protecting against a different kind of bad outcome. Most employers carry both, though the attachment points can vary significantly depending on group size and risk appetite.
 
-This article is a detailed walk-through of **specific vs. aggregate stop-loss**: how each works, how to set attachment points, and how they combine into a layered safety net for your health plan.
+Below is a detailed walk-through of **specific vs. aggregate stop-loss**: how each works, how to set attachment points, and how they combine into a layered safety net for your health plan.
 
 If you're new to stop-loss entirely, start with [What Is Stop-Loss Insurance](/learn/stop-loss/what-is-stop-loss-insurance) — this article assumes you already know the basics.
 
@@ -68,7 +68,7 @@ Your net exposure on that individual's claims is capped at $75,000, regardless o
 
 ### How attachment points are set
 
-Specific attachment points are a function of group size, risk tolerance, and cash flow. In general, larger groups can tolerate higher attachment points because they can absorb more claims variability — a single large claim is proportionally less impactful at scale, so the premium savings from a higher attachment become attractive. Smaller groups typically choose lower attachment points to limit per-claim exposure relative to total budget.
+Specific attachment points are a function of group size, risk tolerance, and cash flow. Larger groups can tolerate higher attachment points because they can absorb more claims variability. A single large claim is proportionally less impactful at scale, so the premium savings from a higher attachment become attractive. Smaller groups typically choose lower attachment points to limit per-claim exposure relative to total budget.
 
 ### The premium trade-off
 
@@ -152,13 +152,13 @@ The attachment points alone don't tell you everything about how much protection 
 
 **Aggregating specific.** This is a niche provision: a pool of additional specific-like coverage that activates after specific attachment has been met on an individual. Can be useful for groups with modest multi-large-claim risk.
 
-Each of these provisions can move the real protection you have up or down by 10–20%. They matter more than employers usually realize.
+Each of these provisions can shift the real protection you have up or down. They matter more than employers usually realize.
 
 ## How to decide what attachment points are right for your group
 
 The decision framework looks like this:
 
-**1. Start with what you can afford to lose.** Pick a specific attachment point at a level where a single claim of that size would hurt but not break your business. If it would strain your cash position meaningfully, go lower.
+**1. Start with what you can afford to lose.** Pick a specific attachment point at a level where a single claim of that size would hurt but not break your business. If it would strain your cash position, go lower.
 
 **2. Look at your claims history.** If you have multi-year claims data showing stable experience and no high-cost conditions, you can be comfortable with higher attachments. If you're flying blind (coming from a fully-insured plan with no claims visibility), start conservative — lower attachments, more protection — and adjust up at year two once you have data.
 
@@ -166,11 +166,11 @@ The decision framework looks like this:
 
 **4. Consider your aggregate factor separately.** Aggregate factors are negotiated based on group profile and risk tolerance. A more risk-tolerant employer may opt for a higher factor to save premium; a more cautious employer may negotiate for tighter protection.
 
-## The bottom line
+## Putting it together
 
 **Specific vs. aggregate stop-loss** isn't a question of either/or. It's a question of what attachment points, on each type, produce the right mix of protection and cost for your group. For most small and mid-sized employers on self-funded or level-funded plans, both types are carried — and the real conversation is about where to set the attachment points.
 
-Get this piece right, and the financial picture of self-funding stops being scary and starts being straightforward. Get it wrong — pick a stop-loss policy on premium alone, take a carrier with aggressive lasering, or choose attachment points that don't match your risk tolerance — and you'll feel it the first time a real claim hits.
+Get this piece right, and the financial picture of self-funding becomes straightforward. Get it wrong (pick a stop-loss policy on premium alone, take a carrier with aggressive lasering, or choose attachment points that don't match your risk tolerance) and you'll feel it the first time a real claim hits.
 
 > **Want a second opinion on your stop-loss structure?** We can review your current attachment points, lasering provisions, and aggregate factor and tell you honestly whether they're well-matched to your group. [Talk to us](/talk-to-us).
 

@@ -51,7 +51,7 @@ Choosing a health insurance plan for your business is one of those decisions tha
 
 Most employers respond by outsourcing the decision to their broker, picking the option that's presented first, and hoping for the best. That's not a decision; it's a default.
 
-This article is a framework for actually making the decision. **How to choose the right health insurance plan as an employer** — layer by layer, question by question, with enough structure to compare options honestly.
+Here's a framework for actually making the decision: layer by layer, question by question, with enough structure to compare options honestly.
 
 ## The four layers of the decision
 
@@ -62,22 +62,22 @@ The mistake most employers make is treating "choosing a plan" as one decision. I
 **Layer 3: Carrier** — Which insurance company? (Aetna, Cigna, BlueCross, UnitedHealthcare, SelectHealth, etc.)
 **Layer 4: Network** — Which specific provider network within that carrier?
 
-Most employers conflate layers 3 and 4 into "pick a carrier" and skip layer 1 entirely. That's how people end up overpaying year after year on fully-insured plans that were never actively chosen — just defaulted into.
+Most employers conflate layers 3 and 4 into "pick a carrier" and skip layer 1 entirely. That's how people end up overpaying year after year on fully-insured plans that were never actively chosen, just defaulted into.
 
 ## Layer 1: Funding structure
 
 This is the highest-leverage decision, and the one most brokers avoid surfacing. It should be the first thing you evaluate every renewal.
 
-**Fully-insured:** Carrier assumes all claims risk, you pay a fixed premium, no claims data access. Simple but typically the most expensive.
+**Fully-insured:** Carrier assumes all claims risk, you pay a fixed premium, no claims data access. Simple but almost always the most expensive.
 
-**Level-funded:** Self-funded structure in fully-insured-style monthly payments, with potential surplus refunds. Often meaningfully cheaper than fully-insured for healthy groups.
+**Level-funded:** Self-funded structure in fully-insured-style monthly payments, with potential surplus refunds. Frequently cheaper than fully-insured for healthy groups.
 
-**Fully self-funded:** Employer pays claims directly with stop-loss protection. Typically lowest total cost for healthy groups of 50+ employees, but requires active management.
+**Fully self-funded:** Employer pays claims directly with stop-loss protection. Usually the lowest total cost for healthy groups of 50+ employees, but requires active management.
 
 How to decide:
 
 - **Group under 10 employees:** Fully-insured by default; ICHRA as an alternative worth considering.
-- **10–50 employees:** Level-funded almost always worth quoting. Often beats fully-insured by a meaningful margin for healthy groups.
+- **10–50 employees:** Level-funded almost always worth quoting. Frequently beats fully-insured by a wide margin for healthy groups.
 - **50+ employees:** Run quotes on all three structures. Level-funded or self-funded usually wins.
 
 See [The 3 Types of Employer Health Plans](/learn/plan-structures/three-types-of-employer-health-plans) for a detailed walk-through and [Self-Funded vs. Fully-Insured](/learn/plan-structures/self-funded-vs-fully-insured) for the pillar comparison.
@@ -92,9 +92,9 @@ High-deductible health plan paired with a tax-advantaged Health Savings Account.
 
 **Pros:** Lowest premium, tax-efficient HSA contributions, employee ownership of health dollars, balance rolls over year-to-year.
 
-**Cons:** Higher deductible feels punishing to heavy-usage employees, requires meaningful employer HSA funding to work well, some employees psychologically dislike the structure.
+**Cons:** Higher deductible feels punishing to heavy-usage employees, requires real employer HSA funding to work well, some employees psychologically dislike the structure.
 
-**Best fit:** Healthier workforces, employers willing to fund HSAs meaningfully, tax-optimization priorities.
+**Best fit:** Healthier workforces, employers willing to fund HSAs well, tax-optimization priorities.
 
 [How Pairing HDHP with HSA Saves Money](/learn/hsa/hsa-hdhp-save-business-money) covers the full economics.
 
@@ -153,16 +153,16 @@ For most employers, two or three carriers will be viable candidates. The differe
 
 Within a given carrier, there are often multiple network options — broad networks, narrow networks, accountable care organization (ACO) networks. The choice affects premium and employee access.
 
-Broader networks have more providers but higher premiums. Narrower networks restrict provider choice but often cost meaningfully less.
+Broader networks have more providers but higher premiums. Narrower networks restrict provider choice but can cost substantially less.
 
 Key questions:
 
 - Are your employees' preferred doctors in the network?
 - Are the major hospitals and health systems in your geography covered?
-- Is there a meaningful premium difference between broad and narrow networks?
-- How do employees typically react to network restrictions? (Check with HR or survey.)
+- Is there a real premium difference between broad and narrow networks?
+- How do employees react to network restrictions? (Check with HR or survey.)
 
-For Utah-based employers, network strength is heavily concentrated among SelectHealth (strongest in Utah specifically) and the major national carriers' BlueCross/Aetna/Cigna/UnitedHealthcare networks. Regional variations matter — provider strength in Salt Lake City vs. St. George vs. Ogden can differ meaningfully.
+For Utah-based employers, network strength is heavily concentrated among SelectHealth (strongest in Utah specifically) and the major national carriers' BlueCross/Aetna/Cigna/UnitedHealthcare networks. Regional variations matter: provider strength in Salt Lake City vs. St. George vs. Ogden can differ substantially.
 
 ## Running the decision end-to-end
 
@@ -182,7 +182,7 @@ A practical sequence for a 50-employee company choosing their 2026 plan:
 
 **Step 7: Decision.** Sign, implement, and plan for next year's evaluation.
 
-This sequence takes 60–90 days from start to finish. Employers who start 120 days before their renewal have time; employers who start 60 days before typically default to the incumbent because they've run out of decision time.
+This sequence takes 60–90 days from start to finish. Employers who start 120 days before their renewal have time; employers who start 60 days before usually default to the incumbent because they've run out of decision time.
 
 > The right plan isn't the one your broker presents first. It's the one that optimizes across funding, design, carrier, and network for your specific workforce. Most employers never run that full analysis, which is why most employers are on plans they didn't really choose.
 
@@ -199,12 +199,12 @@ A capable benefits advisor should:
 
 An advisor who only presents their favorite carrier's quote, or who defaults to fully-insured without explaining alternatives, is limiting your decision. [5 Questions to Ask Your Broker Before Renewal](/learn/brokers/5-questions-to-ask-your-broker-before-renewal) covers the specific tests.
 
-## The bottom line
+## The decision in front of you
 
 **Choosing the right health insurance plan as an employer** is a layered decision, not a single call. Work through the four layers in order, run real total-cost comparisons, and resist the pull toward renewing whatever you had last year just because it's familiar.
 
-For most employers, the biggest cost savings live in Layer 1 — funding structure. The biggest employee experience wins live in Layer 2 — plan design paired with HSA funding. Layers 3 and 4 matter, but they matter less than the first two.
+For most employers, the biggest cost savings live in Layer 1 (funding structure). The biggest employee experience wins live in Layer 2 (plan design paired with HSA funding). Layers 3 and 4 matter, but they matter less than the first two.
 
-If your current plan choice was driven primarily by a carrier preference without thoroughly evaluating the structure underneath it, there's a meaningful chance that reopening the decision would produce better economics and a better employee experience at the same time.
+If your current plan choice was driven by a carrier preference without evaluating the structure underneath it, reopening the decision will likely produce better economics and a better employee experience at the same time.
 
 > **Want help running the full four-layer analysis for your next renewal?** We model it explicitly and walk through the trade-offs honestly, without trying to steer you toward any specific carrier or product. [Talk to us](/talk-to-us).

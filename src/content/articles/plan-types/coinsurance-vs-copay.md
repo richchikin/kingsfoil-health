@@ -48,7 +48,7 @@ relatedArticles:
 
 If you've looked at a health insurance Summary of Benefits and Coverage, you've seen two terms that sound similar but mean different things: **copay** and **coinsurance**. Both are forms of "cost-sharing" — the share of costs you pay vs. the share your insurance pays. But they work very differently, and understanding the distinction matters for figuring out what you'll actually pay when you use care.
 
-This is the plain-English version of **coinsurance vs copay** — what each one is, when each applies, and how they fit into the broader cost picture.
+Here's what each one is, when each applies, and how they fit into the broader cost picture.
 
 ## What is a copay?
 
@@ -93,7 +93,7 @@ Coinsurance is most common on:
 - Out-of-network services
 - Specialty drugs
 
-Coinsurance typically kicks in *after* you've met your deductible. Until then, you're paying full cost.
+Coinsurance kicks in *after* you've met your deductible. Until then, you're paying full cost.
 
 ## When does each apply?
 
@@ -169,7 +169,7 @@ If you'd had a much larger procedure, you'd hit the OOP maximum and your total a
 
 To see what your plan actually does, look at the Summary of Benefits and Coverage (SBC) — every employer-sponsored health plan is required to provide one. The SBC lists copays and coinsurance percentages by service category, plus the deductible and OOP maximum. [How to Read an Explanation of Benefits](/learn/plan-types/how-to-read-an-eob) covers what shows up after you've actually used care.
 
-## The bottom line
+## How to decide
 
 **Coinsurance vs copay** isn't a question of which is better — it's two different cost-sharing mechanisms that work together in most plans. Copays make routine costs predictable. Coinsurance distributes responsibility on expensive services proportionally. Both count toward your OOP max, both work in tandem with the deductible, and both shape your real annual cost.
 

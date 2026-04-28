@@ -47,7 +47,7 @@ relatedArticles:
 
 If you're an Applicable Large Employer (ALE) — meaning you have 50 or more full-time-equivalent employees — you're required to file annual ACA reporting with the IRS through Forms 1094-C and 1095-C. The reporting is the operational compliance pathway for the ACA's employer mandate. It documents what coverage you offered, to whom, and when.
 
-ACA reporting isn't optional for ALEs, and the penalties for late, missing, or inaccurate forms are real. This article is the practical checklist: who files what, when, how to manage the workflow, and how to avoid the common pitfalls.
+ACA reporting isn't optional for ALEs, and the penalties for late, missing, or inaccurate forms are real. Here's the practical checklist: who files what, when, how to manage the workflow, and how to avoid the common pitfalls.
 
 ## Who needs to file ACA reporting
 
@@ -89,7 +89,7 @@ Form 1095-C is filed for each full-time employee (and sometimes part-time employ
   - Whether coverage met affordability and minimum-value standards
   - Codes describing the coverage offered
 
-Each ALE files multiple 1095-Cs — one per full-time employee. Employees use 1095-C information when filing their personal taxes (it's how the IRS verifies whether they received affordable employer coverage and whether they're eligible for premium tax credits).
+Each ALE files multiple 1095-Cs — one per full-time employee. Employees use 1095-C information when filing their personal taxes. It's how the IRS verifies whether they received affordable employer coverage and whether they're eligible for premium tax credits.
 
 ## Filing requirements
 
@@ -139,7 +139,7 @@ For an ALE managing ACA reporting, the typical annual cycle:
 - Track affordability of coverage for full-time employees
 - Document any plan changes affecting reporting
 
-The data collection happens year-round; the formal reporting happens in early March.
+The data collection happens year-round. The formal reporting happens in early March.
 
 ## What's required in each 1095-C
 
@@ -179,7 +179,7 @@ Some specific code situations that frequently produce errors:
 
 **Mid-year hires/terminations:** Coding for partial-year employment requires careful attention to which months coverage was offered or required to be offered.
 
-Most of these are handled correctly by experienced benefits brokers or compliance vendors, but DIY ACA reporting often produces coding errors.
+Experienced benefits brokers or compliance vendors handle these correctly. DIY ACA reporting, on the other hand, frequently produces coding errors.
 
 ## Penalties for failure
 
@@ -196,7 +196,7 @@ The IRS does enforce these penalties. ALEs that file late, miss employees, or us
 
 ## How to manage compliance without drowning
 
-ACA reporting is doable for an ALE, but it requires either internal infrastructure or a vendor partnership. Most employers choose a vendor.
+ACA reporting is doable for an ALE, but it requires either internal infrastructure or a vendor partnership. Most employers choose a vendor for good reason.
 
 ### Option 1: Benefits broker handles reporting
 
@@ -226,7 +226,7 @@ An HR or benefits team using ACA-capable software (some HRIS platforms include A
 Pros: Maximum control
 Cons: Real expertise and time commitment required; more risk of errors
 
-For most ALEs, Options 1 or 2 (broker or payroll vendor) are the practical choice. The vendor cost is typically modest relative to the in-house time investment and the penalty risk of errors.
+For most ALEs, Options 1 or 2 (broker or payroll vendor) are the practical choice. The vendor cost is modest relative to the in-house time investment and the penalty risk of errors.
 
 ## Common pitfalls
 
@@ -244,11 +244,11 @@ For most ALEs, Options 1 or 2 (broker or payroll vendor) are the practical choic
 
 > ACA reporting is a specific, annual obligation that's manageable with the right partners. Most ALEs work with a benefits broker or payroll vendor to handle the reporting; the additional cost is typically meaningfully less than the time and risk of doing it poorly in-house.
 
-## The bottom line
+## What to do next
 
 **ACA reporting requirements** apply to Applicable Large Employers (50+ FTEs). ALEs must annually file Form 1094-C and a Form 1095-C for each full-time employee, distribute 1095-Cs to employees, and maintain supporting documentation. Deadlines are set by the IRS and shift slightly year-to-year.
 
-The reporting workflow is well-established but requires expertise. Most ALEs partner with a benefits broker, payroll vendor, or specialized compliance vendor to handle the work — the cost is modest relative to the penalty risk of errors. For ALEs without an established reporting partner, building one is a meaningful annual reduction in compliance risk.
+The reporting workflow is well-established but requires expertise. Most ALEs partner with a benefits broker, payroll vendor, or specialized compliance vendor to handle the work. The cost is modest relative to the penalty risk of errors. For ALEs without an established reporting partner, building one is a significant annual reduction in compliance risk.
 
 For employers approaching the 50-FTE threshold, planning for ACA reporting infrastructure should start before crossing the line. The annual reporting obligation begins immediately upon reaching ALE status, and the data requirements span the full calendar year.
 

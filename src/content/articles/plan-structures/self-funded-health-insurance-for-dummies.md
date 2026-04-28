@@ -47,11 +47,11 @@ relatedArticles:
 
 Most explanations of self-funded health insurance are written by people who already know what a "specific attachment point" is, and they use phrases like "aggregate reconciliation" and "run-in period" without blinking. If you're a business owner trying to figure out whether self-funded insurance would work for your company, that writing is not helpful.
 
-This article is the plain-English version. No jargon. No assumed knowledge. Just a step-by-step walk-through of what **self-funded health insurance** actually is, who does what, what you pay, and how to tell if it would be a good fit for your business.
+No jargon here. No assumed knowledge. Just a step-by-step walk-through of what **self-funded health insurance** actually is, who does what, what you pay, and how to tell if it would be a good fit for your business.
 
 ## The one-sentence version
 
-Instead of paying an insurance company a fixed fee every month to cover your employees' medical claims, you pay the claims directly when they happen — and you buy a separate insurance policy that kicks in if any single claim gets catastrophically expensive.
+Instead of paying an insurance company a fixed fee every month to cover your employees' medical claims, you pay the claims directly when they happen, and you buy a separate insurance policy that kicks in if any single claim gets catastrophically expensive.
 
 That's it. Everything else is details.
 
@@ -81,33 +81,33 @@ When you're learning about self-funded plans, it helps to have a quick map of th
 
 **Your company.** You're the sponsor. You fund the claims account, you make the strategic decisions about plan design, and you keep the savings when things go well.
 
-**The third-party administrator (TPA).** This is the company that actually runs the plan day to day. They process claims, handle the ID cards, operate the network, answer employee calls, and generate reports. Most TPAs are affiliated with a major carrier (Aetna, Cigna, BlueCross, UnitedHealthcare) or are independent firms. Your employees typically can't tell they exist — they just see the logo on their ID card.
+**The third-party administrator (TPA).** This is the company that actually runs the plan day to day. They process claims, handle the ID cards, operate the network, answer employee calls, and generate reports. Most TPAs are affiliated with a major carrier (Aetna, Cigna, BlueCross, UnitedHealthcare) or are independent firms. Your employees can't tell they exist. They just see the logo on their ID card.
 
 **The stop-loss carrier.** This is the insurance company that sells you the stop-loss policy. They take on the catastrophic-risk piece that you don't want to. They're also the company that writes the check when one of your employees has a huge claim.
 
-**Your benefits advisor.** This is your broker, consultant, or fiduciary advisor — the person who helps you design the plan, shop the stop-loss policy, and make informed decisions. Good ones are paid a flat fee and are aligned with lowering your total costs. Commission-based advisors often have an incentive to keep you on fully-insured.
+**Your benefits advisor.** This is your broker, consultant, or fiduciary advisor: the person who helps you design the plan, shop the stop-loss policy, and make informed decisions. Good ones are paid a flat fee and are aligned with lowering your total costs. Commission-based advisors have an incentive to keep you on fully-insured.
 
-**Your employees.** They use the plan like they would any other health plan. Show the ID card, pay the copay, file claims. The self-funded structure is mostly invisible to them — as covered in [Is Self-Funded Health Insurance Good for Employees?](/learn/plan-structures/is-self-funded-health-insurance-good-for-employees), the differences they notice are usually minor, and often positive.
+**Your employees.** They use the plan like they would any other health plan. Show the ID card, pay the copay, file claims. The self-funded structure is mostly invisible to them. As covered in [Is Self-Funded Health Insurance Good for Employees?](/learn/plan-structures/is-self-funded-health-insurance-good-for-employees), the differences they notice are usually minor and frequently positive.
 
 ## What you actually pay every month
 
 In a self-funded plan, your total monthly cost is the sum of three things:
 
-**1. The claims fund.** This is money set aside to pay claims as they come in. It's sized based on what your team's expected claims are for the year, usually determined by looking at historical claims data or demographics. Think of this as "pre-funding" your healthcare spend.
+**1. The claims fund.** This is money set aside to pay claims as they come in. It's sized based on what your team's expected claims are for the year, determined by looking at historical claims data or demographics. Think of this as "pre-funding" your healthcare spend.
 
-**2. Administrative fees.** The TPA charges you a per-employee-per-month (PEPM) fee to run the plan. The fee scales with group size and scope — smaller groups pay more per employee, larger groups pay less.
+**2. Administrative fees.** The TPA charges you a per-employee-per-month (PEPM) fee to run the plan. The fee scales with group size and scope: smaller groups pay more per employee, larger groups pay less.
 
 **3. Stop-loss premium.** The stop-loss carrier charges you a monthly premium for the coverage that caps your catastrophic exposure. This is typically the smallest of the three categories but the most important for risk management.
 
-When all three are added together, the total monthly cost for a healthy self-funded group often runs meaningfully below what a fully-insured plan would cost for the same coverage. The exact savings depend on group demographics, claims experience, and how the stop-loss is structured.
+When all three are added together, the total monthly cost for a healthy self-funded group runs below what a fully-insured plan would cost for the same coverage. The exact savings depend on group demographics, claims experience, and how the stop-loss is structured.
 
-A key point: those three pieces are separable. You can shop each of them. In a fully-insured plan, they're bundled and opaque — you pay one premium and you don't know how much of it went where. That opacity is one of the biggest reasons fully-insured plans tend to cost more over time.
+A key point: those three pieces are separable. You can shop each of them. In a fully-insured plan, they're bundled and opaque. You pay one premium and you don't know how much of it went where. That opacity is one of the biggest reasons fully-insured plans cost more over time.
 
 ## How stop-loss actually works
 
 Stop-loss is the part that makes self-funding safe, and it's the part most people find counterintuitive at first.
 
-You set a threshold called the **specific attachment point**. This is a dollar amount you and your advisor choose when you buy the policy. If any one employee's medical claims exceed that amount in a plan year, the stop-loss insurance company reimburses your plan for everything above the threshold.
+You set a threshold called the **specific attachment point**, a dollar amount you and your advisor choose when you buy the policy. If any one employee's medical claims exceed that amount in a plan year, the stop-loss insurance company reimburses your plan for everything above the threshold.
 
 Illustrative example: imagine your specific attachment point is $75,000 and one employee has a serious surgery that generates $300,000 in claims. Your plan pays the first $75,000 from the claims fund. The stop-loss carrier reimburses the remaining $225,000. You're out $75,000, not $300,000.[^1]
 
@@ -121,16 +121,16 @@ Put those two together, and self-funding stops looking like gambling. It looks l
 
 ## What about a bad year?
 
-This is the question everyone asks. Here's the honest answer.
+This is the question everyone asks.
 
-In a "bad year" — meaning your claims come in higher than expected — a few things happen:
+In a "bad year," meaning your claims come in higher than expected, a few things happen:
 
 1. Your claims fund gets drained faster than planned.
 2. If claims stay under the stop-loss thresholds, you end up paying more than you would have under fully-insured for that year.
 3. If claims hit the stop-loss thresholds, the stop-loss carrier covers the excess and your worst-case outcome is the total of your monthly payments plus the attachment point.
 4. At the next renewal, your stop-loss premium and expected claims amount will be re-priced based on the new data.
 
-The worst-case math is a capped loss. In a fully-insured plan, the carrier absorbs the bad year and spreads it across their whole book — but they'll typically price you up at renewal to recover it. The difference is that in fully-insured, a bad year shows up as compounding rate increases over multiple years. In self-funded, a bad year is a defined financial loss sized to your stop-loss structure and then done.
+The worst-case math is a capped loss. In a fully-insured plan, the carrier absorbs the bad year and spreads it across their whole book, but they'll price you up at renewal to recover it. The difference is that in fully-insured, a bad year shows up as compounding rate increases over multiple years. In self-funded, a bad year is a defined financial loss sized to your stop-loss structure, and then it's done.
 
 Over a multi-year window, for a healthy group, self-funded almost always comes out ahead. Over a one-year window for an unlucky group, it may not.
 
@@ -139,8 +139,8 @@ Over a multi-year window, for a healthy group, self-funded almost always comes o
 The simple version of the fit rubric:
 
 - **Company size of 50+:** self-funded is worth modeling seriously
-- **Company size of 10–50:** [level-funded](/learn/plan-structures/level-funded-health-plans-explained) is usually the better entry point, and it's essentially self-funding with training wheels
-- **Company size under 10:** fully-insured is typically the only realistic option
+- **Company size of 10-50:** [level-funded](/learn/plan-structures/level-funded-health-plans-explained) is usually the better entry point, and it's essentially self-funding with training wheels
+- **Company size under 10:** fully-insured is the only realistic option in most cases
 
 On top of size, the other fit factors are:
 
@@ -155,13 +155,13 @@ If all of those apply, self-funded is probably saving you real money versus your
 
 If this is your first pass at self-funding, the most useful next move is one of two things.
 
-**Option A: Get your claims data.** Even before you change anything, ask your current carrier for your claims data. You're entitled to it in many states, and even a high-level summary (claims by month, top cost drivers, large claims over a threshold) changes the conversation meaningfully.
+**Option A: Get your claims data.** Even before you change anything, ask your current carrier for your claims data. You're entitled to it in many states, and even a high-level summary (claims by month, top cost drivers, large claims over a threshold) changes the conversation.
 
 **Option B: Get a level-funded quote alongside your fully-insured quote at renewal.** Ask your broker to present both. Compare the total monthly cost, the stop-loss structure, and the surplus provisions. If the numbers are favorable, try level-funded for a year. At the end of that year, you'll have your own claims data and can make a more informed decision about whether to stay on level-funded or move to fully self-funded.
 
-Either path starts the process of getting visibility into what's actually happening with your healthcare spend — and visibility is the prerequisite to every other decision.
+Either path starts the process of getting visibility into what's actually happening with your healthcare spend. Visibility is the prerequisite to every other decision.
 
-## The bottom line
+## Putting it together
 
 **Self-funded health insurance** sounds complicated because the industry likes it that way. In practice, it's a straightforward trade: instead of paying an insurance carrier a premium that bundles everything into one opaque number, you pay the pieces separately and keep the savings when things go well. Stop-loss covers you if they don't.
 

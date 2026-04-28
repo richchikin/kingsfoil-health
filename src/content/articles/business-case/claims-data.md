@@ -50,11 +50,11 @@ relatedArticles:
 
 You probably track revenue, expenses, customer acquisition cost, and a dozen other metrics to run your business well. But when it comes to one of your largest line items -- employee health insurance -- how much data do you actually see?
 
-If you're on a fully funded plan, the honest answer is: almost none.
+If you're on a fully funded plan, the answer is: almost none.
 
 You see the premium. You see the rate increase. And you see the broker's explanation for why it went up. That's it. The actual performance of your plan, the details of how your money was spent, and the patterns that could help you make smarter decisions are locked inside the carrier's systems.
 
-This article is about what claims data is, why it matters, and what you should expect from a plan that treats you like a partner instead of a customer.
+Here's what claims data is, why it matters, and what you should expect from a plan that treats you like a partner instead of a customer.
 
 ## What claims data actually is
 
@@ -68,7 +68,7 @@ In aggregate, this data tells a story. It reveals where your healthcare dollars 
 
 When you're on a fully funded plan, the carrier owns the claims data. They'll sometimes share a high-level summary at renewal -- a page or two showing broad categories of spend. But these summaries are designed to justify the renewal rate, not to help you manage costs.
 
-Here's what you typically don't get:
+Here's what you don't get:
 
 - **Detailed claims breakdowns** by category (medical, pharmacy, behavioral health, specialty)
 - **Individual large claimant reports** showing how a handful of high-cost cases are affecting overall spend
@@ -94,7 +94,7 @@ This number, tracked over multiple years, tells you whether your plan is getting
 
 ### Large claimant reports
 
-In most group health plans, a small number of individuals drive a disproportionate share of total costs — concentration is the rule, not the exception. A large claimant report shows you how many high-cost cases you had, what categories of care drove the cost, and how those cases affected your overall results.
+In most group health plans, a small number of individuals drive a disproportionate share of total costs. A large claimant report shows you how many high-cost cases you had, what categories of care drove the cost, and how those cases affected your overall results.
 
 This isn't about identifying who's sick. The data is presented in aggregate and stripped of personally identifiable information. It's about understanding concentration risk. If one catastrophic case drove your entire year's cost increase, that's very different from a broad trend of rising utilization across the group -- and the appropriate response is different too.
 
@@ -108,7 +108,7 @@ These trends help you design benefits that actually encourage the right behavior
 
 Pharmacy costs are one of the fastest-growing components of healthcare spending. A good pharmacy report breaks down your spend by category: generics, preferred brands, non-preferred brands, and specialty drugs.
 
-Specialty pharmacy is where the real money is. A single specialty drug for one employee can carry a high five- or six-figure annual cost. Knowing whether you have specialty drug exposure -- and whether there are therapeutic alternatives or manufacturer assistance programs available -- can produce meaningful savings.
+Specialty pharmacy is where the real money is. A single specialty drug for one employee can carry a high five- or six-figure annual cost. Knowing whether you have specialty drug exposure, and whether there are therapeutic alternatives or manufacturer assistance programs available, can produce substantial savings.
 
 ## What good reporting looks like
 

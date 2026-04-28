@@ -47,7 +47,7 @@ relatedArticles:
 
 If you're a small employer using or considering a **QSEHRA (Qualified Small Employer Health Reimbursement Arrangement)**, the IRS-set contribution limits matter for your plan design. Going over the cap means losing the QSEHRA's favorable tax treatment on the excess; staying within the cap is the foundation of any compliant QSEHRA design.
 
-This article walks through the **2026 QSEHRA limits**, where to find them, how the limits work in practice, and what to do if you want to contribute above the cap.
+Here's a walkthrough of the **2026 QSEHRA limits**: where to find them, how the limits work in practice, and what to do if you want to contribute above the cap.
 
 ## The fast answer: where to find current QSEHRA limits
 
@@ -57,7 +57,7 @@ The IRS publishes annual QSEHRA contribution limits in an annual Revenue Procedu
 - **The annual Revenue Procedure** that sets the cost-of-living adjustments for the upcoming year (typically published the prior year)
 - **IRS QSEHRA guidance page:** [Qualified Small Employer Health Reimbursement Arrangements](https://www.irs.gov/affordable-care-act/employer-payment-plans)
 
-The IRS announces the upcoming year's limits well in advance of the plan year, giving small employers time to design the QSEHRA appropriately.
+The IRS announces the upcoming year's limits well before the plan year starts, giving small employers time to design the QSEHRA appropriately.
 
 ## How the limits are structured
 
@@ -79,7 +79,7 @@ The annual contribution caps reflect that policy choice. They limit how much tax
 
 ## What to do if you want to contribute above the cap
 
-Some small employers want to contribute more to employees' healthcare than the QSEHRA cap allows. The path: switch to an **ICHRA (Individual Coverage HRA)** instead.
+Some small employers want to contribute more to employees' healthcare than the QSEHRA cap allows. Switch to an **ICHRA (Individual Coverage HRA)** instead.
 
 ICHRA has no IRS-set contribution cap. The employer chooses the amount. This is the primary reason employers move from QSEHRA to ICHRA: the desire to contribute above QSEHRA's annual limits.
 
@@ -88,7 +88,7 @@ ICHRA has no IRS-set contribution cap. The employer chooses the amount. This is 
 - **Stay with QSEHRA if:** the cap fits your budget, you want simpler administration, and uniform contributions across employees fit your needs
 - **Move to ICHRA if:** you want to contribute above the cap, want to differentiate by employee class, or want the option to coexist with a group plan
 
-For employers in the middle (cap is close to where you'd contribute, simplicity matters), QSEHRA usually wins. For employers wanting to contribute substantially more (especially toward family coverage in expensive markets), ICHRA is typically the right move.
+For employers in the middle (cap is close to where you'd contribute, simplicity matters), QSEHRA usually wins. For employers wanting to contribute substantially more (especially toward family coverage in expensive markets), ICHRA is the right move.
 
 ## Plan design considerations
 
@@ -114,7 +114,7 @@ This is the practical compliance check: stay within the limit, and the QSEHRA de
 
 **"The QSEHRA cap covers my employees' full premium."** Sometimes yes, sometimes no. In low-cost insurance markets, the cap may cover full self-only premium and a meaningful share of family premium. In expensive markets, the cap may be insufficient to fully cover family coverage. Employers in expensive markets considering family-affordable contributions should compare QSEHRA caps against the actual local market premium for family coverage.
 
-**"I can offer different QSEHRA amounts to different employees."** Generally no. QSEHRA requires uniform terms across eligible employees, with limited exceptions. If you want differentiation, ICHRA is the structure that explicitly supports it.
+**"I can offer different QSEHRA amounts to different employees."** No, with limited exceptions. QSEHRA requires uniform terms across eligible employees, with limited exceptions. If you want differentiation, ICHRA is the structure that explicitly supports it.
 
 **"The QSEHRA limit applies to total program cost."** No — the limit is per-employee per-year. A 10-employee QSEHRA at the maximum contribution per employee has 10× that as a total program cost.
 
@@ -143,7 +143,7 @@ QSEHRA design should be reviewed annually:
 - **If you're considering offering a group plan** — QSEHRA can't coexist with one; review whether ICHRA + group plan is a better structure
 - **If competitive market conditions shift** — what was a meaningful contribution in 2024 may not be competitive in 2026
 
-## The bottom line
+## What to do next
 
 **QSEHRA limits for 2026** are set by the IRS each year and indexed for inflation. Refer to the IRS published guidance for current dollar amounts. Within the cap, the QSEHRA delivers the full tax-advantaged structure; above the cap requires switching to an ICHRA.
 

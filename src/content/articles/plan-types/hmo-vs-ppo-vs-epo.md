@@ -48,7 +48,7 @@ relatedArticles:
 
 If you're choosing a health plan for your business — or trying to make sense of the alphabet soup of options — the **HMO vs PPO vs EPO** comparison is fundamental. These three are the most common network-design types in employer-sponsored health insurance, and each one balances cost, flexibility, and network access differently.
 
-This guide is the complete employer's perspective: what each plan type actually is, how they differ in practice, and how to choose between them.
+Here's the employer's perspective: what each plan type actually is, how they differ in practice, and how to choose between them.
 
 ## What is an HMO?
 
@@ -88,20 +88,20 @@ PPOs trade some of the cost-control levers HMOs use for substantial member flexi
 
 An **EPO (Exclusive Provider Organization)** sits between HMO and PPO. It combines elements of each:
 
-- **Broad network like a PPO.** EPOs typically have wider provider networks than HMOs.
+- **Broad network like a PPO.** EPOs have wider provider networks than HMOs.
 - **No referrals required.** Like PPO, members can see specialists directly without PCP referrals.
 - **No out-of-network coverage like HMO.** Members must use in-network providers (except true emergencies).
 
-The EPO's value proposition: get PPO-style flexibility *within* the network, while limiting carrier exposure to out-of-network rates. This typically results in lower premiums than PPOs while preserving more flexibility than HMOs.
+The EPO's value proposition: get PPO-style flexibility *within* the network, while limiting carrier exposure to out-of-network rates. This results in lower premiums than PPOs while preserving more flexibility than HMOs.
 
 **EPO traits:**
-- Premium typically between HMO and PPO
-- Network typically broader than HMO, narrower than top-tier PPO
+- Premium between HMO and PPO
+- Network broader than HMO, narrower than top-tier PPO
 - No PCP or referral requirement
 - No out-of-network coverage (except emergencies)
 - Strong fit for employees who don't travel much and don't expect to need out-of-network care
 
-EPOs are less universally available than HMOs and PPOs but have grown in popularity.
+EPOs are less widely available than HMOs and PPOs but have grown in popularity.
 
 ## Side-by-side comparison
 
@@ -115,11 +115,11 @@ EPOs are less universally available than HMOs and PPOs but have grown in popular
 | Flexibility (within network) | Lower | Higher | Higher |
 | Best for | Cost-conscious, in-network employees | Employees wanting flexibility within network | Travelers, distributed teams, established provider relationships |
 
-The differences are real but often subtle. An employee who exclusively uses in-network providers might not notice the difference between an EPO and a PPO. An employee who values out-of-network protection (or travels) would.
+The differences are real but can be subtle. An employee who exclusively uses in-network providers might not notice the difference between an EPO and a PPO. An employee who values out-of-network protection (or travels) would.
 
 ## Cost differences in practice
 
-Generally, premium falls in the order: HMO < EPO < PPO at equivalent benefit levels. The Kaiser Family Foundation publishes annual data on premium and plan design by plan type that can help with benchmarking specific differences in your market.[^1]
+Premium falls in the order: HMO < EPO < PPO at equivalent benefit levels. The Kaiser Family Foundation publishes annual data on premium and plan design by plan type that can help with benchmarking specific differences in your market.[^1]
 
 The cost differences come from how each structure manages care:
 
@@ -145,11 +145,11 @@ Do your employees travel for work? Have second homes? Children at out-of-state c
 
 ### 3. Evaluate cost sensitivity
 
-For premium-sensitive employee populations, HMO and EPO offer meaningful savings vs. PPO. For populations where employees prioritize flexibility and would accept higher premiums for it, PPO wins.
+For premium-sensitive employee populations, HMO and EPO offer real savings vs. PPO. For populations where employees prioritize flexibility and would accept higher premiums for it, PPO wins.
 
 ### 4. Consider what you currently offer
 
-If you're transitioning from PPO to a more cost-conscious structure, EPO is often a softer landing than HMO — it preserves the no-referral flexibility employees are used to while eliminating out-of-network coverage. Many employers who think they want to switch from PPO to HMO would actually be better served by an EPO.
+If you're transitioning from PPO to a more cost-conscious structure, EPO is a softer landing than HMO. It preserves the no-referral flexibility employees are used to while eliminating out-of-network coverage. Many employers who think they want to switch from PPO to HMO would actually be better served by an EPO.
 
 ### 5. Decide on dual options
 
@@ -159,7 +159,7 @@ Most mid-sized employers (50+) benefit from offering two plan options and lettin
 - HDHP + PPO (lets employees choose between tax-advantaged HSA and traditional cost-sharing)
 - HMO + EPO (cost-conscious employer; both options exclude out-of-network)
 
-Three options is typically too many — adds enrollment complexity without proportional gains.
+Three options is too many for most employers, adding enrollment complexity without proportional gains.
 
 > The right plan type isn't about which is universally better — it's about which fits your specific workforce. Premium-sensitive workforces in concentrated geographies benefit from HMO. Distributed workforces with diverse needs benefit from PPO. EPO is the underrated middle ground for employers who want to capture some of the HMO cost savings without the PCP/referral friction.
 
@@ -189,15 +189,15 @@ Three options is typically too many — adds enrollment complexity without propo
 
 ## What about HDHPs?
 
-HDHPs (high-deductible health plans) are technically a separate plan design dimension — they describe the cost-sharing structure (high deductible) more than the network type. An HDHP can be paired with HMO, PPO, or EPO networks. Most employers offer HDHPs alongside (rather than replacing) traditional HMO/PPO/EPO options.
+HDHPs (high-deductible health plans) are a separate plan design dimension. They describe the cost-sharing structure (high deductible) more than the network type. An HDHP can be paired with HMO, PPO, or EPO networks. Most employers offer HDHPs alongside (rather than replacing) traditional HMO/PPO/EPO options.
 
-For employers considering an HDHP option, [How HDHP + HSA Saves Money](/learn/hsa/hsa-hdhp-save-business-money) covers the economics. The HDHP decision is generally orthogonal to the HMO vs PPO vs EPO decision; you can have an HDHP-PPO, HDHP-EPO, or HDHP-HMO.
+For employers considering an HDHP option, [How HDHP + HSA Saves Money](/learn/hsa/hsa-hdhp-save-business-money) covers the economics. The HDHP decision is orthogonal to the HMO vs PPO vs EPO decision; you can have an HDHP-PPO, HDHP-EPO, or HDHP-HMO.
 
-## The bottom line
+## Making the choice
 
 **HMO vs PPO vs EPO** is the network-design choice in employer-sponsored health plans. Each balances cost, flexibility, and network access differently. The right choice — or combination of choices — depends on workforce geography, mobility, cost sensitivity, and the specific networks available in your market.
 
-Most mid-sized employers benefit from offering two of these as options and letting employees self-select. Premium-sensitive employees often pick the HMO or EPO; flexibility-prioritizing employees pick the PPO. The combined cost is often lower than offering only the most generous option to everyone.
+Most mid-sized employers benefit from offering two of these as options and letting employees self-select. Premium-sensitive employees pick the HMO or EPO; flexibility-prioritizing employees pick the PPO. The combined cost is lower than offering only the most generous option to everyone.
 
 > **Want help comparing plan types and carriers for your specific business?** We can model multiple plan-type combinations from the carriers active in your market, with side-by-side total cost comparison. [Talk to us](/talk-to-us).
 

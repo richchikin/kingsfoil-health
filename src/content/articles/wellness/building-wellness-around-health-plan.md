@@ -45,11 +45,11 @@ relatedArticles:
   - "business-case/concierge-cost-connection"
 ---
 
-The most common pattern in employer wellness programs: a fitness app subscription, an annual wellness fair, a biometric screening, a points-based platform with corporate swag prizes — all running in parallel to a health plan that already includes preventive care, behavioral health, telehealth, condition management, and an EAP.
+The most common pattern in employer wellness programs: a fitness app subscription, an annual wellness fair, a biometric screening, a points-based platform with corporate swag prizes, all running in parallel to a health plan that already includes preventive care, behavioral health, telehealth, condition management, and an EAP.
 
 The result: spending on wellness vendors that duplicate services already in the health plan, while employees underutilize the benefits they have. The wellness program operates as a parallel system rather than an integrated one.
 
-This article walks through how to **build a wellness program around your health plan** — designing programming that reinforces existing benefits, drives utilization of services already paid for, and adds new vendors strategically rather than reflexively.
+Here's how to **build a wellness program around your health plan** — designing programming that reinforces existing benefits, drives utilization of services already paid for, and adds new vendors strategically rather than reflexively.
 
 ## The integration mindset
 
@@ -91,7 +91,7 @@ Before adding any new wellness program, run a thorough audit:
 
 **Other vendor offerings.** Disability carrier wellness benefits, HSA partner services, retirement plan financial wellness tools.
 
-The audit usually reveals: a substantial wellness ecosystem the employer already pays for, much of which employees don't know about or use.
+The audit almost always reveals: a wellness ecosystem the employer already pays for, much of which employees don't know about or use.
 
 ## Step 2: Drive utilization of existing services
 
@@ -161,7 +161,7 @@ Many health plan gym discounts are weak. If physical activity is a workforce pri
 
 ### Specific population needs
 
-Maternity (Maven Clinic), fertility, family planning, eldercare resources — depending on workforce demographics, these may be meaningful additions.
+Maternity (Maven Clinic), fertility, family planning, eldercare resources. Depending on workforce demographics, these may be meaningful additions.
 
 The pattern: each gap-fill addition layers on top of existing benefits, not in parallel. The employee experience becomes more integrated, not more fragmented.
 
@@ -187,15 +187,15 @@ Wellness program metrics that work:
 
 Wellness program metrics that don't work well in the short term:
 
-- **Direct health outcome metrics** — these take years to manifest and are influenced by factors beyond the wellness program
-- **ROI calculations on claims savings** — most wellness programs don't produce measurable claims savings in the first 1-2 years
-- **Behavior change metrics in isolation** — without supporting infrastructure, individual behavior change tends to fade
+- **Direct health outcome metrics.** These take years to manifest and are influenced by factors beyond the wellness program.
+- **ROI calculations on claims savings.** Most wellness programs don't produce measurable claims savings in the first 1-2 years.
+- **Behavior change metrics in isolation.** Without supporting infrastructure, individual behavior change tends to fade.
 
 ## Common integration mistakes
 
 **Buying a wellness platform that duplicates the carrier's wellness portal.** Many employers pay for both; employees use neither.
 
-**Standalone fitness apps that don't integrate with health plan condition management.** An employee with diabetes participating in a fitness app outside their plan's diabetes management program produces less than either by itself.
+**Standalone fitness apps that don't integrate with health plan condition management.** An employee with diabetes participating in a fitness app outside their plan's diabetes management program gets less value than either program by itself.
 
 **Mental health benefits that compete rather than complement.** EAP + digital mental health vendor + health plan mental health coverage should work together, not produce employee confusion about where to start.
 
@@ -228,7 +228,7 @@ For a typical mid-sized employer (50-200 employees) with a self-funded or level-
 
 This design integrates wellness with the health plan without duplicating services, drives utilization of existing benefits, and adds targeted vendors for specific gaps.
 
-## The bottom line
+## Where to focus first
 
 **Building a wellness program around your health plan** produces better outcomes than running wellness in parallel. Most health plans already include substantial wellness services; the gap is utilization, not capability. Designing wellness programming that drives utilization of existing benefits, adds targeted vendors for genuine gaps, and coordinates communication produces a more coherent employee experience and stronger ROI.
 

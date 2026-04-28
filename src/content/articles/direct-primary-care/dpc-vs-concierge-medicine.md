@@ -47,7 +47,7 @@ relatedArticles:
 
 If you've started looking at membership-based primary care as a possible benefit, you've probably encountered two terms: **direct primary care (DPC)** and **concierge medicine**. They sound similar, both involve paying a membership fee for enhanced primary care, and both are sometimes pitched as the "Netflix for primary care" alternative to traditional insurance-based primary care.
 
-But they're meaningfully different in pricing, business model, and fit as an employee benefit. This article walks through the **DPC vs concierge medicine** comparison, with focus on which actually scales as an employer offering.
+But they differ in pricing, business model, and fit as an employee benefit. Here's the **DPC vs concierge medicine** comparison, with focus on which actually scales as an employer offering.
 
 ## What is direct primary care (DPC)?
 
@@ -71,7 +71,7 @@ Concierge medicine is also a membership-based primary care model, but with diffe
 - **Membership typically includes** extended-time visits, executive physicals, 24/7 physician access, comprehensive testing, and various premium services
 - **Members still need separate health insurance** for specialty care and major medical events
 
-Concierge medicine evolved as a response to the same insurance-based primary care frustrations that drove DPC, but with a different market positioning. Concierge practices typically maintain smaller patient panels (sometimes 200-400 patients per physician) and offer more premium services, sustained by higher membership pricing.
+Concierge medicine evolved as a response to the same insurance-based primary care frustrations that drove DPC, but with a different market positioning. Concierge practices maintain smaller patient panels (sometimes 200-400 patients per physician) and offer more premium services, sustained by higher membership pricing.
 
 The terminology is loose. Some "concierge" practices look more like premium DPC; some "DPC" practices look more like accessible concierge. The labels matter less than the actual price point, services included, and insurance interaction.
 
@@ -103,9 +103,9 @@ The key constraint is total cost. Consider a 50-employee company:
 - Annual membership fee: substantially higher than DPC, often by an order of magnitude
 - Annual per-employee and total commitment scale similarly but at the higher per-member rate
 
-The cost difference is order-of-magnitude. For an employer-paid benefit covering all employees, DPC's price point makes the math work. Concierge medicine's pricing typically requires individual patients to pay (or limits the benefit to a small executive group).
+The cost difference is order-of-magnitude. For an employer-paid benefit covering all employees, DPC's price point makes the math work. Concierge medicine's pricing requires individual patients to pay (or limits the benefit to a small executive group).
 
-There are exceptions. Some employers offer concierge medicine as an executive perk for senior leadership, where the premium pricing is justified by the small group size and the value of executive health. But for broad employee benefits, DPC is the structurally accessible option.
+Some employers offer concierge medicine as an executive perk for senior leadership, where the premium pricing is justified by the small group size and the value of executive health. But for broad employee benefits, DPC is the structurally accessible option.
 
 ## Where the line blurs
 
@@ -145,9 +145,9 @@ For employers considering concierge medicine specifically for senior executives,
 - Small group (executive team) keeps total cost manageable
 - Executive health outcomes affect business risk
 - Premium services (executive physicals, comprehensive testing, 24/7 access) align with the role
-- Tax treatment varies — some executive concierge benefits are taxable to the executive
+- Tax treatment varies. Some executive concierge benefits are taxable to the executive
 
-This is a niche use case. Most employers offering broad benefits don't extend it; those that do typically use it in addition to (not instead of) a traditional health plan.
+This is a niche use case. Most employers offering broad benefits don't extend it. Those that do use it in addition to (not instead of) a traditional health plan.
 
 ## Concierge medicine for individual patients
 
@@ -172,7 +172,7 @@ A quick framework:
 
 For most employers, the realistic conversation is: should we offer DPC, what's the geographic availability, what plan design pairs with it, and how do we communicate it to employees? Concierge medicine rarely enters the conversation outside of executive benefits.
 
-## The bottom line
+## What employers should know
 
 **DPC vs concierge medicine** is sometimes presented as a comparison of equals, but for employer benefits the practical answer is almost always DPC. The price point and structure scale; concierge medicine's pricing typically restricts it to individual patients or a small executive group.
 

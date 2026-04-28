@@ -48,19 +48,17 @@ relatedArticles:
 
 Walk into most broker meetings and you'll hear about two options: the fully-insured plan you already have, and maybe — if you're a big enough company — a fully self-funded plan. What you rarely hear about is the option sitting in between: the **level-funded health plan**.
 
-That omission isn't accidental. Level-funded plans typically generate lower commissions for brokers, and they require a bit more explanation than the off-the-shelf fully-insured product. But for thousands of small and mid-sized employers, they're the structure that actually fits — all the upside of self-funding with almost none of the cash-flow variability.
-
-This article walks through exactly how level-funded plans work, what the trade-offs are, and how to tell whether one would save your business money.
+Level-funded plans generate lower commissions for brokers, and they require a bit more explanation than the off-the-shelf fully-insured product. But for thousands of small and mid-sized employers, they're the structure that actually fits: all the upside of self-funding with almost none of the cash-flow variability.
 
 ## What is a level-funded health plan?
 
-A level-funded health plan is a self-funded health insurance arrangement that's been packaged into a fixed monthly payment. Every month, the employer pays the same predictable amount — the way you would under a fully-insured plan — but under the hood, the money is split three ways:
+A level-funded health plan is a self-funded health insurance arrangement packaged into a fixed monthly payment. Every month, the employer pays the same predictable amount (the way you would under a fully-insured plan), but under the hood, the money is split three ways:
 
 1. **Expected claims fund.** A portion goes into an account dedicated to paying your team's actual medical claims.
 2. **Administrative fees.** A fixed percentage covers the third-party administrator or carrier that operates the plan.
 3. **Stop-loss premium.** A portion pays for the [stop-loss insurance](/learn/stop-loss/what-is-stop-loss-insurance) that caps your exposure to catastrophic claims.
 
-At the end of the plan year, the claims fund is reconciled. If your team's claims came in below the expected amount, many carriers refund the surplus back to the employer (rules vary by carrier and state, but refund structures are common). If claims came in higher than expected, stop-loss covers the excess — you're not on the hook beyond your monthly payments.
+At the end of the plan year, the claims fund is reconciled. If your team's claims came in below the expected amount, many carriers refund the surplus back to the employer (rules vary by carrier and state, but refund structures are common). If claims came in higher than expected, stop-loss covers the excess. You're not on the hook beyond your monthly payments.
 
 The whole point of the structure is to give you the predictability of fully-insured cash flow and the transparency and upside of self-funding, at the same time.
 
@@ -77,26 +75,26 @@ The day-to-day experience is almost identical. Your employees use the same provi
 
 **What changes:**
 
-- You see your claims data (which is yours legally, but fully-insured carriers typically don't share it)
+- You see your claims data (which is yours legally, but fully-insured carriers rarely share it)
 - You can adjust plan design with more flexibility at renewal
 - You keep any savings from low-claims years
 - You don't pay state premium tax on the claims portion (varies by state)
 
-For healthy groups, level-funded quotes generally come in below comparable fully-insured quotes in the first year, with any surplus refund providing additional upside if claims come in low.
+For healthy groups, level-funded quotes come in below comparable fully-insured quotes in the first year, with any surplus refund providing additional upside if claims come in low.
 
 ## Level-funded vs. self-funded: what actually changes
 
 If level-funded is technically a form of self-funding, what's the real difference?
 
-**Cash flow.** A fully self-funded plan pays claims directly as they come in. That means your monthly spend varies — some months are quiet, some are expensive. Level-funded smooths that into a predictable bill.
+**Cash flow.** A fully self-funded plan pays claims directly as they come in. That means your monthly spend varies: some months are quiet, some are expensive. Level-funded smooths that into a predictable bill.
 
 **Administration.** Level-funded is essentially a packaged product. The carrier handles the bundling, the stop-loss negotiation, and the surplus calculation. Fully self-funded typically involves a third-party administrator and more active management from the employer or broker.
 
-**Customization.** Fully self-funded plans can be designed with more granular control over benefits, networks, and claim-handling rules. Level-funded plans are more standardized — you pick from the carrier's menu of options.
+**Customization.** Fully self-funded plans can be designed with more granular control over benefits, networks, and claim-handling rules. Level-funded plans are more standardized. You pick from the carrier's menu of options.
 
 **Stop-loss control.** In a fully self-funded plan, you shop stop-loss separately and can negotiate attachment points and terms. In level-funded, stop-loss is bundled with the plan.
 
-For employers with 10–50 employees, level-funded is almost always the better starting point. For employers with 100+ employees and strong claims experience, a fully self-funded arrangement may deliver more savings. The size cutoff isn't rigid — it's a function of your claims profile, risk tolerance, and finance team's appetite for variability.
+For employers with 10-50 employees, level-funded is almost always the better starting point. For employers with 100+ employees and strong claims experience, a fully self-funded arrangement may deliver more savings. The size cutoff isn't rigid. It's a function of your claims profile, risk tolerance, and finance team's appetite for variability.
 
 > The question to ask isn't "level-funded or self-funded." It's "am I still on fully-insured, and why?" Because both alternatives give you what fully-insured structurally can't: visibility.
 
@@ -107,7 +105,7 @@ For employers with 10–50 employees, level-funded is almost always the better s
 - **Fixed monthly cost.** Same budgeting predictability as fully-insured.
 - **Claims data access.** You can finally see what's driving your spend.
 - **Potential surplus refund.** Good years put money back in your pocket.
-- **Often meaningfully cheaper** than a fully-insured quote for a healthy group.
+- **Often cheaper** than a fully-insured quote for a healthy group.
 - **ACA-compliant** by default; employees see no difference.
 - **No state premium tax** on the self-funded portion (state-dependent).
 - **Accessible at smaller group sizes** (10+ employees in most cases).
@@ -122,23 +120,11 @@ For employers with 10–50 employees, level-funded is almost always the better s
 
 ## When a level-funded plan is the right fit
 
-Level-funded tends to be the clear winner when:
+Level-funded is the clear winner for groups of 10-200 employees with healthy or favorable demographics, where the finance team wants fixed monthly payments and leadership wants actual visibility into costs. It's an especially strong move for employers sitting on fully-insured plans facing steep renewal increases, or those planning to move to fully self-funded in a year or two once they have their own data.
 
-- Your group has 10–200 employees
-- Your team is generally healthy or has favorable demographics
-- You want transparency into your costs
-- Your finance team wants fixed monthly payments, not variability
-- You're on fully-insured and facing a meaningful renewal increase
-- You want the option to move to fully self-funded in a year or two once you have data
+It's the wrong fit for groups under 10 employees (the stop-loss math gets thin), groups with known chronic high-cost conditions, or companies where leadership has no interest in engaging with claims data. If you can't tolerate the risk of a rough renewal after a bad claims year, fully-insured may be the more comfortable structure.
 
-Level-funded tends to be the wrong fit when:
-
-- You have fewer than 10 employees (stop-loss math gets thin)
-- You have known chronic high-cost conditions in the group
-- Leadership isn't interested in engaging with claims data
-- You can't tolerate the risk of a rough renewal if claims go sideways
-
-For businesses that fit the first list, the opportunity cost of staying on fully-insured is almost always larger than the risk of trying a level-funded plan. One bad year under level-funded is rare and bounded by stop-loss. Ten straight years of carrier markup under fully-insured is the norm.
+For businesses in the first camp, the opportunity cost of staying on fully-insured is almost always larger than the risk of trying a level-funded plan. One bad year under level-funded is rare and bounded by stop-loss. Ten straight years of carrier markup under fully-insured is the norm.
 
 ## How level-funded plans handle stop-loss
 
@@ -147,7 +133,7 @@ Stop-loss is the piece that makes this work at the small-group level. Without it
 A level-funded plan bundles stop-loss into your monthly payment. The carrier sets two limits:
 
 - **Specific stop-loss** kicks in when any one individual's claims exceed a defined threshold for the year
-- **Aggregate stop-loss** kicks in when the whole group's claims exceed a defined ceiling (typically expressed as a percentage above projected claims)
+- **Aggregate stop-loss** kicks in when the whole group's claims exceed a defined ceiling, expressed as a percentage above projected claims
 
 If you're curious about how those thresholds actually affect your exposure, [Aggregate vs. Specific Stop-Loss](/learn/stop-loss/aggregate-vs-specific-stop-loss) walks through how each one works.
 
@@ -163,9 +149,9 @@ When you receive a level-funded quote, don't just compare the monthly premium to
 
 The right broker will walk you through all of this. If they can't, that's useful information about the broker.
 
-## The bottom line
+## Where this leaves you
 
-A level-funded health plan is the structure most small-to-mid-sized employers should be comparing against their fully-insured quote every single year. It gives you the predictability your CFO wants, the data your plan advisor needs to actually help you, and the upside of keeping what you don't spend. The trade-off is that you take on bounded claims risk — capped by stop-loss — and you engage more actively with the plan.
+A level-funded health plan is the structure most small-to-mid-sized employers should be comparing against their fully-insured quote every single year. It gives you the predictability your CFO wants, the data your plan advisor needs to actually help you, and the upside of keeping what you don't spend. The trade-off is bounded claims risk (capped by stop-loss) and more active engagement with the plan.
 
 For a business tired of watching [premiums climb year after year](/learn/business-case/why-rates-keep-going-up) with nothing to show for it, that's a trade-off worth making.
 

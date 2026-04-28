@@ -48,7 +48,7 @@ relatedArticles:
 
 For a small business deciding to offer pre-tax healthcare benefits without sponsoring a traditional group plan, the IRS gives two distinct options: the **QSEHRA** (Qualified Small Employer HRA, introduced in 2016) and the **ICHRA** (Individual Coverage HRA, introduced in 2020). Both let an employer fund individual market health coverage with pre-tax dollars. They differ in important ways that affect which fits your business.
 
-This article walks through the **ICHRA vs QSEHRA** comparison: who can use each, how the rules differ, and how to decide.
+Here's the **ICHRA vs QSEHRA** comparison: who can use each, how the rules differ, and how to decide.
 
 ## The fast comparison
 
@@ -117,7 +117,7 @@ This is one of the biggest practical differences.
 
 **ICHRA contributions** have no IRS-set cap. The employer can contribute any amount they choose — modest enough to be a meaningful subsidy, generous enough to fully cover a family's premium, or anything in between.
 
-For employers who want to contribute meaningfully toward family coverage in particular, ICHRA's lack of a cap is a real advantage. QSEHRA's cap may be insufficient to cover full family premiums in many markets.
+For employers who want to contribute toward full family coverage, ICHRA's lack of a cap is a real advantage. QSEHRA's cap may be insufficient to cover full family premiums in many markets.
 
 ## Employee class flexibility
 
@@ -133,19 +133,19 @@ The employer must offer the same terms within a class but can differentiate acro
 
 **QSEHRA generally requires uniform contributions** across all eligible employees, with limited exceptions (such as differentiating based on family status). This simplicity reduces compliance overhead but also reduces the employer's ability to design the benefit around different workforce segments.
 
-For employers with diverse workforces — different employee categories, different geographic regions, different family stages — ICHRA's class flexibility is often the deciding factor.
+For employers with diverse workforces (different employee categories, different geographic regions, different family stages), ICHRA's class flexibility is the deciding factor.
 
 ## ACA tax credit interaction
 
 The interaction with Affordable Care Act premium tax credits is where the two structures diverge in nuanced ways:
 
-**ICHRA participation** generally disqualifies the employee from receiving ACA premium tax credits on the individual market plan covered by the ICHRA. The exception is when the ICHRA is deemed "unaffordable" under IRS rules; the employee can opt out and receive tax credits instead.
+**ICHRA participation** disqualifies the employee from receiving ACA premium tax credits on the individual market plan covered by the ICHRA. The exception is when the ICHRA is deemed "unaffordable" under IRS rules; the employee can opt out and receive tax credits instead.
 
-**QSEHRA participation** allows employees to potentially still receive ACA premium tax credits, but those tax credits are reduced dollar-for-dollar by the QSEHRA reimbursement amount. The mechanics are more accommodating than ICHRA's all-or-nothing approach.
+**QSEHRA participation** allows employees to potentially still receive ACA premium tax credits, but those tax credits are reduced dollar-for-dollar by the QSEHRA reimbursement amount. This is more accommodating than ICHRA's all-or-nothing approach.
 
-For employees in lower-income brackets who would qualify for substantial ACA tax credits, QSEHRA can be the more economically friendly structure. For employees in higher-income brackets who don't qualify for tax credits anyway, ICHRA's higher contribution potential typically wins.
+For employees in lower-income brackets who would qualify for substantial ACA tax credits, QSEHRA can be the more economically friendly structure. For employees in higher-income brackets who don't qualify for tax credits anyway, ICHRA's higher contribution potential wins.
 
-> The ICHRA vs QSEHRA choice often comes down to two factors: how much the employer wants to contribute (above QSEHRA's IRS cap → ICHRA), and whether the employer wants to differentiate by employee class (yes → ICHRA, no → QSEHRA can work).
+> The ICHRA vs QSEHRA choice comes down to two factors: how much the employer wants to contribute (above QSEHRA's IRS cap → ICHRA), and whether the employer wants to differentiate by employee class (yes → ICHRA, no → QSEHRA can work).
 
 ## Compliance considerations
 
@@ -159,12 +159,12 @@ For employees in lower-income brackets who would qualify for substantial ACA tax
 **ICHRA compliance** requires:
 
 - Written plan document
-- Notice to employees with specific content requirements (90 days advance notice typically)
+- Notice to employees with specific content requirements (90 days advance notice required)
 - ACA reporting (Form 1095-B or 1095-C as applicable based on group size and structure)
 - For ALEs, the ICHRA must meet affordability standards or risk employer mandate penalties
 - Coordination with marketplace verification for employee individual market enrollment
 
-ICHRA generally has more compliance touchpoints than QSEHRA, particularly for ALE-status employers. Both structures benefit substantially from third-party administrators experienced with the rules.
+ICHRA has more compliance touchpoints than QSEHRA, particularly for ALE-status employers. Both structures benefit substantially from third-party administrators experienced with the rules.
 
 ## Decision framework
 
@@ -198,7 +198,7 @@ For most small businesses, the choice ends up being:
 - **Small-mid (10-50), wants to contribute generously OR differentiate by class** → ICHRA
 - **50+** → ICHRA only
 
-## The bottom line
+## So which one?
 
 **ICHRA vs QSEHRA** is a choice between flexibility and simplicity. ICHRA scales to any size, allows higher contributions, supports employee classes, and can coexist with a group plan — at the cost of more compliance complexity. QSEHRA is the simpler, more constrained option for small employers with uniform contributions and capped at IRS-defined annual limits.
 

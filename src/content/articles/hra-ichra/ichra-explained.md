@@ -48,9 +48,9 @@ relatedArticles:
   - "plan-structures/three-types-of-employer-health-plans"
 ---
 
-For decades, the only realistic way an employer could offer pre-tax health benefits was to sponsor a group health plan. That changed in 2020 when federal regulation introduced the **Individual Coverage Health Reimbursement Arrangement (ICHRA)** — a structure that lets employers fund employees' individual market coverage with pre-tax dollars instead of running a group plan.
+For decades, the only realistic way an employer could offer pre-tax health benefits was to sponsor a group health plan. That changed in 2020 when federal regulation introduced the **Individual Coverage Health Reimbursement Arrangement (ICHRA)**, a structure that lets employers fund employees' individual market coverage with pre-tax dollars instead of running a group plan.
 
-The ICHRA has quietly become one of the most flexible benefits tools in the small-employer toolkit. For the right business, it delivers tax-advantaged employee health benefits, predictable employer cost, and a level of flexibility that traditional group plans can't match. This article walks through what ICHRAs are, how they work, and when they make sense.
+The ICHRA has quietly become one of the most flexible benefits tools in the small-employer toolkit. For the right business, it delivers tax-advantaged employee health benefits, predictable employer cost, and a level of flexibility that traditional group plans can't match. Here's what ICHRAs are, how they work, and when they make sense.
 
 ## What is an ICHRA?
 
@@ -60,7 +60,7 @@ An **ICHRA — Individual Coverage Health Reimbursement Arrangement** — is an 
 2. Have the employee use that allowance to buy individual market health insurance and pay other qualified medical expenses
 3. Reimburse the employee tax-free for those expenses, up to the allowance amount
 
-The employer's contribution is excluded from the employee's gross income and isn't subject to FICA/Medicare tax — the same favorable tax treatment as employer-paid group plan premiums.[^1]
+The employer's contribution is excluded from the employee's gross income and isn't subject to FICA/Medicare tax, the same favorable tax treatment as employer-paid group plan premiums.[^1]
 
 The structure was created by federal regulation issued by the IRS, DOL, and HHS in June 2019, with the rules taking effect for plan years starting on or after January 1, 2020.
 
@@ -72,11 +72,11 @@ The mechanics, end to end:
 
 The employer (with a benefits advisor or ICHRA admin vendor) defines:
 
-- **Allowance amounts** — how much per employee per month
-- **Employee classes** — whether different classes get different amounts
-- **Eligible expenses** — typically includes individual market premiums and other qualified medical expenses under IRC §213(d)
-- **Plan year** — usually aligned with the calendar year
-- **Rollover rules** — whether unused balances roll over (employer's choice)
+- **Allowance amounts:** how much per employee per month
+- **Employee classes:** whether different classes get different amounts
+- **Eligible expenses:** individual market premiums and other qualified medical expenses under IRC §213(d)
+- **Plan year:** usually aligned with the calendar year
+- **Rollover rules:** whether unused balances roll over (employer's choice)
 
 The plan must be documented in a written plan document that meets IRS and DOL requirements.
 
@@ -98,7 +98,7 @@ Each month (or per pay period, depending on plan design):
 - Employee submits documentation to the ICHRA administrator (or uses a debit card / instant reimbursement system depending on the admin platform)
 - Administrator verifies eligibility and reimburses tax-free up to the available allowance
 
-If the employee's qualifying expenses are less than the allowance, the unused portion typically remains in the ICHRA (and rolls over or is forfeited per the plan design). If expenses exceed the allowance, the employee covers the difference out of pocket.
+If the employee's qualifying expenses are less than the allowance, the unused portion remains in the ICHRA (and rolls over or is forfeited per the plan design). If expenses exceed the allowance, the employee covers the difference out of pocket.
 
 ## Employee classes: the key flexibility lever
 
@@ -113,7 +113,7 @@ One of the most powerful features of an ICHRA is the ability to define employee 
 - Foreign vs. domestic
 - Combinations of the above (e.g., full-time salaried in California)
 
-The employer must offer the same terms to everyone within a defined class — they can't pick and choose individuals. Class-based design lets an employer differentiate generously without violating nondiscrimination rules.
+The employer must offer the same terms to everyone within a defined class; they can't pick and choose individuals. Class-based design lets an employer differentiate generously without violating nondiscrimination rules.
 
 For example: an employer might offer:
 - Full-time employees: a meaningful monthly allowance to support family-affordable individual coverage
@@ -129,7 +129,7 @@ Properly structured ICHRA reimbursements are:[^1]
 - Not subject to FICA, FUTA, or Medicare on either the employer or employee side
 - Deductible to the employer as a business expense
 
-This means an employer dollar of ICHRA contribution is more tax-efficient than an equivalent dollar of salary by the FICA/Medicare savings (7.65% on each side) plus the income-tax savings to the employee.
+An employer dollar of ICHRA contribution is more tax-efficient than an equivalent dollar of salary by the FICA/Medicare savings (7.65% on each side) plus the income-tax savings to the employee.
 
 ## ICHRA vs. group plan: side by side
 
@@ -145,31 +145,31 @@ This means an employer dollar of ICHRA contribution is more tax-efficient than a
 | Plan administration | Carrier handles | Employer + ICHRA admin handle |
 | Employee experience | Uniform for all enrollees | Differentiated by employee choice |
 
-The trade-off: ICHRAs trade some uniformity and simplicity for flexibility, predictability, and broader coverage for distributed workforces.
+ICHRAs trade some uniformity and simplicity for flexibility, predictability, and broader coverage for distributed workforces.
 
 ## When an ICHRA makes sense
 
-ICHRAs typically work best for:
+ICHRAs work best for:
 
-**Very small employers (under 10 employees).** Group plan economics are expensive per head at this size. ICHRAs scale linearly with the number of employees — no minimum participation worries.
+**Very small employers (under 10 employees).** Group plan economics are expensive per head at this size. ICHRAs scale linearly with the number of employees, with no minimum participation worries.
 
 **Distributed workforces.** Employees in multiple states are hard to serve with a regional group plan. With an ICHRA, each employee buys coverage in their own state's market.
 
 **Employers with diverse employee needs.** Different family stages, different geographic preferences, different age profiles. ICHRA classes let the employer differentiate appropriately.
 
-**Employers wanting cost predictability.** The defined monthly allowance is the employer's commitment. There's no "renewal increase" risk — only the employer's own decision to adjust the allowance.
+**Employers wanting cost predictability.** The defined monthly allowance is the employer's commitment. There's no "renewal increase" risk, only the employer's own decision to adjust the allowance.
 
-**Employers replacing an underperforming group plan.** Many employers tired of double-digit renewal increases find ICHRA economics meaningfully more sustainable.
+**Employers replacing an underperforming group plan.** Many employers tired of double-digit renewal increases find ICHRA economics more sustainable.
 
-**Recruiting in markets where employees value flexibility.** Tech, professional services, and creative industries often value the ability to choose their own coverage.
+**Recruiting in markets where employees value flexibility.** Tech, professional services, and creative industries value the ability to choose their own coverage.
 
 ## When an ICHRA doesn't make sense
 
 **Highly homogenous workforces concentrated in one geography** where a group plan offers competitive economics and uniform experience.
 
-**Large employers (200+) with strong group plan negotiating leverage** — group plan scale economics often win.
+**Large employers (200+) with strong group plan negotiating leverage.** Group plan scale economics win.
 
-**Employers whose employees mostly qualify for ACA premium tax credits** without ICHRA — the math gets nuanced, since ICHRA participation typically removes tax credit eligibility for that coverage.
+**Employers whose employees mostly qualify for ACA premium tax credits** without ICHRA — the math gets nuanced, since ICHRA participation removes tax credit eligibility for that coverage.
 
 **Workforces with strong attachment to specific group plan benefits** the ICHRA can't replicate (specific networks, specific carrier relationships).
 
@@ -192,7 +192,7 @@ The ICHRA's interaction with ACA premium tax credits is the trickiest part of th
 
 If an employee accepts ICHRA coverage, they cannot also receive ACA premium tax credits for that individual market plan. If the ICHRA is "affordable" under IRS rules, the employee's only path to coverage through this employer is the ICHRA.
 
-If the ICHRA is "unaffordable" — the employee's required share of self-only coverage exceeds an IRS-defined affordability threshold — the employee can opt out and instead receive ACA tax credits on their own individual coverage.
+If the ICHRA is "unaffordable" (the employee's required share of self-only coverage exceeds an IRS-defined affordability threshold), the employee can opt out and instead receive ACA tax credits on their own individual coverage.
 
 For most employees, the math favors the ICHRA over tax credits because:
 - ICHRA dollars are pre-tax to both employer and employee (FICA/Medicare savings)
@@ -205,7 +205,7 @@ But the math doesn't always work this way. For lower-income employees in expensi
 
 ## Implementation
 
-To set up an ICHRA, an employer typically:
+To set up an ICHRA, an employer:
 
 1. Hires a benefits advisor or ICHRA admin vendor experienced with the structure
 2. Defines plan parameters (classes, allowance amounts, eligible expenses, plan year)
@@ -216,9 +216,9 @@ To set up an ICHRA, an employer typically:
 
 The complexity is real but well-understood. Vendors like Take Command, Gusto, ADP, and others all offer ICHRA admin platforms that handle most of the operational lift.
 
-## The bottom line
+## Where this leaves you
 
-An **ICHRA (Individual Coverage Health Reimbursement Arrangement)** is one of the most significant additions to the small-employer benefits toolkit in years. For employers whose group plan fits awkwardly — too expensive at small scale, too rigid for a distributed team, too uniform for diverse employee needs — the ICHRA offers a flexible alternative with strong tax advantages and predictable employer cost.
+An **ICHRA (Individual Coverage Health Reimbursement Arrangement)** is one of the most significant additions to the small-employer benefits toolkit in years. For employers whose group plan fits awkwardly (too expensive at small scale, too rigid for a distributed team, too uniform for diverse employee needs), the ICHRA offers a flexible alternative with strong tax advantages and predictable employer cost.
 
 It's not the right answer for every employer. But it's the right answer often enough now that no business should choose a group plan without at least running the ICHRA comparison alongside it.
 

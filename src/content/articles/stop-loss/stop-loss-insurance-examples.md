@@ -46,7 +46,7 @@ relatedArticles:
   - "business-case/claims-data"
 ---
 
-Most stop-loss explanations stop at the concept. "Specific stop-loss protects against individual claims exceeding a threshold. Aggregate stop-loss protects against total group claims exceeding projections." That's technically accurate and practically useless — because what business owners actually want to see is how the numbers play out when a real claim comes in.
+Most stop-loss explanations stop at the concept. "Specific stop-loss protects against individual claims exceeding a threshold. Aggregate stop-loss protects against total group claims exceeding projections." That's technically accurate and practically useless, because what business owners actually want to see is how the numbers play out when a real claim comes in.
 
 This article runs through three detailed scenarios, with specific dollar amounts, to illustrate how stop-loss insurance behaves when claims hit a plan.[^1] If you haven't yet, [What Is Stop-Loss Insurance](/learn/stop-loss/what-is-stop-loss-insurance) is the plain-English overview, and [Aggregate vs. Specific Stop-Loss](/learn/stop-loss/aggregate-vs-specific-stop-loss) is the mechanics deep-dive. This one is the show-me-the-numbers version.
 
@@ -71,7 +71,7 @@ This is the scenario most employers picture when they worry about self-funding. 
 
 **What happens:** A 42-year-old employee is diagnosed with pancreatic cancer in February. Treatment includes surgery, chemotherapy, radiation, and inpatient care over the balance of the plan year. Her total plan-paid claims for the year come to **$425,000**.
 
-The rest of the group has a relatively normal year — 49 other employees with claims totaling $400,000 (slightly below the expected $490,000 for that subset).
+The rest of the group has a relatively normal year. The other 49 employees have claims totaling $400,000 (slightly below the expected $490,000 for that subset).
 
 **Total claims for the year: $825,000**
 **Expected claims: $500,000**
@@ -100,19 +100,19 @@ Now the stop-loss math:
 | Plus: admin + stop-loss premium | $120,000 |
 | **Total employer cost** | **$595,000** |
 
-Compare this to a baseline year (roughly $620,000). The employer's total cost is actually *lower* in this catastrophic year than in a baseline year — because the individual's excess claims were absorbed by stop-loss, and the rest of the group's experience was slightly better than projected.
+Compare this to a baseline year (roughly $620,000). The employer's total cost is actually *lower* in this catastrophic year than in a baseline year, because the individual's excess claims were absorbed by stop-loss and the rest of the group's experience was slightly better than projected.
 
 **Key takeaway:** without stop-loss, this scenario would have cost the employer $945,000 ($825,000 in claims + $120,000 admin, if they'd bought no coverage). With stop-loss, the worst-case outcome is bounded.
 
 ## Scenario 2: A bad aggregate year (no single catastrophe)
 
-This scenario is less dramatic but actually more common — and it's the one specific stop-loss alone wouldn't catch.
+This scenario is less dramatic but actually more common, and it's the one specific stop-loss alone wouldn't catch.
 
 **What happens:** No single employee has a huge claim. But across the group, many employees have moderate-to-large claims:
 
-- 3 employees with claims of $60,000–$70,000 (just below specific attachment) — total $200,000
-- 8 employees with claims of $20,000–$40,000 — total $250,000
-- 39 employees with more typical claims — total $350,000
+- 3 employees with claims of $60,000–$70,000 (just below specific attachment), total $200,000
+- 8 employees with claims of $20,000–$40,000, total $250,000
+- 39 employees with more typical claims, total $350,000
 
 **Total claims for the year: $800,000**
 **Expected claims: $500,000**
@@ -137,7 +137,7 @@ This scenario is less dramatic but actually more common — and it's the one spe
 | Plus: admin + stop-loss premium | $120,000 |
 | **Total employer cost** | **$745,000** |
 
-The employer paid meaningfully more than a baseline year (around $620,000), but the total is capped at the aggregate attachment point plus operating costs. Without aggregate stop-loss, the employer would have been out $920,000 — $175,000 more.
+The employer paid $125,000 more than a baseline year (around $620,000), but the total is capped at the aggregate attachment point plus operating costs. Without aggregate stop-loss, the employer would have been out $920,000 — $175,000 more.
 
 **Key takeaway:** this is the scenario that specific-only coverage would miss. Small and mid-sized employers who drop aggregate stop-loss to save premium are exposing themselves precisely to this failure mode.
 
@@ -165,7 +165,7 @@ This is what most plan years look like for a healthy group. And it's the scenari
 | Admin + stop-loss premium | $120,000 |
 | **Total employer cost** | **$540,000** |
 
-This is a $80,000 savings versus a baseline year — and in most level-funded plans, some or all of that surplus would be **refunded to the employer** at year-end reconciliation.
+This is a $80,000 savings versus a baseline year, and in most level-funded plans, some or all of that surplus would be **refunded to the employer** at year-end reconciliation.
 
 **Key takeaway:** in a healthy year, stop-loss doesn't pay out, and that's exactly what's supposed to happen. The employer paid for protection they didn't need, which is the same logic as every other insurance policy. The surplus from favorable experience is the upside of self-funding.
 
@@ -203,17 +203,17 @@ Mechanically, here's how stop-loss payouts happen:
 2. If claims exceeded the threshold, a reconciliation report is submitted to the stop-loss carrier.
 3. The carrier reviews and issues reimbursement, typically within 30–60 days of year-end close.
 
-In a well-run plan, the employer doesn't touch the paperwork — the TPA handles the filings as part of standard administrative services. What the employer does see is the net reimbursement flow back into the plan account and a year-end summary of how stop-loss performed.
+In a well-run plan, the employer doesn't touch the paperwork. The TPA handles the filings as part of standard administrative services. What the employer does see is the net reimbursement flow back into the plan account and a year-end summary of how stop-loss performed.
 
 ## What the examples don't show
 
 Two things worth flagging that the scenarios above simplify:
 
-**Lasering.** None of the scenarios included a lasered individual. In a real plan with a lasered employee — say, one person carved out at $200,000 — the specific reimbursement math would change. For that individual, the employer absorbs $200,000 before stop-loss kicks in, which can meaningfully shift the net cost in a year when that person has a claim.
+**Lasering.** None of the scenarios included a lasered individual. In a real plan with a lasered employee (say, one person carved out at $200,000) the specific reimbursement math would change. For that individual, the employer absorbs $200,000 before stop-loss kicks in, which can shift the net cost substantially in a year when that person has a claim.
 
-**Run-in and run-out.** The scenarios assume all claims are cleanly within the plan year. In practice, there's a tail — claims incurred in December but paid in February can land in a different policy year depending on whether your contract is paid or incurred. Good plan design handles these transitions; poor plan design can create gaps in coverage.
+**Run-in and run-out.** The scenarios assume all claims are cleanly within the plan year. In practice, there's a tail. Claims incurred in December but paid in February can land in a different policy year depending on whether your contract is paid or incurred. Good plan design handles these transitions; poor plan design can create gaps in coverage.
 
-## The bottom line
+## What the numbers show
 
 Stop-loss insurance is most easily understood when you see the numbers. In a catastrophic individual year, specific stop-loss reimburses hundreds of thousands of dollars. In a cumulatively bad year, aggregate steps in where specific can't. In a healthy year, neither pays out — and that's exactly the outcome you want.
 

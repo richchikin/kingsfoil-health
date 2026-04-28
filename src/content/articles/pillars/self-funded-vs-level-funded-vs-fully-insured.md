@@ -49,9 +49,9 @@ relatedArticles:
   - "pillars/employers-complete-guide-health-insurance"
 ---
 
-The single biggest decision most employers make about health insurance isn't which carrier to use, or whether to offer HDHP or PPO, or how much to fund the HSA. It's which **funding structure** to adopt. That decision — fully-insured, level-funded, or fully self-funded — determines most of the economics, all of the claims data visibility, and a large share of the plan design flexibility you'll have going forward.
+The single biggest decision most employers make about health insurance isn't which carrier to use, or whether to offer HDHP or PPO, or how much to fund the HSA. It's which **funding structure** to adopt. That decision (fully-insured, level-funded, or fully self-funded) determines most of the economics, all of the claims data visibility, and a large share of the plan design flexibility you'll have going forward.
 
-Most employers default into fully-insured without ever making an active choice between the three structures, because fully-insured is what their broker presents and what they've always had. This pillar article is the definitive side-by-side comparison, with enough depth to actually make an informed decision.
+Most employers default into fully-insured without ever making an active choice between the three structures, because fully-insured is what their broker presents and what they've always had. This is the definitive side-by-side comparison, with enough depth to actually make an informed decision.
 
 If you want the quicker versions:
 - [Self-Funded vs. Fully-Insured](/learn/plan-structures/self-funded-vs-fully-insured) — the two-way pillar comparison
@@ -64,7 +64,7 @@ This article goes deeper than any of those, with direct three-way comparisons on
 
 ### Fully-insured
 
-**How it works:** Employer pays a fixed monthly premium to an insurance carrier. The carrier takes on all claims risk — if claims are high, the carrier absorbs the loss; if claims are low, the carrier keeps the savings. Premium is recalculated annually based on the broader risk pool's experience.
+**How it works:** Employer pays a fixed monthly premium to an insurance carrier. The carrier takes on all claims risk. If claims are high, the carrier absorbs the loss; if claims are low, the carrier keeps the savings. Premium is recalculated annually based on the broader risk pool's experience.
 
 **Who the risk sits with:** Carrier (employer's cost is fixed).
 **Who gets the surplus:** Carrier.
@@ -73,12 +73,12 @@ This article goes deeper than any of those, with direct three-way comparisons on
 
 ### Level-funded
 
-**How it works:** Employer pays a fixed monthly amount covering three components: expected claims, administrative fees, and stop-loss premium. The carrier manages the plan and processes claims. At year-end, if actual claims came in below expected, the employer typically receives a surplus refund. Stop-loss covers catastrophic claims.
+**How it works:** Employer pays a fixed monthly amount covering three components: expected claims, administrative fees, and stop-loss premium. The carrier manages the plan and processes claims. At year-end, if actual claims came in below expected, the employer receives a surplus refund. Stop-loss covers catastrophic claims.
 
 **Who the risk sits with:** Employer (capped by stop-loss).
 **Who gets the surplus:** Employer (with potential carrier holdback).
 **Claims data visibility:** Yes, typically monthly reporting.
-**Plan design flexibility:** Moderate — more options than fully-insured, fewer than self-funded.
+**Plan design flexibility:** Moderate, more options than fully-insured, fewer than self-funded.
 
 ### Fully self-funded
 
@@ -87,7 +87,7 @@ This article goes deeper than any of those, with direct three-way comparisons on
 **Who the risk sits with:** Employer (capped by stop-loss).
 **Who gets the surplus:** Employer (retained as claims fund balance or returned to general operations).
 **Claims data visibility:** Full, with granular detail.
-**Plan design flexibility:** High — custom plan design with carrier network access leased from a major carrier.
+**Plan design flexibility:** High. Custom plan design with carrier network access leased from a major carrier.
 
 ## The structure comparison table
 
@@ -108,7 +108,7 @@ This article goes deeper than any of those, with direct three-way comparisons on
 
 ## The economics: an illustrative worked example
 
-To see how the math plays out across the three structures, consider an illustrative 50-employee Utah company. The numbers below are constructed examples — actual carrier quotes vary widely based on group profile, market, and design choices.[^1]
+To see how the math plays out across the three structures, consider an illustrative 50-employee Utah company. The numbers below are constructed examples; actual carrier quotes vary widely based on group profile, market, and design choices.[^1]
 
 Illustrative assumptions:
 - Average employee age in the late 30s
@@ -131,7 +131,7 @@ Good year vs. bad year? Employer pays the same $540,000 either way. Carrier keep
 - Net employer cost: ~$495,000
 - **Expected total annual employer cost: ~$495,000**
 
-Worst-case (aggregate stop-loss triggered at 125%): employer's cost capped at approximately $540,000 — roughly equivalent to the fully-insured cost but with the upside of lower cost in normal or favorable years.
+Worst-case (aggregate stop-loss triggered at 125%): employer's cost capped at approximately $540,000, roughly equivalent to the fully-insured cost but with the upside of lower cost in normal or favorable years.
 
 ### Fully self-funded quote
 
@@ -154,14 +154,14 @@ If claims are 25% higher ($625,000): aggregate stop-loss triggers, capping emplo
 | Level-funded | $495,000 | $470,000 (with refund) | $540,000 (aggregate cap) |
 | Self-funded | $512,000 | $470,000 | $577,000 (aggregate cap) |
 
-Over multi-year windows, level-funded almost always beats fully-insured, and self-funded typically beats both for groups 50+. The self-funded worst-case is worse than fully-insured but happens less often than fully-insured saves you money.
+Over multi-year windows, level-funded almost always beats fully-insured, and self-funded beats both for groups 50+. The self-funded worst-case is worse than fully-insured but happens less often than fully-insured saves you money.
 
 ## When each structure is the right choice
 
 ### Fully-insured makes sense when:
 
 - Group size is under 10 employees (alternatives harder to place)
-- Group has known chronic high-cost conditions that would drive tough level-funded underwriting
+- Group has chronic high-cost conditions that would drive tough level-funded underwriting
 - Employer values pure cash-flow predictability above all else
 - Employer doesn't want to engage with claims data or plan management
 - Group is volatile (rapid growth, high turnover) making multi-year commitment uncertain
@@ -169,7 +169,7 @@ Over multi-year windows, level-funded almost always beats fully-insured, and sel
 ### Level-funded makes sense when:
 
 - Group size is 10–200 employees
-- Group is generally healthy or has reasonable demographics
+- Group is healthy or has reasonable demographics
 - Employer wants claims data access but also wants fixed monthly payments
 - Employer is willing to engage actively with plan management
 - Employer is comfortable with renewal re-underwriting based on own experience
@@ -191,7 +191,7 @@ A common progression for growing employers:
 3. **Evaluate fully self-funded** at 75–100 employees once level-funded data shows stable, favorable claims
 4. **Remain on self-funded long-term** as the best economic fit for mid-sized employers
 
-At each step, the structure provides more control, more data visibility, and typically more savings. The trade-off is more management engagement.
+At each step, the structure provides more control, more data visibility, and more savings. The trade-off is more management engagement.
 
 ## Stop-loss: the structure that makes alternatives work
 
@@ -208,37 +208,37 @@ Without stop-loss, alternatives to fully-insured would be irresponsibly risky fo
 
 ## Employee experience under each structure
 
-An often-overlooked dimension: what do employees experience differently?
+An overlooked dimension: what do employees experience differently?
 
 **Fully-insured:** Standard carrier-issued ID card, carrier customer service, standard plan design from the carrier's menu.
 
 **Level-funded:** Same network, same provider access, same claims process. Many level-funded plans use "carrier TPA arm" branding so the employee experience is nearly identical to fully-insured. Often includes concierge support as a value-add.
 
-**Fully self-funded:** Network leased from a major carrier, so provider access is typically identical to fully-insured coverage under the same carrier. Claims process runs through a TPA. Often paired with concierge support. Employee experience is indistinguishable from fully-insured in most cases.
+**Fully self-funded:** Network leased from a major carrier, so provider access is identical to fully-insured coverage under the same carrier. Claims process runs through a TPA. Often paired with concierge support. Employee experience is indistinguishable from fully-insured in most cases.
 
-See [Is Self-Funded Good for Employees?](/learn/plan-structures/is-self-funded-health-insurance-good-for-employees) for the detailed breakdown — the short answer is that well-run alternatives are usually as good or better for employees than fully-insured.
+See [Is Self-Funded Good for Employees?](/learn/plan-structures/is-self-funded-health-insurance-good-for-employees) for the detailed breakdown. Well-run alternatives are usually as good or better for employees than fully-insured.
 
 ## Common misconceptions
 
 **"Self-funded is only for big companies."** False. Level-funded is widely available at 10+ employees, and fully self-funded becomes viable in the 25–50 employee range.
 
-**"Level-funded is risky because it's self-funded."** Misleading. Level-funded bundles stop-loss into the monthly payment and caps worst-case at the aggregate stop-loss threshold. The risk is bounded; it's not unlimited exposure.
+**"Level-funded is risky because it's self-funded."** Misleading. Level-funded bundles stop-loss into the monthly payment and caps worst-case at the aggregate stop-loss threshold. The risk is bounded, not unlimited exposure.
 
-**"Fully-insured is safer."** Depends what you mean by safer. Fully-insured has lower cash flow variability but reliably higher long-term cost. Over multiple years, the "safety" often costs more than the variability of alternatives.
+**"Fully-insured is safer."** Depends what you mean by safer. Fully-insured has lower cash flow variability but reliably higher long-term cost. Over multiple years, that "safety" costs more than the variability of alternatives.
 
 **"Once you go level-funded, you can't go back."** False. You commit for the 12-month plan year, but at renewal you can return to fully-insured. In practice, most employers don't go back because the data and economics are better under alternatives.
 
-**"Self-funded requires hiring a bunch of internal benefits staff."** False. Self-funded plans are administered by TPAs; the internal work is similar to fully-insured. What changes is the advisor relationship — you need an advisor who can actually help manage the plan actively, not just sell a renewal.
+**"Self-funded requires hiring a bunch of internal benefits staff."** False. Self-funded plans are administered by TPAs; the internal work is similar to fully-insured. What changes is the advisor relationship. You need an advisor who can help manage the plan actively, not just sell a renewal.
 
 ## The decision framework
 
 Concrete steps for making the structure decision:
 
-**Step 1:** Request quotes on all three structures — fully-insured from 2–3 carriers, level-funded from 1–2 carriers, and self-funded with stop-loss if group size permits.
+**Step 1:** Request quotes on all three structures: fully-insured from 2-3 carriers, level-funded from 1-2 carriers, and self-funded with stop-loss if group size permits.
 
 **Step 2:** Model total annual cost under each structure, including expected claims, administrative fees, stop-loss, and employer contribution levels. Present as a range (favorable / expected / unfavorable).
 
-**Step 3:** Evaluate cash flow tolerance. Can your business handle meaningful month-to-month variability (which fully self-funded plans can produce), or do you need fixed monthly payments (level-funded or fully-insured)?
+**Step 3:** Evaluate cash flow tolerance. Can your business handle month-to-month variability (which fully self-funded plans produce), or do you need fixed monthly payments (level-funded or fully-insured)?
 
 **Step 4:** Evaluate engagement capacity. Do you have the advisor relationship and leadership attention to manage an active plan? If no, fully-insured may be right even if economics favor alternatives.
 
@@ -246,11 +246,11 @@ Concrete steps for making the structure decision:
 
 **Step 6:** Decide and commit for 12 months. Plan to re-evaluate at renewal with actual experience data.
 
-## The bottom line
+## The practical takeaway
 
-**Self-funded vs. level-funded vs. fully-insured** is the single highest-leverage decision in employer health insurance. For most healthy groups of 10 or more employees, fully-insured is structurally more expensive than alternatives by a meaningful margin. The default-to-fully-insured pattern is one of the most common and most costly patterns in small-employer benefits, and it persists because commission-based brokers have weak incentives to challenge it.
+**Self-funded vs. level-funded vs. fully-insured** is the single highest-leverage decision in employer health insurance. For most healthy groups of 10 or more employees, fully-insured is structurally more expensive than alternatives. The default-to-fully-insured pattern is one of the most common and most costly patterns in small-employer benefits, and it persists because commission-based brokers have weak incentives to challenge it.
 
-The right structure depends on your specific group — there's no universal answer. But the universal recommendation is to actually evaluate the three structures rather than defaulting. Most employers who run the real comparison find that their current structure isn't optimal, and the improvement from switching is bigger than they expected.
+The right structure depends on your specific group. There's no universal answer. But the universal recommendation is to evaluate the three structures rather than defaulting. Most employers who run the real comparison find that their current structure isn't optimal, and the improvement from switching is bigger than they expected.
 
 > **Want to run the full three-way comparison for your specific company?** We can quote fully-insured, level-funded, and self-funded side-by-side with full economic modeling and decision support. [Talk to us](/talk-to-us).
 

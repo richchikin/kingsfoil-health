@@ -45,13 +45,11 @@ relatedArticles:
 
 Small businesses can't usually compete with the largest tech companies on total compensation. The base salaries alone are often out of reach, and the long-tail perks would be absurd overhead for a 40-employee company. A lot of small-business leaders conclude they just can't win the benefits arms race.
 
-That conclusion is incomplete. Small businesses can compete on benefits — sometimes better than big companies — if they're willing to be strategic about design, flexible about structure, and transparent about what they offer. The winning recipe isn't matching big-company packages feature-by-feature. It's offering the specific benefits that candidates value, presented in a way that makes the value visible.
-
-This article is the practical playbook for **using benefits as a recruiting tool** when you're not a giant.
+That conclusion is incomplete. Small businesses can compete on benefits, sometimes better than big companies, if they're willing to be strategic about design, flexible about structure, and transparent about what they offer. The winning recipe isn't matching big-company packages feature-by-feature. It's offering the specific benefits that candidates value, presented in a way that makes the value visible.
 
 ## What enterprise benefits packages typically look like
 
-Big-company benefits packages typically excel on:
+Big-company benefits packages excel on:
 
 - Broad plan choice (often multiple plan options)
 - Generous parental leave and family benefits
@@ -59,14 +57,14 @@ Big-company benefits packages typically excel on:
 - Retirement matching
 - Higher-quality mental health access
 
-They typically struggle on:
+They struggle on:
 
 - Personal service (employees navigating large HR ticketing systems)
 - Plan flexibility for individual situations
 - Transparency about why benefits are structured certain ways
 - Real human advocacy when something goes wrong
 
-The perception that "big company benefits are better" is partly accurate and partly a halo effect. In dimensions employees increasingly value — service experience, responsiveness, personal advocacy — small and mid-sized employers who invest can often *outperform* large ones.
+The perception that "big company benefits are better" is partly accurate and partly a halo effect. In dimensions employees increasingly value (service experience, responsiveness, personal advocacy) small and mid-sized employers who invest can *outperform* large ones.
 
 ## Where small businesses can genuinely win
 
@@ -76,11 +74,11 @@ A substantial employer HSA contribution is highly visible, highly tax-efficient,
 
 ### 2. Personal concierge service
 
-Big companies have HR departments; small companies can offer dedicated concierge support for benefits questions. When an employee needs help finding a specialist or resolving a billing dispute, talking to a concierge team who knows the plan is materially better than a big-company ticket system.
+Big companies have HR departments; small companies can offer dedicated concierge support for benefits questions. When an employee needs help finding a specialist or resolving a billing dispute, talking to a concierge team who knows the plan beats a big-company ticket system every time.
 
 ### 3. Plan choice and flexibility
 
-Big companies often standardize across the workforce. Small companies can design plans that fit their specific team — HDHP + PPO options, carrier choices, or ICHRAs for distributed workforces. Flexibility doesn't scale well at enterprise size.
+Big companies standardize across the workforce. Small companies can design plans that fit their specific team: HDHP + PPO options, carrier choices, or ICHRAs for distributed workforces. Flexibility doesn't scale well at enterprise size.
 
 ### 4. Strong mental health coverage
 
@@ -88,7 +86,7 @@ Mental health has become a top-tier priority across employee surveys. Small empl
 
 ### 5. Family-friendly benefits
 
-Parental leave, dependent care assistance, fertility benefits, and adoption support are significant differentiators in hiring family-stage employees. These are often surprisingly affordable for small employers and disproportionately appealing.
+Parental leave, dependent care assistance, fertility benefits, and adoption support are significant differentiators in hiring family-stage employees. These are surprisingly affordable for small employers and disproportionately appealing.
 
 ### 6. Transparency and explanation
 
@@ -112,7 +110,7 @@ The specific version helps candidates evaluate the offer. It also signals the co
 
 ### 2. Total compensation framing in offers
 
-When extending an offer, show total compensation including benefits value, not just salary. Some employees end up valuing a higher-benefits offer over a higher-salary one once they see the math.
+When extending an offer, show total compensation including benefits value, not just salary. Employees regularly choose a higher-benefits offer over a higher-salary one once they see the math.
 
 A sample offer summary might break out: salary, employer HSA contribution, employer health plan share, dental/vision/life/disability, mental health benefit, and concierge support — yielding a total cash + benefits value figure.
 
@@ -120,14 +118,14 @@ Most candidates have never seen their compensation broken down this way. The tot
 
 ### 3. Candidate access to the advisor
 
-For senior hires, consider offering candidates a brief call with your benefits advisor as part of the offer process. Direct access to someone who can answer detailed benefits questions — "how does this deductible work for my family?" — is a genuine differentiator. Big companies rarely offer this.
+For senior hires, consider offering candidates a brief call with your benefits advisor as part of the offer process. Direct access to someone who can answer detailed benefits questions ("how does this deductible work for my family?") is a genuine differentiator. Big companies rarely offer this.
 
 ## Where small businesses should not try to compete
 
-Some big-company benefits dimensions are genuinely hard to match at small scale. Don't try to compete on:
+Some big-company benefits dimensions are hard to match at small scale. Don't try to compete on:
 
 - **Retirement matching above market norms.** Diminishing returns at high match rates.
-- **Exotic perks.** Sabbaticals, on-site services, etc. — most don't meaningfully move recruiting.
+- **Exotic perks.** Sabbaticals, on-site services, etc. Most don't move recruiting.
 - **Depth of plan choice.** Offering many health plan options is enterprise territory.
 - **Stock options.** If you're not venture-backed with real upside, equity is a small lever.
 
@@ -135,11 +133,11 @@ Pick the dimensions where you can genuinely win and invest there. Trying to comp
 
 > The recruiting advantage isn't having a benefits package that does everything. It's having a benefits package that meaningfully out-performs in the specific areas candidates care about most — and communicating it clearly.
 
-## The bottom line
+## What this means for hiring
 
-**Benefits as a recruiting tool** is one of the most overlooked levers in small and mid-sized business hiring. The conventional wisdom that "we can't compete on benefits" is usually overstated — it's a function of commodity thinking about benefits design combined with weak communication.
+**Benefits as a recruiting tool** is one of the most overlooked levers in small and mid-sized business hiring. The conventional wisdom that "we can't compete on benefits" is a function of commodity thinking about benefits design combined with weak communication.
 
-Small businesses that get strategic — funding HSAs meaningfully, adding concierge support, supplementing mental health coverage, offering plan choice, and communicating benefits concretely in recruiting — consistently compete for and win talent against much larger employers.
+Small businesses that get strategic (funding HSAs well, adding concierge support, supplementing mental health coverage, offering plan choice, and communicating benefits concretely in recruiting) consistently compete for and win talent against much larger employers.
 
 The budget is rarely the constraint. Many employers could afford a stronger benefits package if they stopped overspending on fully-insured premium and reallocated those dollars into benefits employees actually value. [How to Stop Overpaying](/learn/premium-costs/how-to-stop-overpaying) walks through the reallocation.
 

@@ -47,9 +47,9 @@ relatedArticles:
 
 Most business owners hire a health insurance broker the same way they hire a contractor for a single project — by referral, at random, or because someone cold-called them. They then keep that broker for 10 or 15 years, renewing the relationship year after year without ever re-evaluating whether it's still the right fit. The result is a benefits program shaped more by accidental brokerage choice than by deliberate strategy.
 
-That's a problem because **the broker decision is actually one of the highest-leverage vendor decisions a business makes**. A strong broker meaningfully reduces total benefits cost, delivers strategic advice on design and structure, and reduces HR workload. A weak broker passes through premium increases, processes paperwork, and collects commission while costs compound year after year. The gap between good and bad broker outcomes can be substantial for a mid-sized employer.
+**The broker decision is one of the highest-leverage vendor decisions a business makes.** A strong broker reduces total benefits cost, delivers strategic advice on design and structure, and reduces HR workload. A weak broker passes through premium increases, processes paperwork, and collects commission while costs compound year after year. The gap between good and bad broker outcomes can be substantial for a mid-sized employer.
 
-This pillar guide is the complete framework for **how to choose a health insurance broker**: how to evaluate them, how to interview them, how to structure the relationship, and how to recognize when to switch.
+Here's the complete framework for **how to choose a health insurance broker**: how to evaluate them, how to interview them, how to structure the relationship, and how to recognize when to switch.
 
 ## Why the broker choice matters so much
 
@@ -62,16 +62,16 @@ The broker sits at the center of your benefits program:
 - They advise on plan design
 - They communicate with your employees during enrollment
 
-The quality of each of these functions depends on the broker. A weak broker at any of these touchpoints costs you money, time, or both. A strong broker at all of them compounds into meaningful competitive advantage.
+The quality of each of these functions depends on the broker. A weak broker at any of these touchpoints costs you money, time, or both. A strong broker at all of them compounds into real competitive advantage.
 
-Over a 5-year relationship with a mid-sized employer, the gap between a strong broker and a weak one is typically:
+Over a 5-year relationship with a mid-sized employer, the gap between a strong broker and a weak one shows up as:
 
 - **Avoidable premium** from missed alternative structures
 - **Accepted renewal increases** that a stronger broker would have negotiated
 - **Reclaimed HR time** on benefits administration
 - **Intangible:** better claims advocacy, stronger compliance posture, more engaged workforce
 
-These are not hypothetical numbers — they're typical outcomes for employers who switch from weak to strong broker relationships.
+These are not hypothetical. They're common outcomes for employers who switch from weak to strong broker relationships.
 
 ## The compensation structure question
 
@@ -107,9 +107,9 @@ A portion of broker compensation is tied to measurable outcomes (cost reduction 
 
 ### Which structure should you pick?
 
-**Under 25 employees:** Commission is often economically comparable to flat-fee because flat fees have minimums. Focus on broker quality and transparency more than structure.
+**Under 25 employees:** Commission is economically comparable to flat-fee because flat fees have minimums. Focus on broker quality and transparency more than structure.
 
-**25–150 employees:** Flat-fee or PEPM typically delivers better outcomes because incentives align. Commission may be acceptable with full disclosure and structured accountability.
+**25–150 employees:** Flat-fee or PEPM delivers better outcomes because incentives align. Commission may be acceptable with full disclosure and structured accountability.
 
 **150+ employees:** Flat-fee or performance-based almost always better. Commission compensation at this scale becomes disproportionately expensive and the alignment problem becomes more significant.
 
@@ -128,14 +128,14 @@ Will they disclose in writing: base commission, override bonuses, carrier incent
 
 ### 2. Structure diversity
 
-Do they quote across fully-insured, level-funded, and self-funded structures at every renewal — or default to fully-insured?
+Do they quote across fully-insured, level-funded, and self-funded structures at every renewal, or default to fully-insured?
 
 - **Strong broker:** Routinely presents multi-structure comparisons. Has specific clients on each structure. Can articulate when each fits.
 - **Weak broker:** Book heavily concentrated in fully-insured. Says alternatives "aren't right for businesses your size" without specifics. Has to be pushed to get alternative quotes.
 
 ### 3. Service cadence
 
-How often do they engage between renewals — and what's the substance of that engagement?
+How often do they engage between renewals, and what's the substance of that engagement?
 
 - **Strong broker:** Quarterly check-ins with real content. Claims data reviewed proactively. Compliance calendar driven actively. Ad-hoc support responsive within hours.
 - **Weak broker:** Minimal contact except at renewal. Claims data "available" but not reviewed. Compliance handled reactively.
@@ -217,7 +217,7 @@ Actually call 2–3 references per finalist candidate. Ask:
 - Would you hire them again?
 - What do you wish you knew before starting the relationship?
 
-References rarely criticize explicitly, but listen for enthusiasm level, specifics vs. generalities, and hesitation on specific questions.
+References rarely criticize explicitly. Listen for enthusiasm level, specifics vs. generalities, and hesitation on specific questions.
 
 ### Step 5: Decision and contract
 
@@ -242,10 +242,10 @@ A written agreement elevates the engagement from a commission relationship to a 
 
 ### For businesses with 10–50 employees
 
-- Flat-fee or PEPM typically starts to win economically
+- Flat-fee or PEPM starts to win economically
 - Find advisors with experience placing level-funded plans
 - Look for year-round engagement rather than renewal-only
-- Utah-based advisors typically strong at this size
+- Utah-based advisors are strong at this size
 
 ### For businesses with 50–200 employees
 
@@ -259,7 +259,7 @@ A written agreement elevates the engagement from a commission relationship to a 
 - Flat-fee with performance components ideal
 - Consider specialized consulting firms alongside or instead of traditional brokerage
 - In-house benefits staff supplemented by external expertise often the right model
-- National brokers or large regional firms typically better fit than small local brokers
+- National brokers or large regional firms are a better fit than small local brokers
 
 ## Common mistakes
 
@@ -271,9 +271,9 @@ A written agreement elevates the engagement from a commission relationship to a 
 
 **4. Keeping a broker for 10 years without re-evaluation.** The market changes, your business changes, and broker service quality varies over time. Re-evaluate every 3 years.
 
-**5. Switching brokers over one bad renewal.** One bad year isn't always the broker's fault (market conditions, group claims experience). Evaluate the overall relationship.
+**5. Switching brokers over one bad renewal.** One bad year isn't always the broker's fault (market conditions, group claims experience matter). Evaluate the overall relationship.
 
-**6. Choosing based on personality alone.** Cultural fit matters, but technical competence matters more. A likable broker who doesn't challenge your carrier isn't actually helping you.
+**6. Choosing based on personality alone.** Cultural fit matters, but technical competence matters more. A likable broker who doesn't challenge your carrier isn't helping you.
 
 ## When to switch brokers
 
@@ -290,7 +290,7 @@ Signals it's time to consider a change:
 
 Two or three of these suggest the relationship isn't serving you. Four or more suggests switching is overdue.
 
-## The bottom line
+## Making the choice
 
 **How to choose a health insurance broker** is the question that determines more about your benefits program than any single other decision. The right broker is worth far more than they cost; the wrong broker costs far more than you see on the invoice.
 

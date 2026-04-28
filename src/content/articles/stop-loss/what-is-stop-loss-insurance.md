@@ -50,7 +50,7 @@ The first objection almost every business owner raises when they hear about self
 
 The answer is **stop-loss insurance**. It's the mechanism that makes self-funded and level-funded plans work for companies that aren't Fortune 500s. It caps your worst-case exposure at a defined threshold, and it's the reason a 40-employee business can confidently run a self-funded plan without lying awake worrying about a single catastrophic medical event.
 
-This article walks through what stop-loss insurance actually is, how it protects your plan, what it costs, and what to look for when you buy it.
+Here's what stop-loss insurance actually is, how it protects your plan, what it costs, and what to look for when you buy it.
 
 ## What is stop-loss insurance?
 
@@ -107,7 +107,7 @@ In every bad-outcome scenario, the employer's financial exposure is defined and 
 
 Stop-loss premiums are priced based on:
 
-- **Group size.** Larger groups typically get better per-employee rates.
+- **Group size.** Larger groups get better per-employee rates.
 - **Workforce demographics.** Age, gender mix, and location affect expected claims.
 - **Claims history.** If you have prior claims data (common for groups moving from fully-insured with 2+ years of data), carriers use it to set rates.
 - **Attachment points.** Lower attachment points are more expensive because they expose the stop-loss carrier to more claims.
@@ -139,7 +139,7 @@ Not all stop-loss policies are created equal. Here are the contract terms that a
 
 The major stop-loss insurance carriers include specialty underwriters like Sun Life, Symetra, Voya, HM Insurance Group, Tokio Marine HCC, QBE, and BCS Insurance, along with the stop-loss arms of major health carriers (Aetna, Cigna, BlueCross, UnitedHealthcare). There are also smaller regional carriers that can be competitive for specific geographies or group types.
 
-Shopping stop-loss is something a good benefits advisor does as a matter of course at each renewal. Premiums can vary meaningfully across carriers for the same group, which makes this an area where "we always use the same carrier" is rarely the right answer. The right carrier for your group this year may not be the same as last year.
+Shopping stop-loss is something a good benefits advisor does as a matter of course at each renewal. Premiums can vary widely across carriers for the same group, which makes this an area where "we always use the same carrier" is rarely the right answer. The right carrier for your group this year may not be the same as last year.
 
 ## Why this matters for small employers
 
@@ -147,7 +147,7 @@ The single most important reframe stop-loss provides is that it turns an unlimit
 
 That reframe is what opens up [level-funded plans](/learn/plan-structures/level-funded-health-plans-explained) and [self-funded structures](/learn/plan-structures/self-funded-vs-fully-insured) to small and mid-sized employers. The math simply doesn't work without it. It does work with it — and for a healthy group, it works better than the fully-insured default.
 
-## The bottom line
+## One thing to remember
 
 **Stop-loss insurance** is the piece of the puzzle that makes alternative plan structures financially safe for employers of every size. It caps your exposure, defines your worst-case, and lets you capture the savings of self-funding without taking on catastrophic risk. For any employer considering a self-funded or level-funded plan, stop-loss isn't optional — it's the foundation of the whole structure.
 

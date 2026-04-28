@@ -81,13 +81,13 @@ Let's look at how each major plan type handles the surplus question.
 
 **Fully funded plans.** The carrier retains all surplus. You have no visibility into claims versus premiums. Your only indication of how things went is the size of your rate increase at renewal. A lower increase might mean claims were favorable, but you'll never know the actual numbers.
 
-**Level-funded plans.** Your fixed monthly payment is divided into claims funding, administrative fees, and stop-loss premiums. If actual claims are lower than the claims funding portion, the surplus is returned to you, often as a lump-sum refund after the plan year closes. You get transparency and participation in the upside.
+**Level-funded plans.** Your fixed monthly payment is divided into claims funding, administrative fees, and stop-loss premiums. If actual claims are lower than the claims funding portion, the surplus is returned to you, usually as a lump-sum refund after the plan year closes. You get transparency and participation in the upside.
 
 > **Key term -- Stop-loss insurance:** A policy that protects self-funded and level-funded employers from catastrophic claims. It caps the employer's exposure at a set threshold, both for individual high-cost claims (specific stop-loss) and for total group claims (aggregate stop-loss).
 
 **Partially self-funded plans.** You fund claims directly, so there's no middleman holding your surplus. When claims are lower than what you budgeted, the money simply stays in your claims fund. You have full visibility and full control. The savings are yours immediately, not as a refund months later.
 
-**ICHRA plans.** The surplus concept doesn't apply in the same way. You set a fixed allowance for each employee, and unused allowance amounts typically stay with the employer. Your cost is exactly what you budgeted. There's no claims risk and no surplus to recover because you're not funding claims directly.
+**ICHRA plans.** The surplus concept doesn't apply in the same way. You set a fixed allowance for each employee, and unused allowance amounts stay with the employer. Your cost is exactly what you budgeted. There's no claims risk and no surplus to recover because you're not funding claims directly.
 
 ## Why this matters more than you think
 

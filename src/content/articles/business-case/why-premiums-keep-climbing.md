@@ -48,7 +48,7 @@ relatedArticles:
   - "business-case/unused-premiums"
 ---
 
-If you run a business with a group health plan, you've seen it: renewal season arrives, and your broker tells you premiums are going up. Again. The increases are often substantial — sometimes well into the double digits. The explanation usually boils down to "claims were higher than expected" or "the market went up."
+If you run a business with a group health plan, you've seen it: renewal season arrives, and your broker tells you premiums are going up. Again. The increases are substantial, sometimes well into the double digits. The explanation usually boils down to "claims were higher than expected" or "the market went up."
 
 But the real story is more structural than that. Understanding why premiums keep climbing is the first step toward doing something about it.
 
@@ -72,7 +72,7 @@ Three structural forces drive premium increases year after year:
 
 ## The information gap
 
-Here's the part that frustrates most business leaders once they learn about it: with a fully funded plan, you typically don't see your claims data. The carrier owns it. You pay premiums, they pay claims, and the only number you see is next year's rate increase.
+Here's the part that frustrates most business leaders once they learn about it: with a fully funded plan, you don't see your claims data. The carrier owns it. You pay premiums, they pay claims, and the only number you see is next year's rate increase.
 
 That means you can't evaluate whether your plan is performing well. You can't identify cost drivers. You can't make data-informed decisions about your benefits strategy. You're making one of your largest budget decisions with almost no visibility.
 

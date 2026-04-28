@@ -46,7 +46,7 @@ relatedArticles:
 
 Most employers have a broker. What fewer have is a **year-round benefits partner**. The distinction sounds like marketing until you look at what actually happens across a plan year — and then it starts to look like the difference between paying for a relationship and paying for a transaction.
 
-This article walks through the concrete difference between the two, how to identify which you have, and what the economics typically look like.
+Here's the concrete difference between the two, how to identify which you have, and what the economics look like.
 
 ## What a transactional broker does
 
@@ -102,7 +102,7 @@ A year-round partner operates continuously:
 - Establishes the reporting cadence for the new plan year
 - Re-starts the continuous cycle
 
-The qualitative difference is continuous engagement. The quantitative difference is measurable in lower total plan cost over multi-year windows, plus meaningful HR workload reduction and employee experience improvement.
+The qualitative difference is continuous engagement. The quantitative difference is measurable in lower total plan cost over multi-year windows, plus real HR workload reduction and employee experience improvement.
 
 ## The tells: which one you have
 
@@ -119,25 +119,25 @@ You can often tell which model your broker operates under from a few specific pa
 | Employee education | Open enrollment materials only | Year-round programming |
 | Service level agreement | None | Defined in writing |
 
-Most employers on transactional broker relationships don't know they have one — they assume the year-round engagement level just doesn't exist in benefits brokerage. It does, but you have to either find a partner who provides it or restructure the relationship with your current broker to require it.
+Most employers on transactional broker relationships don't know they have one. They assume the year-round engagement level just doesn't exist in benefits brokerage. It does, but you have to either find a partner who provides it or restructure the relationship with your current broker to require it.
 
 ## The economics of partner-style engagement
 
-Year-round partners typically charge more in nominal fees than pure commission brokers — often via a defined annual flat fee or a PEPM rate that scales with group size and scope. The total compensation flowing through the relationship may be similar or even lower than commission-based, but it's structured transparently rather than hidden in premium.
+Year-round partners charge more in nominal fees than pure commission brokers, usually via a defined annual flat fee or a PEPM rate that scales with group size and scope. The total compensation flowing through the relationship may be similar or even lower than commission-based, but it's structured transparently rather than hidden in premium.
 
-That sounds like a lot compared to "free" commission arrangements — until you look at total cost:
+That sounds like a lot compared to "free" commission arrangements. Then you look at total cost:
 
 **Illustrative comparison: a hypothetical 50-employee group**[^1]
 
 | Cost category | Transactional broker | Year-round partner |
 |---|---|---|
 | Broker compensation | Hidden in premium | Defined fee, transparent |
-| Renewal-cycle cost behavior | Typically passes through carrier increases | Negotiates and explores alternatives |
+| Renewal-cycle cost behavior | Passes through carrier increases | Negotiates and explores alternatives |
 | Cost optimization activity | Limited | Continuous |
 | HR time supported | Minimal | Significant |
 | **Total cost outcome over multi-year window** | — | **Generally favorable** |
 
-The partner relationship can cost less in direct fees *and* deliver substantial indirect value through better cost management and reduced HR workload. The advisor fees look higher line-item but the total-cost picture often favors the partner model.
+The partner relationship can cost less in direct fees *and* deliver substantial indirect value through better cost management and reduced HR workload. The advisor fees look higher as a line item, but the total-cost picture favors the partner model for most mid-sized groups.
 
 ## Why most brokers don't offer partner engagement
 
@@ -151,7 +151,7 @@ If year-round partner engagement delivers so much more value, why isn't it the d
 
 **4. The scope creates complexity.** Delivering strategic advice across claims, compliance, communication, and cost is genuinely harder than placing a fully-insured plan. Not every broker has the skill set or the appetite.
 
-This doesn't make transactional brokerage illegitimate. Some small employers are genuinely better served by low-touch commission-based broker relationships. The problem is when a mid-sized employer is getting transactional service for what they think is more than transactional cost — and doesn't know to ask for more.
+This doesn't make transactional brokerage illegitimate. Some small employers are genuinely better served by low-touch commission-based broker relationships. The problem is when a mid-sized employer is getting transactional service for what they think is more than transactional cost, and doesn't know to ask for more.
 
 > The right question isn't "is my broker a transactional broker or a partner?" It's "what am I paying and what am I getting?" Line those two up, and the right structure becomes obvious for your specific situation.
 
@@ -167,9 +167,9 @@ If you're interviewing benefits advisors and want to find a real year-round part
 6. **Specific cost-reduction examples.** What are 3 specific things they've done for clients in the last year that reduced cost? Vague answers are a red flag.
 7. **Transparent compensation.** A clear answer on what they earn and how. See [How Health Insurance Broker Commissions Work](/learn/brokers/how-broker-commissions-work) for context.
 
-## The bottom line
+## What matters most
 
-The **difference between a transactional broker and a year-round benefits partner** isn't cosmetic. It's the difference between benefits management as a transaction and benefits management as a continuous discipline. For most mid-sized employers, the partner model delivers enough cost savings, compliance support, and HR workload reduction to justify its fees several times over — while improving the employee experience at the same time.
+The **difference between a transactional broker and a year-round benefits partner** isn't cosmetic. It's the difference between benefits management as a transaction and benefits management as a continuous discipline. For most mid-sized employers, the partner model delivers enough cost savings, compliance support, and HR workload reduction to justify its fees several times over, while improving the employee experience at the same time.
 
 If you're still running on a transactional broker relationship and feel like your benefits are a line item you just accept rather than actively manage, that gap is the opportunity.
 

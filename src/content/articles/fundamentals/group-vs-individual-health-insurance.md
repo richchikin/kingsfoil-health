@@ -45,7 +45,7 @@ relatedArticles:
 
 For decades, the only meaningful question about employee health insurance was how good the group plan should be. Individual coverage was a poor alternative — expensive, with pre-existing condition restrictions, and inferior in almost every dimension. That calculus changed substantially with the ACA in 2014 (eliminating pre-existing condition discrimination, standardizing benefits) and again with the introduction of ICHRAs in 2020 (letting employers reimburse individual coverage pre-tax).
 
-Today, the **group health insurance vs. individual plan** decision is a real trade-off, not a foregone conclusion. For some employers, group coverage remains clearly the better choice. For others — especially distributed workforces and very small companies — individual coverage through an ICHRA structure is more economical and more flexible. This article is the practical comparison.
+Today, the **group health insurance vs. individual plan** decision is a real trade-off, not a foregone conclusion. For some employers, group coverage remains clearly the better choice. For others — especially distributed workforces and very small companies — individual coverage through an ICHRA structure is more economical and more flexible. Here's the practical comparison.
 
 ## What is group health insurance?
 
@@ -90,7 +90,7 @@ Group coverage tends to be the better choice when:
 
 ### 1. Your workforce is concentrated geographically
 
-Group coverage typically has stronger provider networks in specific regions, because carriers design group networks around employer locations. A Utah-concentrated workforce benefits from SelectHealth's Utah network in ways that individual market plans don't match.
+Group coverage has stronger provider networks in specific regions, because carriers design group networks around employer locations. A Utah-concentrated workforce benefits from SelectHealth's Utah network in ways that individual market plans don't match.
 
 ### 2. You want uniformity in the benefits experience
 
@@ -98,7 +98,7 @@ If "our team all has the same plan" is culturally important, group coverage deli
 
 ### 3. You have 15+ employees
 
-Group underwriting economics generally improve with size. For groups of 15+, especially with healthy demographics, group coverage typically beats individual + ICHRA on total cost.
+Group underwriting economics improve with size. For groups of 15+, especially with healthy demographics, group coverage beats individual + ICHRA on total cost.
 
 ### 4. You want tax-efficient, unified administration
 
@@ -110,7 +110,7 @@ ACA premium tax credits phase out as household income rises (see the [HealthCare
 
 ## When individual coverage (with ICHRA) makes more sense
 
-Individual coverage through an ICHRA structure tends to be better when:
+Individual coverage through an ICHRA structure is the better fit when:
 
 ### 1. You have a distributed workforce across states
 
@@ -151,7 +151,7 @@ ICHRAs deserve special attention because they've changed the landscape:
 - ICHRA participation generally disqualifies employees from ACA premium tax credits (math still favors ICHRA for most, but check)
 - Some administrative setup (ICHRA admin vendor typically required)
 
-For employers deciding between "group" and "individual," ICHRA often makes the decision less binary. Many employers end up with an ICHRA that captures benefits of both structures.
+For employers deciding between "group" and "individual," ICHRA often makes the decision less binary. Many employers land on an ICHRA that captures benefits of both structures.
 
 ## Decision framework
 
@@ -178,15 +178,15 @@ Group coverage has a standard, familiar administrative experience. ICHRA require
 
 **"Group coverage is always better."** False. For distributed or very small workforces, individual coverage through ICHRA is often more economical and flexible.
 
-**"Individual plans have worse coverage than group plans."** Largely false post-ACA. Individual plans must meet the same essential health benefits requirements as group plans. Networks vary, but coverage adequacy is comparable.
+**"Individual plans have worse coverage than group plans."** False post-ACA, with rare exceptions. Individual plans must meet the same essential health benefits requirements as group plans. Networks vary, but coverage adequacy is comparable.
 
-**"Individual plans are always more expensive."** Often false. Similar rating factors produce similar per-person premiums. With employer ICHRA contribution, the out-of-pocket cost to employees is often equivalent or lower than group coverage.
+**"Individual plans are always more expensive."** Not so. Similar rating factors produce similar per-person premiums. With employer ICHRA contribution, the out-of-pocket cost to employees is often equivalent or lower than group coverage.
 
 **"You can't offer 'real' benefits with an ICHRA."** False. ICHRAs deliver tax-advantaged employer contributions, comparable plan quality, and often better flexibility. The structure is different, but the value to employees is genuine.
 
-## The bottom line
+## How to decide
 
-**Group health insurance and individual plans** are both legitimate approaches to providing employee health coverage — the right choice depends on your specific workforce and administrative preferences. Group coverage remains the default for most mid-sized employers with concentrated workforces; individual coverage through ICHRA has become the better fit for distributed, very small, or subsidy-eligible workforces.
+**Group health insurance and individual plans** are both legitimate approaches to providing employee health coverage. The right choice depends on your specific workforce and administrative preferences. Group coverage remains the default for most mid-sized employers with concentrated workforces; individual coverage through ICHRA has become the better fit for distributed, very small, or subsidy-eligible workforces.
 
 The key is actually modeling both options rather than defaulting to group coverage because that's what everyone does. For many employers, a side-by-side comparison reveals that the structure they assumed was right was either close to the other option economically or genuinely worse than the alternative.
 

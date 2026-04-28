@@ -45,9 +45,9 @@ relatedArticles:
   - "utah/utah-employer-compliance-guide"
 ---
 
-If you run a small business and you've worried about ACA compliance, the headline news is often more alarming than the reality. The most common question — *does the ACA employer mandate apply to my small business?* — has a clear answer: **for employers with fewer than 50 full-time-equivalent (FTE) employees, no.**
+If you run a small business and you've worried about ACA compliance, the headline news is more alarming than the reality. The most common question — *does the ACA employer mandate apply to my small business?* — has a clear answer: **for employers with fewer than 50 full-time-equivalent (FTE) employees, no.**
 
-This article walks through what that actually means, what does still apply at small employer size, and how to plan if you're approaching 50 FTEs.
+Here's what that actually means, what does still apply at small employer size, and how to plan if you're approaching 50 FTEs.
 
 ## The basic rule
 
@@ -63,13 +63,13 @@ This is the threshold that matters. Below 50 FTEs, the federal employer mandate 
 
 ## How to count FTEs
 
-The FTE calculation is specific and worth understanding even if you're well below 50, because it determines when you become subject to the mandate as you grow.
+The FTE calculation is specific and worth understanding even if you're well below 50. It determines when you become subject to the mandate as you grow.
 
 **Step 1: Count full-time employees.** A full-time employee under ACA rules is anyone who works:
 - 30+ hours per week, OR
 - 130+ hours per month
 
-The hours-per-week measure is averaged over a defined "look-back period" (typically several months) to handle variable schedules.
+The hours-per-week measure is averaged over a defined "look-back period" (several months) to handle variable schedules.
 
 **Step 2: Calculate part-time FTE equivalents.** For each calendar month:
 - Sum the hours worked by all part-time employees
@@ -108,7 +108,7 @@ For an employer with fewer than 50 FTEs, here's the clear breakdown:
 - **HIPAA** if you offer a health plan
 - **COBRA** if you have 20+ employees with a health plan; Utah mini-COBRA if under 20
 
-The implication: small employers who offer health insurance still have meaningful compliance obligations, but the ACA-specific employer mandate is not among them.
+The implication: small employers who offer health insurance still have real compliance obligations, but the ACA-specific employer mandate is not among them.
 
 ## What changes when you hit 50 FTEs
 
@@ -138,7 +138,7 @@ If you're approaching 50 FTEs, plan ahead:
 
 **Ongoing as ALE:** Annual FTE calculation, annual affordability documentation, annual reporting.
 
-The transition from "not an ALE" to "ALE" is one of the higher-stakes compliance milestones in small business growth. Doing it well prevents penalties; doing it poorly can produce IRS issues that take time and money to resolve.
+The transition from "not an ALE" to "ALE" is one of the higher-stakes compliance milestones in small business growth. Doing it well prevents penalties. Doing it poorly can produce IRS issues that take time and money to resolve.
 
 ## The "still in effect" question
 
@@ -173,15 +173,15 @@ For small businesses thinking about whether to offer health insurance:
 
 **"The ACA mandate just applies to all businesses."** False. The employer mandate is specifically tied to ALE status (50+ FTEs).
 
-**"My benefits broker said I have to offer ACA-compliant coverage."** Likely a misunderstanding. Below 50 FTEs, you don't have to offer coverage. If you do offer coverage, it must be ACA-compliant (which most carrier plans automatically are).
+**"My benefits broker said I have to offer ACA-compliant coverage."** Likely a miscommunication. Below 50 FTEs, you don't have to offer coverage. If you do offer coverage, it must be ACA-compliant (which most carrier plans automatically are).
 
-**"I'll get penalized if I let employees go to the marketplace instead of offering coverage."** Below 50 FTEs, no — you have no federal penalty. ALEs (50+ FTEs) face Section 4980H penalties only when employees on the marketplace receive subsidized coverage; even then, the structure is specific and not always applicable.
+**"I'll get penalized if I let employees go to the marketplace instead of offering coverage."** Below 50 FTEs, no. You have no federal penalty. ALEs (50+ FTEs) face Section 4980H penalties only when employees on the marketplace receive subsidized coverage, and even then, the structure is specific and not always applicable.
 
-## The bottom line
+## One thing to remember
 
 **The ACA employer mandate does not apply to businesses with fewer than 50 full-time-equivalent employees.** Small employers under that threshold have no federal requirement to offer health insurance and no federal penalty for choosing not to offer it. The mandate (Section 4980H) is the compliance burden that gets the most attention in headlines, and it doesn't apply at small size.
 
-Other ACA requirements may apply if you do choose to offer health insurance (plan benefit standards, SBC distribution), and other federal compliance areas (ERISA, HIPAA, COBRA) apply independently. But the question many small business owners worry about — *does the federal mandate require me to offer health insurance?* — has a clear "no" for under-50-FTE employers.
+Other ACA requirements may apply if you do choose to offer health insurance (plan benefit standards, SBC distribution), and other federal compliance areas (ERISA, HIPAA, COBRA) apply independently. But the question many small business owners worry about, *does the federal mandate require me to offer health insurance?*, has a clear "no" for under-50-FTE employers.
 
 For employers approaching the 50-FTE threshold, planning ahead matters. The compliance lift at ALE status is real, and crossing the threshold mid-year doesn't usually trigger it immediately, but the planning runway should start before you get there.
 

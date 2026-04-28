@@ -44,9 +44,9 @@ relatedArticles:
   - "business-case/claims-data"
 ---
 
-Renewal season is the single most important window in your benefits year. It's when the broker relationship either demonstrates its value or quietly costs you money. Unfortunately, most employers walk into renewal meetings without a clear sense of what to expect from their broker — and walk out with a signed renewal without ever testing whether they got a good deal.
+Renewal season is the single most important window in your benefits year. It's when the broker relationship either demonstrates its value or quietly costs you money. Unfortunately, most employers walk into renewal meetings without a clear sense of what to expect from their broker, and walk out with a signed renewal without ever testing whether they got a good deal.
 
-This article is a short, practical list: **five questions every employer should ask their health insurance broker before renewal**. Each one is designed to surface specific information that distinguishes a broker who's earning their compensation from one who's coasting on inertia.
+These **five questions** surface specific information that distinguishes a broker who's earning their compensation from one who's coasting on inertia.
 
 ## 1. "What is your exact compensation on my plan?"
 
@@ -54,7 +54,7 @@ The most important question, and the one most brokers hope you don't ask.
 
 You want a specific number, in writing. A vague answer like "around the usual range" or "commissions range from X to Y" is not enough. The kind of answer to look for is one with the actual percentage and dollar amount earned on your specific account in the most recent year, plus any override bonuses or contingent commissions.
 
-If the broker can't or won't give you that level of detail, consider it a meaningful signal about the relationship. A broker who's confident in the value they deliver is comfortable telling you what they earn.
+If the broker can't or won't give you that level of detail, treat it as a red flag. A broker who's confident in the value they deliver is comfortable telling you what they earn.
 
 Why this matters:
 
@@ -66,7 +66,7 @@ For deeper background on how commission structures typically work, see [How Heal
 
 ## 2. "What do level-funded and self-funded alternatives cost for my group?"
 
-The default pattern is for brokers to present a fully-insured renewal quote (sometimes with quotes from two or three fully-insured carriers). Level-funded and self-funded quotes — which consistently produce lower costs for healthy groups — are often absent unless the employer specifically demands them.
+The default pattern is for brokers to present a fully-insured renewal quote (sometimes with quotes from two or three fully-insured carriers). Level-funded and self-funded quotes, which consistently produce lower costs for healthy groups, are absent unless the employer specifically demands them.
 
 Ask for:
 
@@ -80,7 +80,7 @@ For the numbers that should inform this conversation, see [The 3 Types of Employ
 
 ## 3. "Can you share my claims data for the past 12–24 months?"
 
-Your claims data is, in principle, yours. In a fully-insured plan, the carrier holds it, but employers can typically request at least summary-level reporting: monthly claims totals, loss ratio, large-claimant counts, pharmacy spend breakdowns.
+Your claims data is, in principle, yours. In a fully-insured plan, the carrier holds it, but employers can request at least summary-level reporting: monthly claims totals, loss ratio, large-claimant counts, pharmacy spend breakdowns.
 
 Ask for:
 
@@ -89,7 +89,7 @@ Ask for:
 - Top 5 cost categories
 - Pharmacy spend by generic/brand/specialty
 
-A broker who responds with "the carrier doesn't share that with small groups" is accepting a false answer. Many carriers do share summary data upon request. If your carrier genuinely won't share, that's itself a meaningful data point — and a reason to consider a plan structure that provides data access as a standard feature.
+A broker who responds with "the carrier doesn't share that with small groups" is accepting a false answer. Many carriers do share summary data upon request. If your carrier genuinely won't share, that's itself worth knowing, and a reason to consider a plan structure that provides data access as a standard feature.
 
 [Claims Data: What You Should Be Seeing](/learn/business-case/claims-data) walks through what this reporting should look like.
 
@@ -113,7 +113,7 @@ A broker who isn't negotiating isn't earning their fee. A broker who can walk yo
 
 ## 5. "What proactive ideas do you have for reducing my costs this year?"
 
-The default broker engagement is reactive: they wait for renewal, they quote the incumbent plus a few competitors, and they wait for your signature. A broker worth keeping is proactive — bringing unprompted ideas throughout the year.
+The default broker engagement is reactive: they wait for renewal, they quote the incumbent plus a few competitors, and they wait for your signature. A broker worth keeping brings unprompted ideas throughout the year.
 
 Good signals:
 
@@ -146,10 +146,10 @@ A broker who engages substantively with all five questions is probably worth kee
 
 If you want a structured way to compare your options after getting answers, download *The Rate Shock Survival Guide* — it includes renewal scorecards and negotiation templates.
 
-## The bottom line
+## What this means for your next renewal
 
-Most renewal disappointments — big premium increases accepted, alternative structures unexplored, claims data never shared — are the product of a passive broker relationship that never gets challenged. Asking these **five questions before renewal** creates the opportunity for the broker to prove their value, and gives you the information to make an informed decision either way.
+Most renewal disappointments (big premium increases accepted, alternative structures unexplored, claims data never shared) are the product of a passive broker relationship that never gets challenged. Asking these **five questions before renewal** creates the opportunity for the broker to prove their value, and gives you the information to make an informed decision either way.
 
-The questions don't take long to ask. The answers will tell you a lot about whether your broker is an asset you should keep or a cost center you should replace.
+The questions don't take long to ask. The answers will tell you whether your broker is an asset you should keep or a cost center you should replace.
 
 > **Want a checklist of renewal questions plus the rest of the playbook?** Download *The Rate Shock Survival Guide* — it bundles the questions, templates, and evaluation frameworks into a single downloadable resource. [Get your copy here](/learn/resources/rate-shock).

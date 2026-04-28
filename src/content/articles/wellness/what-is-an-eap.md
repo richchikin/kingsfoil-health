@@ -50,22 +50,22 @@ relatedArticles:
 
 If you've been evaluating employee benefits beyond core health insurance, you've almost certainly encountered the term **EAP — Employee Assistance Program**. EAPs are one of the most consistently underutilized but highest-ROI benefits available to employers, particularly for mental health support. They've also become more important as workforce mental health awareness has grown.
 
-This article walks through what an EAP actually is, what it covers, what it costs, and when (and how) to offer one.
+Below is a breakdown of what an EAP actually is, what it covers, what it costs, and when (and how) to offer one.
 
 ## What is an EAP?
 
-An **Employee Assistance Program (EAP)** is a confidential, employer-sponsored benefit that provides employees with access to short-term counseling and resources for personal and work-related challenges. The structure typically includes:
+An **Employee Assistance Program (EAP)** is a confidential, employer-sponsored benefit that provides employees with access to short-term counseling and resources for personal and work-related challenges. The structure includes:
 
 - **24/7 phone access** to counselors and crisis support
 - **Defined short-term counseling** (typically a few sessions per issue per year, in-person or virtual)
 - **Referrals to longer-term care** when short-term support isn't enough
 - **Resources for legal, financial, and family issues** beyond direct counseling
 - **Manager support** for handling team-level challenges (interpersonal conflict, performance concerns, traumatic events)
-- **Confidentiality** — services are not reported to the employer at the individual level
+- **Confidentiality.** Services are not reported to the employer at the individual level.
 
 EAPs originated in the 1940s as workplace alcohol and substance abuse support and evolved into broader mental health and wellness platforms over the decades. Modern EAPs cover a wide range of issues that affect employees' lives and ability to perform at work.
 
-## What an EAP typically covers
+## What an EAP covers
 
 Most EAPs include several categories of support:
 
@@ -118,25 +118,25 @@ For employees:
 
 1. **Awareness.** Employees learn the EAP exists during onboarding or open enrollment communication.
 2. **Access.** Employees call the EAP's 24/7 helpline or use the online portal to request services.
-3. **Triage.** A counselor or case manager assesses the situation and connects the employee to the right resource — short-term counseling, legal consultation, financial advisor, etc.
+3. **Triage.** A counselor or case manager assesses the situation and connects the employee to the right resource: short-term counseling, legal consultation, financial advisor, etc.
 4. **Service delivery.** The employee receives the agreed-upon service (e.g., 5 short-term counseling sessions, a legal consultation, a financial review).
 5. **Referral if needed.** If the issue requires longer-term care, the EAP refers the employee to a provider in their network or under their health plan.
 
 For employers:
 
 1. **Selection.** The employer chooses an EAP vendor (standalone or embedded in another benefit).
-2. **Contracting.** Annual contract typically with PEPM pricing.
+2. **Contracting.** Annual contract with PEPM pricing.
 3. **Communication.** Employees are informed of the benefit at hire, during open enrollment, and ideally periodically throughout the year.
 4. **Manager training.** Some EAPs include manager training on recognizing employees who might benefit from EAP referral.
-5. **Reporting.** The employer receives aggregate utilization reports showing service usage by category — but never individual employee data.
+5. **Reporting.** The employer receives aggregate utilization reports showing service usage by category, but never individual employee data.
 
 ## What EAPs cost
 
-EAP pricing is typically per-employee-per-month (PEPM), with the rate scaling with group size and service scope. EAPs are generally among the lowest-cost employer benefits per employee per month — substantially less than health insurance, dental, or vision.
+EAP pricing is per-employee-per-month (PEPM), with the rate scaling by group size and service scope. EAPs are among the lowest-cost employer benefits per employee per month — substantially less than health insurance, dental, or vision.
 
 For embedded EAPs (those included as part of life insurance, disability insurance, or some payroll platforms), the additional cost is often minimal or zero. Standalone EAPs from specialty vendors offer richer services for a defined fee.
 
-The cost-benefit calculation for EAPs is typically favorable, particularly when factoring in:
+The cost-benefit calculation for EAPs is favorable when factoring in:
 
 - **Reduced absenteeism** when employees address mental health and personal issues earlier
 - **Reduced presenteeism** (employees at work but not productive due to personal stress)
@@ -168,11 +168,11 @@ EAPs make sense for nearly any employer of meaningful size. The threshold is low
 
 Specifically, EAPs fit well when:
 
-- **You have 10+ employees** — most EAP vendors serve groups this size or smaller
-- **Your workforce includes any age range** — EAPs serve issues that affect any demographic
-- **You value retention and engagement** — EAP utilization correlates with stronger employer-employee relationships
-- **You don't have HR capacity to handle every personal employee issue** — EAP offloads complex situations
-- **Mental health support is becoming a workforce expectation** — increasingly employees expect this benefit
+- **You have 10+ employees.** Most EAP vendors serve groups this size or smaller.
+- **Your workforce includes any age range.** EAPs serve issues that affect any demographic.
+- **You value retention and engagement.** EAP utilization correlates with stronger employer-employee relationships.
+- **You don't have HR capacity to handle every personal employee issue.** EAP offloads complex situations.
+- **Mental health support is becoming a workforce expectation.** Increasingly employees expect this benefit.
 
 EAPs are less critical when:
 
@@ -224,12 +224,12 @@ EAPs and health plan mental health coverage are complementary, not competitive:
 
 Most employees who need ongoing mental health care start with the EAP and graduate to health plan coverage when the EAP's short-term sessions are exhausted. The EAP serves as a low-friction first step, and the health plan handles ongoing treatment.
 
-Employers offering both — EAP plus strong health plan mental health coverage — typically deliver the best mental health benefits experience. [How EAPs Reduce Claims Costs](/learn/wellness/eaps-reduce-claims-costs) covers the financial mechanism through which the two work together.
+Employers offering both (EAP plus strong health plan mental health coverage) deliver the best mental health benefits experience. [How EAPs Reduce Claims Costs](/learn/wellness/eaps-reduce-claims-costs) covers the financial mechanism through which the two work together.
 
-## The bottom line
+## What HR teams should take away
 
 **Employee Assistance Programs (EAPs)** are one of the most accessible, lowest-cost, highest-ROI benefits an employer can offer. They support employee mental health, navigate personal and work challenges, reduce HR workload, and complement health plan mental health coverage. Modern EAPs are widely available for groups of all sizes.
 
-The challenge isn't whether to offer one — it's choosing the right vendor and communicating the benefit effectively to drive utilization. For employers without an EAP currently, the addition is one of the lower-friction benefits expansions available.
+The challenge isn't whether to offer one. It's choosing the right vendor and communicating the benefit effectively to drive utilization. For employers without an EAP currently, the addition is one of the lower-friction benefits expansions available.
 
 > **Want help choosing the right EAP for your business?** We can compare vendors, integrate the EAP with your existing benefits stack, and design communication strategies to drive utilization. [Talk to us](/talk-to-us).

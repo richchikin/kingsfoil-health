@@ -44,11 +44,9 @@ relatedArticles:
   - "stop-loss/what-is-stop-loss-insurance"
 ---
 
-When business owners start looking into alternative plan structures, the question that shows up — often from a well-meaning board member or anxious HR director — is the same one every time: *isn't self-funded insurance worse for employees?*
+When business owners start looking into alternative plan structures, the question that shows up (often from a well-meaning board member or anxious HR director) is the same one every time: *isn't self-funded insurance worse for employees?*
 
-It's a fair concern. The word "self-funded" suggests the employer is doing something unusual, something risky, and the employee is presumably on the hook for that risk. In reality, the answer is almost the opposite. Most self-funded plans are indistinguishable from fully-insured plans from an employee's point of view — and in a lot of cases, they're actually better.
-
-This article is the honest version of that answer: what genuinely changes for employees when an employer moves to a self-funded plan, what stays the same, and what the real (if rare) risks are.
+The word "self-funded" suggests the employer is doing something unusual, something risky, and the employee is presumably on the hook for that risk. The reality is almost the opposite. Most self-funded plans are indistinguishable from fully-insured plans from an employee's point of view, and in a lot of cases, they're actually better.
 
 ## The short answer
 
@@ -58,15 +56,15 @@ The long answer has a few more nuances, which are worth walking through.
 
 ## What actually stays the same for employees
 
-**The network.** Self-funded employers almost always lease a provider network from a major carrier or network operator. Aetna, Cigna, BlueCross, and UnitedHealthcare all sell network access to self-funded plans. From the employee's perspective, their doctor is in-network or out-of-network for the exact same reasons they were before — the underlying network is often literally the same.
+**The network.** Self-funded employers almost always lease a provider network from a major carrier or network operator. Aetna, Cigna, BlueCross, and UnitedHealthcare all sell network access to self-funded plans. From the employee's perspective, their doctor is in-network or out-of-network for the exact same reasons they were before. The underlying network is frequently the same one.
 
 **The ID card and claims process.** The ID card might have a different logo or a different group number, but the process is identical. Show the card, pay the copay, the claim gets adjudicated through the same pipeline.
 
-**The essential health benefits.** Federal law — the Affordable Care Act, which applies to self-funded plans through ERISA — requires coverage of preventive care, mental health and substance use treatment, maternity care, pediatric care, prescription drugs, and more. Self-funded plans cannot charge for in-network preventive services. They cannot impose annual or lifetime dollar caps on essential benefits. They cannot deny coverage based on pre-existing conditions.
+**The essential health benefits.** Federal law (the Affordable Care Act, which applies to self-funded plans through ERISA) requires coverage of preventive care, mental health and substance use treatment, maternity care, pediatric care, prescription drugs, and more. Self-funded plans cannot charge for in-network preventive services. They cannot impose annual or lifetime dollar caps on essential benefits. They cannot deny coverage based on pre-existing conditions.
 
-**The appeals rights.** If a claim is denied, employees in a self-funded plan have the right to an internal appeal, an external review, and — if the issue escalates — a federal lawsuit under ERISA. The legal protection is arguably stronger than what state-regulated fully-insured plans offer, because ERISA preempts state law and is consistently enforced.
+**The appeals rights.** If a claim is denied, employees in a self-funded plan have the right to an internal appeal, an external review, and if the issue escalates, a federal lawsuit under ERISA. The legal protection is arguably stronger than what state-regulated fully-insured plans offer, because ERISA preempts state law and is consistently enforced.
 
-**The coverage for dependents.** Coverage for kids up to age 26, same-sex spouse coverage, domestic partner rules — all governed by the same federal requirements.
+**The coverage for dependents.** Coverage for kids up to age 26, same-sex spouse coverage, domestic partner rules: all governed by the same federal requirements.
 
 If you put a self-funded plan and a fully-insured plan side by side and read the Summary Plan Description, most employees wouldn't be able to tell which was which.
 
@@ -76,11 +74,11 @@ If you put a self-funded plan and a fully-insured plan side by side and read the
 
 In practice, this is rarely a problem. Well-designed plans use a claims account funded monthly and backed by stop-loss, and claims are paid on the same timelines as fully-insured plans. The situations where employees run into trouble are edge cases — an employer in financial distress, or a plan that was underfunded and hit a catastrophic year without adequate stop-loss.
 
-**Plan design can change at renewal based on actual experience.** Under a fully-insured plan, if your group had a bad claims year, the carrier absorbs most of it and spreads the impact across their whole book of business — your renewal will likely rise meaningfully, but the benefits typically stay intact. Under a self-funded plan, a bad year is visible to the employer. They might respond by raising deductibles, increasing copays, or changing the plan design to reduce future exposure.
+**Plan design can change at renewal based on actual experience.** Under a fully-insured plan, if your group had a bad claims year, the carrier absorbs most of it and spreads the impact across their whole book of business. Your renewal will likely rise, but the benefits stay intact. Under a self-funded plan, a bad year is visible to the employer. They might respond by raising deductibles, increasing copays, or changing the plan design to reduce future exposure.
 
-This isn't a bug — it's the whole point of self-funding. The employer has line-of-sight into costs and can make informed decisions. But it does mean that plan benefits are tied more directly to the group's own claims experience.
+That's the whole point of self-funding. The employer has line-of-sight into costs and can make informed decisions. But it does mean that plan benefits are tied more directly to the group's own claims experience.
 
-**Potential for richer benefits.** On the upside, self-funded employers often use some of their savings to improve benefits. Lower deductibles, better prescription coverage, expanded mental health benefits, first-dollar coverage for primary care — all of these are easier to offer when the employer is keeping the savings rather than handing them to a carrier.
+**Potential for richer benefits.** On the upside, self-funded employers frequently use some of their savings to improve benefits. Lower deductibles, better prescription coverage, expanded mental health benefits, first-dollar coverage for primary care. All of these are easier to offer when the employer is keeping the savings rather than handing them to a carrier.
 
 ## The risks employees should understand (and the protections that exist)
 
@@ -94,7 +92,7 @@ There are three real, if rare, risks to employees in a self-funded plan.
 
 *The protection:* a good benefits advisor won't let an employer buy stop-loss coverage that's too thin. At Kingsfoil Health, we model stress scenarios before a plan is finalized for exactly this reason. [What Is Stop-Loss Insurance and Why Every Self-Funded Employer Needs It](/learn/stop-loss/what-is-stop-loss-insurance) walks through how those thresholds are set.
 
-**3. Plan-design cuts at renewal.** If claims come in hot, the employer may reduce benefits or raise employee contributions next year. This isn't unique to self-funding — fully-insured employers also respond to bad renewals by cutting benefits — but the connection between experience and renewal is more direct under self-funding.
+**3. Plan-design cuts at renewal.** If claims come in hot, the employer may reduce benefits or raise employee contributions next year. This isn't unique to self-funding (fully-insured employers also respond to bad renewals by cutting benefits), but the connection between experience and renewal is more direct under self-funding.
 
 *The protection:* good plan management, reserve-building, and honest employee communication. [Enrollment Communications](/learn/hr-playbook/enrollment-communications) walks through how HR teams can set expectations around benefits changes.
 
@@ -104,11 +102,11 @@ There are three real, if rare, risks to employees in a self-funded plan.
 
 The case that self-funded plans are often better for employees boils down to three things:
 
-**Premium stability.** Fully-insured premiums tend to rise meaningfully year over year, often well above general inflation, largely regardless of an individual group's actual experience.[^1] Self-funded plans tied to your own favorable experience tend to produce more stable year-over-year costs — and the savings can be passed through to employees in the form of flat or reduced payroll contributions.
+**Premium stability.** Fully-insured premiums tend to rise year over year, well above general inflation, regardless of an individual group's actual experience.[^1] Self-funded plans tied to your own favorable experience produce more stable year-over-year costs, and the savings can be passed through to employees in the form of flat or reduced payroll contributions.
 
 **Better benefits for the same money.** Savings from moving to self-funding can fund a richer plan design. Lower deductibles. Lower out-of-pocket maximums. Expanded telehealth. Better mental health access. The employer decides how to deploy the savings, and many choose to reinvest in the employee experience.
 
-**More transparency and advocacy.** Self-funded employers, especially smaller ones working with a modern advisor, tend to be more engaged with how care is actually delivered. Claims advocacy, care navigation, and health concierge services are more common under self-funded structures because the employer has a direct financial interest in employees getting the right care at the right time. [How concierge care connects to plan costs](/learn/business-case/concierge-cost-connection) explains the mechanism.
+**More transparency and advocacy.** Self-funded employers, especially smaller ones working with a modern advisor, are more engaged with how care is actually delivered. Claims advocacy, care navigation, and health concierge services are more common under self-funded structures because the employer has a direct financial interest in employees getting the right care at the right time. [How concierge care connects to plan costs](/learn/business-case/concierge-cost-connection) explains the mechanism.
 
 ## What employees should ask HR
 
@@ -122,11 +120,11 @@ If your company announces a switch to a self-funded or level-funded plan, the qu
 
 Employees who ask these questions almost always get reassuring answers. The structural change is quiet, and in a well-run plan, it should be.
 
-## The bottom line
+## What employees actually experience
 
-**Is self-funded health insurance good for employees?** For the overwhelming majority of people at well-run companies, the answer is yes — and in many cases, self-funded plans deliver a better experience than the fully-insured plan they replaced.
+**Is self-funded health insurance good for employees?** For the overwhelming majority of people at well-run companies, the answer is yes. In many cases, self-funded plans deliver a better experience than the fully-insured plan they replaced.
 
-The risks exist but are rare and manageable with competent plan design. The benefits — premium stability, richer plan design, better care navigation — are real and compounding.
+The risks exist but are rare and manageable with competent plan design. The benefits (premium stability, richer plan design, better care navigation) are real and compounding.
 
 Where employees get hurt is when plans are poorly designed: inadequate stop-loss, underfunded reserves, or employers who see self-funding as a way to squeeze benefits rather than invest in their team. The structural choice isn't what determines employee outcomes. The people running the plan are.
 

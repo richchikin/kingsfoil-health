@@ -45,7 +45,7 @@ relatedArticles:
 
 The benefits priorities employees held a decade ago aren't the same ones they hold now. The shift has been quiet but real: mental health has moved to center stage, responsive service has gained weight relative to plan features, and flexibility (especially for distributed workforces) has become a differentiator. Employers operating on outdated assumptions about what employees want are often surprised by feedback they receive in current surveys.
 
-This article summarizes what the major published research consistently identifies about **what employees want from their health benefits today** — what's at the top, what's shifted, and how small and mid-sized employers can respond.
+Here's what the major published research consistently identifies about **what employees want from their health benefits today**: what's at the top, what's shifted, and how small and mid-sized employers can respond.
 
 ## What the major surveys consistently find
 
@@ -85,19 +85,19 @@ The first three are universally high. Items 4–9 vary more by demographics.
 
 ### Mental health moved from peripheral to essential
 
-In employee survey data over the past decade, mental health has risen meaningfully up the priority list — driven by post-pandemic stress visibility, generational openness about seeking care, and the practical access challenges (long wait times, narrow networks) that employees increasingly notice.
+In employee survey data over the past decade, mental health has risen steadily up the priority list. The drivers: post-pandemic stress visibility, generational openness about seeking care, and the practical access challenges (long wait times, narrow networks) that employees increasingly notice.
 
-Employers with strong mental health coverage — short wait times, broad in-network therapist access, generous EAP programs — increasingly have a recruiting and retention edge.
+Employers with strong mental health coverage (short wait times, broad in-network therapist access, generous EAP programs) increasingly have a recruiting and retention edge.
 
 ### Service experience gained relative weight
 
-Surveys increasingly capture that the experience of using benefits — finding a provider, resolving a billing issue, getting questions answered — competes with incremental plan design improvements as a satisfaction lever.
+Surveys increasingly capture that the experience of using benefits (finding a provider, resolving a billing issue, getting questions answered) competes with incremental plan design improvements as a satisfaction lever.
 
-Concierge-supported plans typically receive higher satisfaction scores than equivalent plans with traditional carrier-only support, even when underlying coverage is identical.
+Concierge-supported plans receive higher satisfaction scores than equivalent plans with traditional carrier-only support, even when underlying coverage is identical.
 
 ### Tax-advantaged accounts gained credibility
 
-HSA familiarity has risen. A growing share of employees, especially higher-income ones, actively seek HDHP/HSA combinations for the tax advantages and long-term savings potential. Employers who fund HSA contributions meaningfully are increasingly rewarded for it. See [How HDHP + HSA Saves Money](/learn/hsa/hsa-hdhp-save-business-money).
+HSA familiarity has risen. A growing share of employees, especially higher-income ones, actively seek HDHP/HSA combinations for the tax advantages and long-term savings potential. Employers who fund HSA contributions well are increasingly rewarded for it. See [How HDHP + HSA Saves Money](/learn/hsa/hsa-hdhp-save-business-money).
 
 ### Flexibility moved up the list
 
@@ -131,7 +131,7 @@ Most of these are experience issues rather than plan-design issues. Addressing t
 
 Practical actions:
 
-**1. Add concierge / care navigation.** Often the single highest-impact change for most groups; can pay for itself through reduced HR workload and better employee experience. [Concierge vs. Call Center](/learn/hr-playbook/concierge-vs-call-center) covers the mechanics.
+**1. Add concierge / care navigation.** The single highest-impact change for most groups; pays for itself through reduced HR workload and better employee experience. [Concierge vs. Call Center](/learn/hr-playbook/concierge-vs-call-center) covers the mechanics.
 
 **2. Benchmark mental health access.** Check whether your current carrier's mental health network has reasonable wait times in your geography. If access is poor, consider supplementing with an EAP or digital mental health benefit.
 
@@ -141,13 +141,13 @@ Practical actions:
 
 **5. Offer plan choice where feasible.** For groups large enough to support multiple options, letting employees self-select fits the design to the situation.
 
-**6. Re-evaluate the broker/advisor.** Year-round partners typically deliver better employee experience than transactional brokers, often for similar or lower total cost. [Transactional vs. Year-Round Partner](/learn/brokers/transactional-broker-vs-year-round-partner) covers the differences.
+**6. Re-evaluate the broker/advisor.** Year-round partners deliver better employee experience than transactional brokers, and frequently for similar or lower total cost. [Transactional vs. Year-Round Partner](/learn/brokers/transactional-broker-vs-year-round-partner) covers the differences.
 
-> The gap between what employers think employees want and what employees actually want is often bigger than expected. Running even a simple 10-question benefits satisfaction survey typically produces insights that make the next plan design decision significantly better.
+> The gap between what employers think employees want and what employees actually want is bigger than expected. Running even a simple 10-question benefits satisfaction survey produces insights that make the next plan design decision significantly better.
 
-## The bottom line
+## What to do next
 
-**What employees want from health benefits today** isn't wildly different from a decade ago — the categories haven't changed — but priorities within those categories have shifted meaningfully. Mental health matters more. Experience matters more. Flexibility matters more. The old "rich PPO + low deductible" formula increasingly misses what employees actually value.
+**What employees want from health benefits today** isn't wildly different from a decade ago. The categories haven't changed. But priorities within those categories have shifted. Mental health matters more. Experience matters more. Flexibility matters more. The old "rich PPO + low deductible" formula increasingly misses what employees actually value.
 
 For employers willing to listen to their workforce (even through simple surveys) and respond with the specific adjustments that move satisfaction, the payoff is real: better retention, easier recruiting, and an HR team that spends less time mediating benefits frustration.
 

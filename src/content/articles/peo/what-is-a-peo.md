@@ -47,7 +47,7 @@ relatedArticles:
 
 If you're running a small business, you've probably heard pitches from PEO sales reps. The promise: outsource HR, payroll, and benefits to one vendor; get access to large-group benefits pricing; focus on running your business while the PEO handles the operational compliance. For many small businesses, PEOs are a legitimate solution that simplifies real complexity.
 
-For others, PEOs become an expensive intermediary that's harder to leave than to join. This article walks through **what a PEO is**, how the model actually works, what makes it useful, and why many growing businesses eventually transition away.
+For others, PEOs become an expensive intermediary that's harder to leave than to join. Here's **what a PEO is**, how the model actually works, what makes it useful, and why many growing businesses eventually transition away.
 
 ## What is a PEO?
 
@@ -75,7 +75,7 @@ Co-employment is the structural mechanic that distinguishes PEOs from other HR s
 
 **HR services are provided by PEO staff.** When employees have HR questions or you need compliance support, you reach out to the PEO's HR team.
 
-**Workers' comp coverage is through the PEO's policy.** This often produces lower workers' comp rates than small employers could get individually.
+**Workers' comp coverage is through the PEO's policy.** This produces lower workers' comp rates than small employers could get individually.
 
 The co-employment arrangement is documented in a Client Service Agreement that defines the responsibilities of both parties. The agreements vary by PEO; understanding what's included and excluded is essential before signing.
 
@@ -150,23 +150,23 @@ Despite real benefits, many growing businesses eventually transition out of thei
 
 ### 1. HR needs become more sophisticated
 
-PEO HR services are typically generalist — adequate for basic compliance and policy support, less suited for executive coaching, advanced talent strategy, or complex employee situations. As businesses scale, they often want dedicated HR expertise that goes beyond what PEOs provide.
+PEO HR services are generalist: adequate for basic compliance and policy support, less suited for executive coaching, advanced talent strategy, or complex employee situations. As businesses scale, they want dedicated HR expertise that goes beyond what PEOs provide.
 
 ### 2. Benefits cost optimization becomes critical
 
-PEO benefits pricing was great as a small employer. As the business scales, the PEO's benefits cost becomes more visible — and unbundled alternatives (independent broker + level-funded or self-funded plan) can produce substantial savings. Many growing businesses realize they're paying a premium for the PEO's bundled benefits that they could capture themselves with appropriate scale.
+PEO benefits pricing was great as a small employer. As the business scales, the PEO's benefits cost becomes more visible, and unbundled alternatives (independent broker + level-funded or self-funded plan) can produce substantial savings. Many growing businesses realize they're paying a premium for the PEO's bundled benefits that they could capture themselves with appropriate scale.
 
 ### 3. Desire for self-funded or alternative plan structures
 
-PEOs typically offer fully-insured plans only. Businesses wanting to transition to level-funded, self-funded, or ICHRA structures usually have to leave the PEO to do so.
+PEOs offer fully-insured plans only. Businesses wanting to transition to level-funded, self-funded, or ICHRA structures have to leave the PEO to do so.
 
 ### 4. Plan design flexibility
 
-PEO plan designs are typically standardized — limited choice within the PEO's offerings. As businesses scale and want more customization (specific carrier choice, particular network, custom plan design), the PEO's menu becomes constraining.
+PEO plan designs are standardized, with limited choice within the PEO's offerings. As businesses scale and want more customization (specific carrier choice, particular network, custom plan design), the PEO's menu becomes constraining.
 
 ### 5. Transparency concerns
 
-PEO bundled pricing makes it hard to see what's actually being paid for benefits vs. HR vs. payroll vs. admin. Employers wanting transparency on each cost component sometimes find the PEO's bundled model frustrating.
+PEO bundled pricing makes it hard to see what's actually being paid for benefits vs. HR vs. payroll vs. admin. Employers wanting transparency on each cost component find the PEO's bundled model frustrating.
 
 ### 6. Ownership of HR strategy
 
@@ -176,19 +176,19 @@ Co-employment means the PEO has substantial influence over benefits offerings, p
 
 PEO pricing as a percentage of payroll continues to grow as the business grows. At some employee count, the bundled cost exceeds what unbundled alternatives would cost.
 
-## When the transition typically happens
+## When the transition happens
 
 Common employee count thresholds where businesses re-evaluate the PEO relationship:
 
-**25-50 employees:** Many businesses start questioning whether PEO bundling still makes sense. Internal HR capacity often becomes feasible at this size; benefits expertise becomes more valuable; cost optimization becomes more meaningful.
+**25-50 employees:** Many businesses start questioning whether PEO bundling still makes sense. Internal HR capacity becomes feasible at this size; benefits expertise becomes more valuable; cost optimization becomes more important.
 
 **50-100 employees:** ACA employer mandate compliance kicks in at 50 FTEs. Some businesses transition out around this size to design ACA compliance more strategically.
 
-**100+ employees:** Most businesses at this size benefit from dedicated HR + independent benefits broker rather than PEO bundling. The cost-flexibility math typically favors unbundling.
+**100+ employees:** Most businesses at this size benefit from dedicated HR + independent benefits broker rather than PEO bundling. The cost-flexibility math favors unbundling.
 
 ## The transition out
 
-Transitioning from a PEO to an unbundled structure is a real project — not casual. It involves:
+Transitioning from a PEO to an unbundled structure is a real project, not casual. It involves:
 
 - Setting up your own EIN-based payroll (or moving to a payroll-only vendor like Gusto or ADP)
 - Establishing your own benefits programs (broker engagement, carrier selection, plan design)
@@ -197,7 +197,7 @@ Transitioning from a PEO to an unbundled structure is a real project — not cas
 - Managing employee communication during the transition
 - Aligning the timing with the PEO contract termination terms (often 30-90 day notice)
 
-Most businesses use this transition as an opportunity to redesign benefits more strategically — moving from PEO fully-insured to level-funded or self-funded, accessing claims data they couldn't get through the PEO, and capturing the cost optimization that comes with direct broker engagement.
+Most businesses use this transition as an opportunity to redesign benefits more strategically: moving from PEO fully-insured to level-funded or self-funded, accessing claims data they couldn't get through the PEO, and capturing the cost optimization that comes with direct broker engagement.
 
 [Hidden Costs of Using a PEO](/learn/peo/hidden-costs-of-peo) covers the cost analysis that often motivates these transitions.
 
@@ -228,13 +228,13 @@ If you're using a PEO and wondering whether you've outgrown it:
 
 **Step 5: Make a deliberate decision.** Either way — staying with the PEO or transitioning out — should be a deliberate choice, not inertia.
 
-## The bottom line
+## Where this leaves you
 
 **A PEO is a co-employer providing bundled HR, payroll, and benefits services to small businesses.** The model works well for many small employers — particularly those without HR infrastructure, valuing benefits pricing access, or operating across multiple states.
 
-The model also has natural growth limits. Many growing businesses outgrow their PEOs as HR needs become more sophisticated, benefits cost optimization becomes critical, and unbundled alternatives become more economical. The transition out is non-trivial but often unlocks meaningful cost savings and benefits strategy improvements.
+The model also has natural growth limits. Many growing businesses outgrow their PEOs as HR needs become more sophisticated, benefits cost optimization becomes critical, and unbundled alternatives become more economical. The transition out is non-trivial but unlocks real cost savings and benefits strategy improvements.
 
-For employers using a PEO currently, periodic evaluation against unbundled alternatives is worthwhile — even if you decide to stay, you'll have validated the decision rather than defaulted into it.
+For employers using a PEO currently, periodic evaluation against unbundled alternatives is worthwhile. Even if you decide to stay, you'll have validated the decision rather than defaulted into it.
 
 > **Wondering whether you've outgrown your PEO?** We can run an unbundled-cost comparison against your current PEO bundled pricing and identify whether transitioning would deliver meaningful savings or strategic benefits. [Talk to us](/talk-to-us).
 

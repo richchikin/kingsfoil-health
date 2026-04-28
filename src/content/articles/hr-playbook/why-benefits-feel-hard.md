@@ -51,7 +51,7 @@ Benefits is one of the hardest parts of the HR function, and the difficulty isn'
 
 ## The complexity is real
 
-Let's start with what's on your plate. A typical mid-sized company's benefits package includes medical, dental, vision, life insurance, disability, and possibly an HSA, FSA, or HRA. Each of those products may come from a different carrier, with different plan documents, different renewal cycles, different portals, and different customer service numbers.
+Consider what's on your plate. A typical mid-sized company's benefits package includes medical, dental, vision, life insurance, disability, and possibly an HSA, FSA, or HRA. Each of those products may come from a different carrier, with different plan documents, different renewal cycles, different portals, and different customer service numbers.
 
 Now layer on compliance. ERISA, COBRA, ACA reporting, HIPAA privacy rules, Section 125 cafeteria plan requirements, state-specific mandates. Each of these has its own deadlines, documentation requirements, and penalties for getting it wrong. And the regulatory landscape shifts regularly, which means what you knew last year may not be accurate this year.
 
@@ -61,7 +61,7 @@ You didn't go to school for insurance law. But a meaningful part of your job req
 
 ## You're the help desk for a product you didn't build
 
-Here's a scenario most HR professionals know well. An employee comes to you confused about a claim denial. They're upset. They called the carrier's 800 number, sat on hold for 40 minutes, and got an explanation that didn't make sense. So they came to you.
+A scenario most HR professionals know well: An employee comes to you confused about a claim denial. They're upset. They called the carrier's 800 number, sat on hold for 40 minutes, and got an explanation that didn't make sense. So they came to you.
 
 You want to help. But you don't have access to the claims system. You don't know the clinical criteria the carrier used to deny the claim. You may not even have the same version of the plan document the carrier is referencing. So you call the carrier yourself, wait on hold, get transferred, explain the situation again, and maybe get an answer you can relay back to the employee. Maybe.
 
@@ -69,7 +69,7 @@ This cycle repeats itself dozens of times a year. You become the translator betw
 
 ## Carriers and brokers have different incentives
 
-This is the part that rarely gets said out loud: the benefits ecosystem was designed to serve carriers and brokers, not HR teams.
+The benefits ecosystem was designed to serve carriers and brokers, not HR teams.
 
 **Carriers** are in the business of managing risk and processing claims efficiently at scale. Their systems, portals, and customer service lines are optimized for their own operations. When a carrier builds an employer portal, it's a secondary priority, not the core product. That's why so many of those portals feel clunky, incomplete, or hard to navigate.
 

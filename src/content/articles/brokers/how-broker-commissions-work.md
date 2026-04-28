@@ -47,9 +47,7 @@ relatedArticles:
 
 Ask a hundred employers how much their health insurance broker makes, and you'll likely get one of three answers: "I'm not sure," "a percentage of premium, I think?," or "I don't want to know." Only a small minority could tell you a specific number.
 
-That's not an accident. The broker commission system is designed to be invisible to the employer — built into the premium, not disclosed on invoices, and governed by industry customs that favor confidentiality. Understanding how it works is essential to making informed decisions about the broker relationship, the plan structure, and the total cost of your benefits program.
-
-This article is the honest, detailed breakdown: **how health insurance broker commissions work**, how much brokers typically earn, and why the structure persists.
+The broker commission system is designed to be invisible to the employer. It's built into the premium, not disclosed on invoices, and governed by industry customs that favor confidentiality. Understanding how it works is essential to making informed decisions about the broker relationship, the plan structure, and the total cost of your benefits program.
 
 ## The basic mechanic
 
@@ -59,7 +57,7 @@ When an employer buys a fully-insured health plan, the premium flows like this:
 2. Carrier pays a commission to the broker, based on the premium.
 3. Carrier uses the remaining premium for claims, administration, reserves, and profit.
 
-The commission is a percentage of the total premium, typically paid monthly. The carrier collects the premium, takes its cut (including claims, admin, profit), and sends the broker's piece. From the employer's perspective, the money disappears into a single premium payment, and there's no line item showing what portion went to the broker.
+The commission is a percentage of the total premium, paid monthly. The carrier collects the premium, takes its cut (including claims, admin, profit), and sends the broker's piece. From the employer's perspective, the money disappears into a single premium payment, and there's no line item showing what portion went to the broker.
 
 ## Typical commission rates
 
@@ -86,7 +84,7 @@ On top of base commissions, most brokers also earn **override bonuses** — some
 - **Growth** — net new business placed with the carrier
 - **Loss ratio** — favorable claims experience across the broker's block of business with the carrier
 
-Override bonuses can meaningfully increase a broker's effective compensation on top of base commissions, and in some cases substantially. They're less visible than base commissions — typically not disclosed on employer invoices and sometimes not disclosed even in response to specific questions.
+Override bonuses can double or even triple a broker's effective compensation on a given account. They're less visible than base commissions, rarely disclosed on employer invoices, and sometimes not disclosed even in response to specific questions.
 
 The existence of overrides is the main reason why a stated base commission percentage may understate the broker's real incentive alignment with a given carrier. A broker whose override bonus depends on keeping a large share of their book with one carrier has a structural reason to recommend that carrier regardless of whether it's the best fit for a specific employer.
 
@@ -96,11 +94,11 @@ The commission model creates several specific incentive effects:
 
 ### 1. Higher premiums = higher compensation
 
-A double-digit renewal increase on a substantial plan gives the broker a meaningful raise. The broker can work hard to negotiate it down (costing themselves compensation) or accept it (preserving their compensation). Most brokers are professional and do negotiate, but the structural pressure exists.
+A double-digit renewal increase on a substantial plan gives the broker a proportional raise. The broker can work hard to negotiate it down (costing themselves compensation) or accept it (preserving their compensation). Most brokers are professional and do negotiate, but the structural pressure exists.
 
 ### 2. Fully-insured > alternative structures
 
-Level-funded and self-funded plans often generate lower commissions per dollar of total employer spend. A broker who moves a group from fully-insured to level-funded may see their compensation on that account drop meaningfully. For some brokers, that's a reason to avoid presenting alternatives.
+Level-funded and self-funded plans generate lower commissions per dollar of total employer spend. A broker who moves a group from fully-insured to level-funded may see their compensation on that account drop substantially. For some brokers, that's a reason to avoid presenting alternatives.
 
 ### 3. Retention with the same carrier > shopping aggressively
 
@@ -138,7 +136,7 @@ A growing minority of benefits advisors operate outside the commission model:
 
 **Performance-based.** A portion of compensation tied to measurable outcomes (cost reduction achieved, claims improvements, employee satisfaction metrics).
 
-For mid-sized and larger employers, transparent compensation typically costs less than commission. For very small employers (under 25 employees), commission may remain economically comparable because flat fees have minimums that load heavily at small scale.
+For mid-sized and larger employers, transparent compensation costs less than commission. For very small employers (under 25 employees), commission may remain economically comparable because flat fees have minimums that load heavily at small scale.
 
 > The right question isn't whether brokers should earn commission. It's whether your broker's compensation rises when your costs rise. That alignment — or misalignment — is the core of the incentive problem, and it's the piece that transparent compensation fixes.
 
@@ -149,18 +147,16 @@ Practical steps:
 1. **Request written disclosure of current compensation** — base commission, override bonuses, and any contingent arrangements. Most brokers will provide this when asked.
 2. **Compare against transparent-fee benchmarks** — for your size, what would a flat-fee or PEPM arrangement cost? If it's materially less, that's your negotiating leverage.
 3. **Structure future compensation agreements in writing** — lock in the compensation model before the next renewal, not after.
-4. **Tie compensation to service expectations** — if you're paying meaningful commission, what specific service levels should you expect in return?
+4. **Tie compensation to service expectations** — if you're paying substantial commission, what specific service levels should you expect in return?
 5. **Re-evaluate every 3 years** — the broker market is competitive, and arrangements that were fair five years ago may not be competitive today.
 
 These steps aren't adversarial. They're ordinary vendor management applied to a relationship that most employers handle passively. Good brokers welcome clarity; brokers who resist it are revealing something useful.
 
-## The bottom line
+## What you should do with this information
 
-**Health insurance broker commissions** are the largely-invisible pricing layer sitting inside most employer health plans. They're legal, they're industry-standard, and they create real incentive misalignments that cost employers money over time. Understanding how they work doesn't mean firing your broker — it means having an informed conversation with them about compensation, expectations, and alignment.
+Understanding broker commissions doesn't mean firing your broker. It means having an informed conversation about compensation, expectations, and alignment.
 
-For employers who make that conversation a regular part of their vendor review, the benefits usually compound. Year one, compensation gets clarified and often reduced. Year two, the broker engages more proactively because the relationship is more rigorous. Year three, the plan structure itself starts shifting toward more employer-favorable alternatives.
-
-That's not an accident — it's what happens when incentives get aligned.
+Employers who make that conversation a regular part of their vendor review see compounding results. Year one, compensation gets clarified and reduced. Year two, the broker engages more proactively because the relationship is more rigorous. Year three, the plan structure itself starts shifting toward more employer-favorable alternatives — because the broker is no longer penalized for recommending them.
 
 > **Want to talk through what a transparent-fee benefits advisor relationship would look like for your company?** No commitment, just a real conversation about economics and what the engagement would cover. [Talk to us](/talk-to-us).
 

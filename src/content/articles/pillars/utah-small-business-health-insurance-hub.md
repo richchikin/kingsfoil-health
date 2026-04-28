@@ -52,7 +52,7 @@ Utah is one of the best states in the country to run a small business, and that'
 
 But "favorable conditions" doesn't mean "automatic savings." Utah small businesses still face double-digit premium increases, the same structural opacity in the fully-insured market, and the same incentive misalignments in commission-based brokerage that exist everywhere. The Utah market rewards employers who actively engage with it — and penalizes those who default to whatever renewed last year.
 
-This is the hub page for **Utah small business health insurance**. Everything a Utah employer needs to know, organized for reference, with links to the deeper articles on each topic.
+This is the hub for **Utah small business health insurance**: everything a Utah employer needs to know, organized for reference, with links to deeper articles on each topic.
 
 ## Utah's health insurance market, at a glance
 
@@ -64,7 +64,7 @@ This is the hub page for **Utah small business health insurance**. Everything a 
 | Small-group premium trend | Generally meaningful annual increases | Generally meaningful annual increases (KFF)[^1] |
 | Level-funded availability | 10+ employees | 10+ employees |
 
-Utah's lower premiums reflect younger demographics, a healthier population, and competitive provider market dynamics.
+Utah's lower premiums reflect younger demographics, a healthy population, and competitive provider market dynamics.
 
 ## The Utah carriers
 
@@ -82,7 +82,7 @@ Strong Utah network plus access to the national BlueCard network. Part of the Ca
 
 ### Aetna, Cigna, UnitedHealthcare
 
-National carriers with Utah operations. Networks in Utah are adequate but typically less deep than SelectHealth. Strong for multi-state employers.
+National carriers with Utah operations. Networks in Utah are adequate but less deep than SelectHealth. Strong for multi-state employers.
 
 **Best fit:** Distributed workforces, multi-state employers, groups preferring national carrier consistency.
 
@@ -115,7 +115,7 @@ See [How Much Does Group Health Insurance Cost in Utah?](/learn/fundamentals/gro
 
 ### Fully-insured
 
-Available through all carriers. The default for most Utah small businesses. Predictable and simple but typically highest total cost over time.
+Available through all carriers. The default for most Utah small businesses. Predictable and simple but the highest total cost over time.
 
 ### Level-funded
 
@@ -126,7 +126,7 @@ Widely available in Utah starting at 10 employees. Major carriers offering level
 - UnitedHealthcare (All Savers)
 - Cigna (level-funded)
 
-Typically saves meaningfully vs. comparable fully-insured for healthy groups. See [Level-Funded Explained](/learn/plan-structures/level-funded-health-plans-explained).
+Saves real money vs. comparable fully-insured for healthy groups. See [Level-Funded Explained](/learn/plan-structures/level-funded-health-plans-explained).
 
 ### Fully self-funded
 
@@ -155,7 +155,7 @@ See [Self-Funded vs. Level-Funded vs. Fully-Insured](/learn/pillars/self-funded-
 
 ### Self-funded plan implications
 
-ERISA preempts most Utah state insurance law for self-funded plans, giving Utah self-funded employers meaningful design flexibility. Stop-loss insurance remains subject to Utah state regulation.
+ERISA preempts most Utah state insurance law for self-funded plans, giving Utah self-funded employers substantial design flexibility. Stop-loss insurance remains subject to Utah state regulation.
 
 See [Utah Employer Compliance Guide](/learn/utah/utah-employer-compliance-guide) for full detail.
 
@@ -176,7 +176,7 @@ Key evaluation dimensions for any broker:
 5. Claims advocacy and compliance support
 6. Client references at your company size
 
-For Utah-concentrated workforces, a strong local broker with a transparent-fee model typically delivers the best outcomes. For multi-state workforces, a national firm with Utah presence or a transparent national advisor often fits better.
+For Utah-concentrated workforces, a strong local broker with a transparent-fee model delivers the best outcomes. For multi-state workforces, a national firm with Utah presence or a transparent national advisor fits better.
 
 See [Utah Broker vs. National Broker](/learn/utah/utah-broker-vs-national-broker) and [How to Choose a Health Insurance Broker](/learn/pillars/how-to-choose-health-insurance-broker).
 
@@ -193,7 +193,7 @@ Utah's favorable market context, compared:
 | Level-funded availability | Strong | Strong | Limited | Strong | Strong |
 | Self-funded ecosystem | Good | Excellent | Excellent | Good | Good |
 
-Utah's combination of favorable demographics, light regulation, and adequate carrier competition produces employer-friendly conditions that are among the best in the country.
+Utah's combination of favorable demographics, light regulation, and adequate carrier competition produces conditions that are among the most employer-friendly in the country.
 
 See [How Utah Compares to the Rest of the Country](/learn/utah/utah-vs-national-market-comparison).
 
@@ -255,10 +255,10 @@ Practical checklist for Utah small business owners:
 
 ### 150+ employees
 
-- Fully self-funded typically wins on economics
-- Consider specialized consulting alongside or instead of traditional brokerage
+- Fully self-funded wins on economics
+- Consider specialized consulting alongside traditional brokerage
 - In-house benefits staff supplemented by external expertise
-- Performance-based advisor fees feasible
+- Performance-based advisor fees become feasible
 
 ## Resources and next steps
 
@@ -279,11 +279,11 @@ Practical checklist for Utah small business owners:
 
 [The Rate Shock Survival Guide](/learn/resources/rate-shock) — our free downloadable guide for Utah employers evaluating their current plan and alternatives.
 
-## The bottom line
+## Start here
 
-**Utah small business health insurance** in 2026 is a genuinely favorable environment for employers who engage actively. Lower-than-average costs, strong carrier options, broad plan structure availability, and relatively light regulation combine to create conditions that reward deliberate benefits management.
+**Utah small business health insurance** in 2026 is a favorable environment for employers who engage actively. Lower-than-average costs, strong carrier options, broad plan structure availability, and light regulation combine to create conditions that reward deliberate benefits management.
 
-The employers who capture Utah's advantages are those who treat benefits as a strategic line item to manage rather than a renewal to rubber-stamp. For Utah employers still on autopilot with commission-based brokers and fully-insured plans, the opportunity to capture the state's structural advantages is large and largely untapped.
+The employers who capture Utah's advantages are those who treat benefits as a strategic line item rather than a renewal to rubber-stamp. For Utah employers still on autopilot with commission-based brokers and fully-insured plans, the opportunity is large and untapped.
 
 > **Want a Utah-specific benefits strategy review?** We specialize in Utah employer benefits with transparent-fee engagements, year-round service, and deep carrier relationships across SelectHealth, Regence, and the national carriers. [Talk to us](/talk-to-us).
 
