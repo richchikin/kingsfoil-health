@@ -6,12 +6,25 @@ import BaseLayout from '@layouts/BaseLayout.astro';
   title="Page Not Found — Kingsfoil Health"
   description="The page you're looking for doesn't exist."
 >
-  <section style="padding: 120px 48px; text-align: center; min-height: 50vh; display: flex; flex-direction: column; align-items: center; justify-content: center;">
-    <h1 style="font-family: var(--font-display); font-size: 48px; font-weight: 700; margin-bottom: 16px;">Page not found</h1>
-    <p style="font-size: 17px; color: var(--nero-500); margin-bottom: 32px; max-width: 420px;">The page you're looking for doesn't exist or has been moved. Here are some places to start.</p>
-    <div style="display: flex; gap: 16px; flex-wrap: wrap; justify-content: center;">
-      <a href="/" class="btn-primary">Go Home</a>
-      <a href="/learn" class="btn-secondary" style="display:inline-block;font-family:var(--font-body);font-size:16px;font-weight:600;background:transparent;color:var(--elm-600);border:2px solid var(--elm-200);border-radius:8px;padding:14px 32px;text-decoration:none;">Start Learning</a>
+  <section class="not-found" aria-label="Page not found">
+    <div class="not-found-inner">
+      <div class="not-found-code" aria-hidden="true">404</div>
+      <h1>This page doesn't exist</h1>
+      <p>It may have moved, or the link might be outdated. Here are some good places to go from here.</p>
+      <div class="not-found-actions">
+        <a href="/" class="btn-primary">Go Home</a>
+        <a href="/learn" class="btn-secondary">Start Learning</a>
+        <a href="/talk-to-us" class="btn-secondary">Talk to Us</a>
+      </div>
     </div>
   </section>
 </BaseLayout>
+
+<style>
+.not-found{padding:var(--section-pad-y) var(--section-pad-x);text-align:center;min-height:60vh;display:flex;align-items:center;justify-content:center}
+.not-found-inner{max-width:480px}
+.not-found-code{font-family:var(--font-display);font-size:clamp(80px,12vw,120px);font-weight:700;color:var(--elm-100);line-height:1;margin-bottom:8px}
+.not-found h1{font-family:var(--font-display);font-size:clamp(28px,4vw,38px);font-weight:700;line-height:1.2;margin-bottom:16px}
+.not-found p{font-size:17px;color:var(--nero-500);line-height:1.65;margin-bottom:32px}
+.not-found-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+</style>

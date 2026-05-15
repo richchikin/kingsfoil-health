@@ -272,14 +272,16 @@ const organizationSchema = {
     }
   </script>
 
-  <!-- Floating CTA -->
-  <a href="https://calendly.com/kingsfoilhealth-jonathan/30-min-with-jonathan-engle"
-     target="_blank"
-     rel="noopener noreferrer"
-     class="floating-cta"
-     aria-label="Schedule a call with Kingsfoil Health">
-    Talk to Us
-  </a>
+  <!-- Floating CTA (hidden on /talk-to-us to avoid competing with the page form) -->
+  {canonicalPath !== '/talk-to-us' && (
+    <a href="https://calendly.com/kingsfoilhealth-jonathan/30-min-with-jonathan-engle"
+       target="_blank"
+       rel="noopener noreferrer"
+       class="floating-cta"
+       aria-label="Schedule a call with Kingsfoil Health">
+      Talk to Us
+    </a>
+  )}
 
   <!-- Page-specific scripts -->
   <slot name="scripts" />

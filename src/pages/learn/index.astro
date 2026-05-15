@@ -230,8 +230,12 @@ const PAGE_SIZE = 12;
       </div>
     </div>
 
-    <!-- Filters -->
+    <!-- Search + Filters -->
     <div class="filters" role="group" aria-label="Filter articles">
+      <div class="filter-group filter-group--search">
+        <label for="article-search" class="filter-label">Search:</label>
+        <input type="search" id="article-search" class="search-input" placeholder="Search articles..." autocomplete="off">
+      </div>
       <div class="filter-group">
         <span class="filter-label">Audience:</span>
         <button class="filter-btn is-active" data-filter="audience" data-value="all" type="button">All</button>
@@ -323,13 +327,22 @@ const PAGE_SIZE = 12;
 
   let activeFilters = { audience: 'all', difficulty: 'all' };
   let visibleLimit = PAGE_SIZE;
+  let searchQuery = '';
+  const searchInput = document.getElementById('article-search');
 
   function matchesFilters(card) {
     const audienceTags = (card.dataset.audience || '').split(',');
     const difficulty = card.dataset.difficulty || '';
     const audOk = activeFilters.audience === 'all' || audienceTags.includes(activeFilters.audience);
     const diffOk = activeFilters.difficulty === 'all' || difficulty === activeFilters.difficulty;
-    return audOk && diffOk;
+    if (!audOk || !diffOk) return false;
+    if (searchQuery) {
+      const title = (card.querySelector('.article-card-title')?.textContent || '').toLowerCase();
+      const excerpt = (card.querySelector('.article-card-excerpt')?.textContent || '').toLowerCase();
+      const cluster = (card.querySelector('.article-cluster')?.textContent || '').toLowerCase();
+      return title.includes(searchQuery) || excerpt.includes(searchQuery) || cluster.includes(searchQuery);
+    }
+    return true;
   }
 
   function render() {
@@ -388,9 +401,17 @@ const PAGE_SIZE = 12;
 
   resetBtn?.addEventListener('click', () => {
     activeFilters = { audience: 'all', difficulty: 'all' };
+    searchQuery = '';
+    if (searchInput) searchInput.value = '';
     visibleLimit = PAGE_SIZE;
     document.querySelectorAll('[data-filter]').forEach(b => b.classList.remove('is-active'));
     document.querySelectorAll('[data-value="all"]').forEach(b => b.classList.add('is-active'));
+    render();
+  });
+
+  searchInput?.addEventListener('input', () => {
+    searchQuery = searchInput.value.trim().toLowerCase();
+    visibleLimit = PAGE_SIZE;
     render();
   });
 
@@ -473,6 +494,10 @@ const PAGE_SIZE = 12;
 .filters{display:flex;flex-direction:column;gap:14px;margin-bottom:32px;padding:20px;background:#fff;border:1px solid var(--nero-100);border-radius:14px}
 .filter-group{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
 .filter-label{font-size:12px;font-weight:600;color:var(--nero-500);text-transform:uppercase;letter-spacing:0.06em;margin-right:4px}
+.filter-group--search{flex:1;min-width:200px}
+.search-input{font-family:var(--font-body);font-size:14px;width:100%;padding:10px 16px;min-height:44px;border:1px solid var(--nero-200);border-radius:10px;background:var(--warm-cream);transition:border-color var(--t-fast)}
+.search-input:focus{outline:none;border-color:var(--elm-400);box-shadow:0 0 0 3px rgba(46,149,130,0.12)}
+.search-input::placeholder{color:var(--nero-500)}
 .filter-btn{font-family:var(--font-body);font-size:13px;font-weight:600;background:var(--nero-50);color:var(--nero-600);border:1px solid var(--nero-200);border-radius:999px;padding:10px 16px;min-height:44px;cursor:pointer;transition:all var(--t-fast)}
 .filter-btn:hover{background:var(--elm-50);color:var(--elm-700);border-color:var(--elm-200)}
 .filter-btn.is-active{background:var(--elm-500);color:#fff;border-color:var(--elm-500)}

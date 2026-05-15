@@ -94,9 +94,14 @@ const breadcrumbs = [
             <textarea class="form-textarea" id="message" name="message" rows="3"></textarea>
           </div>
         </div>
-        <button type="submit" class="form-submit">Start the Conversation</button>
+        <button type="submit" class="form-submit"><span class="form-submit-text">Start the Conversation</span><span class="form-submit-loading" hidden>Sending...</span></button>
         <p class="form-privacy">We respect your privacy. No spam, ever. <a href="/privacy">Privacy Policy</a></p>
       </form>
+      <div class="form-success" hidden>
+        <div class="form-success-icon" aria-hidden="true">✓</div>
+        <h2>We got your message</h2>
+        <p>We'll reach out within one business day. In the meantime, you might enjoy our <a href="/learn">learning hub</a>.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -194,6 +199,17 @@ const breadcrumbs = [
 .form-submit:hover{background:var(--elm-600);transform:translateY(-1px);box-shadow:0 4px 16px rgba(46,149,130,0.2)}
 .form-privacy{font-size:12px;color:var(--nero-500);margin-top:16px;text-align:center;line-height:1.5}
 .form-privacy a{color:var(--elm-600);text-decoration:underline}
+.form-submit-loading{display:inline}
+.form-submit.is-loading{opacity:0.7;pointer-events:none}
+.form-error-msg{font-size:12px;color:#c0392b;margin-top:4px;display:none}
+.form-group.has-error .form-input,
+.form-group.has-error .form-select{border-color:#c0392b}
+.form-group.has-error .form-error-msg{display:block}
+.form-success{text-align:center;padding:60px 20px}
+.form-success-icon{width:56px;height:56px;border-radius:50%;background:var(--elm-50);color:var(--elm-600);font-size:28px;display:flex;align-items:center;justify-content:center;margin:0 auto 20px}
+.form-success h2{font-family:var(--font-display);font-size:24px;font-weight:700;margin-bottom:12px}
+.form-success p{font-size:16px;color:var(--nero-600);line-height:1.6}
+.form-success a{color:var(--elm-600);text-decoration:underline}
 
 /* SOCIAL PROOF BAR */
 .proof-bar{background:var(--elm-50);border-top:1px solid var(--elm-100);border-bottom:1px solid var(--elm-100);padding:64px var(--section-pad-x)}
@@ -236,4 +252,35 @@ const breadcrumbs = [
 }
 </style>
 
-
+<script>
+  const form = document.querySelector('form[name="contact"]');
+  const submitBtn = form?.querySelector('.form-submit');
+  const successDiv = document.querySelector('.form-success');
+  if (form && submitBtn && successDiv) {
+    form.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      submitBtn.classList.add('is-loading');
+      submitBtn.querySelector('.form-submit-text').hidden = true;
+      submitBtn.querySelector('.form-submit-loading').hidden = false;
+      try {
+        const data = new FormData(form);
+        const resp = await fetch('/', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          body: new URLSearchParams(data).toString()
+        });
+        if (resp.ok) {
+          form.hidden = true;
+          successDiv.hidden = false;
+        } else {
+          throw new Error('Submission failed');
+        }
+      } catch (err) {
+        submitBtn.classList.remove('is-loading');
+        submitBtn.querySelector('.form-submit-text').hidden = false;
+        submitBtn.querySelector('.form-submit-loading').hidden = true;
+        alert('Something went wrong. Please try again or email us at insurance@kingsfoilhealth.com.');
+      }
+    });
+  }
+</script>
