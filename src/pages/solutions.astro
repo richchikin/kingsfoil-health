@@ -20,7 +20,6 @@ const breadcrumbs = [
 
 <!-- PAGE HERO -->
 <section class="page-hero" aria-label="Page introduction">
-  <div class="eyebrow">Our Approach</div>
   <h1>Benefits that actually <em>work for you</em></h1>
   <p class="page-hero-sub">We help companies take control of their health insurance through smarter plan structures, proactive claims management, and a concierge experience your employees will notice.</p>
   <p class="page-hero-meta">Looking for the services side? See our <a href="/brokerage">health insurance brokerage overview →</a></p>
@@ -305,8 +304,7 @@ const breadcrumbs = [
 }
 .page-hero h1 em{
   font-style:italic;
-  background:linear-gradient(135deg, var(--elm-600), var(--elm-500));
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
+  color:var(--elm-600);
 }
 .page-hero-sub{
   font-size:clamp(16px,1.6vw,19px);line-height:1.65;color:var(--nero-500);
@@ -507,7 +505,7 @@ const breadcrumbs = [
   font-size:12px;margin-right:8px;flex-shrink:0;
 }
 .comparison-check--yes{background:var(--elm-50);color:var(--elm-600)}
-.comparison-check--no{background:var(--nero-100);color:var(--nero-400)}
+.comparison-check--no{background:var(--nero-100);color:var(--nero-500)}
 
 /* ========================================
    FAQ (Linen)
@@ -545,13 +543,15 @@ const breadcrumbs = [
   transform:rotate(45deg);background:var(--elm-50);color:var(--elm-600);
 }
 .faq-answer{
-  max-height:0;overflow:hidden;
-  transition:max-height 0.4s var(--ease-out);
+  display:grid;grid-template-rows:0fr;
+  transition:grid-template-rows 0.4s var(--ease-out);
 }
 .faq-answer-inner{
-  padding:0 0 24px;font-size:15px;line-height:1.7;color:var(--nero-600);
+  overflow:hidden;
+  padding:0;font-size:15px;line-height:1.7;color:var(--nero-600);
 }
-.faq-item.is-open .faq-answer{max-height:300px}
+.faq-item.is-open .faq-answer{grid-template-rows:1fr}
+.faq-item.is-open .faq-answer-inner{padding:0 0 24px}
 
 /* ========================================
    BOTTOM CTA (Dark)
@@ -579,7 +579,7 @@ const breadcrumbs = [
   max-width:640px;margin:0 auto 16px;position:relative;
 }
 .bottom-cta p{
-  font-size:17px;color:var(--nero-400);margin-bottom:40px;
+  font-size:17px;color:var(--nero-500);margin-bottom:40px;
   max-width:480px;margin-left:auto;margin-right:auto;position:relative;line-height:1.6;
 }
 .bottom-cta .btn-primary{font-size:17px;padding:16px 36px;position:relative}
@@ -631,7 +631,7 @@ const breadcrumbs = [
   .comparison-cell:nth-child(3){
     border-right:none;padding-top:4px;
   }
-  .comparison-cell:nth-child(2)::before{content:'Traditional: ';font-weight:600;color:var(--nero-400);margin-right:4px}
+  .comparison-cell:nth-child(2)::before{content:'Traditional: ';font-weight:600;color:var(--nero-500);margin-right:4px}
   .comparison-cell:nth-child(3)::before{content:'Kingsfoil: ';font-weight:600;color:var(--elm-600);margin-right:4px}
   .comparison-cell:nth-child(3){border-bottom:1px solid var(--elm-100)}
 }

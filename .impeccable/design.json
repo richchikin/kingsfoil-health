@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-05-15T00:00:00Z",
+  "title": "Design System: Kingsfoil Health",
+  "extensions": {
+    "colorMeta": {
+      "healing-elm": {
+        "role": "primary",
+        "displayName": "Healing Elm",
+        "canonical": "#2e9582",
+        "tonalRamp": ["#0e2d28", "#16453d", "#1e5f53", "#267a6b", "#2e9582", "#44ae9c", "#6ec7b8", "#a6ddd3", "#d4eeea", "#eef8f6"]
+      },
+      "deep-sapphire": {
+        "role": "secondary",
+        "displayName": "Deep Sapphire",
+        "canonical": "#3468a0",
+        "tonalRamp": ["#112135", "#1a324f", "#224369", "#2b5584", "#3468a0", "#5e8abb", "#88a8d1", "#b0c5e0", "#d7e2f0", "#f0f4f9"]
+      },
+      "golden-hour": {
+        "role": "tertiary",
+        "displayName": "Golden Hour",
+        "canonical": "#e1c45e",
+        "tonalRamp": ["#524412", "#79641e", "#a18528", "#c9a83a", "#e1c45e", "#e9cc66", "#f0d67a", "#f7e5a8", "#fcf4d7", "#fefbf0"]
+      },
+      "warm-stone": {
+        "role": "neutral",
+        "displayName": "Warm Stone",
+        "canonical": "#736f6c",
+        "tonalRamp": ["#262324", "#333130", "#454240", "#5f5b58", "#736f6c", "#a8a4a1", "#ccc9c7", "#e3e1df", "#f2f0ef", "#faf9f9"]
+      },
+      "warm-cream": {
+        "role": "neutral",
+        "displayName": "Warm Cream",
+        "canonical": "#fdf9f3"
+      },
+      "warm-linen": {
+        "role": "neutral",
+        "displayName": "Warm Linen",
+        "canonical": "#f8f3eb"
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Page heroes and primary headlines. Playfair Display at its largest and most impactful." },
+      "headline": { "displayName": "Headline", "purpose": "Section headings within pages. Structures the page into scannable blocks." },
+      "title": { "displayName": "Title", "purpose": "Subsection headings, card titles. The smallest size that carries serif authority." },
+      "body": { "displayName": "Body", "purpose": "All paragraph text. DM Sans for maximum readability." },
+      "label": { "displayName": "Label / Eyebrow", "purpose": "Section labels, metadata, category tags. Uppercase, tracked wide." }
+    },
+    "shadows": [
+      { "name": "hover-lift", "value": "0 4px 16px rgba(46, 149, 130, 0.2)", "purpose": "Primary button hover state. Paired with translateY(-1px)." },
+      { "name": "focus-ring", "value": "0 0 0 3px rgba(46, 149, 130, 0.4)", "purpose": "Accessibility focus indicator on all interactive elements." }
+    ],
+    "motion": [
+      { "name": "ease-out", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Default easing for nav underlines, overlay transitions, and hamburger animation." },
+      { "name": "t-fast", "value": "150ms", "purpose": "Quick state changes: button hover, link color, focus ring." },
+      { "name": "t-med", "value": "250ms", "purpose": "Longer transitions: nav underline scale, overlay opacity, hamburger morph." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "420px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Default action button. Healing Elm background, white text, gently rounded.",
+      "html": "<button class=\"ds-btn-primary\">Talk to Us</button>",
+      "css": ".ds-btn-primary { display: inline-block; font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 16px; font-weight: 600; background: #2e9582; color: #fff; border: 2px solid transparent; border-radius: 8px; padding: 14px 32px; cursor: pointer; transition: all 150ms; text-decoration: none; } .ds-btn-primary:hover { background: #267a6b; transform: translateY(-1px); box-shadow: 0 4px 16px rgba(46, 149, 130, 0.2); } .ds-btn-primary:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(46, 149, 130, 0.4); }"
+    },
+    {
+      "name": "Warm Button",
+      "kind": "button",
+      "refersTo": "button-warm",
+      "description": "Secondary emphasis with emotional warmth. Golden Hour tones for featured CTAs.",
+      "html": "<button class=\"ds-btn-warm\">See Your Options</button>",
+      "css": ".ds-btn-warm { display: inline-block; font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 16px; font-weight: 600; background: #fcf4d7; color: #79641e; border: 2px solid #f7e5a8; border-radius: 8px; padding: 14px 32px; cursor: pointer; transition: all 150ms; text-decoration: none; } .ds-btn-warm:hover { background: #f7e5a8; border-color: #f0d67a; } .ds-btn-warm:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(46, 149, 130, 0.4); }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Lower-priority actions alongside a Primary button. Transparent with Elm border.",
+      "html": "<button class=\"ds-btn-secondary\">Learn More</button>",
+      "css": ".ds-btn-secondary { display: inline-block; font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 16px; font-weight: 600; background: transparent; color: #267a6b; border: 2px solid #a6ddd3; border-radius: 8px; padding: 14px 32px; cursor: pointer; transition: all 150ms; text-decoration: none; } .ds-btn-secondary:hover { border-color: #44ae9c; background: #eef8f6; } .ds-btn-secondary:focus-visible { outline: none; box-shadow: 0 0 0 3px rgba(46, 149, 130, 0.4); }"
+    },
+    {
+      "name": "Navigation Bar",
+      "kind": "nav",
+      "refersTo": "nav-cta",
+      "description": "Sticky frosted-glass header with logo, links, and compact CTA.",
+      "html": "<nav class=\"ds-nav\"><a href=\"/\" class=\"ds-nav-logo\"><svg width=\"140\" height=\"40\" viewBox=\"0 0 140 40\"><text x=\"0\" y=\"28\" font-family=\"'Playfair Display', Georgia, serif\" font-size=\"18\" font-weight=\"700\" fill=\"#262324\">Kingsfoil Health</text></svg></a><ul class=\"ds-nav-links\"><li><a href=\"#\" class=\"ds-nav-active\">Solutions</a></li><li><a href=\"#\">Learn</a></li><li><a href=\"#\">About</a></li></ul><a href=\"#\" class=\"ds-nav-cta\">Talk to Us</a></nav>",
+      "css": ".ds-nav { position: sticky; top: 0; z-index: 100; background: rgba(253,249,243,0.92); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); border-bottom: 1px solid rgba(204,201,199,0.25); padding: 0 48px; height: 72px; display: flex; align-items: center; justify-content: space-between; } .ds-nav-logo { text-decoration: none; flex-shrink: 0; } .ds-nav-links { display: flex; gap: 36px; list-style: none; padding: 0; margin: 0; } .ds-nav-links a { font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 500; color: #5f5b58; text-decoration: none; position: relative; transition: color 150ms; } .ds-nav-links a::after { content: ''; position: absolute; bottom: -4px; left: 0; right: 0; height: 2px; background: #2e9582; border-radius: 1px; transform: scaleX(0); transition: transform 250ms cubic-bezier(0.16, 1, 0.3, 1); } .ds-nav-links a:hover { color: #267a6b; } .ds-nav-links a:hover::after { transform: scaleX(1); } .ds-nav-active { color: #267a6b !important; font-weight: 600 !important; } .ds-nav-active::after { transform: scaleX(1) !important; } .ds-nav-cta { font-family: 'DM Sans', sans-serif; font-size: 14px; font-weight: 600; background: #2e9582; color: #fff; border: none; border-radius: 8px; padding: 12px 24px; text-decoration: none; transition: background 150ms; } .ds-nav-cta:hover { background: #267a6b; }"
+    },
+    {
+      "name": "Eyebrow Label",
+      "kind": "custom",
+      "refersTo": "label",
+      "description": "Uppercase tracked section label. Sets context before a headline.",
+      "html": "<span class=\"ds-eyebrow\">Our Approach</span>",
+      "css": ".ds-eyebrow { font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif; font-size: 12px; font-weight: 600; letter-spacing: 0.15em; text-transform: uppercase; color: #2e9582; display: block; margin-bottom: 16px; }"
+    },
+    {
+      "name": "Icon Background Tile",
+      "kind": "custom",
+      "refersTo": "icon-bg",
+      "description": "Tinted rounded-square background behind outlined icons. Signature Kingsfoil pattern.",
+      "html": "<div class=\"ds-icon-tile ds-icon-tile--green\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#2e9582\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z\"/></svg></div>",
+      "css": ".ds-icon-tile { display: inline-flex; align-items: center; justify-content: center; width: 48px; height: 48px; border-radius: 25%; } .ds-icon-tile--green { background: #eef8f6; } .ds-icon-tile--blue { background: #f0f4f9; } .ds-icon-tile--gold { background: #fefbf0; } .ds-icon-tile--neutral { background: #f2f0ef; }"
+    },
+    {
+      "name": "Footer",
+      "kind": "nav",
+      "refersTo": "footer",
+      "description": "Dark footer with 4-column grid, white logo, and warm stone text.",
+      "html": "<footer class=\"ds-footer\"><div class=\"ds-footer-grid\"><div class=\"ds-footer-brand\"><span style=\"font-family: 'Playfair Display', serif; font-size: 18px; font-weight: 700; color: #fff;\">Kingsfoil Health</span><div class=\"ds-footer-tagline\">Health insurance, healed.</div></div><div class=\"ds-footer-col\"><h4>Solutions</h4><a href=\"#\">Brokerage Services</a><a href=\"#\">Our Approach</a></div><div class=\"ds-footer-col\"><h4>Learn</h4><a href=\"#\">The Business Case</a><a href=\"#\">All Articles</a></div><div class=\"ds-footer-col\"><h4>Company</h4><a href=\"#\">About</a><a href=\"#\">Talk to Us</a></div></div></footer>",
+      "css": ".ds-footer { background: #262324; color: #ccc9c7; border-top: 1px solid #333130; padding: 64px 48px 32px; font-family: 'DM Sans', sans-serif; font-size: 14px; } .ds-footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; max-width: 1100px; margin: 0 auto; } .ds-footer-brand { margin-bottom: 12px; } .ds-footer-tagline { font-style: italic; color: #736f6c; margin-top: 8px; font-size: 14px; } .ds-footer-col { display: flex; flex-direction: column; } .ds-footer-col h4 { font-size: 11px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: #736f6c; margin-bottom: 16px; } .ds-footer-col a { display: block; color: #a8a4a1; text-decoration: none; padding: 10px 0; transition: color 150ms; } .ds-footer-col a:hover { color: #44ae9c; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Golden Hour Consultation",
+    "overview": "The feeling of sitting across from an advisor in warm, late-afternoon light — someone who already understands your problem and has a plan. Not a sales pitch. Not a corporate presentation. A calm, knowledgeable conversation where possibilities open up and anxiety recedes.\n\nKingsfoil Health's visual system draws from the brand archetypes of Sage (authority, clarity, insight) and Caregiver (warmth, advocacy, protection). The palette is grounded in nature — healing greens, deep sapphires, golden hour warmth — set against warm cream surfaces that feel like good paper, not cold screens. Typography pairs Playfair Display's editorial sophistication with DM Sans' clean readability: refinement without pretension.\n\nThis system explicitly rejects the visual language of generic insurance: no sterile blues, no stock handshakes, no corporate glass towers, no fear-based imagery, no saccharine optimism. It also rejects startup-bro aesthetics — no purple gradients, no neon accents, no cards-in-cards SaaS templates.",
+    "keyCharacteristics": [
+      "Warm cream surfaces with generous negative space (never white, never gray)",
+      "Serif headlines that convey editorial authority, not decoration",
+      "Color used with discipline — Elm Green leads, Gold accents, Sapphire supports",
+      "Photography feels like natural light through windows, not studio flash",
+      "Components feel approachable but decisive — gently curved, confidently filled",
+      "Every page has room to breathe (30-40% negative space minimum)"
+    ],
+    "rules": [
+      { "name": "The Warm Undertone Rule", "body": "Every neutral in the system has a warm undertone. Cold grays are prohibited. Blue-tinted grays break the Golden Hour atmosphere.", "section": "colors" },
+      { "name": "The Elm Leads Rule", "body": "Elm Green is the only color permitted on primary CTAs. Gold accents, Sapphire informs, Elm acts.", "section": "colors" },
+      { "name": "The Serif Ceiling Rule", "body": "Playfair Display is never used below 20px rendered size. Below that threshold, the serifs lose their refinement and become visual noise.", "section": "typography" },
+      { "name": "The No-Decoration Rule", "body": "Playfair Display is never used for decorative purposes. It earns its presence by communicating something.", "section": "typography" },
+      { "name": "The Flat-By-Default Rule", "body": "Surfaces are flat at rest. Shadows appear only as a response to state (hover, focus). Use tinted surface colors or subtle borders for separation, never resting shadows.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do use Warm Cream (#fdf9f3) as the primary page surface — never pure white or cool gray.",
+      "Do maintain 30-40% negative space in all compositions.",
+      "Do use natural-light photography with warm undertones.",
+      "Do place subjects off-center following the rule of thirds, with clear copy space.",
+      "Do use Elm Green exclusively for primary actions.",
+      "Do use slightly desaturated photography that naturally aligns with the warm palette.",
+      "Do keep body text at 65-75 characters per line maximum.",
+      "Do use organic shapes at 3-6% opacity for subtle background texture.",
+      "Do show real diversity in photography reflecting the actual American workforce."
+    ],
+    "donts": [
+      "Don't use stock photo clichés: stethoscope-on-keyboard, handshake closeups, people high-fiving, arms-crossed power poses.",
+      "Don't use sterile hospital or clinical imagery.",
+      "Don't use overly corporate settings (glass towers, massive conference rooms, suits).",
+      "Don't use fear or anxiety imagery.",
+      "Don't use cold blue color grading.",
+      "Don't apply purple-to-blue gradients, neon accents, or glassmorphism.",
+      "Don't nest cards inside cards.",
+      "Don't use resting shadows on surfaces.",
+      "Don't use 'trusted partner,' 'synergy,' 'leverage,' or hollow corporate language.",
+      "Don't use Playfair Display below 20px.",
+      "Don't use any imagery that could appear on any other insurance broker's website."
+    ]
+  }
+}

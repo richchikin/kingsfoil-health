@@ -69,7 +69,6 @@ const faqSchema = {
 
   <!-- HERO -->
   <section class="page-hero" aria-label="Page introduction">
-    <div class="eyebrow">Brokerage Services</div>
     <h1>A health insurance brokerage built for <em>forward-thinking businesses</em></h1>
     <p class="page-hero-sub">We're an employee benefits brokerage that shops across every plan structure, manages claims year-round, and advocates for your company — not the carrier. If you've only ever been shown fully funded plans, there's a better conversation waiting.</p>
     <div class="page-hero-actions">
@@ -82,7 +81,6 @@ const faqSchema = {
   <section class="section services" aria-labelledby="services-heading">
     <div class="section-inner">
       <div class="services-header">
-        <div class="eyebrow">What we do</div>
         <h2 id="services-heading">Full-service brokerage, not a once-a-year renewal call</h2>
         <p>A modern brokerage operates year-round. Here's what that looks like across six core services.</p>
       </div>
@@ -95,8 +93,10 @@ const faqSchema = {
               <polyline points="2 12 12 17 22 12"/>
             </svg>
           </div>
-          <h3>Plan structure evaluation</h3>
-          <p>We shop across fully funded, level-funded, partially self-funded, and PEO options. You get a real side-by-side comparison with projected costs and employee impact — not just the easy quote.</p>
+          <div class="service-card-content">
+            <h3>Plan structure evaluation</h3>
+            <p>We shop across fully funded, level-funded, partially self-funded, and PEO options. You get a real side-by-side comparison with projected costs and employee impact — not just the easy quote.</p>
+          </div>
         </div>
         <div class="service-card">
           <div class="service-icon" aria-hidden="true">
@@ -106,8 +106,10 @@ const faqSchema = {
               <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
             </svg>
           </div>
-          <h3>Carrier and network sourcing</h3>
-          <p>We work across multiple carriers and PEO partners so your options aren't limited by a single preferred relationship. The right network for your team depends on where they live and how they use care.</p>
+          <div class="service-card-content">
+            <h3>Carrier and network sourcing</h3>
+            <p>We work across multiple carriers and PEO partners so your options aren't limited by a single preferred relationship. The right network for your team depends on where they live and how they use care.</p>
+          </div>
         </div>
         <div class="service-card">
           <div class="service-icon" aria-hidden="true">
@@ -115,8 +117,10 @@ const faqSchema = {
               <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
             </svg>
           </div>
-          <h3>Claims management</h3>
-          <p>For self-funded and level-funded groups, we monitor claims data continuously, surface trends early, and use that data to build renewal strategy months in advance — not in the final weeks.</p>
+          <div class="service-card-content">
+            <h3>Claims management</h3>
+            <p>For self-funded and level-funded groups, we monitor claims data continuously, surface trends early, and use that data to build renewal strategy months in advance — not in the final weeks.</p>
+          </div>
         </div>
         <div class="service-card">
           <div class="service-icon" aria-hidden="true">
@@ -125,8 +129,10 @@ const faqSchema = {
               <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"/>
             </svg>
           </div>
-          <h3>Employee concierge support</h3>
-          <p>When your people have a coverage, provider, or billing question, they reach a real person who knows your plan — not an outsourced carrier call center. Better guidance means better care decisions.</p>
+          <div class="service-card-content">
+            <h3>Employee concierge support</h3>
+            <p>When your people have a coverage, provider, or billing question, they reach a real person who knows your plan — not an outsourced carrier call center. Better guidance means better care decisions.</p>
+          </div>
         </div>
         <div class="service-card">
           <div class="service-icon" aria-hidden="true">
@@ -135,8 +141,10 @@ const faqSchema = {
               <polyline points="9 12 11 14 15 10"/>
             </svg>
           </div>
-          <h3>Compliance and ACA support</h3>
-          <p>ACA reporting, ERISA requirements, 5500 filings, COBRA coordination, and plan document maintenance. The administrative layer that every employer has to get right.</p>
+          <div class="service-card-content">
+            <h3>Compliance and ACA support</h3>
+            <p>ACA reporting, ERISA requirements, 5500 filings, COBRA coordination, and plan document maintenance. The administrative layer that every employer has to get right.</p>
+          </div>
         </div>
         <div class="service-card">
           <div class="service-icon" aria-hidden="true">
@@ -146,8 +154,10 @@ const faqSchema = {
               <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
             </svg>
           </div>
-          <h3>Renewal strategy</h3>
-          <p>We start preparing for your renewal 90+ days out, armed with your actual claims data. You go into renewal with leverage, not scrambling in the last two weeks.</p>
+          <div class="service-card-content">
+            <h3>Renewal strategy</h3>
+            <p>We start preparing for your renewal 90+ days out, armed with your actual claims data. You go into renewal with leverage, not scrambling in the last two weeks.</p>
+          </div>
         </div>
       </div>
     </div>
@@ -158,7 +168,6 @@ const faqSchema = {
     <div class="section-inner">
       <div class="who-layout">
         <div class="who-intro">
-          <div class="eyebrow">Who we serve</div>
           <h2 id="who-heading">Businesses that want more than a quote</h2>
           <p>We work with companies that see their benefits program as strategic, not just an annual line item. Most fit one of these profiles:</p>
           <div class="who-image">
@@ -297,20 +306,22 @@ const faqSchema = {
   .services-header p { color: var(--nero-500); font-size: 17px; line-height: 1.65; }
   .services-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
   .service-card {
     background: #fff;
     border: 1px solid var(--nero-100);
     border-radius: 12px;
     padding: 28px 28px;
-    transition: border-color var(--t-fast), box-shadow var(--t-fast), transform var(--t-fast);
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    transition: border-color var(--t-fast), box-shadow var(--t-fast);
   }
   .service-card:hover {
     border-color: var(--elm-200);
     box-shadow: 0 4px 16px rgba(38,35,36,0.05);
-    transform: translateY(-2px);
   }
   .service-icon {
     width: 44px;
@@ -321,9 +332,14 @@ const faqSchema = {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
+    flex-shrink: 0;
     transition: background var(--t-fast), color var(--t-fast);
   }
+  .service-card:nth-child(2) .service-icon { background: var(--sapphire-50); color: var(--sapphire-600); }
+  .service-card:nth-child(3) .service-icon { background: var(--gold-50); color: var(--gold-700); }
+  .service-card:nth-child(4) .service-icon { background: var(--sapphire-50); color: var(--sapphire-600); }
+  .service-card:nth-child(5) .service-icon { background: var(--gold-50); color: var(--gold-700); }
+  .service-card:nth-child(6) .service-icon { background: var(--elm-50); color: var(--elm-600); }
   .service-card:hover .service-icon {
     background: var(--elm-100);
     color: var(--elm-700);
@@ -332,16 +348,17 @@ const faqSchema = {
     width: 22px;
     height: 22px;
   }
+  .service-card-content { flex: 1; }
   .service-card h3 {
     font-family: var(--font-display);
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 1.3;
     color: var(--nero-900);
-    margin-bottom: 12px;
+    margin-bottom: 8px;
   }
   .service-card p {
-    font-size: 15.5px;
+    font-size: 15px;
     line-height: 1.65;
     color: var(--nero-600);
   }
@@ -540,7 +557,7 @@ const faqSchema = {
   }
 
   @media (max-width: 1024px) {
-    .services-grid { grid-template-columns: repeat(2, 1fr); }
+    .services-grid { grid-template-columns: 1fr 1fr; }
     .process-list { grid-template-columns: repeat(2, 1fr); }
     .who-layout { grid-template-columns: 1fr; gap: 32px; }
   }

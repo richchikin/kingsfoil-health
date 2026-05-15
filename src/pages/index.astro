@@ -67,17 +67,17 @@ import articleHrChallenges from '@assets/images/article-hr-challenges.jpg';
     </div>
     <div class="solution-grid">
       <div class="sol-card">
-        <div class="sol-card-accent" style="background:linear-gradient(90deg,var(--elm-400),var(--elm-300))" aria-hidden="true"></div>
+        <div class="sol-card-number" style="background:var(--elm-50);color:var(--elm-600)" aria-hidden="true">1</div>
         <h3>Financial control</h3>
         <p>See where your healthcare dollars go. With the right plan structure, unused premiums can come back to your company instead of staying with the carrier.</p>
       </div>
       <div class="sol-card">
-        <div class="sol-card-accent" style="background:linear-gradient(90deg,var(--sapphire-500),var(--sapphire-300))" aria-hidden="true"></div>
+        <div class="sol-card-number" style="background:var(--sapphire-50);color:var(--sapphire-600)" aria-hidden="true">2</div>
         <h3>Concierge experience</h3>
         <p>Your employees get real human guidance navigating the healthcare system. Better care decisions lead to better outcomes and smarter claims.</p>
       </div>
       <div class="sol-card">
-        <div class="sol-card-accent" style="background:linear-gradient(90deg,var(--gold-500),var(--gold-300))" aria-hidden="true"></div>
+        <div class="sol-card-number" style="background:var(--gold-50);color:var(--gold-700)" aria-hidden="true">3</div>
         <h3>Proactive management</h3>
         <p>Claims don't manage themselves. We actively monitor and guide the process so your plan performs better every year, not worse.</p>
       </div>
@@ -305,9 +305,7 @@ import articleHrChallenges from '@assets/images/article-hr-challenges.jpg';
 }
 .hero h1 em{
   font-style:italic;
-  background:linear-gradient(135deg, var(--elm-600), var(--elm-500));
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;
+  color:var(--elm-600);
 }
 
 .hero-sub{
@@ -348,9 +346,7 @@ import articleHrChallenges from '@assets/images/article-hr-challenges.jpg';
 .problem-stats{display:flex;gap:48px;margin-top:40px}
 .problem-stat .number{
   font-family:var(--font-display);font-size:48px;font-weight:700;
-  background:linear-gradient(135deg, var(--elm-500), var(--elm-400));
-  -webkit-background-clip:text;-webkit-text-fill-color:transparent;
-  background-clip:text;line-height:1;
+  color:var(--elm-600);line-height:1;
 }
 .problem-stat .label{font-size:13px;color:var(--nero-500);margin-top:4px}
 
@@ -383,7 +379,7 @@ import articleHrChallenges from '@assets/images/article-hr-challenges.jpg';
   box-shadow:0 12px 36px rgba(38,35,36,0.08);
   border-color:var(--elm-200);
 }
-.sol-card-accent{width:40px;height:3px;border-radius:2px;margin-bottom:24px}
+.sol-card-number{width:36px;height:36px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-size:16px;font-weight:700;margin-bottom:20px}
 .sol-card h3{
   font-family:var(--font-display);font-size:20px;font-weight:700;
   margin-bottom:12px;line-height:1.3;
@@ -452,7 +448,7 @@ import articleHrChallenges from '@assets/images/article-hr-challenges.jpg';
   margin-bottom:12px;line-height:1.25;
 }
 .persona-card p{font-size:15px;line-height:1.65;color:var(--nero-600);margin-bottom:20px}
-.card-meta{font-size:12px;color:var(--nero-400);margin-bottom:20px;display:flex;gap:12px}
+.card-meta{font-size:12px;color:var(--nero-500);margin-bottom:20px;display:flex;gap:12px}
 .card-link{
   font-size:14px;font-weight:600;color:var(--sapphire-500);text-decoration:none;
   display:inline-flex;align-items:center;gap:6px;
@@ -536,7 +532,7 @@ import articleHrChallenges from '@assets/images/article-hr-challenges.jpg';
   font-family:var(--font-display);font-size:17px;font-weight:700;
   line-height:1.35;margin-bottom:8px;
 }
-.edu-card-meta{font-size:12px;color:var(--nero-400)}
+.edu-card-meta{font-size:12px;color:var(--nero-500)}
 
 /* ========================================
    BOTTOM CTA (Dark)
@@ -564,7 +560,7 @@ import articleHrChallenges from '@assets/images/article-hr-challenges.jpg';
   max-width:700px;margin:0 auto 16px;position:relative;
 }
 .bottom-cta p{
-  font-size:17px;color:var(--nero-400);margin-bottom:40px;
+  font-size:17px;color:var(--nero-500);margin-bottom:40px;
   max-width:480px;margin-left:auto;margin-right:auto;
   position:relative;line-height:1.6;
 }
