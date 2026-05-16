@@ -5,7 +5,7 @@ interface Props {
 const { currentPath = '' } = Astro.props;
 
 const navItems = [
-  { href: '/solutions', label: 'Solutions' },
+  { href: '/solutions', label: 'Our Approach' },
   { href: '/learn', label: 'Learn' },
   { href: '/about', label: 'About' },
   { href: '/partners', label: 'Partners' },
@@ -93,15 +93,17 @@ const navItems = [
   .nav-toggle[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
   .nav-toggle[aria-expanded="true"] span:nth-child(3) { top: 24px; transform: rotate(-45deg); }
   .nav-overlay {
-    display: none; position: fixed; inset: 0; z-index: 99;
+    position: fixed; inset: 0; z-index: 99;
     background: rgba(253,249,243,0.98); backdrop-filter: blur(24px);
-    flex-direction: column; align-items: center; justify-content: center; gap: 32px;
-    opacity: 0; transition: opacity var(--t-med);
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 32px;
+    opacity: 0; visibility: hidden; transition: opacity var(--t-med), visibility var(--t-med);
+    pointer-events: none;
   }
-  .nav-overlay.is-open { display: flex; opacity: 1; }
+  .nav-overlay.is-open { opacity: 1; visibility: visible; pointer-events: auto; }
   .nav-overlay a {
     font-family: var(--font-display); font-size: 28px; font-weight: 600;
     color: var(--nero-800); text-decoration: none; transition: color var(--t-fast);
+    padding: 8px 16px; min-height: 44px;
   }
   .nav-overlay a:hover { color: var(--elm-600); }
   .nav-overlay .nav-cta { font-size: 16px; padding: 14px 32px; margin-top: 16px; }

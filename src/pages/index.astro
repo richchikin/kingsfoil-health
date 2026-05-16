@@ -66,17 +66,17 @@ import articleHrChallenges from '@assets/images/article-hr-challenges.jpg';
       <p>Proven plan structures that give your company financial control and give your employees a better healthcare experience.</p>
     </div>
     <div class="solution-grid">
-      <div class="sol-card">
+      <div class="sol-card reveal" data-reveal-delay="0">
         <div class="sol-card-number" style="background:var(--elm-50);color:var(--elm-600)" aria-hidden="true">1</div>
         <h3>Financial control</h3>
         <p>See where your healthcare dollars go. With the right plan structure, unused premiums can come back to your company instead of staying with the carrier.</p>
       </div>
-      <div class="sol-card">
+      <div class="sol-card reveal" data-reveal-delay="100">
         <div class="sol-card-number" style="background:var(--sapphire-50);color:var(--sapphire-600)" aria-hidden="true">2</div>
         <h3>Concierge experience</h3>
         <p>Your employees get real human guidance navigating the healthcare system. Better care decisions lead to better outcomes and smarter claims.</p>
       </div>
-      <div class="sol-card">
+      <div class="sol-card reveal" data-reveal-delay="200">
         <div class="sol-card-number" style="background:var(--gold-50);color:var(--gold-700)" aria-hidden="true">3</div>
         <h3>Proactive management</h3>
         <p>Claims don't manage themselves. We actively monitor and guide the process so your plan performs better every year, not worse.</p>
@@ -118,7 +118,7 @@ import articleHrChallenges from '@assets/images/article-hr-challenges.jpg';
         <h3>The Business Case</h3>
         <p>The financial argument for rethinking your company's health benefits. From rising premiums to ROI modeling.</p>
         <div class="card-meta">
-          <span>8 articles</span>
+          <span>9 articles</span>
           <span>~60 min</span>
           <span>Beginner to Advanced</span>
         </div>
@@ -139,51 +139,16 @@ import articleHrChallenges from '@assets/images/article-hr-challenges.jpg';
   </div>
 </section>
 
-<!-- H.E.A.R.T. VALUES — Brand Section (Dark Elm) -->
+<!-- H.E.A.R.T. VALUES — Brand Section (Dark Elm, condensed) -->
 <section class="section trust" aria-labelledby="trust-heading">
   <div class="section-inner trust-inner">
-    <div class="trust-layout">
-      <div class="trust-header">
-        <h2 id="trust-heading">We serve with H.E.A.R.T.</h2>
-        <p>Five values that change how we actually operate, not just what we put on a wall.</p>
+    <div class="trust-compact reveal">
+      <div class="trust-letters" aria-hidden="true">
+        <span>H</span><span>E</span><span>A</span><span>R</span><span>T</span>
       </div>
-      <div class="values-grid">
-        <div class="value-card">
-          <div class="value-card-top">
-            <div class="value-letter" aria-hidden="true">H</div>
-            <div class="value-name">Honor</div>
-          </div>
-          <div class="value-action"><strong>We disclose our commissions upfront.</strong> Every dollar, every incentive, in writing, before you sign anything. The Consolidated Appropriations Act requires it. We'd do it anyway.</div>
-        </div>
-        <div class="value-card">
-          <div class="value-card-top">
-            <div class="value-letter" aria-hidden="true">E</div>
-            <div class="value-name">Excellence</div>
-          </div>
-          <div class="value-action"><strong>We use concierge tools, not call centers.</strong> Your employees get real human guidance navigating care. Not a phone tree. Not a chatbot. A person who knows their name.</div>
-        </div>
-        <div class="value-card">
-          <div class="value-card-top">
-            <div class="value-letter" aria-hidden="true">A</div>
-            <div class="value-name">Accountability</div>
-          </div>
-          <div class="value-action"><strong>We share your claims data with you.</strong> Year-over-year performance tracking, transparent reporting, and honest assessments of what's working and what isn't. No black boxes.</div>
-        </div>
-        <div class="value-card">
-          <div class="value-card-top">
-            <div class="value-letter" aria-hidden="true">R</div>
-            <div class="value-name">Respect</div>
-          </div>
-          <div class="value-action"><strong>We treat your benefits budget like our own money.</strong> Every recommendation starts with what's right for your company and your people. We'll tell you if staying on your current plan is the best option.</div>
-        </div>
-        <div class="value-card value-card--wide">
-          <div class="value-card-top">
-            <div class="value-letter" aria-hidden="true">T</div>
-            <div class="value-name">Trust</div>
-          </div>
-          <div class="value-action"><strong>We're a year-round partner, not a once-a-year salesperson.</strong> Proactive check-ins, claims monitoring, and renewal strategy that starts months before your renewal date. You'll never wonder if we're paying attention.</div>
-        </div>
-      </div>
+      <h2 id="trust-heading">We serve with H.E.A.R.T.</h2>
+      <p>Honor. Excellence. Accountability. Respect. Trust. Five values that change how we operate, not just what we put on a wall. We disclose commissions upfront. We share your claims data. We treat your budget like our own.</p>
+      <a href="/about" class="trust-link">See what that means in practice →</a>
     </div>
   </div>
 </section>
@@ -252,9 +217,9 @@ import articleHrChallenges from '@assets/images/article-hr-challenges.jpg';
 .hero::before{
   content:'';position:absolute;inset:0;
   background:
-    radial-gradient(ellipse 60% 50% at 50% 30%, rgba(212,238,234,0.25) 0%, transparent 60%),
-    radial-gradient(ellipse 50% 40% at 25% 70%, rgba(252,244,215,0.4) 0%, transparent 50%),
-    radial-gradient(ellipse 50% 40% at 75% 75%, rgba(247,229,168,0.25) 0%, transparent 50%);
+    radial-gradient(ellipse 60% 50% at 50% 30%, rgba(212,238,234,0.2) 0%, transparent 60%),
+    radial-gradient(ellipse 55% 45% at 25% 70%, rgba(252,244,215,0.55) 0%, transparent 50%),
+    radial-gradient(ellipse 55% 45% at 75% 75%, rgba(247,229,168,0.4) 0%, transparent 50%);
   pointer-events:none;
 }
 /* Sunrise gradient at bottom */
@@ -262,8 +227,8 @@ import articleHrChallenges from '@assets/images/article-hr-challenges.jpg';
   content:'';position:absolute;bottom:0;left:0;right:0;height:30%;
   background:linear-gradient(180deg,
     transparent 0%,
-    rgba(225,196,94,0.06) 50%,
-    rgba(201,168,58,0.1) 100%
+    rgba(225,196,94,0.12) 50%,
+    rgba(201,168,58,0.18) 100%
   );
   pointer-events:none;
 }
@@ -276,11 +241,11 @@ import articleHrChallenges from '@assets/images/article-hr-challenges.jpg';
 }
 .hero-blob--elm{
   top:8%;right:5%;width:300px;height:300px;
-  background:var(--elm-100);opacity:0.12;
+  background:var(--elm-100);opacity:0.2;
 }
 .hero-blob--gold{
   bottom:15%;left:8%;width:250px;height:250px;
-  background:var(--gold-200);opacity:0.15;
+  background:var(--gold-200);opacity:0.3;
   filter:blur(50px);
   animation-duration:15s;animation-direction:reverse;
   border-radius:50% 60% 40% 50% / 60% 40% 50% 50%;
@@ -297,7 +262,7 @@ import articleHrChallenges from '@assets/images/article-hr-challenges.jpg';
 }
 
 .hero h1{
-  font-family:var(--font-display);font-size:clamp(40px,6vw,78px);
+  font-family:var(--font-display);font-size:clamp(48px,7vw,96px);
   font-weight:700;line-height:1.06;letter-spacing:-0.03em;
   color:var(--nero-900);max-width:840px;margin-bottom:28px;
   position:relative;z-index:1;
@@ -345,8 +310,8 @@ import articleHrChallenges from '@assets/images/article-hr-challenges.jpg';
 .problem p{font-size:17px;line-height:1.7;color:var(--nero-600);margin-bottom:20px}
 .problem-stats{display:flex;gap:48px;margin-top:40px}
 .problem-stat .number{
-  font-family:var(--font-display);font-size:48px;font-weight:700;
-  color:var(--elm-600);line-height:1;
+  font-family:var(--font-display);font-size:clamp(48px,8vw,72px);font-weight:700;
+  color:var(--gold-600);line-height:1;
 }
 .problem-stat .label{font-size:13px;color:var(--nero-500);margin-top:4px}
 
@@ -390,22 +355,21 @@ import articleHrChallenges from '@assets/images/article-hr-challenges.jpg';
    SOCIAL PROOF BAR (Elm-50 tinted)
    ======================================== */
 .proof{
-  padding:80px var(--section-pad-x);
-  background:var(--elm-50);
-  border-top:1px solid var(--elm-100);
-  border-bottom:1px solid var(--elm-100);
+  padding:48px var(--section-pad-x);
+  background:var(--elm-700);
+  color:#fff;
 }
 .proof-inner{
-  max-width:900px;margin:0 auto;
+  max-width:100%;margin:0 auto;
   display:flex;justify-content:center;gap:64px;align-items:center;
 }
 .proof-item{text-align:center}
 .proof-number{
   font-family:var(--font-display);font-size:36px;font-weight:700;
-  color:var(--elm-700);line-height:1;
+  color:var(--gold-300);line-height:1;
 }
-.proof-label{font-size:13px;color:var(--elm-800);margin-top:6px;max-width:140px;opacity:0.7}
-.proof-dot{width:1px;height:48px;background:var(--elm-200)}
+.proof-label{font-size:13px;color:var(--elm-200);margin-top:6px;max-width:140px;opacity:0.85}
+.proof-dot{width:1px;height:48px;background:var(--elm-500)}
 
 /* ========================================
    PERSONA ROUTER (Linen)
@@ -470,29 +434,13 @@ import articleHrChallenges from '@assets/images/article-hr-challenges.jpg';
   pointer-events:none;
 }
 .trust-inner{position:relative;z-index:1}
-.trust-layout{max-width:960px;margin:0 auto}
-.trust-header{max-width:700px;margin:0 auto 56px;text-align:center}
-.trust-header h2{
-  font-family:var(--font-display);font-size:clamp(28px,3.5vw,40px);
-  font-weight:700;line-height:1.15;margin-bottom:12px;
-}
-.trust-header p{font-size:16px;color:var(--elm-100);line-height:1.65}
-
-.values-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;max-width:960px;margin:0 auto}
-.value-card{
-  background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.08);
-  border-radius:14px;padding:28px 28px 24px;transition:all 200ms;
-}
-.value-card:hover{background:rgba(255,255,255,0.1);border-color:rgba(255,255,255,0.14)}
-.value-card-top{display:flex;align-items:center;gap:14px;margin-bottom:12px}
-.value-letter{
-  font-family:var(--font-display);font-size:28px;font-weight:700;
-  color:var(--gold-400);line-height:1;
-}
-.value-name{font-size:16px;font-weight:700;color:#fff}
-.value-action{font-size:14px;color:var(--elm-100);line-height:1.6}
-.value-action strong{color:#fff;font-weight:600}
-.value-card--wide{grid-column:1 / -1}
+.trust-compact{max-width:640px;margin:0 auto;text-align:center}
+.trust-letters{display:flex;justify-content:center;gap:16px;margin-bottom:24px}
+.trust-letters span{font-family:var(--font-display);font-size:clamp(40px,6vw,56px);font-weight:700;color:var(--gold-400);line-height:1}
+.trust-compact h2{font-family:var(--font-display);font-size:clamp(28px,3.5vw,40px);font-weight:700;line-height:1.15;margin-bottom:16px}
+.trust-compact p{font-size:17px;color:var(--elm-100);line-height:1.7;margin-bottom:24px}
+.trust-link{font-size:15px;font-weight:600;color:var(--gold-300);text-decoration:none;transition:color var(--t-fast)}
+.trust-link:hover{color:var(--gold-200)}
 
 /* ========================================
    EDUCATIONAL TEASER (White)
@@ -539,7 +487,7 @@ import articleHrChallenges from '@assets/images/article-hr-challenges.jpg';
    ======================================== */
 .bottom-cta{
   background:var(--nero-900);color:#fff;text-align:center;
-  padding:var(--section-pad-y) var(--section-pad-x);
+  padding:160px var(--section-pad-x) var(--section-pad-y);
   position:relative;overflow:hidden;
 }
 .bottom-cta::before{
@@ -622,10 +570,6 @@ import articleHrChallenges from '@assets/images/article-hr-challenges.jpg';
 
   /* Personas */
   .persona-cards{grid-template-columns:1fr}
-
-  /* Values */
-  .values-grid{grid-template-columns:1fr}
-  .value-card--wide{grid-column:auto}
 
   /* Edu */
   .edu-cards{grid-template-columns:1fr}

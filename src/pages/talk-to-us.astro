@@ -47,28 +47,28 @@ const breadcrumbs = [
         <div class="form-row">
           <div class="form-group">
             <label class="form-label" for="first-name">First name</label>
-            <input class="form-input" type="text" id="first-name" name="first_name" required>
+            <input class="form-input" type="text" id="first-name" name="first_name" autocomplete="given-name" required>
           </div>
           <div class="form-group">
             <label class="form-label" for="last-name">Last name</label>
-            <input class="form-input" type="text" id="last-name" name="last_name" required>
+            <input class="form-input" type="text" id="last-name" name="last_name" autocomplete="family-name" required>
           </div>
         </div>
         <div class="form-row">
           <div class="form-group">
             <label class="form-label" for="email">Work email</label>
-            <input class="form-input" type="email" id="email" name="email" required>
+            <input class="form-input" type="email" id="email" name="email" autocomplete="email" required>
           </div>
           <div class="form-group">
             <label class="form-label" for="company">Company name</label>
-            <input class="form-input" type="text" id="company" name="company">
+            <input class="form-input" type="text" id="company" name="company" autocomplete="organization">
           </div>
         </div>
         <div class="form-row">
           <div class="form-group">
             <label class="form-label" for="team-size">Team size</label>
             <select class="form-select" id="team-size" name="team_size">
-              <option value="">Select</option>
+              <option value="">Select team size</option>
               <option value="2-10">2–10 employees</option>
               <option value="11-50">11–50 employees</option>
               <option value="51-100">51–100 employees</option>
@@ -79,7 +79,7 @@ const breadcrumbs = [
           <div class="form-group">
             <label class="form-label" for="role">Your role</label>
             <select class="form-select" id="role" name="role">
-              <option value="">Select</option>
+              <option value="">Select your role</option>
               <option value="ceo-founder">CEO / Founder</option>
               <option value="cfo-finance">CFO / Finance</option>
               <option value="hr">HR / People Ops</option>
@@ -210,6 +210,7 @@ const breadcrumbs = [
 .form-success h2{font-family:var(--font-display);font-size:24px;font-weight:700;margin-bottom:12px}
 .form-success p{font-size:16px;color:var(--nero-600);line-height:1.6}
 .form-success a{color:var(--elm-600);text-decoration:underline}
+.form-error-inline{font-size:14px;color:#c0392b;margin-top:12px;text-align:center;line-height:1.5}
 
 /* SOCIAL PROOF BAR */
 .proof-bar{background:var(--elm-50);border-top:1px solid var(--elm-100);border-bottom:1px solid var(--elm-100);padding:64px var(--section-pad-x)}
@@ -235,6 +236,7 @@ const breadcrumbs = [
 .faq-answer-inner{overflow:hidden;padding:0;font-size:15px;line-height:1.7;color:var(--nero-600)}
 .faq-item.is-open .faq-answer{grid-template-rows:1fr}
 .faq-item.is-open .faq-answer-inner{padding:0 0 24px}
+.faq-item.is-open{background:var(--elm-50);margin:0 -24px;padding:0 24px;border-radius:12px;border-color:transparent}
 
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:0.01ms!important;animation-iteration-count:1!important;transition-duration:0.01ms!important}html{scroll-behavior:auto}}
 @media(max-width:1024px){:root{--section-pad-x:32px}.contact-layout{gap:48px}}
@@ -279,7 +281,10 @@ const breadcrumbs = [
         submitBtn.classList.remove('is-loading');
         submitBtn.querySelector('.form-submit-text').hidden = false;
         submitBtn.querySelector('.form-submit-loading').hidden = true;
-        alert('Something went wrong. Please try again or email us at insurance@kingsfoilhealth.com.');
+        const errEl = document.createElement('p');
+        errEl.className = 'form-error-inline';
+        errEl.textContent = 'Something went wrong. Please try again, or email us at insurance@kingsfoilhealth.com.';
+        submitBtn.parentNode.insertBefore(errEl, submitBtn.nextSibling);
       }
     });
   }

@@ -1,0 +1,86 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+
+const terms = [
+  { term: 'ACA', full: 'Affordable Care Act', definition: 'Federal law requiring employers with 50+ full-time employees to offer health coverage or face penalties. Sets minimum coverage standards and reporting requirements.' },
+  { term: 'COBRA', full: 'Consolidated Omnibus Budget Reconciliation Act', definition: 'Federal law allowing employees to continue their group health coverage for a limited time after leaving a job, at their own expense.' },
+  { term: 'ERISA', full: 'Employee Retirement Income Security Act', definition: 'Federal law governing employer-sponsored benefit plans, including health insurance. Sets fiduciary standards and reporting requirements like Form 5500.' },
+  { term: 'Form 5500', full: null, definition: 'Annual report filed with the Department of Labor for employer-sponsored benefit plans. Required for most plans with 100+ participants.' },
+  { term: 'Fully funded', full: null, definition: 'Traditional health insurance where the employer pays a fixed premium to a carrier, which assumes all claims risk. Premiums are set based on group demographics and claims history.' },
+  { term: 'HDHP', full: 'High Deductible Health Plan', definition: 'A health plan with a higher deductible than traditional plans. Required to pair with an HSA. Annual deductible minimums are set by the IRS.' },
+  { term: 'HRA', full: 'Health Reimbursement Arrangement', definition: 'An employer-funded account that reimburses employees for qualified medical expenses. The employer controls the design and funding level.' },
+  { term: 'HSA', full: 'Health Savings Account', definition: 'A tax-advantaged savings account for medical expenses, available to people enrolled in a qualifying HDHP. Contributions are tax-deductible, growth is tax-free, and withdrawals for medical expenses are tax-free.' },
+  { term: 'ICHRA', full: 'Individual Coverage Health Reimbursement Arrangement', definition: 'A type of HRA that allows employers to reimburse employees for individual health insurance premiums and medical expenses. Employees choose their own plan on the individual market.' },
+  { term: 'Level-funded', full: null, definition: 'A hybrid plan structure where the employer pays a fixed monthly amount covering expected claims, administrative fees, and stop-loss insurance. If actual claims come in below projections, the employer may receive a refund.' },
+  { term: 'PEO', full: 'Professional Employer Organization', definition: 'A company that provides HR services including health benefits by co-employing your workers. The PEO pools employees across multiple businesses to access larger-group plan pricing.' },
+  { term: 'PEPM', full: 'Per Employee Per Month', definition: 'A pricing model where fees are charged for each enrolled employee per month. Common for TPAs, brokers, and ancillary benefit providers.' },
+  { term: 'QSEHRA', full: 'Qualified Small Employer Health Reimbursement Arrangement', definition: 'An HRA specifically for small employers (under 50 employees) who don\'t offer a group health plan. Allows tax-free reimbursement for individual health insurance premiums.' },
+  { term: 'Self-funded', full: 'Self-insured', definition: 'A plan structure where the employer pays claims directly rather than paying premiums to a carrier. Typically paired with stop-loss insurance to cap maximum exposure. Offers greater transparency and potential cost savings.' },
+  { term: 'Stop-loss insurance', full: null, definition: 'Insurance purchased by self-funded employers to limit their financial exposure. Specific stop-loss caps claims per individual; aggregate stop-loss caps total plan claims for the year.' },
+  { term: 'TPA', full: 'Third-Party Administrator', definition: 'A company that processes claims and handles plan administration for self-funded and level-funded health plans. The TPA does not assume risk; the employer retains the claims risk.' },
+];
+---
+
+<BaseLayout
+  title="Health Benefits Glossary — Kingsfoil Health"
+  description="Plain-language definitions for health insurance terms like ICHRA, level-funded, stop-loss, PEO, and more."
+  canonicalPath="/learn/glossary"
+>
+
+<section class="page-hero" aria-label="Page introduction">
+  <h1>Health benefits glossary</h1>
+  <p class="page-hero-sub">Plain-language definitions for the terms you'll encounter when evaluating your company's health benefits.</p>
+</section>
+
+<section class="section glossary-section" aria-label="Glossary terms">
+  <div class="section-inner">
+    <dl class="glossary-list">
+      {terms.map(t => (
+        <div class="glossary-item reveal" id={t.term.toLowerCase().replace(/\s+/g, '-')}>
+          <dt>
+            <span class="glossary-term">{t.term}</span>
+            {t.full && <span class="glossary-full">{t.full}</span>}
+          </dt>
+          <dd>{t.definition}</dd>
+        </div>
+      ))}
+    </dl>
+  </div>
+</section>
+
+<section class="bottom-cta" aria-labelledby="cta-heading">
+  <h2 id="cta-heading">Still have questions?</h2>
+  <p>We explain benefits in plain language. No jargon, no pressure.</p>
+  <a href="/talk-to-us" class="btn-primary">Talk to Us</a>
+</section>
+
+</BaseLayout>
+
+<style>
+.page-hero{padding:72px var(--section-pad-x) 64px;text-align:center;position:relative;overflow:hidden}
+.page-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 50% 60% at 30% 80%, rgba(252,244,215,0.35) 0%, transparent 50%),radial-gradient(ellipse 40% 50% at 70% 70%, rgba(212,238,234,0.2) 0%, transparent 50%);pointer-events:none}
+.page-hero h1{font-family:var(--font-display);font-size:clamp(40px,5.5vw,68px);font-weight:700;line-height:1.08;letter-spacing:-0.03em;max-width:720px;margin:0 auto 20px;position:relative;z-index:1}
+.page-hero-sub{font-size:clamp(16px,1.6vw,19px);line-height:1.65;color:var(--nero-500);max-width:560px;margin:0 auto;position:relative;z-index:1}
+
+.glossary-section{background:var(--warm-linen)}
+.glossary-list{max-width:740px;margin:0 auto;display:flex;flex-direction:column;gap:0}
+.glossary-item{padding:28px 0;border-bottom:1px solid var(--nero-200)}
+.glossary-item:first-child{border-top:1px solid var(--nero-200)}
+.glossary-term{font-family:var(--font-display);font-size:20px;font-weight:700;color:var(--nero-900);margin-right:12px}
+.glossary-full{font-size:14px;color:var(--nero-500);font-weight:500}
+.glossary-item dd{font-size:16px;line-height:1.7;color:var(--nero-600);margin-top:8px}
+
+.bottom-cta{background:var(--nero-900);color:#fff;text-align:center;padding:160px var(--section-pad-x) var(--section-pad-y);position:relative;overflow:hidden}
+.bottom-cta h2{font-family:var(--font-display);font-size:clamp(32px,4vw,48px);font-weight:700;line-height:1.1;letter-spacing:-0.02em;max-width:640px;margin:0 auto 16px;position:relative}
+.bottom-cta p{font-size:17px;color:var(--nero-500);margin-bottom:40px;max-width:480px;margin-left:auto;margin-right:auto;position:relative;line-height:1.6}
+.bottom-cta .btn-primary{font-size:17px;padding:16px 36px;position:relative}
+
+@media(max-width:768px){
+  :root{--section-pad-y:80px;--section-pad-x:24px}
+  .page-hero{padding:48px 24px 56px}
+}
+@media(max-width:420px){
+  :root{--section-pad-x:16px;--section-pad-y:64px}
+  .page-hero{padding:40px 16px 48px}
+}
+</style>

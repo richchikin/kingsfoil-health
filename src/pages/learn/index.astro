@@ -303,9 +303,10 @@ const PAGE_SIZE = 12;
     <form class="newsletter-form" name="newsletter" method="POST" data-netlify="true" netlify-honeypot="bot-field">
       <input type="hidden" name="bot-field">
       <label for="newsletter-email" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)">Email address</label>
-      <input class="newsletter-input" type="email" id="newsletter-email" name="email" placeholder="Your work email" required>
-      <button class="newsletter-submit" type="submit">Get the Newsletter</button>
+      <input class="newsletter-input" type="email" id="newsletter-email" name="email" placeholder="Your work email" autocomplete="email" required>
+      <button class="newsletter-submit" type="submit"><span class="nl-text">Get the Newsletter</span><span class="nl-loading" hidden>Subscribing...</span></button>
     </form>
+    <p class="newsletter-success" hidden>You're in. Watch for our next issue.</p>
     <p class="newsletter-privacy">No spam. Unsubscribe anytime.</p>
   </div>
 </section>
@@ -416,6 +417,36 @@ const PAGE_SIZE = 12;
   });
 
   render();
+})();
+
+// Newsletter form
+(function() {
+  const form = document.querySelector('.newsletter-form');
+  const btn = form?.querySelector('.newsletter-submit');
+  const success = document.querySelector('.newsletter-success');
+  if (!form || !btn || !success) return;
+  form.addEventListener('submit', async function(e) {
+    e.preventDefault();
+    btn.classList.add('is-loading');
+    btn.querySelector('.nl-text').hidden = true;
+    btn.querySelector('.nl-loading').hidden = false;
+    try {
+      const data = new FormData(form);
+      const resp = await fetch('/', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: new URLSearchParams(data).toString()
+      });
+      if (resp.ok) {
+        form.hidden = true;
+        success.hidden = false;
+      } else { throw new Error(); }
+    } catch {
+      btn.classList.remove('is-loading');
+      btn.querySelector('.nl-text').hidden = false;
+      btn.querySelector('.nl-loading').hidden = true;
+    }
+  });
 })();
 </script>
 
@@ -540,6 +571,8 @@ const PAGE_SIZE = 12;
 .newsletter-input:focus{outline:none;border-color:var(--gold-400);background:rgba(255,255,255,0.12)}
 .newsletter-submit{font-family:var(--font-body);font-size:15px;font-weight:600;background:var(--gold-500);color:var(--nero-900);border:none;border-radius:10px;padding:14px 28px;cursor:pointer;transition:all var(--t-fast);white-space:nowrap}
 .newsletter-submit:hover{background:var(--gold-400)}
+.newsletter-submit.is-loading{opacity:0.7;pointer-events:none}
+.newsletter-success{font-size:15px;color:var(--elm-300);font-weight:600;margin-top:12px}
 .newsletter-privacy{font-size:12px;color:var(--elm-200);margin-top:12px;opacity:0.7}
 
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:0.01ms!important;animation-iteration-count:1!important;transition-duration:0.01ms!important}html{scroll-behavior:auto}}

@@ -66,15 +66,15 @@ const breadcrumbs = [
     <div class="resources-header">
       <h2 id="resources-heading">All resources</h2>
       <div class="type-filters" role="group" aria-label="Filter resources">
-        <button class="type-btn is-active">All</button>
-        <button class="type-btn">Guides</button>
-        <button class="type-btn">Reports</button>
-        <button class="type-btn">Tools</button>
+        <button class="type-btn is-active" data-type="all">All</button>
+        <button class="type-btn" data-type="guide">Guides</button>
+        <button class="type-btn" data-type="report">Reports</button>
+        <button class="type-btn" data-type="tool">Tools</button>
       </div>
     </div>
     <div class="resource-grid">
       <!-- CMS: {{#each resources}} -->
-      <div class="resource-card">
+      <div class="resource-card" data-type="guide">
         <div class="resource-type resource-type--report">Guide</div>
         <h3>The Rate Shock Survival Guide</h3>
         <p>A practical guide for business leaders facing double-digit premium increases. Understand what's driving the numbers and how to evaluate your options.</p>
@@ -83,7 +83,7 @@ const breadcrumbs = [
           <a href="/learn/resources/rate-shock" class="resource-cta">Get the Guide →</a>
         </div>
       </div>
-      <div class="resource-card">
+      <div class="resource-card" data-type="report">
         <div class="resource-type resource-type--report">Report</div>
         <h3>The Small Business Guide to Health Benefits Alternatives</h3>
         <p>A comprehensive guide to plan structures beyond fully funded coverage, with ROI frameworks and broker evaluation checklists.</p>
@@ -92,7 +92,7 @@ const breadcrumbs = [
           <span class="resource-cta resource-cta--soon">Coming Soon</span>
         </div>
       </div>
-      <div class="resource-card">
+      <div class="resource-card" data-type="report">
         <div class="resource-type resource-type--report">Report</div>
         <h3>Understanding Commission Transparency in Health Insurance</h3>
         <p>What the Consolidated Appropriations Act means for broker compensation, and how to read the disclosure you should be receiving.</p>
@@ -101,7 +101,7 @@ const breadcrumbs = [
           <span class="resource-cta resource-cta--soon">Coming Soon</span>
         </div>
       </div>
-      <div class="resource-card">
+      <div class="resource-card" data-type="tool">
         <div class="resource-type resource-type--tool">Tool</div>
         <h3>Benefits Plan Comparison Worksheet</h3>
         <p>A structured worksheet for comparing your current plan against alternative structures. Bring it to your next broker meeting or use it with us.</p>
@@ -209,4 +209,17 @@ const breadcrumbs = [
 @media(max-width:420px){:root{--section-pad-x:16px;--section-pad-y:64px}.page-hero{padding:40px 16px 48px}}
 </style>
 
-
+<script>
+  const btns = document.querySelectorAll('.type-btn');
+  const cards = document.querySelectorAll('.resource-card');
+  btns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const type = btn.dataset.type;
+      btns.forEach(b => b.classList.remove('is-active'));
+      btn.classList.add('is-active');
+      cards.forEach(card => {
+        card.style.display = (type === 'all' || card.dataset.type === type) ? '' : 'none';
+      });
+    });
+  });
+</script>

@@ -171,18 +171,18 @@ const organizationSchema = {
       font-family: var(--font-body);
       font-size: 16px;
       font-weight: 600;
-      background: var(--elm-500);
-      color: #fff;
+      background: var(--gold-500);
+      color: var(--nero-900);
       text-decoration: none;
       padding: 16px 28px;
       border-radius: 50px;
-      box-shadow: 0 6px 24px rgba(46, 149, 130, 0.45), 0 2px 8px rgba(0,0,0,0.08);
+      box-shadow: 0 6px 24px rgba(225, 196, 94, 0.45), 0 2px 8px rgba(0,0,0,0.08);
       transition: background var(--t-fast), transform var(--t-fast), box-shadow var(--t-fast);
     }
     .floating-cta:hover {
-      background: var(--elm-600);
+      background: var(--gold-600);
       transform: translateY(-2px);
-      box-shadow: 0 10px 28px rgba(46, 149, 130, 0.55), 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 10px 28px rgba(225, 196, 94, 0.55), 0 4px 12px rgba(0,0,0,0.1);
     }
     .floating-cta:focus-visible {
       box-shadow: var(--focus-ring);
@@ -282,6 +282,24 @@ const organizationSchema = {
       Talk to Us
     </a>
   )}
+
+  <!-- Scroll reveal -->
+  <script>
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry, i) => {
+          if (entry.isIntersecting) {
+            const delay = entry.target.dataset.revealDelay || 0;
+            setTimeout(() => entry.target.classList.add('is-visible'), Number(delay));
+            observer.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.15 });
+      document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+    } else {
+      document.querySelectorAll('.reveal').forEach(el => el.classList.add('is-visible'));
+    }
+  </script>
 
   <!-- Page-specific scripts -->
   <slot name="scripts" />
